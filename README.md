@@ -19,8 +19,9 @@ In short, doc-comments make Nix coding smoother and teamwork better.
 
 ### For the Content
 
-Rule 1: Use multiline comments starting with `/**` to start a doc comment.
-Rule 2: Plain text or Markdown (see [CommonMark specification](https://spec.commonmark.org/0.30/))
+**Rule 1: Use multiline comments starting with `/**` to start a doc comment**.
+
+**Rule 2: Plain text or Markdown** (see [CommonMark specification](https://spec.commonmark.org/0.30/))
 
 ### For the Placement
 
