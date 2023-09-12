@@ -4,14 +4,14 @@ This contains a detailed user guide for writing **doc-comments** according to [N
 
 ## Abstract
 
-**Why Doc-Comments Matter in Nix Development**
+### Why Doc-Comments Matter in Nix Development
 
-Doc-comments in Nix, a purely functional programming language, are like helpful notes added to code. 
-These notes explain what different parts of the code do. 
-They're super useful because they make code easier to understand. 
-When developers work together, these comments help everyone stay on the same page. 
+Doc-comments in Nix, a purely functional programming language, are like helpful notes added to code.
+These notes explain what different parts of the code do.
+They're super useful because they make code easier to understand.
+When developers work together, these comments help everyone stay on the same page.
 
-**The vision of RFC145 is to enable tools that can turn these comments into guides or manuals without extra work**
+**The vision of RFC145 is to enable tools** that can turn these comments into guides or manuals without extra work
 
 In short, doc-comments make Nix coding smoother and teamwork better.
 
@@ -25,9 +25,9 @@ In short, doc-comments make Nix coding smoother and teamwork better.
 
 ### For the Placement
 
-There are multiple possible placements in the nix language. The most common ones beeing: 
+There are multiple possible placements in the nix language. The most common ones being:
 
-1. Before an `attrPath`
+#### Before an `attrPath`
 
 ```nix
 {
@@ -42,7 +42,7 @@ There are multiple possible placements in the nix language. The most common ones
 
 Use **builtins.unsafeGetAttrDoc** to get the doc-comment.
 
-2. Before a `lambda`
+#### Before a `lambda`
 
 ```nix
 /**
@@ -52,9 +52,30 @@ Some docs
   config.feature.enable = true;
 }
 ```
+
 Use **builtins.unsafeGetLambdaDoc** to get the doc-comment.
 
 ## [More Examples](./examples)
+
+```nix
+{
+  /**
+  Some docs
+  */
+  # TODO: fixme
+  foo = builtins.derivation {
+    # ...
+  };
+}
+```
+
+```nix
+{
+  foo = /**
+  Some docs
+  */x: x;
+}
+```
 
 ## FAQ
 
