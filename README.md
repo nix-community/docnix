@@ -180,7 +180,7 @@ builtins.unsafeGetLambdaDoc  {
 
 #### Use **builtins.unsafeGetLambdaDoc** to get the doc-comment
 
-For more details look at our extensive [attribute doc examples](./examples/attr.nix)
+For more details look at our extensive [lambda doc examples](./examples/lambda.nix)
 
 ## FAQ
 
