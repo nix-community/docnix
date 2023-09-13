@@ -1,4 +1,4 @@
-{getAttrDoc ? builtins.unsafeGetAttrDoc}:
+{getAttrDoc ? builtins.unsafeGetAttrDoc, lib ? (import <nixpkgs> {}).lib }:
 {
   # --------------------------------------------------------
   # This section contains example of "OK" scenarios, where there should be some content 
@@ -144,6 +144,40 @@
     }: arg1));
     expected = {
       content = "Argument docs";
+      isPrimop = false;
+      position = expr.position;
+    };
+  };
+  # List of edge cases, where the attribute path is a dynamic, mapped value
+  # I am not sure if we officially want this placements to exist.
+  # With the current position tracking of nix they are valid.
+
+  ## This allows to have the same documentation for all generated attribute names
+  test_dynamic_set_merged_docs = rec {
+    expr = getAttrDoc "a" (lib.mapAttrs' 
+      (n: v: 
+        {name=n;/**A and B shared docs*/ value=v; }
+      )
+      {
+        a = 1;
+        b = 2;
+      }
+    );
+    expected = {
+      content = "A and B shared docs";
+      isPrimop = false;
+      position = expr.position;
+    };
+  };
+  ## This 'weird' placement which is not officially supported, but possible.
+  test_dynamic_set_docs = rec {
+    expr = getAttrDoc "foo" (builtins.listToAttrs
+    [ 
+      { name = "foo"; /**Foo Docs*/ value = 123; }
+      { name = "bar"; value = 456; }
+    ]);
+    expected = {
+      content = "Foo Docs";
       isPrimop = false;
       position = expr.position;
     };
