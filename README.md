@@ -245,6 +245,7 @@ std::string lookupDoc(position)
 ```cpp
 position lookupLambdaPositions(lambda)
 // primaryPosition = getSourcePosition(lambda)
+// # To find the Parent his issue must be solved first: https://github.com/NixOS/nix/issues/8968
 // if lambda -> AST -> parent == NODE_ASSIGN
 //    Walk to parent
 //    If parent->first_child is NODE_ATTRPATH
