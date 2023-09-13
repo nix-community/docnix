@@ -133,9 +133,7 @@ unsafeGetLambdaDoc :: String ->  { ... } -> {
 
 ```nix
 {
-  foo = let 
-    function = /**Some docs*/ x: map x; 
-    in function;
+  foo = /**Some docs*/ x: map x; 
 }
 ```
 
