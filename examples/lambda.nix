@@ -277,6 +277,54 @@
     };
   };
 
+  # TODO: This doesnt work
+  test_dynamic_path_simple = rec {
+    expr = getLambdaDoc ({
+      /**
+      A function assigned to a dynamic name.
+      */
+      ${"foo"} = (x: x);
+    }.foo);
+    expected = {
+      content = "A function assigned to a dynamic name.";
+      isPrimop = false;
+      position = expr.position;
+    };
+  };
+  # TODO: This doesnt work
+  test_dynamic_path_complex = rec {
+    expr = getLambdaDoc ({
+      /**
+      Ignored comment
+      */
+      ${let s = "foo"; in s} = (x: x);
+    
+    }.foo);
+    expected = {
+      content = "A function assigned to a dynamic name.";
+      isPrimop = false;
+      position = expr.position;
+    };
+  };
+  test_dynamic_path_correct = rec {
+    expr = getLambdaDoc ({
+      /**
+      Ignored comment
+      */
+      ${let s = "foo"; in s} = 
+      /**
+      Correct Docs
+      */ 
+      (x: x);
+    
+    }.foo);
+    expected = {
+      content = "Correct Docs";
+      isPrimop = false;
+      position = expr.position;
+    };
+  };
+
 
   # Tests where we need https://github.com/NixOS/nix/issues/8968 to be solved.
 

@@ -54,6 +54,7 @@
   };
   # --------------------------------------------------------
   # This section contains example of "Wrong"-ish scenarios, where the doc-comment is malformed or wrong placed
+  # Notice we never throw any errors, in the worst case you'll end up with an empty doc-string.
   test_doc_comment_empty = rec {
     expr = getAttrDoc "foo" {
       /** */
@@ -102,6 +103,22 @@
     };
     expected = {
       content = null;
+      isPrimop = false;
+      position = expr.position;
+    };
+  };
+  test_dynamic_attribute_paths = rec {
+    #
+    # This technically works, but should be avoided.
+    #
+    expr = getAttrDoc "foo" {
+      /**
+      Foo docs
+      */
+      ${"foo"} = "A very intricate string";
+    };
+    expected = {
+      content = "Foo docs";
       isPrimop = false;
       position = expr.position;
     };
