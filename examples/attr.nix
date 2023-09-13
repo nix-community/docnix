@@ -108,9 +108,6 @@
     };
   };
   test_dynamic_attribute_paths = rec {
-    #
-    # This technically works, but should be avoided.
-    #
     expr = getAttrDoc "foo" {
       /**
       Foo docs
@@ -134,6 +131,21 @@
       content = null;
       isPrimop = false;
       position = null;
+    };
+  };
+  # This is a neat feature
+  # it allows to retrieve documentation from function arguments
+  test_functionArgs = rec {
+    expr = getAttrDoc "arg1" (builtins.functionArgs ({
+      /** 
+      Argument docs
+      */
+      arg1,
+    }: arg1));
+    expected = {
+      content = "Argument docs";
+      isPrimop = false;
+      position = expr.position;
     };
   };
 }
