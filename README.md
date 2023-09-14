@@ -41,19 +41,12 @@ First we need to understand that there are two different ways of retrieving a do
 unsafeGetAttrDoc :: String ->  { ... } -> {
     --The content, whitespaces removed, indentation preserved, just like ''string''
     content :: String | null;
-    --True if the documented value is a primop (only builtins are primops)
-    isPrimop :: Boolean;
-    --If the documented value is a partially applied lambda
-    countApplied? :: Int;
-    --List of possible doc positions.
-    --The first found comment in the positions order is returned.
-    positions :: [
-      {
+    --The primary doc position.
+    position :: {
         column :: Int;
         line :: Int;
         file :: String;
-      }
-    ];
+      };
   }
 ```
 
@@ -99,25 +92,23 @@ For more details look at our extensive [attribute doc examples](./examples/attr.
 ### Using `unsafeGetLambdaDoc` to retrieve lambda documentation
 
 <details>
-<summary>unsafeGetAttrDoc API Documentation</summary>
+<summary>unsafeGetLambdaDoc API Documentation</summary>
 
 ```haskell
-unsafeGetLambdaDoc :: String ->  { ... } -> {
+unsafeGetLambdaDoc :: Lambda -> {
     --The content, whitespaces removed, indentation preserved, just like ''string''
     content :: String | null;
     --True if the documented value is a primop (only builtins are primops)
     isPrimop :: Boolean;
     --If the documented value is a partially applied lambda
-    countApplied? :: Int;
-    --List of possible doc positions.
-    --The first found comment in the positions order is returned.
-    positions :: [
+    countApplied :: Int;
+    --The primary doc position.
+    position :: 
       {
         column :: Int;
         line :: Int;
         file :: String;
-      }
-    ];
+      };
   }
 ```
 
