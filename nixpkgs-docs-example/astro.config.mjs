@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   site: "https://hsjobeki.github.io/nix-docs-comments",
-  base: "",
+  base: "/nix-docs-comments",
   integrations: [
     starlight({
       title: "nixos/nixpkgs reference docs",
