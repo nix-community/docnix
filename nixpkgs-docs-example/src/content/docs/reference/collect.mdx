@@ -1,0 +1,23 @@
+---
+title: lib.collect
+description: collect
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Recursively collect sets that verify a given predicate named `pred`
+from the set `attrs`.  The recursion is stopped when the predicate is
+verified.
+
+# Example
+
+collect isList { a = { b = ["b"]; }; c = [1]; }
+=> [["b"] [1]]
+
+collect (x: x ? outPath)
+{ a = { outPath = "a/"; }; b = { outPath = "b/"; }; }
+=> [{ outPath = "a/"; } { outPath = "b/"; }]
+
+# Type
+
+collect :: (AttrSet -> Bool) -> AttrSet -> [x]

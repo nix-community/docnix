@@ -1,0 +1,18 @@
+---
+title: lib.filterAttrs
+description: filterAttrs
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Filter an attribute set by removing all attributes for which the
+given predicate return false.
+
+# Example
+
+filterAttrs (n: v: n == "foo") { foo = 1; bar = 2; }
+=> { foo = 1; }
+
+# Type
+
+filterAttrs :: (String -> Any -> Bool) -> AttrSet -> AttrSet

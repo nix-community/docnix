@@ -1,0 +1,19 @@
+---
+title: lib.mapAttrsToList
+description: mapAttrsToList
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Call a function for each attribute in the given set and return
+the result in a list.
+
+# Example
+
+mapAttrsToList (name: value: name + value)
+{ x = "a"; y = "b"; }
+=> [ "xa" "yb" ]
+
+# Type
+
+mapAttrsToList :: (String -> a -> b) -> AttrSet -> [b]

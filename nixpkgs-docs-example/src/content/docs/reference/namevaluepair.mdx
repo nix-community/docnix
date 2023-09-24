@@ -1,0 +1,17 @@
+---
+title: lib.nameValuePair
+description: nameValuePair
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Utility function that creates a `{name, value}` pair as expected by `builtins.listToAttrs`.
+
+# Example
+
+nameValuePair "some" 6
+=> { name = "some"; value = 6; }
+
+# Type
+
+nameValuePair :: String -> Any -> { name :: String; value :: Any; }

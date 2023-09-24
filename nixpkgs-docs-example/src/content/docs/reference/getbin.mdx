@@ -1,0 +1,18 @@
+---
+title: lib.getBin
+description: getBin
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Get a package output.
+If no output is found, fallback to `.out` and then to the default.
+
+# Example
+
+getOutput "dev" pkgs.openssl
+=> "/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev"
+
+# Type
+
+getOutput :: String -> Derivation -> String

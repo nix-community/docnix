@@ -1,0 +1,34 @@
+---
+title: lib.attrByPath
+description: attrByPath
+---
+
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
+
+Return an attribute from nested attribute sets.
+
+# Example
+
+```nix
+x = { a = { b = 3; }; }
+```
+
+```nix
+attrByPath ["a" "b"] 6 x
+=> 3
+```
+
+> Note: This is equivalent to `x.a.b`
+
+`6` is a default value to return if the path does not exist in attrset
+
+```nix
+attrByPath ["z" "z"] 6 x
+=> 6+ 2
+```
+
+# Type
+
+```haskell
+attrByPath :: [String] -> Any -> AttrSet -> Any
+```

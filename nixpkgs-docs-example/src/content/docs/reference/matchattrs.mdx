@@ -1,0 +1,17 @@
+---
+title: lib.matchAttrs
+description: matchAttrs
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Returns true if the pattern is contained in the set. False otherwise.
+
+# Example
+
+matchAttrs { cpu = {}; } { cpu = { bits = 64; }; }
+=> true
+
+# Type
+
+matchAttrs :: AttrSet -> AttrSet -> Bool

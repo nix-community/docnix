@@ -1,0 +1,20 @@
+---
+title: lib.optionalAttrs
+description: optionalAttrs
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+If `cond` is true, return the attribute set `as`,
+otherwise an empty attribute set.
+
+# Example
+
+optionalAttrs (true) { my = "set"; }
+=> { my = "set"; }
+optionalAttrs (false) { my = "set"; }
+=> { }
+
+# Type
+
+optionalAttrs :: Bool -> AttrSet -> AttrSet

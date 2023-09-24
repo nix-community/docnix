@@ -1,0 +1,22 @@
+---
+title: lib.overrideExisting
+description: overrideExisting
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Override only the attributes that are already present in the old set
+useful for deep-overriding.
+
+# Example
+
+overrideExisting {} { a = 1; }
+=> {}
+overrideExisting { b = 2; } { a = 1; }
+=> { b = 2; }
+overrideExisting { a = 3; b = 2; } { a = 1; }
+=> { a = 1; b = 2; }
+
+# Type
+
+overrideExisting :: AttrSet -> AttrSet -> AttrSet

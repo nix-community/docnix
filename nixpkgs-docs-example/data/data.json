@@ -1,0 +1,3474 @@
+[
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "__unfix__",
+    "position": {
+      "column": 11,
+      "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
+      "line": 144
+    }
+  },
+  {
+    "content": "Return the sum of the numbers *e1* and *e2*.",
+    "isPrimop": true,
+    "name": "add",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "addContextFrom",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 589
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": true,
+    "name": "addErrorContext",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "addMetaAttrs",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 15
+    }
+  },
+  {
+    "content": "Return `true` if the function *pred* returns `true` for all elements\nof *list*, and `false` otherwise.",
+    "isPrimop": true,
+    "name": "all",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "and",
+    "position": {
+      "column": 9,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 86
+    }
+  },
+  {
+    "content": "Return `true` if the function *pred* returns `true` for at least one\nelement of *list*, and `false` otherwise.",
+    "isPrimop": true,
+    "name": "any",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "appendToName",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 40
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "applyModuleArgsIfFunction",
+    "position": {
+      "column": 31,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 486
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "assertMsg",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/asserts.nix",
+      "line": 21
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "assertOneOf",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/asserts.nix",
+      "line": 42
+    }
+  },
+  {
+    "content": "Return an attribute from nested attribute sets.\n\n# Example\n\nx = { a = { b = 3; }; }\n# [\"a\" \"b\"] is equivalent to x.a.b\n# 6 is a default value to return if the path does not exist in attrset\nattrByPath [\"a\" \"b\"] 6 x\n=> 3\nattrByPath [\"z\" \"z\"] 6 x\n=> 6+ 2\n\n# Type\n\nattrByPath :: [String] -> Any -> AttrSet -> Any",
+    "isPrimop": false,
+    "name": "attrByPath",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 36
+    }
+  },
+  {
+    "content": "Return the names of the attributes in the set *set* in an\nalphabetically sorted list. For instance, `builtins.attrNames { y\n= 1; x = \"foo\"; }` evaluates to `[ \"x\" \"y\" ]`.",
+    "isPrimop": true,
+    "name": "attrNames",
+    "position": null
+  },
+  {
+    "content": "Return the specified attributes from a set.\n\n# Example\n\nattrVals [\"a\" \"b\" \"c\"] as\n=> [as.a as.b as.c]\n\n# Type\n\nattrVals :: [String] -> AttrSet -> [Any]",
+    "isPrimop": false,
+    "name": "attrVals",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 286
+    }
+  },
+  {
+    "content": "Return the values of the attributes in the set *set* in the order\ncorresponding to the sorted attribute names.",
+    "isPrimop": true,
+    "name": "attrValues",
+    "position": null
+  },
+  {
+    "content": "Return the bitwise AND of the integers *e1* and *e2*.",
+    "isPrimop": true,
+    "name": "bitAnd",
+    "position": null
+  },
+  {
+    "content": "Return the difference between the numbers *e1* and *e2*.",
+    "isPrimop": true,
+    "name": "bitNot",
+    "position": null
+  },
+  {
+    "content": "Return the bitwise OR of the integers *e1* and *e2*.",
+    "isPrimop": true,
+    "name": "bitOr",
+    "position": null
+  },
+  {
+    "content": "Return the bitwise XOR of the integers *e1* and *e2*.",
+    "isPrimop": true,
+    "name": "bitXor",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "boolToString",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 114
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "callPackageWith",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/customisation.nix",
+      "line": 122
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "callPackagesWith",
+    "position": {
+      "column": 22,
+      "file": "/home/johannes/git/nixpkgs/lib/customisation.nix",
+      "line": 179
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "canCleanSource",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/sources.nix",
+      "line": 223
+    }
+  },
+  {
+    "content": "Return the cartesian product of attribute set value combinations.\n\n# Example\n\ncartesianProductOfSets { a = [ 1 2 ]; b = [ 10 20 ]; }\n=> [\n{ a = 1; b = 10; }\n{ a = 1; b = 20; }\n{ a = 2; b = 10; }\n{ a = 2; b = 20; }\n]\n# Type\n\ncartesianProductOfSets :: AttrSet -> [AttrSet]",
+    "isPrimop": false,
+    "name": "cartesianProductOfSets",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 541
+    }
+  },
+  {
+    "content": "Collect each attribute named *attr* from a list of attribute\nsets.  Attrsets that don't contain the named attribute are\nignored. For example,\n\n```nix\nbuiltins.catAttrs \"a\" [{a = 1;} {b = 0;} {a = 2;}]\n```\n\nevaluates to `[1 2]`.",
+    "isPrimop": true,
+    "name": "catAttrs",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "checkFlag",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 57
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "checkListOfEnum",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 405
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "checkReqs",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 78
+    }
+  },
+  {
+    "content": "Pick the outputs of packages to place in `buildInputs`\n\n   # Type\nchooseDevOutputs :: [Derivation] -> [String]",
+    "isPrimop": false,
+    "name": "chooseDevOutputs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 1168
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "cleanSource",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/sources.nix",
+      "line": 49
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "cleanSourceFilter",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/sources.nix",
+      "line": 26
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "cleanSourceWith",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/sources.nix",
+      "line": 71
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "closePropagation",
+    "position": {
+      "column": 26,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 168
+    }
+  },
+  {
+    "content": "Recursively collect sets that verify a given predicate named `pred`\nfrom the set `attrs`.  The recursion is stopped when the predicate is\nverified.\n\n# Example\n\ncollect isList { a = { b = [\"b\"]; }; c = [1]; }\n=> [[\"b\"] [1]]\n\ncollect (x: x ? outPath)\n{ a = { outPath = \"a/\"; }; b = { outPath = \"b/\"; }; }\n=> [{ outPath = \"a/\"; } { outPath = \"b/\"; }]\n\n# Type\n\ncollect :: (AttrSet -> Bool) -> AttrSet -> [x]",
+    "isPrimop": false,
+    "name": "collect",
+    "position": {
+      "column": 3,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 512
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "commitIdFromGitRepo",
+    "position": {
+      "column": 25,
+      "file": "/home/johannes/git/nixpkgs/lib/sources.nix",
+      "line": 160
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "compare",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 267
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "compareLists",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 580
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "composeExtensions",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
+      "line": 99
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "composeManyExtensions",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 53
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "concat",
+    "position": {
+      "column": 12,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 80
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "concatImapStrings",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 71
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "concatImapStringsSep",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 130
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "concatLines",
+    "position": {
+      "column": 25,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 60
+    }
+  },
+  {
+    "content": "Concatenate a list of lists into a single list.",
+    "isPrimop": true,
+    "name": "concatLists",
+    "position": null
+  },
+  {
+    "content": "This function is equivalent to `builtins.concatLists (map f list)`\nbut is more efficient.",
+    "isPrimop": true,
+    "name": "concatMap",
+    "position": null
+  },
+  {
+    "content": "Map each attribute in the given set and merge them into a new attribute set.\n\n# Type\n\nconcatMapAttrs :: (String -> a -> AttrSet) -> AttrSet -> AttrSet\n\n# Example\n\nconcatMapAttrs\n(name: value: {\n${name} = value;\n${name + value} = value;\n})\n{ x = \"a\"; y = \"b\"; }\n=> { x = \"a\"; xa = \"a\"; y = \"b\"; yb = \"b\"; }",
+    "isPrimop": false,
+    "name": "concatMapAttrs",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 157
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "concatMapStrings",
+    "position": {
+      "column": 22,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 60
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "concatMapStringsSep",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 113
+    }
+  },
+  {
+    "content": "Concatenate a list of strings with a separator between each\nelement, e.g. `concatStringsSep \"/\" [\"usr\" \"local\" \"bin\"] ==\n\"usr/local/bin\"`.",
+    "isPrimop": true,
+    "name": "concatStrings",
+    "position": null
+  },
+  {
+    "content": "Concatenate a list of strings with a separator between each\nelement, e.g. `concatStringsSep \"/\" [\"usr\" \"local\" \"bin\"] ==\n\"usr/local/bin\"`.",
+    "isPrimop": true,
+    "name": "concatStringsSep",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "condConcat",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 114
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "const",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 28
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "converge",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
+      "line": 47
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "count",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 297
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "crossLists",
+    "position": {
+      "column": 6,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 763
+    }
+  },
+  {
+    "content": "This is like `seq e1 e2`, except that *e1* is evaluated *deeply*:\nif it’s a list or set, its elements or attributes are also\nevaluated recursively.",
+    "isPrimop": true,
+    "name": "deepSeq",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "defaultFunctor",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/types.nix",
+      "line": 99
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "defaultMerge",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 22
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "defaultMergeArg",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 18
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "defaultTypeMerge",
+    "position": {
+      "column": 22,
+      "file": "/home/johannes/git/nixpkgs/lib/types.nix",
+      "line": 79
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "dischargeProperties",
+    "position": {
+      "column": 25,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 887
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "doRename",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1250
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "dontDistribute",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 21
+    }
+  },
+  {
+    "content": "Undo the effect of recurseIntoAttrs.\n\n# Type\n\ndontRecurseIntoAttrs :: AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "dontRecurseIntoAttrs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 1208
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "drop",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 637
+    }
+  },
+  {
+    "content": "Return `true` if a value equal to *x* occurs in the list *xs*, and\n`false` otherwise.",
+    "isPrimop": true,
+    "name": "elem",
+    "position": null
+  },
+  {
+    "content": "Return element *n* from the list *xs*. Elements are counted starting\nfrom 0. A fatal error occurs if the index is out of bounds.",
+    "isPrimop": true,
+    "name": "elemAt",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "enableFeature",
+    "position": {
+      "column": 19,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 808
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "enableFeatureAs",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 821
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "escape",
+    "position": {
+      "column": 12,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 391
+    }
+  },
+  {
+    "content": "Given string *s*, replace every occurrence of the strings in *from*\nwith the corresponding string in *to*.\n\nThe argument *to* is lazy, that is, it is only evaluated when its corresponding pattern in *from* is matched in the string *s*\n\nExample:\n\n```nix\nbuiltins.replaceStrings [\"oo\" \"a\"] [\"a\" \"i\"] \"foobar\"\n```\n\nevaluates to `\"fabir\"`.",
+    "isPrimop": true,
+    "name": "escapeRegex",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "escapeShellArg",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 429
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "escapeShellArgs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 117
+    }
+  },
+  {
+    "content": "Given string *s*, replace every occurrence of the strings in *from*\nwith the corresponding string in *to*.\n\nThe argument *to* is lazy, that is, it is only evaluated when its corresponding pattern in *from* is matched in the string *s*\n\nExample:\n\n```nix\nbuiltins.replaceStrings [\"oo\" \"a\"] [\"a\" \"i\"] \"foobar\"\n```\n\nevaluates to `\"fabir\"`.",
+    "isPrimop": true,
+    "name": "escapeURL",
+    "position": null
+  },
+  {
+    "content": "Given string *s*, replace every occurrence of the strings in *from*\nwith the corresponding string in *to*.\n\nThe argument *to* is lazy, that is, it is only evaluated when its corresponding pattern in *from* is matched in the string *s*\n\nExample:\n\n```nix\nbuiltins.replaceStrings [\"oo\" \"a\"] [\"a\" \"i\"] \"foobar\"\n```\n\nevaluates to `\"fabir\"`.",
+    "isPrimop": true,
+    "name": "escapeXML",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "evalModules",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 73
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "evalOptionValue",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 771
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "extend",
+    "position": {
+      "column": 25,
+      "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
+      "line": 145
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "extendDerivation",
+    "position": {
+      "column": 22,
+      "file": "/home/johannes/git/nixpkgs/lib/customisation.nix",
+      "line": 196
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "extends",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
+      "line": 91
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "fileContents",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 1078
+    }
+  },
+  {
+    "content": "Return a list consisting of the elements of *list* for which the\nfunction *f* returns `true`.",
+    "isPrimop": true,
+    "name": "filter",
+    "position": null
+  },
+  {
+    "content": "Filter an attribute set by removing all attributes for which the\ngiven predicate return false.\n\n# Example\n\nfilterAttrs (n: v: n == \"foo\") { foo = 1; bar = 2; }\n=> { foo = 1; }\n\n# Type\n\nfilterAttrs :: (String -> Any -> Bool) -> AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "filterAttrs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 362
+    }
+  },
+  {
+    "content": "Filter an attribute set recursively by removing all attributes for\nwhich the given predicate return false.\n\n# Example\n\nfilterAttrsRecursive (n: v: v != null) { foo = { bar = null; }; }\n=> { foo = {}; }\n\n# Type\n\nfilterAttrsRecursive :: (String -> Any -> Bool) -> AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "filterAttrsRecursive",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 384
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "filterOverrides",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 920
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "findFirst",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 247
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "findSingle",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 171
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "fix",
+    "position": {
+      "column": 9,
+      "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
+      "line": 25
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "fix'",
+    "position": {
+      "column": 10,
+      "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
+      "line": 34
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "fixMergeModules",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1067
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "fixedWidthNumber",
+    "position": {
+      "column": 22,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 876
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "fixedWidthString",
+    "position": {
+      "column": 22,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 859
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "fixupOptionType",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 948
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "flatten",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 138
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "flip",
+    "position": {
+      "column": 10,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 138
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "fold",
+    "position": {
+      "column": 11,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 53
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "foldArgs",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 23
+    }
+  },
+  {
+    "content": "Apply fold functions to values grouped by key.\n\n# Example\n\nfoldAttrs (item: acc: [item] ++ acc) [] [{ a = 2; } { a = 3; }]\n=> { a = [ 2 3 ]; }\n\n# Type\n\nfoldAttrs :: (Any -> Any -> Any) -> Any -> [AttrSets] -> Any",
+    "isPrimop": false,
+    "name": "foldAttrs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 479
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "foldl",
+    "position": {
+      "column": 11,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 81
+    }
+  },
+  {
+    "content": "Reduce a list by applying a binary operator, from left to right,\ne.g. `foldl' op nul [x0 x1 x2 ...] = op (op (op nul x0) x1) x2)\n...`. For example, `foldl' (x: y: x + y) 0 [1 2 3]` evaluates to 6.\nThe return value of each application of `op` is evaluated immediately,\neven for intermediate values.",
+    "isPrimop": true,
+    "name": "foldl'",
+    "position": null
+  },
+  {
+    "content": "Like builtins.foldl' but for attribute sets.\nIterates over every name-value pair in the given attribute set.\nThe result of the callback function is often called `acc` for accumulator. It is passed between callbacks from left to right and the final `acc` is the return value of `foldlAttrs`.\n\nAttention:\nThere is a completely different function\n`lib.foldAttrs`\nwhich has nothing to do with this function, despite the similar name.\n\n# Example\n\nfoldlAttrs\n(acc: name: value: {\nsum = acc.sum + value;\nnames = acc.names ++ [name];\n})\n{ sum = 0; names = []; }\n{\nfoo = 1;\nbar = 10;\n}\n->\n{\nsum = 11;\nnames = [\"bar\" \"foo\"];\n}\n\nfoldlAttrs\n(throw \"function not needed\")\n123\n{};\n->\n123\n\nfoldlAttrs\n(_: _: v: v)\n(throw \"initial accumulator not needed\")\n{ z = 3; a = 2; };\n->\n3\n\nThe accumulator doesn't have to be an attrset.\nIt can be as simple as a number or string.\n\nfoldlAttrs\n(acc: _: v: acc * 10 + v)\n1\n{ z = 1; a = 2; };\n->\n121\n\n# Type\n\nfoldlAttrs :: ( a -> String -> b -> a ) -> a -> { ... :: b } -> a",
+    "isPrimop": false,
+    "name": "foldlAttrs",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 457
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "foldr",
+    "position": {
+      "column": 11,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 53
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "forEach",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 36
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "fullDepEntry",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/strings-with-deps.nix",
+      "line": 79
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "functionArgs",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 440
+    }
+  },
+  {
+    "content": "Generate an attribute set by mapping a function over a list of\nattribute names.\n\n# Example\n\ngenAttrs [ \"foo\" \"bar\" ] (name: \"x_\" + name)\n=> { foo = \"x_foo\"; bar = \"x_bar\"; }\n\n# Type\n\ngenAttrs :: [ String ] -> (String -> Any) -> AttrSet",
+    "isPrimop": false,
+    "name": "genAttrs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 722
+    }
+  },
+  {
+    "content": "Generate list of size *length*, with each element *i* equal to the\nvalue returned by *generator* `i`. For example,\n\n```nix\nbuiltins.genList (x: x * x) 5\n```\n\nreturns the list `[ 0 1 4 9 16 ]`.",
+    "isPrimop": true,
+    "name": "genList",
+    "position": null
+  },
+  {
+    "content": "Take an *attrset* with values named `startSet` and `operator` in order to\nreturn a *list of attrsets* by starting with the `startSet` and recursively\napplying the `operator` function to each `item`. The *attrsets* in the\n`startSet` and the *attrsets* produced by `operator` must contain a value\nnamed `key` which is comparable. The result is produced by calling `operator`\nfor each `item` with a value for `key` that has not been called yet including\nnewly produced `item`s. The function terminates when no new `item`s are\nproduced. The resulting *list of attrsets* contains only *attrsets* with a\nunique key. For example,\n\n```\nbuiltins.genericClosure {\n  startSet = [ {key = 5;} ];\n  operator = item: [{\n    key = if (item.key / 2 ) * 2 == item.key\n         then item.key / 2\n         else 3 * item.key + 1;\n  }];\n}\n```\nevaluates to\n```\n[ { key = 5; } { key = 16; } { key = 8; } { key = 4; } { key = 2; } { key = 1; } ]\n```",
+    "isPrimop": true,
+    "name": "genericClosure",
+    "position": null
+  },
+  {
+    "content": "`getAttr` returns the attribute named *s* from *set*. Evaluation\naborts if the attribute doesn’t exist. This is a dynamic version of\nthe `.` operator, since *s* is an expression rather than an\nidentifier.",
+    "isPrimop": true,
+    "name": "getAttr",
+    "position": null
+  },
+  {
+    "content": "Like `attrByPath`, but without a default value. If it doesn't find the\npath it will throw an error.\n\n# Example\n\nx = { a = { b = 3; }; }\ngetAttrFromPath [\"a\" \"b\"] x\n=> 3\ngetAttrFromPath [\"z\" \"z\"] x\n=> error: cannot find attribute `z.z'\n\n# Type\n\ngetAttrFromPath :: [String] -> AttrSet -> Any",
+    "isPrimop": false,
+    "name": "getAttrFromPath",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 133
+    }
+  },
+  {
+    "content": "Given a set of attribute names, return the set of the corresponding\nattributes from the given set.\n\n# Example\n\ngetAttrs [ \"a\" \"b\" ] { a = 1; b = 2; c = 3; }\n=> { a = 1; b = 2; }\n\n# Type\n\ngetAttrs :: [String] -> AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "getAttrs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 324
+    }
+  },
+  {
+    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n\n# Type\n\ngetOutput :: String -> Derivation -> String",
+    "isPrimop": false,
+    "name": "getBin",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 1086
+    }
+  },
+  {
+    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n\n# Type\n\ngetOutput :: String -> Derivation -> String",
+    "isPrimop": false,
+    "name": "getDev",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 1086
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "getExe",
+    "position": {
+      "column": 12,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 145
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "getExe'",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 165
+    }
+  },
+  {
+    "content": "Apply the function *f* to each element in the list *list*. For\nexample,\n\n```nix\nmap (x: \"foo\" + x) [ \"bar\" \"bla\" \"abc\" ]\n```\n\nevaluates to `[ \"foobar\" \"foobla\" \"fooabc\" ]`.",
+    "isPrimop": true,
+    "name": "getFiles",
+    "position": null
+  },
+  {
+    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n\n# Type\n\ngetOutput :: String -> Derivation -> String",
+    "isPrimop": false,
+    "name": "getLib",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 1086
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "getLicenseFromSpdxId",
+    "position": {
+      "column": 8,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 129
+    }
+  },
+  {
+    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n\n# Type\n\ngetOutput :: String -> Derivation -> String",
+    "isPrimop": false,
+    "name": "getMan",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 1086
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "getName",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 704
+    }
+  },
+  {
+    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n\n# Type\n\ngetOutput :: String -> Derivation -> String",
+    "isPrimop": false,
+    "name": "getOutput",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 1086
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "getValue",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 66
+    }
+  },
+  {
+    "content": "Apply the function *f* to each element in the list *list*. For\nexample,\n\n```nix\nmap (x: \"foo\" + x) [ \"bar\" \"bla\" \"abc\" ]\n```\n\nevaluates to `[ \"foobar\" \"foobla\" \"fooabc\" ]`.",
+    "isPrimop": true,
+    "name": "getValues",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "getVersion",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 721
+    }
+  },
+  {
+    "content": "Groups elements of *list* together by the string returned from the\nfunction *f* called on each element. It returns an attribute set\nwhere each attribute value contains the elements of *list* that are\nmapped to the same corresponding attribute name returned by *f*.\n\nFor example,\n\n```nix\nbuiltins.groupBy (builtins.substring 0 1) [\"foo\" \"bar\" \"baz\"]\n```\n\nevaluates to\n\n```nix\n{ b = [ \"bar\" \"baz\" ]; f = [ \"foo\" ]; }\n```",
+    "isPrimop": true,
+    "name": "groupBy",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "groupBy'",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 412
+    }
+  },
+  {
+    "content": "`hasAttr` returns `true` if *set* has an attribute named *s*, and\n`false` otherwise. This is a dynamic version of the `?` operator,\nsince *s* is an expression rather than an identifier.",
+    "isPrimop": true,
+    "name": "hasAttr",
+    "position": null
+  },
+  {
+    "content": "Return if an attribute from nested attribute set exists.\n\n# Example\n\n```nix\nlet\n  x = { a = { b = 3; }; }\n  hasAttrByPath [\"a\" \"b\"] x\nin\n  x -> true\n```\n\n```nix\nhasAttrByPath [\"z\" \"z\"] x\n=> false\n```\n\n# Type\n\n```haskell\nhasAttrByPath :: [String] -> AttrSet -> Bool\n```\n\n# Positional Arguments\n\n- 1: A list of strings representing the attribute path to check from `set`\n- 2: The nested attribute set to check",
+    "isPrimop": false,
+    "name": "hasAttrByPath",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 78
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "hasInfix",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 319
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "hasPrefix",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 257
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "hasSuffix",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 284
+    }
+  },
+  {
+    "content": "Return the first element of a list; abort evaluation if the argument\nisn’t a list or is an empty list. You can test whether a list is\nempty by comparing it with `[]`.",
+    "isPrimop": true,
+    "name": "head",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "hiPrio",
+    "position": {
+      "column": 28,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 15
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "hiPrioSet",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 69
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "hydraJob",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/customisation.nix",
+      "line": 230
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "id",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 14
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "ifEnable",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 47
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "imap",
+    "position": {
+      "column": 11,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 117
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "imap0",
+    "position": {
+      "column": 11,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 107
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "imap1",
+    "position": {
+      "column": 11,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 117
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "importJSON",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 312
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "importTOML",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 319
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "info",
+    "position": {
+      "column": 10,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 412
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "init",
+    "position": {
+      "column": 10,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 750
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "innerClosePropagation",
+    "position": {
+      "column": 27,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 143
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "innerModifySumArgs",
+    "position": {
+      "column": 24,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 138
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "intersectLists",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 782
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "intersperse",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 83
+    }
+  },
+  {
+    "content": "Return `true` if *e* evaluates to a set, and `false` otherwise.",
+    "isPrimop": true,
+    "name": "isAttrs",
+    "position": null
+  },
+  {
+    "content": "Return `true` if *e* evaluates to a bool, and `false` otherwise.",
+    "isPrimop": true,
+    "name": "isBool",
+    "position": null
+  },
+  {
+    "content": "Check whether the argument is a derivation. Any set with\n`{ type = \"derivation\"; }` counts as a derivation.\n\n# Example\n\nnixpkgs = import <nixpkgs> {}\nisDerivation nixpkgs.ruby\n=> true\nisDerivation \"foobar\"\n=> false\n\n# Type\n\nisDerivation :: Any -> Bool",
+    "isPrimop": false,
+    "name": "isDerivation",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 747
+    }
+  },
+  {
+    "content": "Return `true` if *e* evaluates to a float, and `false` otherwise.",
+    "isPrimop": true,
+    "name": "isFloat",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "isFunction",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 448
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "isInOldestRelease",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 190
+    }
+  },
+  {
+    "content": "Return `true` if *e* evaluates to an integer, and `false` otherwise.",
+    "isPrimop": true,
+    "name": "isInt",
+    "position": null
+  },
+  {
+    "content": "Return `true` if *e* evaluates to a list, and `false` otherwise.",
+    "isPrimop": true,
+    "name": "isList",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "isOption",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/types.nix",
+      "line": 70
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "isOptionType",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/types.nix",
+      "line": 70
+    }
+  },
+  {
+    "content": "Return `true` if *e* evaluates to a path, and `false` otherwise.",
+    "isPrimop": true,
+    "name": "isPath",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "isStorePath",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 934
+    }
+  },
+  {
+    "content": "Return `true` if *e* evaluates to a string, and `false` otherwise.",
+    "isPrimop": true,
+    "name": "isString",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "isStringLike",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 916
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "isType",
+    "position": {
+      "column": 12,
+      "file": "/home/johannes/git/nixpkgs/lib/types.nix",
+      "line": 70
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "isValidPosixName",
+    "position": {
+      "column": 22,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 451
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "last",
+    "position": {
+      "column": 10,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 736
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "lazyDerivation",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/derivations.nix",
+      "line": 54
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "lazyGenericClosure",
+    "position": {
+      "column": 24,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 124
+    }
+  },
+  {
+    "content": "Return the length of the list *e*.",
+    "isPrimop": true,
+    "name": "length",
+    "position": null
+  },
+  {
+    "content": "Return `true` if the number *e1* is less than the number *e2*, and\n`false` otherwise. Evaluation aborts if either *e1* or *e2* does not\nevaluate to a number.",
+    "isPrimop": true,
+    "name": "lessThan",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "listDfs",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 484
+    }
+  },
+  {
+    "content": "Construct a set from a list specifying the names and values of each\nattribute. Each element of the list should be a set consisting of a\nstring-valued attribute `name` specifying the name of the attribute,\nand an attribute `value` specifying its value.\n\nIn case of duplicate occurrences of the same name, the first\ntakes precedence.\n\nExample:\n\n```nix\nbuiltins.listToAttrs\n  [ { name = \"foo\"; value = 123; }\n    { name = \"bar\"; value = 456; }\n    { name = \"bar\"; value = 420; }\n  ]\n```\n\nevaluates to\n\n```nix\n{ foo = 123; bar = 456; }\n```",
+    "isPrimop": true,
+    "name": "listToAttrs",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "literalExample",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 340
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "literalExpression",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 340
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "literalMD",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 355
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "lowPrio",
+    "position": {
+      "column": 28,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 15
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "lowPrioSet",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 59
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "makeBinPath",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 182
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "makeExtensible",
+    "position": {
+      "column": 48,
+      "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
+      "line": 143
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "makeExtensibleWithCustomName",
+    "position": {
+      "column": 34,
+      "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
+      "line": 143
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "makeLibraryPath",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 182
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "makeOverridable",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/customisation.nix",
+      "line": 72
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "makeScope",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/customisation.nix",
+      "line": 268
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "makeScopeWithSplicing",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/customisation.nix",
+      "line": 283
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "makeScopeWithSplicing'",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/customisation.nix",
+      "line": 291
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "makeSearchPath",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 160
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "makeSearchPathOutput",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 178
+    }
+  },
+  {
+    "content": "Apply function *f* to every element of *attrset*. For example,\n\n```nix\nbuiltins.mapAttrs (name: value: value * 10) { a = 1; b = 2; }\n```\n\nevaluates to `{ a = 10; b = 20; }`.",
+    "isPrimop": true,
+    "name": "mapAttrs",
+    "position": null
+  },
+  {
+    "content": "Like `mapAttrs`, but allows the name of each attribute to be\nchanged in addition to the value.  The applied function should\nreturn both the new name and value as a `nameValuePair`.\n\n# Example\n\nmapAttrs' (name: value: nameValuePair (\"foo_\" + name) (\"bar-\" + value))\n{ x = \"a\"; y = \"b\"; }\n=> { foo_x = \"bar-a\"; foo_y = \"bar-b\"; }\n\n# Type\n\nmapAttrs' :: (String -> Any -> { name :: String; value :: Any; }) -> AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "mapAttrs'",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 607
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mapAttrsFlatten",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 192
+    }
+  },
+  {
+    "content": "Like `mapAttrs`, except that it recursively applies itself to\nthe *leaf* attributes of a potentially-nested attribute set:\nthe second argument of the function will never be an attrset.\nAlso, the first argument of the argument function is a *list*\nof the attribute names that form the path to the leaf attribute.\n\nFor a function that gives you control over what counts as a leaf,\nsee `mapAttrsRecursiveCond`.\n\n# Example\n\nmapAttrsRecursive (path: value: concatStringsSep \"-\" (path ++ [value]))\n{ n = { a = \"A\"; m = { b = \"B\"; c = \"C\"; }; }; d = \"D\"; }\n=> { n = { a = \"n-a-A\"; m = { b = \"n-m-b-B\"; c = \"n-m-c-C\"; }; }; d = \"d-D\"; }\n\n# Type\n\nmapAttrsRecursive :: ([String] -> a -> b) -> AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "mapAttrsRecursive",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 660
+    }
+  },
+  {
+    "content": "Like `mapAttrsRecursive`, but it takes an additional predicate\nfunction that tells it whether to recurse into an attribute\nset.  If it returns false, `mapAttrsRecursiveCond` does not\nrecurse, but does apply the map function.  If it returns true, it\ndoes recurse, and does not apply the map function.\n\n# Example\n\n# To prevent recursing into derivations (which are attribute\n# sets with the attribute \"type\" equal to \"derivation\"):\nmapAttrsRecursiveCond\n(as: !(as ? \"type\" && as.type == \"derivation\"))\n(x: ... do something ...)\nattrs\n\n# Type\n\nmapAttrsRecursiveCond :: (AttrSet -> Bool) -> ([String] -> a -> b) -> AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "mapAttrsRecursiveCond",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 689
+    }
+  },
+  {
+    "content": "Call a function for each attribute in the given set and return\nthe result in a list.\n\n# Example\n\nmapAttrsToList (name: value: name + value)\n{ x = \"a\"; y = \"b\"; }\n=> [ \"xa\" \"yb\" ]\n\n# Type\n\nmapAttrsToList :: (String -> a -> b) -> AttrSet -> [b]",
+    "isPrimop": false,
+    "name": "mapAttrsToList",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 631
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mapDerivationAttrset",
+    "position": {
+      "column": 26,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 46
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mapNullable",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 150
+    }
+  },
+  {
+    "content": "Returns true if the pattern is contained in the set. False otherwise.\n\n# Example\n\nmatchAttrs { cpu = {}; } { cpu = { bits = 64; }; }\n=> true\n\n# Type\n\nmatchAttrs :: AttrSet -> AttrSet -> Bool",
+    "isPrimop": false,
+    "name": "matchAttrs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 1009
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "max",
+    "position": {
+      "column": 9,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 246
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "maybeAttr",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 42
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "maybeAttrNullable",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 42
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "maybeEnv",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 14
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mdDoc",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 14
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeAttrByFunc",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 251
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeAttrs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 126
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeAttrsByFuncDefaults",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 81
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeAttrsByFuncDefaultsClean",
+    "position": {
+      "column": 35,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 272
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeAttrsConcatenateValues",
+    "position": {
+      "column": 27,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 208
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeAttrsNoOverride",
+    "position": {
+      "column": 26,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 225
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeAttrsWithFunc",
+    "position": {
+      "column": 24,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 208
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeDefaultOption",
+    "position": {
+      "column": 24,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 208
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeDefinitions",
+    "position": {
+      "column": 22,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 811
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeEqualOption",
+    "position": {
+      "column": 22,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 228
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeModules",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 536
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeModules'",
+    "position": {
+      "column": 19,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 540
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeOneOption",
+    "position": {
+      "column": 36,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 221
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeOptionDecls",
+    "position": {
+      "column": 4,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 739
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mergeUniqueOption",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 221
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mesonBool",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 775
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mesonEnable",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 794
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mesonOption",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 756
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "min",
+    "position": {
+      "column": 9,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 243
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkAfter",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1021
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkAliasAndWrapDefinitions",
+    "position": {
+      "column": 31,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1050
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkAliasDefinitions",
+    "position": {
+      "column": 37,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1050
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkAliasOptionModule",
+    "position": {
+      "column": 25,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1217
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkAliasOptionModuleMD",
+    "position": {
+      "column": 25,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1217
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkAssert",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 995
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkBefore",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1021
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkChangedOptionModule",
+    "position": {
+      "column": 27,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1213
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkDefault",
+    "position": {
+      "column": 26,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1005
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkDerivedConfig",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1245
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkEnableOption",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 100
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkFixStrictness",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 14
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkForce",
+    "position": {
+      "column": 26,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1005
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkIf",
+    "position": {
+      "column": 10,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 990
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkImageMediaOverride",
+    "position": {
+      "column": 26,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1005
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkMerge",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1000
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkMergedOptionModule",
+    "position": {
+      "column": 26,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1166
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkOption",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 67
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkOptionDefault",
+    "position": {
+      "column": 26,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1005
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkOptionType",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/types.nix",
+      "line": 109
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkOrder",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1021
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkOverride",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1005
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkPackageOption",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 151
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkPackageOptionMD",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 151
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkRemovedOptionModule",
+    "position": {
+      "column": 27,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1082
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkRenamedOptionModule",
+    "position": {
+      "column": 27,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1111
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkRenamedOptionModuleWith",
+    "position": {
+      "column": 31,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1118
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkSinkUndeclaredOptions",
+    "position": {
+      "column": 29,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 195
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mkVMOverride",
+    "position": {
+      "column": 26,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 1005
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mod",
+    "position": {
+      "column": 9,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 256
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "modifySumArgs",
+    "position": {
+      "column": 19,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 140
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "mutuallyExclusive",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 795
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "nameFromURL",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 737
+    }
+  },
+  {
+    "content": "Utility function that creates a `{name, value}` pair as expected by `builtins.listToAttrs`.\n\n# Example\n\nnameValuePair \"some\" 6\n=> { name = \"some\"; value = 6; }\n\n# Type\n\nnameValuePair :: String -> Any -> { name :: String; value :: Any; }",
+    "isPrimop": false,
+    "name": "nameValuePair",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 564
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "naturalSort",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 603
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "nixType",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 282
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "noDepEntry",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/strings-with-deps.nix",
+      "line": 78
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "nvs",
+    "position": {
+      "column": 9,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 195
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "optionAttrSetToDocList",
+    "position": {
+      "column": 32,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 264
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "optionAttrSetToDocList'",
+    "position": {
+      "column": 29,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 264
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "optional",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 311
+    }
+  },
+  {
+    "content": "If `cond` is true, return the attribute set `as`,\notherwise an empty attribute set.\n\n# Example\n\noptionalAttrs (true) { my = \"set\"; }\n=> { my = \"set\"; }\noptionalAttrs (false) { my = \"set\"; }\n=> { }\n\n# Type\n\noptionalAttrs :: Bool -> AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "optionalAttrs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 791
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "optionalString",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 241
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "optionals",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 325
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "or",
+    "position": {
+      "column": 8,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 83
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "overrideDerivation",
+    "position": {
+      "column": 24,
+      "file": "/home/johannes/git/nixpkgs/lib/customisation.nix",
+      "line": 39
+    }
+  },
+  {
+    "content": "Override only the attributes that are already present in the old set\nuseful for deep-overriding.\n\n# Example\n\noverrideExisting {} { a = 1; }\n=> {}\noverrideExisting { b = 2; } { a = 1; }\n=> { b = 2; }\noverrideExisting { a = 3; b = 2; } { a = 1; }\n=> { a = 1; b = 2; }\n\n# Type\n\noverrideExisting :: AttrSet -> AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "overrideExisting",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 1041
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "packEntry",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/strings-with-deps.nix",
+      "line": 80
+    }
+  },
+  {
+    "content": "Given a predicate function *pred*, this function returns an\nattrset containing a list named `right`, containing the elements\nin *list* for which *pred* returned `true`, and a list named\n`wrong`, containing the elements for which it returned\n`false`. For example,\n\n```nix\nbuiltins.partition (x: x > 10) [1 23 9 3 42]\n```\n\nevaluates to\n\n```nix\n{ right = [ 23 42 ]; wrong = [ 1 9 3 ]; }\n```",
+    "isPrimop": true,
+    "name": "partition",
+    "position": null
+  },
+  {
+    "content": "Return `true` if the path *path* exists at evaluation time, and\n`false` otherwise.",
+    "isPrimop": true,
+    "name": "pathExists",
+    "position": null
+  },
+  {
+    "content": "Return `true` if string *s* has a non-empty context. The\ncontext can be obtained with\n[`getContext`](#builtins-getContext).",
+    "isPrimop": true,
+    "name": "pathHasContext",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "pathIsDirectory",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/filesystem.nix",
+      "line": 65
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "pathIsGitRepo",
+    "position": {
+      "column": 19,
+      "file": "/home/johannes/git/nixpkgs/lib/sources.nix",
+      "line": 153
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "pathIsRegularFile",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/filesystem.nix",
+      "line": 84
+    }
+  },
+  {
+    "content": "Determine the directory entry type of a filesystem node, being\none of \"directory\", \"regular\", \"symlink\", or \"unknown\".",
+    "isPrimop": true,
+    "name": "pathType",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "pipe",
+    "position": {
+      "column": 10,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 61
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "pushDownProperties",
+    "position": {
+      "column": 24,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 867
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "range",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 354
+    }
+  },
+  {
+    "content": "Return the contents of the file *path* as a string.",
+    "isPrimop": true,
+    "name": "readFile",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "readPathsFromFile",
+    "position": {
+      "column": 6,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 1059
+    }
+  },
+  {
+    "content": "Make various Nix tools consider the contents of the resulting\nattribute set when looking for what to build, find, etc.\n\nThis function only affects a single attribute set; it does not\napply itself recursively for nested attribute sets.\n\n# Example\n\n{ pkgs ? import <nixpkgs> {} }:\n{\nmyTools = pkgs.lib.recurseIntoAttrs {\ninherit (pkgs) hello figlet;\n};\n}\n\n# Type\n\nrecurseIntoAttrs :: AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "recurseIntoAttrs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 1195
+    }
+  },
+  {
+    "content": "A recursive variant of the update operator ‘//’.  The recursion\nstops when one of the attribute values is not an attribute set,\nin which case the right hand side value takes precedence over the\nleft hand side value.\n\n# Example\n\nrecursiveUpdate {\nboot.loader.grub.enable = true;\nboot.loader.grub.device = \"/dev/hda\";\n} {\nboot.loader.grub.device = \"\";\n}\n\nreturns: {\nboot.loader.grub.enable = true;\nboot.loader.grub.device = \"\";\n}\n\n# Type\n\nrecursiveUpdate :: AttrSet -> AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "recursiveUpdate",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 988
+    }
+  },
+  {
+    "content": "Does the same as the update operator '//' except that attributes are\nmerged until the given predicate is verified.  The predicate should\naccept 3 arguments which are the path to reach the attribute, a part of\nthe first attribute set and a part of the second attribute set.  When\nthe predicate is satisfied, the value of the first attribute set is\nreplaced by the value of the second attribute set.\n\n# Example\n\nrecursiveUpdateUntil (path: l: r: path == [\"foo\"]) {\n# first attribute set\nfoo.bar = 1;\nfoo.baz = 2;\nbar = 3;\n} {\n#second attribute set\nfoo.bar = 1;\nfoo.quz = 2;\nbaz = 4;\n}\n\n=> {\nfoo.bar = 1; # 'foo.*' from the second set\nfoo.quz = 2; #\nbar = 3;     # 'bar' from the first set\nbaz = 4;     # 'baz' from the second set\n}\n\n# Type\n\nrecursiveUpdateUntil :: ( [ String ] -> AttrSet -> AttrSet -> Bool ) -> AttrSet -> AttrSet -> AttrSet",
+    "isPrimop": false,
+    "name": "recursiveUpdateUntil",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 944
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "remove",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 153
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "removePrefix",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 618
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "removeSuffix",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 651
+    }
+  },
+  {
+    "content": "Given string *s*, replace every occurrence of the strings in *from*\nwith the corresponding string in *to*.\n\nThe argument *to* is lazy, that is, it is only evaluated when its corresponding pattern in *from* is matched in the string *s*\n\nExample:\n\n```nix\nbuiltins.replaceStrings [\"oo\" \"a\"] [\"a\" \"i\"] \"foobar\"\n```\n\nevaluates to `\"fabir\"`.",
+    "isPrimop": true,
+    "name": "replaceChars",
+    "position": null
+  },
+  {
+    "content": "Given string *s*, replace every occurrence of the strings in *from*\nwith the corresponding string in *to*.\n\nThe argument *to* is lazy, that is, it is only evaluated when its corresponding pattern in *from* is matched in the string *s*\n\nExample:\n\n```nix\nbuiltins.replaceStrings [\"oo\" \"a\"] [\"a\" \"i\"] \"foobar\"\n```\n\nevaluates to `\"fabir\"`.",
+    "isPrimop": true,
+    "name": "replaceStrings",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "replicate",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 372
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "reverseList",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 462
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "runTests",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 231
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "scrubOptionValue",
+    "position": {
+      "column": 22,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 316
+    }
+  },
+  {
+    "content": "Evaluate *e1*, then evaluate and return *e2*. This ensures that a\ncomputation is strict in the value of *e1*.",
+    "isPrimop": true,
+    "name": "seq",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "setAttr",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 197
+    }
+  },
+  {
+    "content": "Create a new attribute set with `value` set at the nested attribute location specified in `attrPath`.\n\n# Example\n\nsetAttrByPath [\"a\" \"b\"] 3\n=> { a = { b = 3; }; }\n\n# Type\n\nsetAttrByPath :: [String] -> Any -> AttrSet",
+    "isPrimop": false,
+    "name": "setAttrByPath",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 103
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "setAttrMerge",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 202
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "setDefaultModuleLocation",
+    "position": {
+      "column": 30,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 447
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "setFunctionArgs",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 428
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "setName",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 27
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "setPrio",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 50
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "setType",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/types.nix",
+      "line": 72
+    }
+  },
+  {
+    "content": "Turns a list of strings into a human-readable description of those\nstrings represented as an attribute path. The result of this function is\nnot intended to be machine-readable.\nCreate a new attribute set with `value` set at the nested attribute location specified in `attrPath`.\n\n# Example\n\nshowAttrPath [ \"foo\" \"10\" \"bar\" ]\n=> \"foo.\\\"10\\\".bar\"\nshowAttrPath []\n=> \"<root attribute path>\"\n\n# Type\n\nshowAttrPath :: [String] -> String",
+    "isPrimop": false,
+    "name": "showAttrPath",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 1067
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "showFiles",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 387
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "showOption",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 373
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "showOptionWithDefLocs",
+    "position": {
+      "column": 27,
+      "file": "/home/johannes/git/nixpkgs/lib/options.nix",
+      "line": 408
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "showWarnings",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 414
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "singleton",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 23
+    }
+  },
+  {
+    "content": "Return *list* in sorted order. It repeatedly calls the function\n*comparator* with two elements. The comparator should return `true`\nif the first element is less than the second, and `false` otherwise.\nFor example,\n\n```nix\nbuiltins.sort builtins.lessThan [ 483 249 526 147 42 77 ]\n```\n\nproduces the list `[ 42 77 147 249 483 526 ]`.\n\nThis is a stable sort: it preserves the relative order of elements\ndeemed equal by the comparator.",
+    "isPrimop": true,
+    "name": "sort",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "sortProperties",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 935
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "sourceByRegex",
+    "position": {
+      "column": 19,
+      "file": "/home/johannes/git/nixpkgs/lib/sources.nix",
+      "line": 121
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "sourceFilesBySuffices",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/sources.nix",
+      "line": 145
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "splitByAndCompare",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 294
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "splitString",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 600
+    }
+  },
+  {
+    "content": "Split a string representing a version into its components, by the\nsame version splitting logic underlying the version comparison in\n[`nix-env -u`](../command-ref/nix-env.md#operation---upgrade).",
+    "isPrimop": true,
+    "name": "splitVersion",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "stringAfter",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/strings-with-deps.nix",
+      "line": 82
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "stringAsChars",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 363
+    }
+  },
+  {
+    "content": "Return the length of the string *e*. If *e* is not a string,\nevaluation is aborted.",
+    "isPrimop": true,
+    "name": "stringLength",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "stringToCharacters",
+    "position": {
+      "column": 24,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 349
+    }
+  },
+  {
+    "content": "Return the difference between the numbers *e1* and *e2*.",
+    "isPrimop": true,
+    "name": "sub",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "sublist",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 688
+    }
+  },
+  {
+    "content": "Return the substring of *s* from character position *start*\n(zero-based) up to but not including *start + len*. If *start* is\ngreater than the length of the string, an empty string is returned,\nand if *start + len* lies beyond the end of the string, only the\nsubstring up to the end of the string is returned. *start* must be\nnon-negative. For example,\n\n```nix\nbuiltins.substring 0 3 \"nixos\"\n```\n\nevaluates to `\"nix\"`.",
+    "isPrimop": true,
+    "name": "substring",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "subtractLists",
+    "position": {
+      "column": 19,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 790
+    }
+  },
+  {
+    "content": "Return the second to last elements of a list; abort evaluation if\nthe argument isn’t a list or is an empty list.\n\n> **Warning**\n>\n> This function should generally be avoided since it's inefficient:\n> unlike Haskell's `tail`, it takes O(n) time, so recursing over a\n> list by repeatedly calling `tail` takes O(n^2) time.",
+    "isPrimop": true,
+    "name": "tail",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "take",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 623
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "testAllTrue",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 245
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "textClosureList",
+    "position": {
+      "column": 21,
+      "file": "/home/johannes/git/nixpkgs/lib/strings-with-deps.nix",
+      "line": 59
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "textClosureMap",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/strings-with-deps.nix",
+      "line": 75
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "throwIf",
+    "position": {
+      "column": 13,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 393
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "throwIfNot",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 386
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "toBaseDigits",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 505
+    }
+  },
+  {
+    "content": "Converts a store path to a fake derivation.\n\n# Type\n\ntoDerivation :: Path -> Derivation",
+    "isPrimop": false,
+    "name": "toDerivation",
+    "position": {
+      "column": 6,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 759
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "toFunction",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 465
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "toHexString",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 479
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "toInt",
+    "position": {
+      "column": 11,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 964
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "toIntBase10",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 1015
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "toList",
+    "position": {
+      "column": 12,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 340
+    }
+  },
+  {
+    "content": "Given string *s*, replace every occurrence of the strings in *from*\nwith the corresponding string in *to*.\n\nThe argument *to* is lazy, that is, it is only evaluated when its corresponding pattern in *from* is matched in the string *s*\n\nExample:\n\n```nix\nbuiltins.replaceStrings [\"oo\" \"a\"] [\"a\" \"i\"] \"foobar\"\n```\n\nevaluates to `\"fabir\"`.",
+    "isPrimop": true,
+    "name": "toLower",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "toShellVar",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 471
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "toShellVars",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 499
+    }
+  },
+  {
+    "content": "Given string *s*, replace every occurrence of the strings in *from*\nwith the corresponding string in *to*.\n\nThe argument *to* is lazy, that is, it is only evaluated when its corresponding pattern in *from* is matched in the string *s*\n\nExample:\n\n```nix\nbuiltins.replaceStrings [\"oo\" \"a\"] [\"a\" \"i\"] \"foobar\"\n```\n\nevaluates to `\"fabir\"`.",
+    "isPrimop": true,
+    "name": "toUpper",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "toposort",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 523
+    }
+  },
+  {
+    "content": "Evaluate *e1* and print its abstract syntax representation on\nstandard error. Then return *e2*. This function is useful for\ndebugging.",
+    "isPrimop": true,
+    "name": "trace",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "traceFnSeqN",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 157
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "traceIf",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 46
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "traceSeq",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 93
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "traceSeqN",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 108
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "traceVal",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 66
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "traceValFn",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 64
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "traceValSeq",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 129
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "traceValSeqFn",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 127
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "traceValSeqN",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 139
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "traceValSeqNFn",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/debug.nix",
+      "line": 138
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "unifyModuleSyntax",
+    "position": {
+      "column": 23,
+      "file": "/home/johannes/git/nixpkgs/lib/modules.nix",
+      "line": 452
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "uniqList",
+    "position": {
+      "column": 14,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 91
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "uniqListExt",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/deprecated.nix",
+      "line": 100
+    }
+  },
+  {
+    "content": "Reduce a list by applying a binary operator, from left to right,\ne.g. `foldl' op nul [x0 x1 x2 ...] = op (op (op nul x0) x1) x2)\n...`. For example, `foldl' (x: y: x + y) 0 [1 2 3]` evaluates to 6.\nThe return value of each application of `op` is evaluated immediately,\neven for intermediate values.",
+    "isPrimop": true,
+    "name": "unique",
+    "position": null
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "updateManyAttrsByPath",
+    "position": {
+      "column": 6,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 269
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "updateName",
+    "position": {
+      "column": 16,
+      "file": "/home/johannes/git/nixpkgs/lib/meta.nix",
+      "line": 35
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "versionAtLeast",
+    "position": {
+      "column": 20,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 692
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "versionOlder",
+    "position": {
+      "column": 18,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 680
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "warn",
+    "position": {
+      "column": 10,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 350
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "warnIf",
+    "position": {
+      "column": 12,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 357
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "warnIfNot",
+    "position": {
+      "column": 15,
+      "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
+      "line": 364
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "withFeature",
+    "position": {
+      "column": 17,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 832
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "withFeatureAs",
+    "position": {
+      "column": 19,
+      "file": "/home/johannes/git/nixpkgs/lib/strings.nix",
+      "line": 845
+    }
+  },
+  {
+    "content": "Transpose a list of attribute sets into an attribute set of lists,\nthen apply `mapAttrs`.\n\n`f` receives two arguments: the attribute name and a non-empty\nlist of all values encountered for that attribute name.\n\nThe result is an attribute set where the attribute names are the\nunion of the attribute names in each element of `list`. The attribute\nvalues are the return values of `f`.\n\n```nix\nbuiltins.zipAttrsWith\n  (name: values: { inherit name values; })\n  [ { a = \"x\"; } { a = \"y\"; b = \"z\"; } ]\n```\n\nevaluates to\n\n```\n{\n  a = { name = \"a\"; values = [ \"x\" \"y\" ]; };\n  b = { name = \"b\"; values = [ \"z\" ]; };\n}\n```",
+    "isPrimop": true,
+    "name": "zip",
+    "position": null
+  },
+  {
+    "content": "Merge sets of attributes and combine each attribute value in to a list.\n\nLike `lib.attrsets.zipAttrsWith` with `(name: values: values)` as the function.\n\n# Example\n\nzipAttrs [{a = \"x\";} {a = \"y\"; b = \"z\";}]\n=> { a = [\"x\" \"y\"]; b = [\"z\"]; }\n\n# Type\n\nzipAttrs :: [ AttrSet ] -> AttrSet",
+    "isPrimop": false,
+    "name": "zipAttrs",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 864
+    }
+  },
+  {
+    "content": "Transpose a list of attribute sets into an attribute set of lists,\nthen apply `mapAttrs`.\n\n`f` receives two arguments: the attribute name and a non-empty\nlist of all values encountered for that attribute name.\n\nThe result is an attribute set where the attribute names are the\nunion of the attribute names in each element of `list`. The attribute\nvalues are the return values of `f`.\n\n```nix\nbuiltins.zipAttrsWith\n  (name: values: { inherit name values; })\n  [ { a = \"x\"; } { a = \"y\"; b = \"z\"; } ]\n```\n\nevaluates to\n\n```\n{\n  a = { name = \"a\"; values = [ \"x\" \"y\" ]; };\n  b = { name = \"b\"; values = [ \"z\" ]; };\n}\n```",
+    "isPrimop": true,
+    "name": "zipAttrsWith",
+    "position": null
+  },
+  {
+    "content": "Merge sets of attributes and use the function `f` to merge attributes\nvalues.\n\n# Example\n\nzipAttrsWithNames [\"a\"] (name: vs: vs) [{a = \"x\";} {a = \"y\"; b = \"z\";}]\n=> { a = [\"x\" \"y\"]; }\n\n# Type\n\nzipAttrsWithNames :: [ String ] -> (String -> [ Any ] -> Any) -> [ AttrSet ] -> AttrSet",
+    "isPrimop": false,
+    "name": "zipAttrsWithNames",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 813
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "zipLists",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 436
+    }
+  },
+  {
+    "content": null,
+    "isPrimop": false,
+    "name": "zipListsWith",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/lists.nix",
+      "line": 434
+    }
+  },
+  {
+    "content": "Merge sets of attributes and use the function `f` to merge attributes\nvalues.\n\n# Example\n\nzipAttrsWithNames [\"a\"] (name: vs: vs) [{a = \"x\";} {a = \"y\"; b = \"z\";}]\n=> { a = [\"x\" \"y\"]; }\n\n# Type\n\nzipAttrsWithNames :: [ String ] -> (String -> [ Any ] -> Any) -> [ AttrSet ] -> AttrSet",
+    "isPrimop": false,
+    "name": "zipWithNames",
+    "position": {
+      "column": 5,
+      "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
+      "line": 813
+    }
+  }
+]

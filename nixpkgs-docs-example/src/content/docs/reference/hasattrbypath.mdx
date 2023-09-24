@@ -1,0 +1,34 @@
+---
+title: lib.hasAttrByPath
+description: hasAttrByPath
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Return if an attribute from nested attribute set exists.
+
+# Example
+
+```nix
+let
+  x = { a = { b = 3; }; }
+  hasAttrByPath ["a" "b"] x
+in
+  x -> true
+```
+
+```nix
+hasAttrByPath ["z" "z"] x
+=> false
+```
+
+# Type
+
+```haskell
+hasAttrByPath :: [String] -> AttrSet -> Bool
+```
+
+# Positional Arguments
+
+- 1: A list of strings representing the attribute path to check from `set`
+- 2: The nested attribute set to check

@@ -12,7 +12,7 @@
     nix.url = "github:hsjobeki/nix/lambda-docstring";
   };
 
-  outputs = inputs @ {flake-parts, ...}:
+  outputs = inputs @ {flake-parts, nixpkgs, ...}:
     flake-parts.lib.mkFlake {inherit inputs;} {
       imports = [
         # To import a flake module
@@ -35,11 +35,12 @@
 
         # Equivalent to  inputs'.nixpkgs.legacyPackages.hello;
         packages.default = pkgs.hello;
-
+        packages.docs = import ./docs.nix { pkgs = import nixpkgs { currentSystem = system; }; };
         devShells = {
           default = pkgs.mkShell {
             name = "doc-comment-devshell";
-            packages = [             
+            packages = [
+              inputs'.nixpkgs.legacyPackages.nodejs_20
               inputs'.nix.packages.nix
               inputs'.nix-unit.packages.nix-unit
             ];

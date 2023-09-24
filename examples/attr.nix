@@ -1,7 +1,9 @@
-{getAttrDoc ? builtins.unsafeGetAttrDoc, lib ? (import <nixpkgs> {}).lib }:
 {
+  getAttrDoc ? builtins.unsafeGetAttrDoc,
+  lib ? (import <nixpkgs> {}).lib,
+}: {
   # --------------------------------------------------------
-  # This section contains example of "OK" scenarios, where there should be some content 
+  # This section contains example of "OK" scenarios, where there should be some content
   test_simple_attrs = rec {
     expr = getAttrDoc "foo" {
       /**
@@ -18,21 +20,23 @@
     };
     expected = {
       content = "# Home\n\nThis is awesome\n\n- item 1\n- item 2";
-      isPrimop = false;
       position = expr.position;
     };
   };
 
   test_nested_attrs = rec {
-    expr = getAttrDoc "baz" {
-      /**
-      Baz docs
-      */
-      foo.bar.baz = "A very intricate string";
-    }.foo.bar;
+    expr =
+      getAttrDoc "baz"
+      {
+        /**
+        Baz docs
+        */
+        foo.bar.baz = "A very intricate string";
+      }
+      .foo
+      .bar;
     expected = {
       content = "Baz docs";
-      isPrimop = false;
       position = expr.position;
     };
   };
@@ -48,7 +52,6 @@
     };
     expected = {
       content = "Foo docs";
-      isPrimop = false;
       position = expr.position;
     };
   };
@@ -56,24 +59,25 @@
   # This section contains example of "Wrong"-ish scenarios, where the doc-comment is malformed or wrong placed
   # Notice we never throw any errors, in the worst case you'll end up with an empty doc-string.
   test_doc_comment_empty = rec {
+    # THIS TEST BREAKS SYNTAX HIGHLIGHTING IN VSCODE!
     expr = getAttrDoc "foo" {
-      /** */
+      /***/
+      foo = "A very intricate string";
+      };
+      expected = {
+          content = "";
+          position = expr.position;
+        };
+      };
+      test_non_doc_comment = rec {
+        expr = getAttrDoc "foo" {
+      /*
+      Non Docs
+      */
       foo = "A very intricate string";
     };
     expected = {
       content = "";
-      isPrimop = false;
-      position = expr.position;
-    };
-  };
-  test_non_doc_comment = rec {
-    expr = getAttrDoc "foo" {
-      /*Non Docs*/
-      foo = "A very intricate string";
-    };
-    expected = {
-      content = "";
-      isPrimop = false;
       position = expr.position;
     };
   };
@@ -82,12 +86,13 @@
       /**
       Foo docs
       */
-      /*Comment interruptus*/
+      /*
+      Comment interruptus
+      */
       foo = "A very intricate string";
     };
     expected = {
       content = "";
-      isPrimop = false;
       position = expr.position;
     };
   };
@@ -103,7 +108,6 @@
     };
     expected = {
       content = null;
-      isPrimop = false;
       position = expr.position;
     };
   };
@@ -116,35 +120,33 @@
     };
     expected = {
       content = "Foo docs";
-      isPrimop = false;
       position = expr.position;
     };
   };
   test_attrname_doesnt_exist = {
     expr = getAttrDoc "no-exist" {
-      /** 
+      /**
       Foo docs
       */
       foo = "A very intricate string";
     };
     expected = {
       content = null;
-      isPrimop = false;
       position = null;
     };
-  };
+  };	
   # This is a neat feature
   # it allows to retrieve documentation from function arguments
   test_functionArgs = rec {
     expr = getAttrDoc "arg1" (builtins.functionArgs ({
-      /** 
+      /**
       Argument docs
       */
       arg1,
-    }: arg1));
+    }:
+      arg1));
     expected = {
       content = "Argument docs";
-      isPrimop = false;
       position = expr.position;
     };
   };
@@ -154,9 +156,16 @@
 
   ## This allows to have the same documentation for all generated attribute names
   test_dynamic_set_merged_docs = rec {
-    expr = getAttrDoc "a" (lib.mapAttrs' 
-      (n: v: 
-        {name=n;/**A and B shared docs*/ value=v; }
+    expr = getAttrDoc "a" (
+      lib.mapAttrs'
+      (
+        n: v: {
+          name = n;
+          /**
+          A and B shared docs
+          */
+          value = v;
+        }
       )
       {
         a = 1;
@@ -165,20 +174,27 @@
     );
     expected = {
       content = "A and B shared docs";
-      isPrimop = false;
       position = expr.position;
     };
   };
   ## This 'weird' placement which is not officially supported, but possible.
   test_dynamic_set_docs = rec {
     expr = getAttrDoc "foo" (builtins.listToAttrs
-    [ 
-      { name = "foo"; /**Foo Docs*/ value = 123; }
-      { name = "bar"; value = 456; }
-    ]);
+      [
+        {
+          name = "foo";
+          /**
+          Foo Docs
+          */
+          value = 123;
+        }
+        {
+          name = "bar";
+          value = 456;
+        }
+      ]);
     expected = {
       content = "Foo Docs";
-      isPrimop = false;
       position = expr.position;
     };
   };

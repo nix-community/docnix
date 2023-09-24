@@ -1,0 +1,17 @@
+---
+title: lib.attrVals
+description: attrVals
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Return the specified attributes from a set.
+
+# Example
+
+attrVals ["a" "b" "c"] as
+=> [as.a as.b as.c]
+
+# Type
+
+attrVals :: [String] -> AttrSet -> [Any]

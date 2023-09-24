@@ -1,0 +1,25 @@
+---
+title: lib.mapAttrsRecursiveCond
+description: mapAttrsRecursiveCond
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Like `mapAttrsRecursive`, but it takes an additional predicate
+function that tells it whether to recurse into an attribute
+set.  If it returns false, `mapAttrsRecursiveCond` does not
+recurse, but does apply the map function.  If it returns true, it
+does recurse, and does not apply the map function.
+
+# Example
+
+# To prevent recursing into derivations (which are attribute
+# sets with the attribute "type" equal to "derivation"):
+mapAttrsRecursiveCond
+(as: !(as ? "type" && as.type == "derivation"))
+(x: ... do something ...)
+attrs
+
+# Type
+
+mapAttrsRecursiveCond :: (AttrSet -> Bool) -> ([String] -> a -> b) -> AttrSet -> AttrSet
