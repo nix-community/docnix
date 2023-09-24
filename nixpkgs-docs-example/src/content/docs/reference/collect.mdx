@@ -3,21 +3,27 @@ title: lib.collect
 description: collect
 ---
 
-import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
 
 Recursively collect sets that verify a given predicate named `pred`
-from the set `attrs`.  The recursion is stopped when the predicate is
+from the set `attrs`. The recursion is stopped when the predicate is
 verified.
 
 # Example
 
+```nix
 collect isList { a = { b = ["b"]; }; c = [1]; }
 => [["b"] [1]]
+```
 
+```nix
 collect (x: x ? outPath)
 { a = { outPath = "a/"; }; b = { outPath = "b/"; }; }
 => [{ outPath = "a/"; } { outPath = "b/"; }]
+```
 
 # Type
 
+```haskell
 collect :: (AttrSet -> Bool) -> AttrSet -> [x]
+```

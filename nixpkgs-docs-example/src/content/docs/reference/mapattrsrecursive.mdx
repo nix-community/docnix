@@ -3,12 +3,12 @@ title: lib.mapAttrsRecursive
 description: mapAttrsRecursive
 ---
 
-import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
 
 Like `mapAttrs`, except that it recursively applies itself to
-the *leaf* attributes of a potentially-nested attribute set:
+the _leaf_ attributes of a potentially-nested attribute set:
 the second argument of the function will never be an attrset.
-Also, the first argument of the argument function is a *list*
+Also, the first argument of the argument function is a _list_
 of the attribute names that form the path to the leaf attribute.
 
 For a function that gives you control over what counts as a leaf,
@@ -16,10 +16,14 @@ see `mapAttrsRecursiveCond`.
 
 # Example
 
+```nix
 mapAttrsRecursive (path: value: concatStringsSep "-" (path ++ [value]))
 { n = { a = "A"; m = { b = "B"; c = "C"; }; }; d = "D"; }
 => { n = { a = "n-a-A"; m = { b = "n-m-b-B"; c = "n-m-c-C"; }; }; d = "d-D"; }
+```
 
 # Type
 
+```haskell
 mapAttrsRecursive :: ([String] -> a -> b) -> AttrSet -> AttrSet
+```

@@ -3,19 +3,26 @@ title: lib.isDerivation
 description: isDerivation
 ---
 
-import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
 
 Check whether the argument is a derivation. Any set with
 `{ type = "derivation"; }` counts as a derivation.
 
 # Example
 
+```nix
 nixpkgs = import <nixpkgs> {}
 isDerivation nixpkgs.ruby
 => true
+```
+
+```nix
 isDerivation "foobar"
 => false
+```
 
 # Type
 
+```haskell
 isDerivation :: Any -> Bool
+```

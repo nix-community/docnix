@@ -3,16 +3,20 @@ title: lib.filterAttrsRecursive
 description: filterAttrsRecursive
 ---
 
-import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
 
 Filter an attribute set recursively by removing all attributes for
 which the given predicate return false.
 
 # Example
 
+```nix
 filterAttrsRecursive (n: v: v != null) { foo = { bar = null; }; }
 => { foo = {}; }
+```
 
 # Type
 
+```haskell
 filterAttrsRecursive :: (String -> Any -> Bool) -> AttrSet -> AttrSet
+```

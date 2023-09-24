@@ -3,19 +3,26 @@ title: lib.getAttrFromPath
 description: getAttrFromPath
 ---
 
-import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
 
 Like `attrByPath`, but without a default value. If it doesn't find the
 path it will throw an error.
 
 # Example
 
+```nix
 x = { a = { b = 3; }; }
 getAttrFromPath ["a" "b"] x
 => 3
+```
+
+```nix
 getAttrFromPath ["z" "z"] x
 => error: cannot find attribute `z.z'
+```
 
 # Type
 
+```haskell
 getAttrFromPath :: [String] -> AttrSet -> Any
+```

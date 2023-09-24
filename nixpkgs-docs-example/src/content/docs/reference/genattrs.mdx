@@ -3,16 +3,20 @@ title: lib.genAttrs
 description: genAttrs
 ---
 
-import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
 
 Generate an attribute set by mapping a function over a list of
 attribute names.
 
 # Example
 
+```nix
 genAttrs [ "foo" "bar" ] (name: "x_" + name)
 => { foo = "x_foo"; bar = "x_bar"; }
+```
 
 # Type
 
+```haskell
 genAttrs :: [ String ] -> (String -> Any) -> AttrSet
+```
