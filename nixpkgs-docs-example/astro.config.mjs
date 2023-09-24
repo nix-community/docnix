@@ -3,8 +3,8 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://hsjobeki.github.io",
-  base: "/nix-docs-comments/nixpkgs-docs-example",
+  site: "https://hsjobeki.github.io/nix-docs-comments",
+  base: "/nix-docs-comments",
   integrations: [
     starlight({
       title: "nixos/nixpkgs reference docs",
