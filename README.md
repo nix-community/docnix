@@ -17,6 +17,8 @@ In short, doc-comments make Nix coding smoother and teamwork better.
 
 ## The Basics
 
+The following section will introduce the outlining rules for using doc comments and introduce the new builtin functionalities.
+
 ### For the Content
 
 **Rule 1: Use multiline comments starting with `/**` to start a doc comment**.
@@ -39,19 +41,12 @@ First we need to understand that there are two different ways of retrieving a do
 unsafeGetAttrDoc :: String ->  { ... } -> {
     --The content, whitespaces removed, indentation preserved, just like ''string''
     content :: String | null;
-    --True if the documented value is a primop (only builtins are primops)
-    isPrimop :: Boolean;
-    --If the documented value is a partially applied lambda
-    countApplied? :: Int;
-    --List of possible doc positions.
-    --The first found comment in the positions order is returned.
-    positions :: [
-      {
+    --The primary doc position.
+    position :: {
         column :: Int;
         line :: Int;
         file :: String;
-      }
-    ];
+      };
   }
 ```
 
@@ -97,25 +92,23 @@ For more details look at our extensive [attribute doc examples](./examples/attr.
 ### Using `unsafeGetLambdaDoc` to retrieve lambda documentation
 
 <details>
-<summary>unsafeGetAttrDoc API Documentation</summary>
+<summary>unsafeGetLambdaDoc API Documentation</summary>
 
 ```haskell
-unsafeGetLambdaDoc :: String ->  { ... } -> {
+unsafeGetLambdaDoc :: Lambda -> {
     --The content, whitespaces removed, indentation preserved, just like ''string''
     content :: String | null;
     --True if the documented value is a primop (only builtins are primops)
     isPrimop :: Boolean;
     --If the documented value is a partially applied lambda
-    countApplied? :: Int;
-    --List of possible doc positions.
-    --The first found comment in the positions order is returned.
-    positions :: [
+    countApplied :: Int;
+    --The primary doc position.
+    position :: 
       {
         column :: Int;
         line :: Int;
         file :: String;
-      }
-    ];
+      };
   }
 ```
 
@@ -131,9 +124,7 @@ unsafeGetLambdaDoc :: String ->  { ... } -> {
 
 ```nix
 {
-  foo = let 
-    function = /**Some docs*/ x: map x; 
-    in function;
+  foo = /**Some docs*/ x: map x; 
 }
 ```
 
@@ -180,7 +171,7 @@ builtins.unsafeGetLambdaDoc  {
 
 #### Use **builtins.unsafeGetLambdaDoc** to get the doc-comment
 
-For more details look at our extensive [attribute doc examples](./examples/attr.nix)
+For more details look at our extensive [lambda doc examples](./examples/lambda.nix)
 
 ## FAQ
 
@@ -245,6 +236,7 @@ std::string lookupDoc(position)
 ```cpp
 position lookupLambdaPositions(lambda)
 // primaryPosition = getSourcePosition(lambda)
+// # To find the Parent his issue must be solved first: https://github.com/NixOS/nix/issues/8968
 // if lambda -> AST -> parent == NODE_ASSIGN
 //    Walk to parent
 //    If parent->first_child is NODE_ATTRPATH
