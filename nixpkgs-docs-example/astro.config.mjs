@@ -12,10 +12,19 @@ export default defineConfig({
         src: "./src/assets/nix-logo.svg",
       },
       tableOfContents: { minHeadingLevel: 1, maxHeadingLevel: 4 },
+
       social: {
-        github: "https://github.com/nixos/nixpkgs",
+        github: "https://github.com/hsjobeki/nix-doc-comments",
+      },
+      editLink: {
+        baseUrl:
+          "https://github.com/hsjobeki/nix-doc-comments/nixpkgs-docs-example/edit/main/docs/",
       },
       sidebar: [
+        {
+          label: "Home",
+          link: "/",
+        },
         {
           label: "Reference",
           autogenerate: { directory: "reference" },

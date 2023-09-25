@@ -3,14 +3,25 @@ title: API Documentation for nix, nixpkgs and nixos
 description: Explore our documentation
 template: splash
 hero:
-  tagline: Nix is awesome!
+  tagline: Support RFC-145 - Because Automatic Documentation is awesome!
   image:
     file: ../../assets/nixoscolorful.svg
   actions:
     - text: To the docs
-      link: nix-doc-comments/reference/add
+      link: reference/add
       icon: right-arrow
       variant: primary
+    - text: To the RFC145
+      link: https://github.com/NixOS/rfcs/pull/145
+      icon: right-arrow
+      variant: secondary
+sidebar:
+  hidden: false
+  label: Home
+  order: 0
+banner:
+  content: |
+    Generate documentation for your nix project!
 ---
 
 import { LinkCard, CardGrid } from "@astrojs/starlight/components";
