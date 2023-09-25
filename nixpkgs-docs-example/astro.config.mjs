@@ -18,7 +18,7 @@ export default defineConfig({
       },
       editLink: {
         baseUrl:
-          "https://github.com/hsjobeki/nix-doc-comments/nixpkgs-docs-example/edit/main/docs/",
+          "https://github.com/hsjobeki/nix-doc-comments/edit/main/nixpkgs-docs-example/docs/",
       },
       sidebar: [
         {
