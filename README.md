@@ -243,3 +243,15 @@ position lookupLambdaPositions(lambda)
 //       alternativePosition = NODE_ATTRPATH.start
 // Return [primaryPosition, alternativePosition]
 ```
+
+## The Codemod
+
+For migration of existing nixpkgs comments - A codemod is super helpful.
+
+It should do the following things:
+
+- Change multiline comments `/* */` to `/** */`
+- Change `Example: ` to `# Example`.
+- Ensure there are two newlines after each heading.
+- Parse the content of `Example` and `Type` then surround them with codeblocks ```.
+- Re-indent the content such that the content is indented by 2 more spaces and aligns with the opening/closing tags `/** */`.
