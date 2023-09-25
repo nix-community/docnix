@@ -1,11 +1,11 @@
 ---
 title: API Documentation for nix, nixpkgs and nixos
-description: Welcome to our awesome docs
+description: Explore our documentation
 template: splash
 hero:
   tagline: Nix is awesome!
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/nixoscolorful.svg
   actions:
     - text: To the docs
       link: nix-doc-comments/reference/add
@@ -13,8 +13,9 @@ hero:
       variant: primary
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
 
-## Welcome the awesome nixos/nixpkgs reference Documentation
-
-This documentation is completely auto-generated from our code
+<CardGrid>
+  <LinkCard title="github:nix" href="https://github.com/NixOS/nix" />
+  <LinkCard title="github:nixpkgs" href="https://github.com/NixOS/nixpkgs" />
+</CardGrid>

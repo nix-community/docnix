@@ -7,7 +7,11 @@ export default defineConfig({
   base: "/nix-doc-comments",
   integrations: [
     starlight({
-      title: "nixos/nixpkgs reference docs",
+      title: "API Reference",
+      logo: {
+        src: "./src/assets/nix-logo.svg",
+      },
+      tableOfContents: { minHeadingLevel: 1, maxHeadingLevel: 4 },
       social: {
         github: "https://github.com/nixos/nixpkgs",
       },
