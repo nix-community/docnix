@@ -1,14 +1,22 @@
 ---
 title: lib.concat
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L111C12
 description: concat
 ---
 
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
+Concatenate two lists
 
-<LinkCard
-    title="Contribute Now!"
-    description="API Documentation is done in our source code"
-    href="https://www.github.com/nixos/nixpkgs"
-/>
+# Example
 
+```nix
+concat [ 1 2 ] [ 3 4 ]
+=> [ 1 2 3 4 ]
+```
+
+# Type
+
+```haskell
+concat :: [a] -> [a] -> [a]
+```

@@ -1,9 +1,10 @@
 ---
 title: lib.foldlAttrs
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L484C16
 description: foldlAttrs
 ---
 
-import { LinkCard, CardGrid } from "@astrojs/starlight/components";
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 Like builtins.foldl' but for attribute sets.
 Iterates over every name-value pair in the given attribute set.
@@ -32,30 +33,24 @@ bar = 10;
 sum = 11;
 names = ["bar" "foo"];
 }
-```
 
-```nix
 foldlAttrs
 (throw "function not needed")
 123
 {};
 ->
 123
-```
 
-```nix
 foldlAttrs
 (_: _: v: v)
 (throw "initial accumulator not needed")
 { z = 3; a = 2; };
 ->
 3
-```
 
 The accumulator doesn't have to be an attrset.
 It can be as simple as a number or string.
 
-```nix
 foldlAttrs
 (acc: _: v: acc * 10 + v)
 1

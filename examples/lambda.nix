@@ -388,18 +388,17 @@
   # };
 
 
-  # test_lambda_partially_applied_3 = rec {
-  #   expr = getLambdaDoc ({
-  #       /**
-  #       Foo docs
-  #       */
-  #       foo = a: b: c: a;
-  #     }
-  #     .foo "1");
-  #   expected = {
-  #     content = "Foo docs";
-  #     isPrimop = false;
-  #     position = expr.position;
-  #   };
-  # };
+  test_lambda_partially_applied_3 = rec {
+    expr = getLambdaDoc ({
+        /**
+        Foo docs
+        */
+        foo = a: b: c: a;
+      }.foo "1");
+    expected = {
+      content = "Foo docs";
+      isPrimop = false;
+      position = expr.position;
+    };
+  };
 }

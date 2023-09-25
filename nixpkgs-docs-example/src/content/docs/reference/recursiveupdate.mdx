@@ -1,0 +1,34 @@
+---
+title: lib.recursiveUpdate
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L1068C5
+description: recursiveUpdate
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+A recursive variant of the update operator ‘//’.  The recursion
+stops when one of the attribute values is not an attribute set,
+in which case the right hand side value takes precedence over the
+left hand side value.
+
+# Example
+
+```nix
+recursiveUpdate {
+boot.loader.grub.enable = true;
+boot.loader.grub.device = "/dev/hda";
+} {
+boot.loader.grub.device = "";
+}
+
+returns: {
+boot.loader.grub.enable = true;
+boot.loader.grub.device = "";
+}
+```
+
+# Type
+
+```haskell
+recursiveUpdate :: AttrSet -> AttrSet -> AttrSet
+```

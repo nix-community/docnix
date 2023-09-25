@@ -1,14 +1,22 @@
 ---
 title: lib.flip
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L198C10
 description: flip
 ---
 
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
+Flip the order of the arguments of a binary function.
 
-<LinkCard
-    title="Contribute Now!"
-    description="API Documentation is done in our source code"
-    href="https://www.github.com/nixos/nixpkgs"
-/>
+# Example
 
+```nix
+flip concat [1] [2]
+=> [ 2 1 ]
+```
+
+# Type
+
+```haskell
+flip :: (a -> b -> c) -> (b -> a -> c)
+```

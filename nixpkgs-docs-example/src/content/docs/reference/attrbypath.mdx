@@ -1,9 +1,10 @@
 ---
 title: lib.attrByPath
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L38C5
 description: attrByPath
 ---
 
-import { LinkCard, CardGrid } from "@astrojs/starlight/components";
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 Return an attribute from nested attribute sets.
 
@@ -11,20 +12,12 @@ Return an attribute from nested attribute sets.
 
 ```nix
 x = { a = { b = 3; }; }
-```
-
-```nix
+# ["a" "b"] is equivalent to x.a.b
+# 6 is a default value to return if the path does not exist in attrset
 attrByPath ["a" "b"] 6 x
 => 3
-```
-
-> Note: This is equivalent to `x.a.b`
-
-`6` is a default value to return if the path does not exist in attrset
-
-```nix
 attrByPath ["z" "z"] 6 x
-=> 6+ 2
+=> 6
 ```
 
 # Type

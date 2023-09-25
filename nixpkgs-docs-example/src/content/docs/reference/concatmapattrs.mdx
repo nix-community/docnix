@@ -1,9 +1,10 @@
 ---
 title: lib.concatMapAttrs
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L160C20
 description: concatMapAttrs
 ---
 
-import { LinkCard, CardGrid } from "@astrojs/starlight/components";
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 Map each attribute in the given set and merge them into a new attribute set.
 
@@ -11,13 +12,12 @@ Map each attribute in the given set and merge them into a new attribute set.
 
 ```nix
 concatMapAttrs
-  (name: value: {
-  ${name} = value;
-  ${name + value} = value;
-  })
-  { x = "a"; y = "b"; }
+(name: value: {
+${name} = value;
+${name + value} = value;
+})
+{ x = "a"; y = "b"; }
 => { x = "a"; xa = "a"; y = "b"; yb = "b"; }
-
 ```
 
 # Type

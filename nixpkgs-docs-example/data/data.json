@@ -6,7 +6,7 @@
     "position": {
       "column": 11,
       "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
-      "line": 144
+      "line": 152
     }
   },
   {
@@ -48,13 +48,13 @@
     "position": null
   },
   {
-    "content": null,
+    "content": "boolean “and”",
     "isPrimop": false,
     "name": "and",
     "position": {
       "column": 9,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 86
+      "line": 121
     }
   },
   {
@@ -104,13 +104,13 @@
     }
   },
   {
-    "content": "Return an attribute from nested attribute sets.\n\n# Example\n\nx = { a = { b = 3; }; }\n# [\"a\" \"b\"] is equivalent to x.a.b\n# 6 is a default value to return if the path does not exist in attrset\nattrByPath [\"a\" \"b\"] 6 x\n=> 3\nattrByPath [\"z\" \"z\"] 6 x\n=> 6+ 2\n\n# Type\n\nattrByPath :: [String] -> Any -> AttrSet -> Any",
+    "content": "Return an attribute from nested attribute sets.\n\n# Example\n\n```nix\nx = { a = { b = 3; }; }\n# [\"a\" \"b\"] is equivalent to x.a.b\n# 6 is a default value to return if the path does not exist in attrset\nattrByPath [\"a\" \"b\"] 6 x\n=> 3\nattrByPath [\"z\" \"z\"] 6 x\n=> 6\n```\n\n# Type\n\n```haskell\nattrByPath :: [String] -> Any -> AttrSet -> Any\n```",
     "isPrimop": false,
     "name": "attrByPath",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 36
+      "line": 38
     }
   },
   {
@@ -120,13 +120,13 @@
     "position": null
   },
   {
-    "content": "Return the specified attributes from a set.\n\n# Example\n\nattrVals [\"a\" \"b\" \"c\"] as\n=> [as.a as.b as.c]\n\n# Type\n\nattrVals :: [String] -> AttrSet -> [Any]",
+    "content": "Return the specified attributes from a set.\n\n# Example\n\n```nix\nattrVals [\"a\" \"b\" \"c\"] as\n=> [as.a as.b as.c]\n```\n\n# Type\n\n```haskell\nattrVals :: [String] -> AttrSet -> [Any]\n```",
     "isPrimop": false,
     "name": "attrVals",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 286
+      "line": 296
     }
   },
   {
@@ -160,13 +160,13 @@
     "position": null
   },
   {
-    "content": null,
+    "content": "Convert a boolean to a string.\n\nThis function uses the strings \"true\" and \"false\" to represent\nboolean values. Calling `toString` on a bool instead returns \"1\"\nand \"\" (sic!).\n\n# Type\n\n```haskell\nboolToString :: bool -> string\n```",
     "isPrimop": false,
     "name": "boolToString",
     "position": {
       "column": 18,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 114
+      "line": 162
     }
   },
   {
@@ -200,13 +200,13 @@
     }
   },
   {
-    "content": "Return the cartesian product of attribute set value combinations.\n\n# Example\n\ncartesianProductOfSets { a = [ 1 2 ]; b = [ 10 20 ]; }\n=> [\n{ a = 1; b = 10; }\n{ a = 1; b = 20; }\n{ a = 2; b = 10; }\n{ a = 2; b = 20; }\n]\n# Type\n\ncartesianProductOfSets :: AttrSet -> [AttrSet]",
+    "content": "Return the cartesian product of attribute set value combinations.\n\n# Example\n\n```nix\ncartesianProductOfSets { a = [ 1 2 ]; b = [ 10 20 ]; }\n=> [\n{ a = 1; b = 10; }\n{ a = 1; b = 20; }\n{ a = 2; b = 10; }\n{ a = 2; b = 20; }\n]\n```\n\n# Type\n\n```haskell\ncartesianProductOfSets :: AttrSet -> [AttrSet]\n```",
     "isPrimop": false,
     "name": "cartesianProductOfSets",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 541
+      "line": 577
     }
   },
   {
@@ -226,13 +226,13 @@
     }
   },
   {
-    "content": null,
+    "content": "Check if the elements in a list are valid values from a enum, returning the identity function, or throwing an error message otherwise.\n\n# Example\n\n```nix\nlet colorVariants = [\"bright\" \"dark\" \"black\"]\nin checkListOfEnum \"color variants\" [ \"standard\" \"light\" \"dark\" ] colorVariants;\n=>\nerror: color variants: bright, black unexpected; valid ones: standard, light, dark\n```\n\n# Type\n\n```haskell\nString -> List ComparableVal -> List ComparableVal -> a -> a\n```",
     "isPrimop": false,
     "name": "checkListOfEnum",
     "position": {
       "column": 21,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 405
+      "line": 552
     }
   },
   {
@@ -246,13 +246,13 @@
     }
   },
   {
-    "content": "Pick the outputs of packages to place in `buildInputs`\n\n   # Type\nchooseDevOutputs :: [Derivation] -> [String]",
+    "content": "Pick the outputs of packages to place in `buildInputs`\n\n# Type\n\n```haskell\nchooseDevOutputs :: [Derivation] -> [String]\n```",
     "isPrimop": false,
     "name": "chooseDevOutputs",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 1168
+      "line": 1273
     }
   },
   {
@@ -296,13 +296,13 @@
     }
   },
   {
-    "content": "Recursively collect sets that verify a given predicate named `pred`\nfrom the set `attrs`.  The recursion is stopped when the predicate is\nverified.\n\n# Example\n\ncollect isList { a = { b = [\"b\"]; }; c = [1]; }\n=> [[\"b\"] [1]]\n\ncollect (x: x ? outPath)\n{ a = { outPath = \"a/\"; }; b = { outPath = \"b/\"; }; }\n=> [{ outPath = \"a/\"; } { outPath = \"b/\"; }]\n\n# Type\n\ncollect :: (AttrSet -> Bool) -> AttrSet -> [x]",
+    "content": "Recursively collect sets that verify a given predicate named `pred`\nfrom the set `attrs`.  The recursion is stopped when the predicate is\nverified.\n\n# Example\n\n```nix\ncollect isList { a = { b = [\"b\"]; }; c = [1]; }\n=> [[\"b\"] [1]]\n\ncollect (x: x ? outPath)\n{ a = { outPath = \"a/\"; }; b = { outPath = \"b/\"; }; }\n=> [{ outPath = \"a/\"; } { outPath = \"b/\"; }]\n```\n\n# Type\n\n```haskell\ncollect :: (AttrSet -> Bool) -> AttrSet -> [x]\n```",
     "isPrimop": false,
     "name": "collect",
     "position": {
       "column": 3,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 512
+      "line": 544
     }
   },
   {
@@ -316,13 +316,13 @@
     }
   },
   {
-    "content": null,
+    "content": "C-style comparisons\n\na < b,  compare a b => -1\na == b, compare a b => 0\na > b,  compare a b => 1",
     "isPrimop": false,
     "name": "compare",
     "position": {
       "column": 13,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 267
+      "line": 367
     }
   },
   {
@@ -336,13 +336,13 @@
     }
   },
   {
-    "content": null,
+    "content": "Compose two extending functions of the type expected by 'extends'\ninto one where changes made in the first are available in the\n'super' of the second",
     "isPrimop": false,
     "name": "composeExtensions",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
-      "line": 99
+      "line": 107
     }
   },
   {
@@ -356,13 +356,13 @@
     }
   },
   {
-    "content": null,
+    "content": "Concatenate two lists\n\n# Example\n\n```nix\nconcat [ 1 2 ] [ 3 4 ]\n=> [ 1 2 3 4 ]\n```\n\n# Type\n\n```haskell\nconcat :: [a] -> [a] -> [a]\n```",
     "isPrimop": false,
     "name": "concat",
     "position": {
       "column": 12,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 80
+      "line": 111
     }
   },
   {
@@ -408,13 +408,13 @@
     "position": null
   },
   {
-    "content": "Map each attribute in the given set and merge them into a new attribute set.\n\n# Type\n\nconcatMapAttrs :: (String -> a -> AttrSet) -> AttrSet -> AttrSet\n\n# Example\n\nconcatMapAttrs\n(name: value: {\n${name} = value;\n${name + value} = value;\n})\n{ x = \"a\"; y = \"b\"; }\n=> { x = \"a\"; xa = \"a\"; y = \"b\"; yb = \"b\"; }",
+    "content": "Map each attribute in the given set and merge them into a new attribute set.\n\n# Example\n\n```nix\nconcatMapAttrs\n(name: value: {\n${name} = value;\n${name + value} = value;\n})\n{ x = \"a\"; y = \"b\"; }\n=> { x = \"a\"; xa = \"a\"; y = \"b\"; yb = \"b\"; }\n```\n\n# Type\n\n```haskell\nconcatMapAttrs :: (String -> a -> AttrSet) -> AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "concatMapAttrs",
     "position": {
       "column": 20,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 157
+      "line": 160
     }
   },
   {
@@ -460,23 +460,23 @@
     }
   },
   {
-    "content": null,
+    "content": "The constant function\n\nIgnores the second argument. If called with only one argument,\nconstructs a function that always returns a static value.\n\n# Example\n\n```nix\nlet f = const 5; in f 10\n=> 5\n```\n\n# Type\n\n```haskell\nconst :: a -> b -> a\n```",
     "isPrimop": false,
     "name": "const",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 28
+      "line": 42
     }
   },
   {
-    "content": null,
+    "content": "Return the fixpoint that `f` converges to when called iteratively, starting\nwith the input `x`.\n\n```\nnix-repl> converge (x: x / 2) 16\n0\n```\n\n# Type\n\n```haskell\n(a -> a) -> a -> a\n```",
     "isPrimop": false,
     "name": "converge",
     "position": {
       "column": 14,
       "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
-      "line": 47
+      "line": 55
     }
   },
   {
@@ -576,13 +576,13 @@
     }
   },
   {
-    "content": "Undo the effect of recurseIntoAttrs.\n\n# Type\n\ndontRecurseIntoAttrs :: AttrSet -> AttrSet",
+    "content": "Undo the effect of recurseIntoAttrs.\n\n# Type\n\n```haskell\ndontRecurseIntoAttrs :: AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "dontRecurseIntoAttrs",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 1208
+      "line": 1316
     }
   },
   {
@@ -702,7 +702,7 @@
     "position": {
       "column": 25,
       "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
-      "line": 145
+      "line": 153
     }
   },
   {
@@ -716,13 +716,13 @@
     }
   },
   {
-    "content": null,
+    "content": "Modify the contents of an explicitly recursive attribute set in a way that\nhonors `self`-references. This is accomplished with a function\n\n```nix\ng = self: super: { foo = super.foo + \" + \"; }\n```\n\nthat has access to the unmodified input (`super`) as well as the final\nnon-recursive representation of the attribute set (`self`). `extends`\ndiffers from the native `//` operator insofar as that it's applied *before*\nreferences to `self` are resolved:\n\n```\nnix-repl> fix (extends g f)\n{ bar = \"bar\"; foo = \"foo + \"; foobar = \"foo + bar\"; }\n```\n\nThe name of the function is inspired by object-oriented inheritance, i.e.\nthink of it as an infix operator `g extends f` that mimics the syntax from\nJava. It may seem counter-intuitive to have the \"base class\" as the second\nargument, but it's nice this way if several uses of `extends` are cascaded.\n\nTo get a better understanding how `extends` turns a function with a fix\npoint (the package set we start with) into a new function with a different fix\npoint (the desired packages set) lets just see, how `extends g f`\nunfolds with `g` and `f` defined above:\n\n```\nextends g f = self: let super = f self; in super // g self super;\n= self: let super = { foo = \"foo\"; bar = \"bar\"; foobar = self.foo + self.bar; }; in super // g self super\n= self: { foo = \"foo\"; bar = \"bar\"; foobar = self.foo + self.bar; } // g self { foo = \"foo\"; bar = \"bar\"; foobar = self.foo + self.bar; }\n= self: { foo = \"foo\"; bar = \"bar\"; foobar = self.foo + self.bar; } // { foo = \"foo\" + \" + \"; }\n= self: { foo = \"foo + \"; bar = \"bar\"; foobar = self.foo + self.bar; }\n```",
     "isPrimop": false,
     "name": "extends",
     "position": {
       "column": 13,
       "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
-      "line": 91
+      "line": 99
     }
   },
   {
@@ -742,23 +742,23 @@
     "position": null
   },
   {
-    "content": "Filter an attribute set by removing all attributes for which the\ngiven predicate return false.\n\n# Example\n\nfilterAttrs (n: v: n == \"foo\") { foo = 1; bar = 2; }\n=> { foo = 1; }\n\n# Type\n\nfilterAttrs :: (String -> Any -> Bool) -> AttrSet -> AttrSet",
+    "content": "Filter an attribute set by removing all attributes for which the\ngiven predicate return false.\n\n# Example\n\n```nix\nfilterAttrs (n: v: n == \"foo\") { foo = 1; bar = 2; }\n=> { foo = 1; }\n```\n\n# Type\n\n```haskell\nfilterAttrs :: (String -> Any -> Bool) -> AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "filterAttrs",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 362
+      "line": 384
     }
   },
   {
-    "content": "Filter an attribute set recursively by removing all attributes for\nwhich the given predicate return false.\n\n# Example\n\nfilterAttrsRecursive (n: v: v != null) { foo = { bar = null; }; }\n=> { foo = {}; }\n\n# Type\n\nfilterAttrsRecursive :: (String -> Any -> Bool) -> AttrSet -> AttrSet",
+    "content": "Filter an attribute set recursively by removing all attributes for\nwhich the given predicate return false.\n\n# Example\n\n```nix\nfilterAttrsRecursive (n: v: v != null) { foo = { bar = null; }; }\n=> { foo = {}; }\n```\n\n# Type\n\n```haskell\nfilterAttrsRecursive :: (String -> Any -> Bool) -> AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "filterAttrsRecursive",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 384
+      "line": 409
     }
   },
   {
@@ -792,23 +792,23 @@
     }
   },
   {
-    "content": null,
+    "content": "Compute the fixed point of the given function `f`, which is usually an\nattribute set that expects its final, non-recursive representation as an\nargument:\n\n```\nf = self: { foo = \"foo\"; bar = \"bar\"; foobar = self.foo + self.bar; }\n```\n\nNix evaluates this recursion until all references to `self` have been\nresolved. At that point, the final result is returned and `f x = x` holds:\n\n```\nnix-repl> fix f\n{ bar = \"bar\"; foo = \"foo\"; foobar = \"foobar\"; }\n```\n\n# Type\n\n```haskell\nfix :: (a -> a) -> a\n\nSee https://en.wikipedia.org/wiki/Fixed-point_combinator for further\ndetails.\n```",
     "isPrimop": false,
     "name": "fix",
     "position": {
       "column": 9,
       "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
-      "line": 25
+      "line": 29
     }
   },
   {
-    "content": null,
+    "content": "A variant of `fix` that records the original recursive attribute set in the\nresult, in an attribute named `__unfix__`.\n\nThis is useful in combination with the `extends` function to\nimplement deep overriding.",
     "isPrimop": false,
     "name": "fix'",
     "position": {
       "column": 10,
       "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
-      "line": 34
+      "line": 38
     }
   },
   {
@@ -862,13 +862,13 @@
     }
   },
   {
-    "content": null,
+    "content": "Flip the order of the arguments of a binary function.\n\n# Example\n\n```nix\nflip concat [1] [2]\n=> [ 2 1 ]\n```\n\n# Type\n\n```haskell\nflip :: (a -> b -> c) -> (b -> a -> c)\n```",
     "isPrimop": false,
     "name": "flip",
     "position": {
       "column": 10,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 138
+      "line": 198
     }
   },
   {
@@ -892,13 +892,13 @@
     }
   },
   {
-    "content": "Apply fold functions to values grouped by key.\n\n# Example\n\nfoldAttrs (item: acc: [item] ++ acc) [] [{ a = 2; } { a = 3; }]\n=> { a = [ 2 3 ]; }\n\n# Type\n\nfoldAttrs :: (Any -> Any -> Any) -> Any -> [AttrSets] -> Any",
+    "content": "Apply fold functions to values grouped by key.\n\n# Example\n\n```nix\nfoldAttrs (item: acc: [item] ++ acc) [] [{ a = 2; } { a = 3; }]\n=> { a = [ 2 3 ]; }\n```\n\n# Type\n\n```haskell\nfoldAttrs :: (Any -> Any -> Any) -> Any -> [AttrSets] -> Any\n```",
     "isPrimop": false,
     "name": "foldAttrs",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 479
+      "line": 508
     }
   },
   {
@@ -918,13 +918,13 @@
     "position": null
   },
   {
-    "content": "Like builtins.foldl' but for attribute sets.\nIterates over every name-value pair in the given attribute set.\nThe result of the callback function is often called `acc` for accumulator. It is passed between callbacks from left to right and the final `acc` is the return value of `foldlAttrs`.\n\nAttention:\nThere is a completely different function\n`lib.foldAttrs`\nwhich has nothing to do with this function, despite the similar name.\n\n# Example\n\nfoldlAttrs\n(acc: name: value: {\nsum = acc.sum + value;\nnames = acc.names ++ [name];\n})\n{ sum = 0; names = []; }\n{\nfoo = 1;\nbar = 10;\n}\n->\n{\nsum = 11;\nnames = [\"bar\" \"foo\"];\n}\n\nfoldlAttrs\n(throw \"function not needed\")\n123\n{};\n->\n123\n\nfoldlAttrs\n(_: _: v: v)\n(throw \"initial accumulator not needed\")\n{ z = 3; a = 2; };\n->\n3\n\nThe accumulator doesn't have to be an attrset.\nIt can be as simple as a number or string.\n\nfoldlAttrs\n(acc: _: v: acc * 10 + v)\n1\n{ z = 1; a = 2; };\n->\n121\n\n# Type\n\nfoldlAttrs :: ( a -> String -> b -> a ) -> a -> { ... :: b } -> a",
+    "content": "Like builtins.foldl' but for attribute sets.\nIterates over every name-value pair in the given attribute set.\nThe result of the callback function is often called `acc` for accumulator. It is passed between callbacks from left to right and the final `acc` is the return value of `foldlAttrs`.\n\nAttention:\nThere is a completely different function\n`lib.foldAttrs`\nwhich has nothing to do with this function, despite the similar name.\n\n# Example\n\n```nix\nfoldlAttrs\n(acc: name: value: {\nsum = acc.sum + value;\nnames = acc.names ++ [name];\n})\n{ sum = 0; names = []; }\n{\nfoo = 1;\nbar = 10;\n}\n->\n{\nsum = 11;\nnames = [\"bar\" \"foo\"];\n}\n\nfoldlAttrs\n(throw \"function not needed\")\n123\n{};\n->\n123\n\nfoldlAttrs\n(_: _: v: v)\n(throw \"initial accumulator not needed\")\n{ z = 3; a = 2; };\n->\n3\n\nThe accumulator doesn't have to be an attrset.\nIt can be as simple as a number or string.\n\nfoldlAttrs\n(acc: _: v: acc * 10 + v)\n1\n{ z = 1; a = 2; };\n->\n121\n```\n\n# Type\n\n```haskell\nfoldlAttrs :: ( a -> String -> b -> a ) -> a -> { ... :: b } -> a\n```",
     "isPrimop": false,
     "name": "foldlAttrs",
     "position": {
       "column": 16,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 457
+      "line": 484
     }
   },
   {
@@ -958,23 +958,23 @@
     }
   },
   {
-    "content": null,
+    "content": "Extract the expected function arguments from a function.\nThis works both with nix-native { a, b ? foo, ... }: style\nfunctions and functions with args set with 'setFunctionArgs'. It\nhas the same return type and semantics as builtins.functionArgs.\nsetFunctionArgs : (a → b) → Map String Bool.",
     "isPrimop": false,
     "name": "functionArgs",
     "position": {
       "column": 18,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 440
+      "line": 589
     }
   },
   {
-    "content": "Generate an attribute set by mapping a function over a list of\nattribute names.\n\n# Example\n\ngenAttrs [ \"foo\" \"bar\" ] (name: \"x_\" + name)\n=> { foo = \"x_foo\"; bar = \"x_bar\"; }\n\n# Type\n\ngenAttrs :: [ String ] -> (String -> Any) -> AttrSet",
+    "content": "Generate an attribute set by mapping a function over a list of\nattribute names.\n\n# Example\n\n```nix\ngenAttrs [ \"foo\" \"bar\" ] (name: \"x_\" + name)\n=> { foo = \"x_foo\"; bar = \"x_bar\"; }\n```\n\n# Type\n\n```haskell\ngenAttrs :: [ String ] -> (String -> Any) -> AttrSet\n```",
     "isPrimop": false,
     "name": "genAttrs",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 722
+      "line": 778
     }
   },
   {
@@ -996,7 +996,7 @@
     "position": null
   },
   {
-    "content": "Like `attrByPath`, but without a default value. If it doesn't find the\npath it will throw an error.\n\n# Example\n\nx = { a = { b = 3; }; }\ngetAttrFromPath [\"a\" \"b\"] x\n=> 3\ngetAttrFromPath [\"z\" \"z\"] x\n=> error: cannot find attribute `z.z'\n\n# Type\n\ngetAttrFromPath :: [String] -> AttrSet -> Any",
+    "content": "Like `attrByPath`, but without a default value. If it doesn't find the\npath it will throw an error.\n\n# Example\n\n```nix\nx = { a = { b = 3; }; }\ngetAttrFromPath [\"a\" \"b\"] x\n=> 3\ngetAttrFromPath [\"z\" \"z\"] x\n=> error: cannot find attribute `z.z'\n```\n\n# Type\n\n```haskell\ngetAttrFromPath :: [String] -> AttrSet -> Any\n```",
     "isPrimop": false,
     "name": "getAttrFromPath",
     "position": {
@@ -1006,33 +1006,33 @@
     }
   },
   {
-    "content": "Given a set of attribute names, return the set of the corresponding\nattributes from the given set.\n\n# Example\n\ngetAttrs [ \"a\" \"b\" ] { a = 1; b = 2; c = 3; }\n=> { a = 1; b = 2; }\n\n# Type\n\ngetAttrs :: [String] -> AttrSet -> AttrSet",
+    "content": "Given a set of attribute names, return the set of the corresponding\nattributes from the given set.\n\n# Example\n\n```nix\ngetAttrs [ \"a\" \"b\" ] { a = 1; b = 2; c = 3; }\n=> { a = 1; b = 2; }\n```\n\n# Type\n\n```haskell\ngetAttrs :: [String] -> AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "getAttrs",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 324
+      "line": 340
     }
   },
   {
-    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n\n# Type\n\ngetOutput :: String -> Derivation -> String",
+    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\n```nix\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n```\n\n# Type\n\n```haskell\ngetOutput :: String -> Derivation -> String\n```",
     "isPrimop": false,
     "name": "getBin",
     "position": {
       "column": 23,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 1086
+      "line": 1178
     }
   },
   {
-    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n\n# Type\n\ngetOutput :: String -> Derivation -> String",
+    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\n```nix\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n```\n\n# Type\n\n```haskell\ngetOutput :: String -> Derivation -> String\n```",
     "isPrimop": false,
     "name": "getDev",
     "position": {
       "column": 23,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 1086
+      "line": 1178
     }
   },
   {
@@ -1062,13 +1062,13 @@
     "position": null
   },
   {
-    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n\n# Type\n\ngetOutput :: String -> Derivation -> String",
+    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\n```nix\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n```\n\n# Type\n\n```haskell\ngetOutput :: String -> Derivation -> String\n```",
     "isPrimop": false,
     "name": "getLib",
     "position": {
       "column": 23,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 1086
+      "line": 1178
     }
   },
   {
@@ -1082,13 +1082,13 @@
     }
   },
   {
-    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n\n# Type\n\ngetOutput :: String -> Derivation -> String",
+    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\n```nix\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n```\n\n# Type\n\n```haskell\ngetOutput :: String -> Derivation -> String\n```",
     "isPrimop": false,
     "name": "getMan",
     "position": {
       "column": 23,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 1086
+      "line": 1178
     }
   },
   {
@@ -1102,13 +1102,13 @@
     }
   },
   {
-    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n\n# Type\n\ngetOutput :: String -> Derivation -> String",
+    "content": "Get a package output.\nIf no output is found, fallback to `.out` and then to the default.\n\n# Example\n\n```nix\ngetOutput \"dev\" pkgs.openssl\n=> \"/nix/store/9rz8gxhzf8sw4kf2j2f1grr49w8zx5vj-openssl-1.0.1r-dev\"\n```\n\n# Type\n\n```haskell\ngetOutput :: String -> Derivation -> String\n```",
     "isPrimop": false,
     "name": "getOutput",
     "position": {
       "column": 15,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 1086
+      "line": 1178
     }
   },
   {
@@ -1160,13 +1160,13 @@
     "position": null
   },
   {
-    "content": "Return if an attribute from nested attribute set exists.\n\n# Example\n\n```nix\nlet\n  x = { a = { b = 3; }; }\n  hasAttrByPath [\"a\" \"b\"] x\nin\n  x -> true\n```\n\n```nix\nhasAttrByPath [\"z\" \"z\"] x\n=> false\n```\n\n# Type\n\n```haskell\nhasAttrByPath :: [String] -> AttrSet -> Bool\n```\n\n# Positional Arguments\n\n- 1: A list of strings representing the attribute path to check from `set`\n- 2: The nested attribute set to check",
+    "content": "Return if an attribute from nested attribute set exists.\n\n# Example\n\n```nix\nx = { a = { b = 3; }; }\nhasAttrByPath [\"a\" \"b\"] x\n=> true\nhasAttrByPath [\"z\" \"z\"] x\n=> false\n```\n\n# Type\n\n```haskell\nhasAttrByPath :: [String] -> AttrSet -> Bool\n```",
     "isPrimop": false,
     "name": "hasAttrByPath",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 78
+      "line": 71
     }
   },
   {
@@ -1236,13 +1236,13 @@
     }
   },
   {
-    "content": null,
+    "content": "The identity function\nFor when you need a function that does “nothing”.\n\n# Type\n\n```haskell\nid :: a -> a\n```",
     "isPrimop": false,
     "name": "id",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 14
+      "line": 19
     }
   },
   {
@@ -1286,23 +1286,23 @@
     }
   },
   {
-    "content": null,
+    "content": "Reads a JSON file.\n\n# Type\n\n```haskell\nimportJSON :: path -> any\n```",
     "isPrimop": false,
     "name": "importJSON",
     "position": {
       "column": 16,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 312
+      "line": 425
     }
   },
   {
-    "content": null,
+    "content": "Reads a TOML file.\n\n# Type\n\n```haskell\nimportTOML :: path -> any\n```",
     "isPrimop": false,
     "name": "importTOML",
     "position": {
       "column": 16,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 319
+      "line": 437
     }
   },
   {
@@ -1312,7 +1312,7 @@
     "position": {
       "column": 10,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 412
+      "line": 559
     }
   },
   {
@@ -1378,13 +1378,13 @@
     "position": null
   },
   {
-    "content": "Check whether the argument is a derivation. Any set with\n`{ type = \"derivation\"; }` counts as a derivation.\n\n# Example\n\nnixpkgs = import <nixpkgs> {}\nisDerivation nixpkgs.ruby\n=> true\nisDerivation \"foobar\"\n=> false\n\n# Type\n\nisDerivation :: Any -> Bool",
+    "content": "Check whether the argument is a derivation. Any set with\n`{ type = \"derivation\"; }` counts as a derivation.\n\n# Example\n\n```nix\nnixpkgs = import <nixpkgs> {}\nisDerivation nixpkgs.ruby\n=> true\nisDerivation \"foobar\"\n=> false\n```\n\n# Type\n\n```haskell\nisDerivation :: Any -> Bool\n```",
     "isPrimop": false,
     "name": "isDerivation",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 747
+      "line": 806
     }
   },
   {
@@ -1394,23 +1394,23 @@
     "position": null
   },
   {
-    "content": null,
+    "content": "Check whether something is a function or something\nannotated with function args.",
     "isPrimop": false,
     "name": "isFunction",
     "position": {
       "column": 16,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 448
+      "line": 598
     }
   },
   {
-    "content": null,
+    "content": "Release number of feature introduction as an integer, e.g. 2111 for 21.11.\nSet it to the upcoming release, matching the nixpkgs/.version file.",
     "isPrimop": false,
     "name": "isInOldestRelease",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 190
+      "line": 263
     }
   },
   {
@@ -1616,23 +1616,23 @@
     }
   },
   {
-    "content": null,
+    "content": "Same as `makeExtensible` but the name of the extending attribute is\ncustomized.",
     "isPrimop": false,
     "name": "makeExtensible",
     "position": {
       "column": 48,
       "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
-      "line": 143
+      "line": 151
     }
   },
   {
-    "content": null,
+    "content": "Same as `makeExtensible` but the name of the extending attribute is\ncustomized.",
     "isPrimop": false,
     "name": "makeExtensibleWithCustomName",
     "position": {
       "column": 34,
       "file": "/home/johannes/git/nixpkgs/lib/fixed-points.nix",
-      "line": 143
+      "line": 151
     }
   },
   {
@@ -1712,13 +1712,13 @@
     "position": null
   },
   {
-    "content": "Like `mapAttrs`, but allows the name of each attribute to be\nchanged in addition to the value.  The applied function should\nreturn both the new name and value as a `nameValuePair`.\n\n# Example\n\nmapAttrs' (name: value: nameValuePair (\"foo_\" + name) (\"bar-\" + value))\n{ x = \"a\"; y = \"b\"; }\n=> { foo_x = \"bar-a\"; foo_y = \"bar-b\"; }\n\n# Type\n\nmapAttrs' :: (String -> Any -> { name :: String; value :: Any; }) -> AttrSet -> AttrSet",
+    "content": "Like `mapAttrs`, but allows the name of each attribute to be\nchanged in addition to the value.  The applied function should\nreturn both the new name and value as a `nameValuePair`.\n\n# Example\n\n```nix\nmapAttrs' (name: value: nameValuePair (\"foo_\" + name) (\"bar-\" + value))\n{ x = \"a\"; y = \"b\"; }\n=> { foo_x = \"bar-a\"; foo_y = \"bar-b\"; }\n```\n\n# Type\n\n```haskell\nmapAttrs' :: (String -> Any -> { name :: String; value :: Any; }) -> AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "mapAttrs'",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 607
+      "line": 652
     }
   },
   {
@@ -1732,33 +1732,33 @@
     }
   },
   {
-    "content": "Like `mapAttrs`, except that it recursively applies itself to\nthe *leaf* attributes of a potentially-nested attribute set:\nthe second argument of the function will never be an attrset.\nAlso, the first argument of the argument function is a *list*\nof the attribute names that form the path to the leaf attribute.\n\nFor a function that gives you control over what counts as a leaf,\nsee `mapAttrsRecursiveCond`.\n\n# Example\n\nmapAttrsRecursive (path: value: concatStringsSep \"-\" (path ++ [value]))\n{ n = { a = \"A\"; m = { b = \"B\"; c = \"C\"; }; }; d = \"D\"; }\n=> { n = { a = \"n-a-A\"; m = { b = \"n-m-b-B\"; c = \"n-m-c-C\"; }; }; d = \"d-D\"; }\n\n# Type\n\nmapAttrsRecursive :: ([String] -> a -> b) -> AttrSet -> AttrSet",
+    "content": "Like `mapAttrs`, except that it recursively applies itself to\nthe *leaf* attributes of a potentially-nested attribute set:\nthe second argument of the function will never be an attrset.\nAlso, the first argument of the argument function is a *list*\nof the attribute names that form the path to the leaf attribute.\n\nFor a function that gives you control over what counts as a leaf,\nsee `mapAttrsRecursiveCond`.\n\n# Example\n\n```nix\nmapAttrsRecursive (path: value: concatStringsSep \"-\" (path ++ [value]))\n{ n = { a = \"A\"; m = { b = \"B\"; c = \"C\"; }; }; d = \"D\"; }\n=> { n = { a = \"n-a-A\"; m = { b = \"n-m-b-B\"; c = \"n-m-c-C\"; }; }; d = \"d-D\"; }\n```\n\n# Type\n\n```haskell\nmapAttrsRecursive :: ([String] -> a -> b) -> AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "mapAttrsRecursive",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 660
+      "line": 710
     }
   },
   {
-    "content": "Like `mapAttrsRecursive`, but it takes an additional predicate\nfunction that tells it whether to recurse into an attribute\nset.  If it returns false, `mapAttrsRecursiveCond` does not\nrecurse, but does apply the map function.  If it returns true, it\ndoes recurse, and does not apply the map function.\n\n# Example\n\n# To prevent recursing into derivations (which are attribute\n# sets with the attribute \"type\" equal to \"derivation\"):\nmapAttrsRecursiveCond\n(as: !(as ? \"type\" && as.type == \"derivation\"))\n(x: ... do something ...)\nattrs\n\n# Type\n\nmapAttrsRecursiveCond :: (AttrSet -> Bool) -> ([String] -> a -> b) -> AttrSet -> AttrSet",
+    "content": "Like `mapAttrsRecursive`, but it takes an additional predicate\nfunction that tells it whether to recurse into an attribute\nset.  If it returns false, `mapAttrsRecursiveCond` does not\nrecurse, but does apply the map function.  If it returns true, it\ndoes recurse, and does not apply the map function.\n\n# Example\n\n```nix\n# To prevent recursing into derivations (which are attribute\n# sets with the attribute \"type\" equal to \"derivation\"):\nmapAttrsRecursiveCond\n(as: !(as ? \"type\" && as.type == \"derivation\"))\n(x: ... do something ...)\nattrs\n```\n\n# Type\n\n```haskell\nmapAttrsRecursiveCond :: (AttrSet -> Bool) -> ([String] -> a -> b) -> AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "mapAttrsRecursiveCond",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 689
+      "line": 742
     }
   },
   {
-    "content": "Call a function for each attribute in the given set and return\nthe result in a list.\n\n# Example\n\nmapAttrsToList (name: value: name + value)\n{ x = \"a\"; y = \"b\"; }\n=> [ \"xa\" \"yb\" ]\n\n# Type\n\nmapAttrsToList :: (String -> a -> b) -> AttrSet -> [b]",
+    "content": "Call a function for each attribute in the given set and return\nthe result in a list.\n\n# Example\n\n```nix\nmapAttrsToList (name: value: name + value)\n{ x = \"a\"; y = \"b\"; }\n=> [ \"xa\" \"yb\" ]\n```\n\n# Type\n\n```haskell\nmapAttrsToList :: (String -> a -> b) -> AttrSet -> [b]\n```",
     "isPrimop": false,
     "name": "mapAttrsToList",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 631
+      "line": 678
     }
   },
   {
@@ -1772,33 +1772,33 @@
     }
   },
   {
-    "content": null,
+    "content": "Apply function if the supplied argument is non-null.\n\n# Example\n\n```nix\nmapNullable (x: x+1) null\n=> null\nmapNullable (x: x+1) 22\n=> 23\n```",
     "isPrimop": false,
     "name": "mapNullable",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 150
+      "line": 214
     }
   },
   {
-    "content": "Returns true if the pattern is contained in the set. False otherwise.\n\n# Example\n\nmatchAttrs { cpu = {}; } { cpu = { bits = 64; }; }\n=> true\n\n# Type\n\nmatchAttrs :: AttrSet -> AttrSet -> Bool",
+    "content": "Returns true if the pattern is contained in the set. False otherwise.\n\n# Example\n\n```nix\nmatchAttrs { cpu = {}; } { cpu = { bits = 64; }; }\n=> true\n```\n\n# Type\n\n```haskell\nmatchAttrs :: AttrSet -> AttrSet -> Bool\n```",
     "isPrimop": false,
     "name": "matchAttrs",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 1009
+      "line": 1092
     }
   },
   {
-    "content": null,
+    "content": "Return maximum of two numbers.",
     "isPrimop": false,
     "name": "max",
     "position": {
       "column": 9,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 246
+      "line": 341
     }
   },
   {
@@ -1832,13 +1832,13 @@
     }
   },
   {
-    "content": null,
+    "content": "The identity function\nFor when you need a function that does “nothing”.\n\n# Type\n\n```haskell\nid :: a -> a\n```",
     "isPrimop": false,
     "name": "mdDoc",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 14
+      "line": 19
     }
   },
   {
@@ -1852,13 +1852,13 @@
     }
   },
   {
-    "content": null,
+    "content": "Merge two attribute sets shallowly, right side trumps left\n\nmergeAttrs :: attrs -> attrs -> attrs\n\n# Example\n\n```nix\nmergeAttrs { a = 1; b = 2; } { b = 3; c = 4; }\n=> { a = 1; b = 3; c = 4; }\n```",
     "isPrimop": false,
     "name": "mergeAttrs",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 126
+      "line": 178
     }
   },
   {
@@ -2022,13 +2022,13 @@
     }
   },
   {
-    "content": null,
+    "content": "Return minimum of two numbers.",
     "isPrimop": false,
     "name": "min",
     "position": {
       "column": 9,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 243
+      "line": 336
     }
   },
   {
@@ -2142,13 +2142,13 @@
     }
   },
   {
-    "content": null,
+    "content": "The identity function\nFor when you need a function that does “nothing”.\n\n# Type\n\n```haskell\nid :: a -> a\n```",
     "isPrimop": false,
     "name": "mkFixStrictness",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 14
+      "line": 19
     }
   },
   {
@@ -2322,13 +2322,13 @@
     }
   },
   {
-    "content": null,
+    "content": "Integer modulus\n\n# Example\n\n```nix\nmod 11 10\n=> 1\nmod 1 10\n=> 1\n```",
     "isPrimop": false,
     "name": "mod",
     "position": {
       "column": 9,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 256
+      "line": 355
     }
   },
   {
@@ -2362,13 +2362,13 @@
     }
   },
   {
-    "content": "Utility function that creates a `{name, value}` pair as expected by `builtins.listToAttrs`.\n\n# Example\n\nnameValuePair \"some\" 6\n=> { name = \"some\"; value = 6; }\n\n# Type\n\nnameValuePair :: String -> Any -> { name :: String; value :: Any; }",
+    "content": "Utility function that creates a `{name, value}` pair as expected by `builtins.listToAttrs`.\n\n# Example\n\n```nix\nnameValuePair \"some\" 6\n=> { name = \"some\"; value = 6; }\n```\n\n# Type\n\n```haskell\nnameValuePair :: String -> Any -> { name :: String; value :: Any; }\n```",
     "isPrimop": false,
     "name": "nameValuePair",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 564
+      "line": 603
     }
   },
   {
@@ -2442,13 +2442,13 @@
     }
   },
   {
-    "content": "If `cond` is true, return the attribute set `as`,\notherwise an empty attribute set.\n\n# Example\n\noptionalAttrs (true) { my = \"set\"; }\n=> { my = \"set\"; }\noptionalAttrs (false) { my = \"set\"; }\n=> { }\n\n# Type\n\noptionalAttrs :: Bool -> AttrSet -> AttrSet",
+    "content": "If `cond` is true, return the attribute set `as`,\notherwise an empty attribute set.\n\n# Example\n\n```nix\noptionalAttrs (true) { my = \"set\"; }\n=> { my = \"set\"; }\noptionalAttrs (false) { my = \"set\"; }\n=> { }\n```\n\n# Type\n\n```haskell\noptionalAttrs :: Bool -> AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "optionalAttrs",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 791
+      "line": 854
     }
   },
   {
@@ -2472,13 +2472,13 @@
     }
   },
   {
-    "content": null,
+    "content": "boolean “or”",
     "isPrimop": false,
     "name": "or",
     "position": {
       "column": 8,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 83
+      "line": 116
     }
   },
   {
@@ -2492,13 +2492,13 @@
     }
   },
   {
-    "content": "Override only the attributes that are already present in the old set\nuseful for deep-overriding.\n\n# Example\n\noverrideExisting {} { a = 1; }\n=> {}\noverrideExisting { b = 2; } { a = 1; }\n=> { b = 2; }\noverrideExisting { a = 3; b = 2; } { a = 1; }\n=> { a = 1; b = 2; }\n\n# Type\n\noverrideExisting :: AttrSet -> AttrSet -> AttrSet",
+    "content": "Override only the attributes that are already present in the old set\nuseful for deep-overriding.\n\n# Example\n\n```nix\noverrideExisting {} { a = 1; }\n=> {}\noverrideExisting { b = 2; } { a = 1; }\n=> { b = 2; }\noverrideExisting { a = 3; b = 2; } { a = 1; }\n=> { a = 1; b = 2; }\n```\n\n# Type\n\n```haskell\noverrideExisting :: AttrSet -> AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "overrideExisting",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 1041
+      "line": 1127
     }
   },
   {
@@ -2566,13 +2566,13 @@
     "position": null
   },
   {
-    "content": null,
+    "content": "Pipes a value through a list of functions, left to right.\n\n# Example\n\n```nix\npipe 2 [\n(x: x + 2)  # 2 + 2 = 4\n(x: x * 2)  # 4 * 2 = 8\n]\n=> 8\n\n# ideal to do text transformations\npipe [ \"a/b\" \"a/c\" ] [\n\n# create the cp command\n(map (file: ''cp \"${src}/${file}\" $out\\n''))\n\n# concatenate all commands into one string\nlib.concatStrings\n\n# make that string into a nix derivation\n(pkgs.runCommand \"copy-to-out\" {})\n\n]\n=> <drv which copies all files to $out>\n\nThe output type of each function has to be the input type\nof the next function, and the last function returns the\nfinal value.\n```\n\n# Type\n\n```haskell\npipe :: a -> [<functions>] -> <return type of last function>\n```",
     "isPrimop": false,
     "name": "pipe",
     "position": {
       "column": 10,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 61
+      "line": 84
     }
   },
   {
@@ -2612,33 +2612,33 @@
     }
   },
   {
-    "content": "Make various Nix tools consider the contents of the resulting\nattribute set when looking for what to build, find, etc.\n\nThis function only affects a single attribute set; it does not\napply itself recursively for nested attribute sets.\n\n# Example\n\n{ pkgs ? import <nixpkgs> {} }:\n{\nmyTools = pkgs.lib.recurseIntoAttrs {\ninherit (pkgs) hello figlet;\n};\n}\n\n# Type\n\nrecurseIntoAttrs :: AttrSet -> AttrSet",
+    "content": "Make various Nix tools consider the contents of the resulting\nattribute set when looking for what to build, find, etc.\n\nThis function only affects a single attribute set; it does not\napply itself recursively for nested attribute sets.\n\n# Example\n\n```nix\n{ pkgs ? import <nixpkgs> {} }:\n{\nmyTools = pkgs.lib.recurseIntoAttrs {\ninherit (pkgs) hello figlet;\n};\n}\n```\n\n# Type\n\n```haskell\nrecurseIntoAttrs :: AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "recurseIntoAttrs",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 1195
+      "line": 1302
     }
   },
   {
-    "content": "A recursive variant of the update operator ‘//’.  The recursion\nstops when one of the attribute values is not an attribute set,\nin which case the right hand side value takes precedence over the\nleft hand side value.\n\n# Example\n\nrecursiveUpdate {\nboot.loader.grub.enable = true;\nboot.loader.grub.device = \"/dev/hda\";\n} {\nboot.loader.grub.device = \"\";\n}\n\nreturns: {\nboot.loader.grub.enable = true;\nboot.loader.grub.device = \"\";\n}\n\n# Type\n\nrecursiveUpdate :: AttrSet -> AttrSet -> AttrSet",
+    "content": "A recursive variant of the update operator ‘//’.  The recursion\nstops when one of the attribute values is not an attribute set,\nin which case the right hand side value takes precedence over the\nleft hand side value.\n\n# Example\n\n```nix\nrecursiveUpdate {\nboot.loader.grub.enable = true;\nboot.loader.grub.device = \"/dev/hda\";\n} {\nboot.loader.grub.device = \"\";\n}\n\nreturns: {\nboot.loader.grub.enable = true;\nboot.loader.grub.device = \"\";\n}\n```\n\n# Type\n\n```haskell\nrecursiveUpdate :: AttrSet -> AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "recursiveUpdate",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 988
+      "line": 1068
     }
   },
   {
-    "content": "Does the same as the update operator '//' except that attributes are\nmerged until the given predicate is verified.  The predicate should\naccept 3 arguments which are the path to reach the attribute, a part of\nthe first attribute set and a part of the second attribute set.  When\nthe predicate is satisfied, the value of the first attribute set is\nreplaced by the value of the second attribute set.\n\n# Example\n\nrecursiveUpdateUntil (path: l: r: path == [\"foo\"]) {\n# first attribute set\nfoo.bar = 1;\nfoo.baz = 2;\nbar = 3;\n} {\n#second attribute set\nfoo.bar = 1;\nfoo.quz = 2;\nbaz = 4;\n}\n\n=> {\nfoo.bar = 1; # 'foo.*' from the second set\nfoo.quz = 2; #\nbar = 3;     # 'bar' from the first set\nbaz = 4;     # 'baz' from the second set\n}\n\n# Type\n\nrecursiveUpdateUntil :: ( [ String ] -> AttrSet -> AttrSet -> Bool ) -> AttrSet -> AttrSet -> AttrSet",
+    "content": "Does the same as the update operator '//' except that attributes are\nmerged until the given predicate is verified.  The predicate should\naccept 3 arguments which are the path to reach the attribute, a part of\nthe first attribute set and a part of the second attribute set.  When\nthe predicate is satisfied, the value of the first attribute set is\nreplaced by the value of the second attribute set.\n\n# Example\n\n```nix\nrecursiveUpdateUntil (path: l: r: path == [\"foo\"]) {\n# first attribute set\nfoo.bar = 1;\nfoo.baz = 2;\nbar = 3;\n} {\n#second attribute set\nfoo.bar = 1;\nfoo.quz = 2;\nbaz = 4;\n}\n\n=> {\nfoo.bar = 1; # 'foo.*' from the second set\nfoo.quz = 2; #\nbar = 3;     # 'bar' from the first set\nbaz = 4;     # 'baz' from the second set\n}\n```\n\n# Type\n\n```haskell\nrecursiveUpdateUntil :: ( [ String ] -> AttrSet -> AttrSet -> Bool ) -> AttrSet -> AttrSet -> AttrSet\n```",
     "isPrimop": false,
     "name": "recursiveUpdateUntil",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 944
+      "line": 1021
     }
   },
   {
@@ -2740,13 +2740,13 @@
     }
   },
   {
-    "content": "Create a new attribute set with `value` set at the nested attribute location specified in `attrPath`.\n\n# Example\n\nsetAttrByPath [\"a\" \"b\"] 3\n=> { a = { b = 3; }; }\n\n# Type\n\nsetAttrByPath :: [String] -> Any -> AttrSet",
+    "content": "Create a new attribute set with `value` set at the nested attribute location specified in `attrPath`.\n\n# Example\n\n```nix\nsetAttrByPath [\"a\" \"b\"] 3\n=> { a = { b = 3; }; }\n```\n\n# Type\n\n```haskell\nsetAttrByPath :: [String] -> Any -> AttrSet\n```",
     "isPrimop": false,
     "name": "setAttrByPath",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 103
+      "line": 100
     }
   },
   {
@@ -2770,13 +2770,13 @@
     }
   },
   {
-    "content": null,
+    "content": "Add metadata about expected function arguments to a function.\nThe metadata should match the format given by\nbuiltins.functionArgs, i.e. a set from expected argument to a bool\nrepresenting whether that argument has a default or not.\nsetFunctionArgs : (a → b) → Map String Bool → (a → b)\n\nThis function is necessary because you can't dynamically create a\nfunction of the { a, b ? foo, ... }: format, but some facilities\nlike callPackage expect to be able to query expected arguments.",
     "isPrimop": false,
     "name": "setFunctionArgs",
     "position": {
       "column": 21,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 428
+      "line": 576
     }
   },
   {
@@ -2810,13 +2810,13 @@
     }
   },
   {
-    "content": "Turns a list of strings into a human-readable description of those\nstrings represented as an attribute path. The result of this function is\nnot intended to be machine-readable.\nCreate a new attribute set with `value` set at the nested attribute location specified in `attrPath`.\n\n# Example\n\nshowAttrPath [ \"foo\" \"10\" \"bar\" ]\n=> \"foo.\\\"10\\\".bar\"\nshowAttrPath []\n=> \"<root attribute path>\"\n\n# Type\n\nshowAttrPath :: [String] -> String",
+    "content": "Turns a list of strings into a human-readable description of those\nstrings represented as an attribute path. The result of this function is\nnot intended to be machine-readable.\nCreate a new attribute set with `value` set at the nested attribute location specified in `attrPath`.\n\n# Example\n\n```nix\nshowAttrPath [ \"foo\" \"10\" \"bar\" ]\n=> \"foo.\\\"10\\\".bar\"\nshowAttrPath []\n=> \"<root attribute path>\"\n```\n\n# Type\n\n```haskell\nshowAttrPath :: [String] -> String\n```",
     "isPrimop": false,
     "name": "showAttrPath",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 1067
+      "line": 1156
     }
   },
   {
@@ -2856,7 +2856,7 @@
     "position": {
       "column": 18,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 414
+      "line": 561
     }
   },
   {
@@ -2906,13 +2906,13 @@
     }
   },
   {
-    "content": null,
+    "content": "Split type into two subtypes by predicate `p`, take all elements\nof the first subtype to be less than all the elements of the\nsecond subtype, compare elements of a single subtype with `yes`\nand `no` respectively.\n\n# Example\n\n```nix\nlet cmp = splitByAndCompare (hasPrefix \"foo\") compare compare; in\n\ncmp \"a\" \"z\" => -1\ncmp \"fooa\" \"fooz\" => -1\n\ncmp \"f\" \"a\" => 1\ncmp \"fooa\" \"a\" => -1\n# while\ncompare \"fooa\" \"a\" => 1\n```\n\n# Type\n\n```haskell\n(a -> bool) -> (a -> a -> int) -> (a -> a -> int) -> (a -> a -> int)\n```",
     "isPrimop": false,
     "name": "splitByAndCompare",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 294
+      "line": 402
     }
   },
   {
@@ -3046,63 +3046,63 @@
     }
   },
   {
-    "content": null,
+    "content": "Like throwIfNot, but negated (throw if the first argument is `true`).\n\n# Type\n\n```haskell\nbool -> string -> a -> a\n```",
     "isPrimop": false,
     "name": "throwIf",
     "position": {
       "column": 13,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 393
+      "line": 532
     }
   },
   {
-    "content": null,
+    "content": "Like the `assert b; e` expression, but with a custom error message and\nwithout the semicolon.\n\nIf true, return the identity function, `r: r`.\n\nIf false, throw the error message.\n\nCalls can be juxtaposed using function application, as `(r: r) a = a`, so\n`(r: r) (r: r) a = a`, and so forth.\n\n# Example\n\n```nix\nthrowIfNot (lib.isList overlays) \"The overlays argument to nixpkgs must be a list.\"\nlib.foldr (x: throwIfNot (lib.isFunction x) \"All overlays passed to nixpkgs must be functions.\") (r: r) overlays\npkgs\n```\n\n# Type\n\n```haskell\nbool -> string -> a -> a\n```",
     "isPrimop": false,
     "name": "throwIfNot",
     "position": {
       "column": 16,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 386
+      "line": 521
     }
   },
   {
-    "content": null,
+    "content": "`toBaseDigits base i` converts the positive integer i to a list of its\ndigits in the given base. For example:\n\ntoBaseDigits 10 123 => [ 1 2 3 ]\n\ntoBaseDigits 2 6 => [ 1 1 0 ]\n\ntoBaseDigits 16 250 => [ 15 10 ]",
     "isPrimop": false,
     "name": "toBaseDigits",
     "position": {
       "column": 18,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 505
+      "line": 659
     }
   },
   {
-    "content": "Converts a store path to a fake derivation.\n\n# Type\n\ntoDerivation :: Path -> Derivation",
+    "content": "Converts a store path to a fake derivation.\n\n# Type\n\n```haskell\ntoDerivation :: Path -> Derivation\n```",
     "isPrimop": false,
     "name": "toDerivation",
     "position": {
       "column": 6,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 759
+      "line": 819
     }
   },
   {
-    "content": null,
+    "content": "Turns any non-callable values into constant functions.\nReturns callable values as is.\n\n# Example\n\n```nix\nnix-repl> lib.toFunction 1 2\n1\n\nnix-repl> lib.toFunction (x: x + 1) 2\n3\n```",
     "isPrimop": false,
     "name": "toFunction",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 465
+      "line": 617
     }
   },
   {
-    "content": null,
+    "content": "Convert the given positive integer to a string of its hexadecimal\nrepresentation. For example:\n\ntoHexString 0 => \"0\"\n\ntoHexString 16 => \"10\"\n\ntoHexString 250 => \"FA\"",
     "isPrimop": false,
     "name": "toHexString",
     "position": {
       "column": 17,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 479
+      "line": 632
     }
   },
   {
@@ -3326,7 +3326,7 @@
     "position": {
       "column": 6,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 269
+      "line": 276
     }
   },
   {
@@ -3366,27 +3366,27 @@
     "position": {
       "column": 10,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 350
+      "line": 472
     }
   },
   {
-    "content": null,
+    "content": "Like warn, but only warn when the first argument is `true`.\n\n# Type\n\n```haskell\nbool -> string -> a -> a\n```",
     "isPrimop": false,
     "name": "warnIf",
     "position": {
       "column": 12,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 357
+      "line": 483
     }
   },
   {
-    "content": null,
+    "content": "Like warnIf, but negated (warn if the first argument is `false`).\n\n# Type\n\n```haskell\nbool -> string -> a -> a\n```",
     "isPrimop": false,
     "name": "warnIfNot",
     "position": {
       "column": 15,
       "file": "/home/johannes/git/nixpkgs/lib/trivial.nix",
-      "line": 364
+      "line": 494
     }
   },
   {
@@ -3416,13 +3416,13 @@
     "position": null
   },
   {
-    "content": "Merge sets of attributes and combine each attribute value in to a list.\n\nLike `lib.attrsets.zipAttrsWith` with `(name: values: values)` as the function.\n\n# Example\n\nzipAttrs [{a = \"x\";} {a = \"y\"; b = \"z\";}]\n=> { a = [\"x\" \"y\"]; b = [\"z\"]; }\n\n# Type\n\nzipAttrs :: [ AttrSet ] -> AttrSet",
+    "content": "Merge sets of attributes and combine each attribute value in to a list.\n\nLike `lib.attrsets.zipAttrsWith` with `(name: values: values)` as the function.\n\n# Example\n\n```nix\nzipAttrs [{a = \"x\";} {a = \"y\"; b = \"z\";}]\n=> { a = [\"x\" \"y\"]; b = [\"z\"]; }\n```\n\n# Type\n\n```haskell\nzipAttrs :: [ AttrSet ] -> AttrSet\n```",
     "isPrimop": false,
     "name": "zipAttrs",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 864
+      "line": 936
     }
   },
   {
@@ -3432,13 +3432,13 @@
     "position": null
   },
   {
-    "content": "Merge sets of attributes and use the function `f` to merge attributes\nvalues.\n\n# Example\n\nzipAttrsWithNames [\"a\"] (name: vs: vs) [{a = \"x\";} {a = \"y\"; b = \"z\";}]\n=> { a = [\"x\" \"y\"]; }\n\n# Type\n\nzipAttrsWithNames :: [ String ] -> (String -> [ Any ] -> Any) -> [ AttrSet ] -> AttrSet",
+    "content": "Merge sets of attributes and use the function `f` to merge attributes\nvalues.\n\n# Example\n\n```nix\nzipAttrsWithNames [\"a\"] (name: vs: vs) [{a = \"x\";} {a = \"y\"; b = \"z\";}]\n=> { a = [\"x\" \"y\"]; }\n```\n\n# Type\n\n```haskell\nzipAttrsWithNames :: [ String ] -> (String -> [ Any ] -> Any) -> [ AttrSet ] -> AttrSet\n```",
     "isPrimop": false,
     "name": "zipAttrsWithNames",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 813
+      "line": 879
     }
   },
   {
@@ -3462,13 +3462,13 @@
     }
   },
   {
-    "content": "Merge sets of attributes and use the function `f` to merge attributes\nvalues.\n\n# Example\n\nzipAttrsWithNames [\"a\"] (name: vs: vs) [{a = \"x\";} {a = \"y\"; b = \"z\";}]\n=> { a = [\"x\" \"y\"]; }\n\n# Type\n\nzipAttrsWithNames :: [ String ] -> (String -> [ Any ] -> Any) -> [ AttrSet ] -> AttrSet",
+    "content": "Merge sets of attributes and use the function `f` to merge attributes\nvalues.\n\n# Example\n\n```nix\nzipAttrsWithNames [\"a\"] (name: vs: vs) [{a = \"x\";} {a = \"y\"; b = \"z\";}]\n=> { a = [\"x\" \"y\"]; }\n```\n\n# Type\n\n```haskell\nzipAttrsWithNames :: [ String ] -> (String -> [ Any ] -> Any) -> [ AttrSet ] -> AttrSet\n```",
     "isPrimop": false,
     "name": "zipWithNames",
     "position": {
       "column": 5,
       "file": "/home/johannes/git/nixpkgs/lib/attrsets.nix",
-      "line": 813
+      "line": 879
     }
   }
 ]

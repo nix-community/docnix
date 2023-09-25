@@ -1,9 +1,10 @@
 ---
 title: lib.isDerivation
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L806C5
 description: isDerivation
 ---
 
-import { LinkCard, CardGrid } from "@astrojs/starlight/components";
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 Check whether the argument is a derivation. Any set with
 `{ type = "derivation"; }` counts as a derivation.
@@ -14,9 +15,6 @@ Check whether the argument is a derivation. Any set with
 nixpkgs = import <nixpkgs> {}
 isDerivation nixpkgs.ruby
 => true
-```
-
-```nix
 isDerivation "foobar"
 => false
 ```

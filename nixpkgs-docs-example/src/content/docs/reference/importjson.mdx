@@ -1,14 +1,15 @@
 ---
 title: lib.importJSON
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L425C16
 description: importJSON
 ---
 
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
+Reads a JSON file.
 
-<LinkCard
-    title="Contribute Now!"
-    description="API Documentation is done in our source code"
-    href="https://www.github.com/nixos/nixpkgs"
-/>
+# Type
 
+```haskell
+importJSON :: path -> any
+```

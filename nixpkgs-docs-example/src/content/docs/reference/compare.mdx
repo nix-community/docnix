@@ -1,14 +1,13 @@
 ---
 title: lib.compare
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L367C13
 description: compare
 ---
 
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
+C-style comparisons
 
-<LinkCard
-    title="Contribute Now!"
-    description="API Documentation is done in our source code"
-    href="https://www.github.com/nixos/nixpkgs"
-/>
-
+a < b,  compare a b => -1
+a == b, compare a b => 0
+a > b,  compare a b => 1

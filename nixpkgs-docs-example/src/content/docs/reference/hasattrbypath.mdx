@@ -1,5 +1,6 @@
 ---
 title: lib.hasAttrByPath
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L71C5
 description: hasAttrByPath
 ---
 
@@ -10,14 +11,9 @@ Return if an attribute from nested attribute set exists.
 # Example
 
 ```nix
-let
-  x = { a = { b = 3; }; }
-  hasAttrByPath ["a" "b"] x
-in
-  x -> true
-```
-
-```nix
+x = { a = { b = 3; }; }
+hasAttrByPath ["a" "b"] x
+=> true
 hasAttrByPath ["z" "z"] x
 => false
 ```
@@ -27,8 +23,3 @@ hasAttrByPath ["z" "z"] x
 ```haskell
 hasAttrByPath :: [String] -> AttrSet -> Bool
 ```
-
-# Positional Arguments
-
-- 1: A list of strings representing the attribute path to check from `set`
-- 2: The nested attribute set to check

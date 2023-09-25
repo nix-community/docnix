@@ -1,9 +1,10 @@
 ---
 title: lib.getAttrFromPath
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L133C5
 description: getAttrFromPath
 ---
 
-import { LinkCard, CardGrid } from "@astrojs/starlight/components";
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 Like `attrByPath`, but without a default value. If it doesn't find the
 path it will throw an error.
@@ -14,9 +15,6 @@ path it will throw an error.
 x = { a = { b = 3; }; }
 getAttrFromPath ["a" "b"] x
 => 3
-```
-
-```nix
 getAttrFromPath ["z" "z"] x
 => error: cannot find attribute `z.z'
 ```
