@@ -17,6 +17,7 @@
     expected = {
       content = "Foo docs";
       isPrimop = false;
+      countApplied = 0;
       # We dont check the posiion in this example it is likely to change when reformatting this file
       position = expr.position;
     };
@@ -36,6 +37,7 @@
     expected = {
       content = "Foo docs";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
@@ -52,6 +54,7 @@
     expected = {
       content = "Foo docs";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
@@ -65,15 +68,16 @@
         Fallback LambdaDoc comment
         */
         foo =
-        /**
-        Primary LambdaDoc 
-        */
-        x: x;
+          /**
+          Primary LambdaDoc
+          */
+          x: x;
       }
       .foo;
     expected = {
       content = "Primary LambdaDoc";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
@@ -92,6 +96,7 @@
     expected = {
       content = "Foo docs";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
@@ -112,6 +117,7 @@
     expected = {
       content = "This is weird. You should not document like that.";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
@@ -121,8 +127,7 @@
         /**
         Foo docs
         */
-        foo = a: 
-        b:
+        foo = a: b:
         /**
         This is weird. You should not document like that.
         */
@@ -133,6 +138,7 @@
     expected = {
       content = "This is weird. You should not document like that.";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
@@ -154,6 +160,7 @@
     expected = {
       content = "The id function";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
@@ -178,6 +185,7 @@
     expected = {
       content = "The id function";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
@@ -202,6 +210,7 @@
     expected = {
       content = "The id function";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
@@ -217,6 +226,7 @@
     expected = {
       content = "A function";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
@@ -229,31 +239,33 @@
         Never shown
         use getAttrDoc to show it.
         */
-        add = builtins.add 
-        or
-        /** 
-        This will be shown if builtins.add is not available
-        */
-        (x: y: x + y);
+        add =
+          builtins.add
+          or
+          /**
+          This will be shown if builtins.add is not available
+          */
+          (x: y: x + y);
       }
       .add);
     expected = {
       # TODO: print documentation of primops here
       content = "Return the sum of the numbers *e1* and *e2*.";
       isPrimop = true;
+      countApplied = 0;
       position = expr.position;
     };
   };
 
   test_primopApp = rec {
     expr = getLambdaDoc ({
-      /**
-      This is not shown for partially applied primOps
-      It shows the builtins.docs instead
-      */
-      add = builtins.add 1;
-
-    }.add);
+        /**
+        This is not shown for partially applied primOps
+        It shows the builtins.docs instead
+        */
+        add = builtins.add 1;
+      }
+      .add);
     expected = {
       # TODO: print documentation of primops here
       content = "Return the sum of the numbers *e1* and *e2*.";
@@ -264,18 +276,18 @@
   };
   test_primopApp_complex = rec {
     expr = getLambdaDoc ({
-      /**
-      This is not shown for partially applied primOps
-      It shows the builtins.docs instead
-      */
-      add = builtins.substring 3 0;
-
-    }.add);
+        /**
+        This is not shown for partially applied primOps
+        It shows the builtins.docs instead
+        */
+        add = builtins.substring 3 0;
+      }
+      .add);
     expected = {
       # TODO: print documentation of primops here
       content = "Return the substring of *s* from character position *start*\n(zero-based) up to but not including *start + len*. If *start* is\ngreater than the length of the string, an empty string is returned,\nand if *start + len* lies beyond the end of the string, only the\nsubstring up to the end of the string is returned. *start* must be\nnon-negative. For example,\n\n```nix\nbuiltins.substring 0 3 \"nixos\"\n```\n\nevaluates to `\"nix\"`.";
       isPrimop = true;
-      countApplied = 2; 
+      countApplied = 2;
       position = expr.position;
     };
   };
@@ -290,8 +302,9 @@
       }
       .id);
     expected = {
-      content = null;
+      content = "";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
@@ -315,11 +328,30 @@
       # TODO: print documentation of primops here
       content = "The lib function id";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };
 
-  # Tests where we need https://github.com/NixOS/nix/issues/8968 to be solved.
+
+
+  error = rec {
+    expr = builtins.unsafeGetLambdaDoc ({
+        /**
+        Foo docs
+        */
+        foo = a: b: c: a;
+      }
+      .foo "1");
+    expected = {
+      content = "Foo docs";
+      isPrimop = false;
+      countApplied = 0;
+      position = expr.position;
+    };
+  };
+
+    # Tests where we need https://github.com/NixOS/nix/issues/8968 to be solved.
 
   # TODO: This doesnt work yet
   # test_dynamic_path_simple = rec {
@@ -351,7 +383,7 @@
   #   };
   # };
 
-  # THIS WILL NEVER WORK 
+  # THIS WILL NEVER WORK
   # TODO: this test traps the REGEX in infinite recursion. Will be solved by https://github.com/NixOS/nix/issues/8968 too.
   # test_dynamic_path_complex = rec {
   #   expr = getLambdaDoc ({
@@ -368,7 +400,7 @@
   #   };
   # };
 
-  # TODO: somehow this doesnt work 
+  # TODO: somehow this doesnt work
   # test_dynamic_path_correct = rec {
   #   expr = getLambdaDoc ({
   #       /**
@@ -386,18 +418,18 @@
   #     position = expr.position;
   #   };
   # };
-
-
   test_lambda_partially_applied_3 = rec {
     expr = getLambdaDoc ({
         /**
         Foo docs
         */
         foo = a: b: c: a;
-      }.foo "1");
+      }
+      .foo "1");
     expected = {
       content = "Foo docs";
       isPrimop = false;
+      countApplied = 0;
       position = expr.position;
     };
   };

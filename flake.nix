@@ -41,7 +41,7 @@
             name = "doc-comment-devshell";
             packages = [
               inputs'.nixpkgs.legacyPackages.nodejs_20
-              inputs'.nix.packages.nix
+              inputs'.nix.packages.nix-clangStdenv
               inputs'.nix-unit.packages.nix-unit
             ];
           };
