@@ -23,6 +23,19 @@ const getUrl = (position, primop) => {
   return "https://www.github.com/nixos/nixpkgs/blob/master";
 };
 
+const sanitizeMdx = (content) => {
+  const escapes = ["{", "}", "[", "]", "<", ">"];
+  return content;
+  // return escapes.reduce(
+  //   (res, symbol) => res.replaceAll(symbol, `\\${symbol}`),
+  //   content
+  // );
+};
+
+const getLink = (href, label) => {
+  return `<a href="${href}">${label}</a>`;
+};
+
 data.forEach((docItem, idx) => {
   const title = `${docItem.name} ${
     docItem.name.endsWith("'") ? "(Prime)" : ""
@@ -47,20 +60,14 @@ editUrl: ${getUrl(docItem.position, docItem.isPrimop)}
 description: ${docItem.name}${docItem.isPrimop ? badge : ""}
 ---
 
-import { LinkCard, CardGrid } from '@astrojs/starlight/components';
-
 ${
   docItem.content
-    ? docItem.content
-    : linkCard(
-        getUrl(docItem.position, docItem.isPrimop),
-        "Contribute Now!",
-        "API Documentation is done in our source code"
-      )
+    ? sanitizeMdx(docItem.content)
+    : getLink(getUrl(docItem.position, docItem.isPrimop), "Contribute Now!")
 }
 `;
   fs.writeFile(
-    `./src/content/docs/reference/${filename}.mdx`,
+    `./src/content/docs/reference/${filename}.md`,
     content,
     (err) => {
       if (err) {

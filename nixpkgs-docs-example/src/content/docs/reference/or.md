@@ -1,0 +1,7 @@
+---
+title: lib.or
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L116C8
+description: or
+---
+
+boolean “or”

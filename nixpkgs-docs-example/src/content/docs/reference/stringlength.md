@@ -1,0 +1,13 @@
+---
+title: lib.stringLength
+editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+description: stringLength
+sidebar:
+    badge: 
+        text: Builtin
+        variant: note
+
+---
+
+Return the length of the string *e*. If *e* is not a string,
+evaluation is aborted.

@@ -1,0 +1,14 @@
+---
+title: lib.pathHasContext
+editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+description: pathHasContext
+sidebar:
+    badge: 
+        text: Builtin
+        variant: note
+
+---
+
+Return `true` if string *s* has a non-empty context. The
+context can be obtained with
+[`getContext`](#builtins-getContext).
