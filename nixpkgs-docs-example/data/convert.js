@@ -36,39 +36,93 @@ const getLink = (href, label) => {
   return `<a href="${href}">${label}</a>`;
 };
 
-data.forEach((docItem, idx) => {
-  const title = `${docItem.name} ${
-    docItem.name.endsWith("'") ? "(Prime)" : ""
-  }`.trim();
-  const badge = `
-sidebar:
-    badge: 
+const badge = `
+    badge:
         text: Builtin
         variant: note
 `;
-  const linkCard = (href, title, description) => `
+
+const linkCard = (href, title, description) => `
 <LinkCard
     title="${title}"
     description="${description}"
     href="${href}"
 />
 `;
+
+/**
+ * @param {[[string]]} aliases
+ */
+const getAliases = (aliases, path) => {
+  const paths = aliases
+    .filter((p) => !p.every((subpath, idx) => path[idx] === subpath))
+    .map((p) => p.join("."));
+  const res = paths
+    .sort()
+    .map((n) => `- [${n}](/reference/${n.replace(".", "")})`)
+    .join("\n");
+  return res;
+};
+
+data.forEach((item, idx) => {
+  const { docs, path, aliases } = item;
+  const { lambdaDocs, attrDocs } = docs;
+  const { position, isPrimop, countApplied, content } = lambdaDocs;
+  const { content: altContent } = attrDocs;
+
+  const name = path.join(".");
+
+  console.log({ name, aliases });
+  const title = `${name} ${name.endsWith("'") ? "(Prime)" : ""}`.trim();
+
+  const aliasList = getAliases(aliases, path);
+  const aliasContent = `
+# Aliases
+
+${aliasList}
+`;
+
   const filename = title.toLowerCase().replaceAll(" ", "-");
-  const content = `---
-title: lib.${title}
-editUrl: ${getUrl(docItem.position, docItem.isPrimop)}
-description: ${docItem.name}${docItem.isPrimop ? badge : ""}
+  const mdContent = `---
+title: ${title}
+editUrl: ${getUrl(position, isPrimop)}
+description: ${name}
+sidebar:
+${isPrimop ? badge : ""}
+    order: ${path.some((p) => p === "builtins") ? 0 : 10 - path.length}
 ---
 
 ${
-  docItem.content
-    ? sanitizeMdx(docItem.content)
-    : getLink(getUrl(docItem.position, docItem.isPrimop), "Contribute Now!")
+  content
+    ? sanitizeMdx(content)
+    : altContent
+    ? altContent
+    : getLink(getUrl(position, isPrimop), "Contribute Now!")
 }
+
+${aliasList ? aliasContent : ""}
+
 `;
-  fs.writeFile(
-    `./src/content/docs/reference/${filename}.md`,
-    content,
+
+  const subpath = path.slice(0, -1);
+  console.log({ subpath });
+  fs.mkdirSync(
+    `./src/content/docs/reference/${subpath.join("/")}`,
+    { recursive: true },
+    (err) => {
+      if (err) {
+        return console.error(err);
+      }
+      // console.log("Directory created successfully!");
+    }
+  );
+
+  fs.writeFileSync(
+    `./src/content/docs/reference/${subpath.join("/")}/${title.replaceAll(
+      ".",
+      "-"
+    )}.md`,
+    mdContent,
     (err) => {
       if (err) {
         console.error(err);
