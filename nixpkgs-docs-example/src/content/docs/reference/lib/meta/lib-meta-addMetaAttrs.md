@@ -19,6 +19,6 @@ addMetaAttrs {description = "Bla blah";} somePkg
 
 # Aliases
 
-- [lib.addMetaAttrs](/reference/libaddMetaAttrs)
+- [lib.addMetaAttrs](./reference/lib/lib-addMetaAttrs)
 
 

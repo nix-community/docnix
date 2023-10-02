@@ -27,6 +27,6 @@ concatMapStringsSep :: string -> (a -> string) -> [a] -> string
 
 # Aliases
 
-- [lib.concatMapStringsSep](/reference/libconcatMapStringsSep)
+- [lib.concatMapStringsSep](./reference/lib/lib-concatMapStringsSep)
 
 

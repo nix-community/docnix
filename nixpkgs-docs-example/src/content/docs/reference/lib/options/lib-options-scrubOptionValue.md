@@ -21,6 +21,6 @@ compatibility with out-of-tree code.
 
 # Aliases
 
-- [lib.scrubOptionValue](/reference/libscrubOptionValue)
+- [lib.scrubOptionValue](./reference/lib/lib-scrubOptionValue)
 
 

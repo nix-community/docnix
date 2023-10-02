@@ -22,6 +22,6 @@ withFeatureAs false "shared" (throw "ignored")
 
 # Aliases
 
-- [lib.strings.withFeatureAs](/reference/libstrings.withFeatureAs)
+- [lib.strings.withFeatureAs](./reference/lib/strings/lib-strings-withFeatureAs)
 
 

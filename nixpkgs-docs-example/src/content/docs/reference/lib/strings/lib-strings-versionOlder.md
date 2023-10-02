@@ -21,6 +21,6 @@ versionOlder "1.1" "1.1"
 
 # Aliases
 
-- [lib.versionOlder](/reference/libversionOlder)
+- [lib.versionOlder](./reference/lib/lib-versionOlder)
 
 

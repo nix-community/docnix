@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mkOrder](/reference/libmkOrder)
+- [lib.mkOrder](./reference/lib/lib-mkOrder)
 
 

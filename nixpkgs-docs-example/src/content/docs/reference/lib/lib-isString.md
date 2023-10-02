@@ -16,7 +16,7 @@ Return `true` if *e* evaluates to a string, and `false` otherwise.
 
 # Aliases
 
-- [builtins.isString](/reference/builtinsisString)
-- [lib.strings.isString](/reference/libstrings.isString)
+- [builtins.isString](./reference/builtins/builtins-isString)
+- [lib.strings.isString](./reference/lib/strings/lib-strings-isString)
 
 

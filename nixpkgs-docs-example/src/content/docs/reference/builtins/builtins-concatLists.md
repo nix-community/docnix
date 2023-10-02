@@ -16,7 +16,7 @@ Concatenate a list of lists into a single list.
 
 # Aliases
 
-- [lib.concatLists](/reference/libconcatLists)
-- [lib.lists.concatLists](/reference/liblists.concatLists)
+- [lib.concatLists](./reference/lib/lib-concatLists)
+- [lib.lists.concatLists](./reference/lib/lists/lib-lists-concatLists)
 
 

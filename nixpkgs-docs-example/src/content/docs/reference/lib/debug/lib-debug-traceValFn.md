@@ -27,6 +27,6 @@ traceValFn :: (a -> b) -> a -> a
 
 # Aliases
 
-- [lib.traceValFn](/reference/libtraceValFn)
+- [lib.traceValFn](./reference/lib/lib-traceValFn)
 
 

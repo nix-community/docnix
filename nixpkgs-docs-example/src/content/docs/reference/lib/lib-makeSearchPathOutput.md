@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.strings.makeSearchPathOutput](/reference/libstrings.makeSearchPathOutput)
+- [lib.strings.makeSearchPathOutput](./reference/lib/strings/lib-strings-makeSearchPathOutput)
 
 

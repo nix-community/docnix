@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.modules.mkMerge](/reference/libmodules.mkMerge)
+- [lib.modules.mkMerge](./reference/lib/modules/lib-modules-mkMerge)
 
 

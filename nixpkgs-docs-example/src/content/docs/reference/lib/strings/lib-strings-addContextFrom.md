@@ -26,6 +26,6 @@ addContextFrom pkgs.coreutils "bar"
 
 # Aliases
 
-- [lib.addContextFrom](/reference/libaddContextFrom)
+- [lib.addContextFrom](./reference/lib/lib-addContextFrom)
 
 

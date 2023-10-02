@@ -27,14 +27,14 @@ evaluates to `"fabir"`.
 
 # Aliases
 
-- [lib.escapeRegex](/reference/libescapeRegex)
-- [lib.escapeURL](/reference/libescapeURL)
-- [lib.escapeXML](/reference/libescapeXML)
-- [lib.strings.escapeRegex](/reference/libstrings.escapeRegex)
-- [lib.strings.escapeURL](/reference/libstrings.escapeURL)
-- [lib.strings.toLower](/reference/libstrings.toLower)
-- [lib.strings.toUpper](/reference/libstrings.toUpper)
-- [lib.toLower](/reference/libtoLower)
-- [lib.toUpper](/reference/libtoUpper)
+- [lib.escapeRegex](./reference/lib/lib-escapeRegex)
+- [lib.escapeURL](./reference/lib/lib-escapeURL)
+- [lib.escapeXML](./reference/lib/lib-escapeXML)
+- [lib.strings.escapeRegex](./reference/lib/strings/lib-strings-escapeRegex)
+- [lib.strings.escapeURL](./reference/lib/strings/lib-strings-escapeURL)
+- [lib.strings.toLower](./reference/lib/strings/lib-strings-toLower)
+- [lib.strings.toUpper](./reference/lib/strings/lib-strings-toUpper)
+- [lib.toLower](./reference/lib/lib-toLower)
+- [lib.toUpper](./reference/lib/lib-toUpper)
 
 

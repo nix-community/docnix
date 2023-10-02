@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.fixupOptionType](/reference/libfixupOptionType)
+- [lib.fixupOptionType](./reference/lib/lib-fixupOptionType)
 
 

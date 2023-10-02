@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.attrsets.getOutput](/reference/libattrsets.getOutput)
+- [lib.attrsets.getOutput](./reference/lib/attrsets/lib-attrsets-getOutput)
 
 

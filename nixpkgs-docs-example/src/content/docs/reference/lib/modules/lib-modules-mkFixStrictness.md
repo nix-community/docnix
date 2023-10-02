@@ -19,10 +19,10 @@ id :: a -> a
 
 # Aliases
 
-- [lib.id](/reference/libid)
-- [lib.mdDoc](/reference/libmdDoc)
-- [lib.mkFixStrictness](/reference/libmkFixStrictness)
-- [lib.options.mdDoc](/reference/liboptions.mdDoc)
-- [lib.trivial.id](/reference/libtrivial.id)
+- [lib.id](./reference/lib/lib-id)
+- [lib.mdDoc](./reference/lib/lib-mdDoc)
+- [lib.mkFixStrictness](./reference/lib/lib-mkFixStrictness)
+- [lib.options.mdDoc](./reference/lib/options/lib-options-mdDoc)
+- [lib.trivial.id](./reference/lib/trivial/lib-trivial-id)
 
 

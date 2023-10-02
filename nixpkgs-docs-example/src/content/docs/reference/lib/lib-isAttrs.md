@@ -16,8 +16,8 @@ Return `true` if *e* evaluates to a set, and `false` otherwise.
 
 # Aliases
 
-- [builtins.isAttrs](/reference/builtinsisAttrs)
-- [lib.attrsets.isAttrs](/reference/libattrsets.isAttrs)
-- [lib.strings.isAttrs](/reference/libstrings.isAttrs)
+- [builtins.isAttrs](./reference/builtins/builtins-isAttrs)
+- [lib.attrsets.isAttrs](./reference/lib/attrsets/lib-attrsets-isAttrs)
+- [lib.strings.isAttrs](./reference/lib/strings/lib-strings-isAttrs)
 
 

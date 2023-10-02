@@ -17,7 +17,7 @@ but is more efficient.
 
 # Aliases
 
-- [builtins.concatMap](/reference/builtinsconcatMap)
-- [lib.concatMap](/reference/libconcatMap)
+- [builtins.concatMap](./reference/builtins/builtins-concatMap)
+- [lib.concatMap](./reference/lib/lib-concatMap)
 
 

@@ -27,7 +27,7 @@ evaluates to `"nix"`.
 
 # Aliases
 
-- [builtins.substring](/reference/builtinssubstring)
-- [lib.strings.substring](/reference/libstrings.substring)
+- [builtins.substring](./reference/builtins/builtins-substring)
+- [lib.strings.substring](./reference/lib/strings/lib-strings-substring)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.setType](/reference/libsetType)
+- [lib.setType](./reference/lib/lib-setType)
 
 

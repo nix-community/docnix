@@ -26,6 +26,6 @@ concatImapStrings :: (int -> a -> string) -> [a] -> string
 
 # Aliases
 
-- [lib.strings.concatImapStrings](/reference/libstrings.concatImapStrings)
+- [lib.strings.concatImapStrings](./reference/lib/strings/lib-strings-concatImapStrings)
 
 

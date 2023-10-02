@@ -27,6 +27,6 @@ mapAttrsToList :: (String -> a -> b) -> AttrSet -> [b]
 
 # Aliases
 
-- [lib.mapAttrsToList](/reference/libmapAttrsToList)
+- [lib.mapAttrsToList](./reference/lib/lib-mapAttrsToList)
 
 

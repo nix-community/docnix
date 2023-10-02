@@ -29,6 +29,6 @@ isDerivation :: Any -> Bool
 
 # Aliases
 
-- [lib.attrsets.isDerivation](/reference/libattrsets.isDerivation)
+- [lib.attrsets.isDerivation](./reference/lib/attrsets/lib-attrsets-isDerivation)
 
 

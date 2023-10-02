@@ -31,7 +31,7 @@ evaluates to
 
 # Aliases
 
-- [builtins.groupBy](/reference/builtinsgroupBy)
-- [lib.lists.groupBy](/reference/liblists.groupBy)
+- [builtins.groupBy](./reference/builtins/builtins-groupBy)
+- [lib.lists.groupBy](./reference/lib/lists/lib-lists-groupBy)
 
 

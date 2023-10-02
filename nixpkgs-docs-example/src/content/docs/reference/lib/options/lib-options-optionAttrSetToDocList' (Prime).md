@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.optionAttrSetToDocList'](/reference/liboptionAttrSetToDocList')
+- [lib.optionAttrSetToDocList'](./reference/lib/lib-optionAttrSetToDocList' (Prime))
 
 

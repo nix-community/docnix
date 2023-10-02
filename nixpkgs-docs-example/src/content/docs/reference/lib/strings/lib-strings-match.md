@@ -43,6 +43,6 @@ Evaluates to `[ "FOO" ]`.
 
 # Aliases
 
-- [builtins.match](/reference/builtinsmatch)
+- [builtins.match](./reference/builtins/builtins-match)
 
 

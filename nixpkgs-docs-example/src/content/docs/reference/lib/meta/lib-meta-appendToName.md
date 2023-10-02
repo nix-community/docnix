@@ -13,6 +13,6 @@ part).
 
 # Aliases
 
-- [lib.appendToName](/reference/libappendToName)
+- [lib.appendToName](./reference/lib/lib-appendToName)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.misc.ifEnable](/reference/libmisc.ifEnable)
+- [lib.misc.ifEnable](./reference/lib/misc/lib-misc-ifEnable)
 
 

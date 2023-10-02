@@ -12,6 +12,6 @@ boolean “or”
 
 # Aliases
 
-- [lib.or](/reference/libor)
+- [lib.or](./reference/lib/lib-or)
 
 

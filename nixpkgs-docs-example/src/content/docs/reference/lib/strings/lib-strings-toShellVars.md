@@ -31,6 +31,6 @@ attrsOf (string | listOf string | attrsOf string) -> string
 
 # Aliases
 
-- [lib.toShellVars](/reference/libtoShellVars)
+- [lib.toShellVars](./reference/lib/lib-toShellVars)
 
 

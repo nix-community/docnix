@@ -23,8 +23,8 @@ returns the list `[ 0 1 4 9 16 ]`.
 
 # Aliases
 
-- [lib.genList](/reference/libgenList)
-- [lib.lists.genList](/reference/liblists.genList)
-- [lib.strings.genList](/reference/libstrings.genList)
+- [lib.genList](./reference/lib/lib-genList)
+- [lib.lists.genList](./reference/lib/lists/lib-lists-genList)
+- [lib.strings.genList](./reference/lib/strings/lib-strings-genList)
 
 

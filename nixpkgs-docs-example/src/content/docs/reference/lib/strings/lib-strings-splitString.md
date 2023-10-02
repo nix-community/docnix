@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.splitString](/reference/libsplitString)
+- [lib.splitString](./reference/lib/lib-splitString)
 
 

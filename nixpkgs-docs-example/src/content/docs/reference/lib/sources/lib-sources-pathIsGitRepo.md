@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.pathIsGitRepo](/reference/libpathIsGitRepo)
+- [lib.pathIsGitRepo](./reference/lib/lib-pathIsGitRepo)
 
 

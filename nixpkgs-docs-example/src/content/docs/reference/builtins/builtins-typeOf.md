@@ -18,6 +18,6 @@ Return a string representing the type of the value *e*, namely
 
 # Aliases
 
-- [lib.strings.typeOf](/reference/libstrings.typeOf)
+- [lib.strings.typeOf](./reference/lib/strings/lib-strings-typeOf)
 
 

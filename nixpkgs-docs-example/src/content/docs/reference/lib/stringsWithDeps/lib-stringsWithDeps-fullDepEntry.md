@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.fullDepEntry](/reference/libfullDepEntry)
+- [lib.fullDepEntry](./reference/lib/lib-fullDepEntry)
 
 

@@ -25,6 +25,6 @@ recursion.
 
 # Aliases
 
-- [lib.modules.pushDownProperties](/reference/libmodules.pushDownProperties)
+- [lib.modules.pushDownProperties](./reference/lib/modules/lib-modules-pushDownProperties)
 
 

@@ -23,6 +23,6 @@ getName pkgs.youtube-dl
 
 # Aliases
 
-- [lib.getName](/reference/libgetName)
+- [lib.getName](./reference/lib/lib-getName)
 
 

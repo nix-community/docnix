@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mergeAttrBy.preConfigure](/reference/libmergeAttrBy.preConfigure)
+- [lib.mergeAttrBy.preConfigure](./reference/lib/mergeAttrBy/lib-mergeAttrBy-preConfigure)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.readPathsFromFile](/reference/libreadPathsFromFile)
+- [lib.readPathsFromFile](./reference/lib/lib-readPathsFromFile)
 
 

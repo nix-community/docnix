@@ -17,7 +17,7 @@ corresponding to the sorted attribute names.
 
 # Aliases
 
-- [lib.attrValues](/reference/libattrValues)
-- [lib.attrsets.attrValues](/reference/libattrsets.attrValues)
+- [lib.attrValues](./reference/lib/lib-attrValues)
+- [lib.attrsets.attrValues](./reference/lib/attrsets/lib-attrsets-attrValues)
 
 

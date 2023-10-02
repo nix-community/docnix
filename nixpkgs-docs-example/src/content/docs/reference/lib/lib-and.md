@@ -12,6 +12,6 @@ boolean “and”
 
 # Aliases
 
-- [lib.trivial.and](/reference/libtrivial.and)
+- [lib.trivial.and](./reference/lib/trivial/lib-trivial-and)
 
 

@@ -22,6 +22,6 @@ correspond to the definition of 'loc' in 'opt.file'.
 
 # Aliases
 
-- [lib.mergeOptionDecls](/reference/libmergeOptionDecls)
+- [lib.mergeOptionDecls](./reference/lib/lib-mergeOptionDecls)
 
 

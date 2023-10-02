@@ -18,7 +18,7 @@ same version splitting logic underlying the version comparison in
 
 # Aliases
 
-- [lib.splitVersion](/reference/libsplitVersion)
-- [lib.versions.splitVersion](/reference/libversions.splitVersion)
+- [lib.splitVersion](./reference/lib/lib-splitVersion)
+- [lib.versions.splitVersion](./reference/lib/versions/lib-versions-splitVersion)
 
 

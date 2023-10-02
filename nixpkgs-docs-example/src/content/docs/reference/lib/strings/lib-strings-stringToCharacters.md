@@ -35,6 +35,6 @@ stringToCharacters :: string -> [string]
 
 # Aliases
 
-- [lib.stringToCharacters](/reference/libstringToCharacters)
+- [lib.stringToCharacters](./reference/lib/lib-stringToCharacters)
 
 

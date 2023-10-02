@@ -17,8 +17,8 @@ one of "directory", "regular", "symlink", or "unknown".
 
 # Aliases
 
-- [lib.filesystem.pathType](/reference/libfilesystem.pathType)
-- [lib.pathType](/reference/libpathType)
-- [lib.sources.pathType](/reference/libsources.pathType)
+- [lib.filesystem.pathType](./reference/lib/filesystem/lib-filesystem-pathType)
+- [lib.pathType](./reference/lib/lib-pathType)
+- [lib.sources.pathType](./reference/lib/sources/lib-sources-pathType)
 
 

@@ -30,7 +30,7 @@ evaluates to
 
 # Aliases
 
-- [builtins.partition](/reference/builtinspartition)
-- [lib.lists.partition](/reference/liblists.partition)
+- [builtins.partition](./reference/builtins/builtins-partition)
+- [lib.lists.partition](./reference/lib/lists/lib-lists-partition)
 
 

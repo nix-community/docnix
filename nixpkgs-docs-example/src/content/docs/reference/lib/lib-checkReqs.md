@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.misc.checkReqs](/reference/libmisc.checkReqs)
+- [lib.misc.checkReqs](./reference/lib/misc/lib-misc-checkReqs)
 
 

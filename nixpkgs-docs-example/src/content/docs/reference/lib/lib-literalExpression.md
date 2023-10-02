@@ -15,8 +15,8 @@ other values or packages.
 
 # Aliases
 
-- [lib.literalExample](/reference/libliteralExample)
-- [lib.options.literalExample](/reference/liboptions.literalExample)
-- [lib.options.literalExpression](/reference/liboptions.literalExpression)
+- [lib.literalExample](./reference/lib/lib-literalExample)
+- [lib.options.literalExample](./reference/lib/options/lib-options-literalExample)
+- [lib.options.literalExpression](./reference/lib/options/lib-options-literalExpression)
 
 

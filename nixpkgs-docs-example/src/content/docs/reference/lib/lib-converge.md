@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.fixedPoints.converge](/reference/libfixedPoints.converge)
+- [lib.fixedPoints.converge](./reference/lib/fixedPoints/lib-fixedPoints-converge)
 
 

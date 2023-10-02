@@ -17,8 +17,8 @@ from 0. A fatal error occurs if the index is out of bounds.
 
 # Aliases
 
-- [builtins.elemAt](/reference/builtinselemAt)
-- [lib.lists.elemAt](/reference/liblists.elemAt)
-- [lib.strings.elemAt](/reference/libstrings.elemAt)
+- [builtins.elemAt](./reference/builtins/builtins-elemAt)
+- [lib.lists.elemAt](./reference/lib/lists/lib-lists-elemAt)
+- [lib.strings.elemAt](./reference/lib/strings/lib-strings-elemAt)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.modules.doRename](/reference/libmodules.doRename)
+- [lib.modules.doRename](./reference/lib/modules/lib-modules-doRename)
 
 

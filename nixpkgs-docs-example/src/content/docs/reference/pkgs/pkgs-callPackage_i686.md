@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [pkgs.callPackage](/reference/pkgscallPackage)
+- [pkgs.callPackage](./reference/pkgs/pkgs-callPackage)
 
 

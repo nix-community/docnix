@@ -38,7 +38,7 @@ evaluates to
 
 # Aliases
 
-- [builtins.listToAttrs](/reference/builtinslistToAttrs)
-- [lib.attrsets.listToAttrs](/reference/libattrsets.listToAttrs)
+- [builtins.listToAttrs](./reference/builtins/builtins-listToAttrs)
+- [lib.attrsets.listToAttrs](./reference/lib/attrsets/lib-attrsets-listToAttrs)
 
 

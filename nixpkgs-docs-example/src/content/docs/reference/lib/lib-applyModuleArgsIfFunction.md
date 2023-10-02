@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.modules.applyModuleArgsIfFunction](/reference/libmodules.applyModuleArgsIfFunction)
+- [lib.modules.applyModuleArgsIfFunction](./reference/lib/modules/lib-modules-applyModuleArgsIfFunction)
 
 

@@ -27,6 +27,6 @@ init :: [a] -> [a]
 
 # Aliases
 
-- [lib.lists.init](/reference/liblists.init)
+- [lib.lists.init](./reference/lib/lists/lib-lists-init)
 
 

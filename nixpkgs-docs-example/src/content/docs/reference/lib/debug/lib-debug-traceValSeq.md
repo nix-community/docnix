@@ -14,6 +14,6 @@ it.
 
 # Aliases
 
-- [lib.traceValSeq](/reference/libtraceValSeq)
+- [lib.traceValSeq](./reference/lib/lib-traceValSeq)
 
 

@@ -20,6 +20,6 @@ yields ‘[ 1 2 ]’.
 
 # Aliases
 
-- [lib.dischargeProperties](/reference/libdischargeProperties)
+- [lib.dischargeProperties](./reference/lib/lib-dischargeProperties)
 
 

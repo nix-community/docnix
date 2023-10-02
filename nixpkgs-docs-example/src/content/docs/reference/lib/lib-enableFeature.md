@@ -22,6 +22,6 @@ enableFeature false "shared"
 
 # Aliases
 
-- [lib.strings.enableFeature](/reference/libstrings.enableFeature)
+- [lib.strings.enableFeature](./reference/lib/strings/lib-strings-enableFeature)
 
 

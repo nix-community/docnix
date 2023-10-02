@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.sources.cleanSourceFilter](/reference/libsources.cleanSourceFilter)
+- [lib.sources.cleanSourceFilter](./reference/lib/sources/lib-sources-cleanSourceFilter)
 
 

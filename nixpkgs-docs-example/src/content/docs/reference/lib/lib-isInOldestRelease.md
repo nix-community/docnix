@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.trivial.isInOldestRelease](/reference/libtrivial.isInOldestRelease)
+- [lib.trivial.isInOldestRelease](./reference/lib/trivial/lib-trivial-isInOldestRelease)
 
 

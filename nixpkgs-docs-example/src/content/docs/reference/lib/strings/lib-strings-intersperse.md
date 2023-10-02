@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.intersperse](/reference/libintersperse)
+- [lib.intersperse](./reference/lib/lib-intersperse)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.attrsets.updateManyAttrsByPath](/reference/libattrsets.updateManyAttrsByPath)
+- [lib.attrsets.updateManyAttrsByPath](./reference/lib/attrsets/lib-attrsets-updateManyAttrsByPath)
 
 

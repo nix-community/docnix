@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.generators.toYAML](/reference/libgenerators.toYAML)
+- [lib.generators.toYAML](./reference/lib/generators/lib-generators-toYAML)
 
 

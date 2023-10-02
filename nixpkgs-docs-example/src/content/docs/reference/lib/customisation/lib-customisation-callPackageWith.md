@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.callPackageWith](/reference/libcallPackageWith)
+- [lib.callPackageWith](./reference/lib/lib-callPackageWith)
 
 

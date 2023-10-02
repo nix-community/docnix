@@ -25,6 +25,6 @@ nameValuePair :: String -> Any -> { name :: String; value :: Any; }
 
 # Aliases
 
-- [lib.nameValuePair](/reference/libnameValuePair)
+- [lib.nameValuePair](./reference/lib/lib-nameValuePair)
 
 

@@ -13,6 +13,6 @@ annotated with function args.
 
 # Aliases
 
-- [lib.trivial.isFunction](/reference/libtrivial.isFunction)
+- [lib.trivial.isFunction](./reference/lib/trivial/lib-trivial-isFunction)
 
 

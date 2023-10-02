@@ -13,6 +13,6 @@ hopefully it helps a little bit.
 
 # Aliases
 
-- [lib.makeScopeWithSplicing'](/reference/libmakeScopeWithSplicing')
+- [lib.makeScopeWithSplicing'](./reference/lib/lib-makeScopeWithSplicing' (Prime))
 
 

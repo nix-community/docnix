@@ -12,6 +12,6 @@ backward compatibility with old uncurried form; deprecated
 
 # Aliases
 
-- [lib.customisation.makeScopeWithSplicing](/reference/libcustomisation.makeScopeWithSplicing)
+- [lib.customisation.makeScopeWithSplicing](./reference/lib/customisation/lib-customisation-makeScopeWithSplicing)
 
 

@@ -12,7 +12,7 @@ sidebar:
 
 # Aliases
 
-- [lib.closePropagation](/reference/libclosePropagation)
-- [lib.misc.closePropagation](/reference/libmisc.closePropagation)
+- [lib.closePropagation](./reference/lib/lib-closePropagation)
+- [lib.misc.closePropagation](./reference/lib/misc/lib-misc-closePropagation)
 
 

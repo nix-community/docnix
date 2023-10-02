@@ -32,6 +32,6 @@ foldr :: (a -> b -> b) -> b -> [a] -> b
 
 # Aliases
 
-- [lib.fixedPoints.composeManyExtensions](/reference/libfixedPoints.composeManyExtensions)
+- [lib.fixedPoints.composeManyExtensions](./reference/lib/fixedPoints/lib-fixedPoints-composeManyExtensions)
 
 

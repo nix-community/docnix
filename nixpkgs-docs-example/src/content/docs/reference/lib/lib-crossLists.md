@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.lists.crossLists](/reference/liblists.crossLists)
+- [lib.lists.crossLists](./reference/lib/lists/lib-lists-crossLists)
 
 

@@ -23,6 +23,6 @@ evaluates to `[ "foobar" "foobla" "fooabc" ]`.
 
 # Aliases
 
-- [lib.lists.map](/reference/liblists.map)
+- [lib.lists.map](./reference/lib/lists/lib-lists-map)
 
 

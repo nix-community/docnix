@@ -20,7 +20,7 @@ even for intermediate values.
 
 # Aliases
 
-- [lib.foldl'](/reference/libfoldl')
-- [lib.lists.foldl'](/reference/liblists.foldl')
+- [lib.foldl'](./reference/lib/lib-foldl' (Prime))
+- [lib.lists.foldl'](./reference/lib/lists/lib-lists-foldl' (Prime))
 
 

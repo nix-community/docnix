@@ -17,7 +17,7 @@ corresponding to the sorted attribute names.
 
 # Aliases
 
-- [builtins.attrValues](/reference/builtinsattrValues)
-- [lib.attrValues](/reference/libattrValues)
+- [builtins.attrValues](./reference/builtins/builtins-attrValues)
+- [lib.attrValues](./reference/lib/lib-attrValues)
 
 

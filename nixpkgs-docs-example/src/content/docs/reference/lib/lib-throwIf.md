@@ -18,6 +18,6 @@ bool -> string -> a -> a
 
 # Aliases
 
-- [lib.trivial.throwIf](/reference/libtrivial.throwIf)
+- [lib.trivial.throwIf](./reference/lib/trivial/lib-trivial-throwIf)
 
 

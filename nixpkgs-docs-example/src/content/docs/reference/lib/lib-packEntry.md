@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.stringsWithDeps.packEntry](/reference/libstringsWithDeps.packEntry)
+- [lib.stringsWithDeps.packEntry](./reference/lib/stringsWithDeps/lib-stringsWithDeps-packEntry)
 
 

@@ -28,7 +28,7 @@ deemed equal by the comparator.
 
 # Aliases
 
-- [lib.lists.sort](/reference/liblists.sort)
-- [lib.sort](/reference/libsort)
+- [lib.lists.sort](./reference/lib/lists/lib-lists-sort)
+- [lib.sort](./reference/lib/lib-sort)
 
 

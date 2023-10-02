@@ -26,8 +26,8 @@ zipAttrsWithNames :: [ String ] -> (String -> [ Any ] -> Any) -> [ AttrSet ] -> 
 
 # Aliases
 
-- [lib.attrsets.zipAttrsWithNames](/reference/libattrsets.zipAttrsWithNames)
-- [lib.zipAttrsWithNames](/reference/libzipAttrsWithNames)
-- [lib.zipWithNames](/reference/libzipWithNames)
+- [lib.attrsets.zipAttrsWithNames](./reference/lib/attrsets/lib-attrsets-zipAttrsWithNames)
+- [lib.zipAttrsWithNames](./reference/lib/lib-zipAttrsWithNames)
+- [lib.zipWithNames](./reference/lib/lib-zipWithNames)
 
 

@@ -34,6 +34,6 @@ bool -> string -> a -> a
 
 # Aliases
 
-- [lib.throwIfNot](/reference/libthrowIfNot)
+- [lib.throwIfNot](./reference/lib/lib-throwIfNot)
 
 

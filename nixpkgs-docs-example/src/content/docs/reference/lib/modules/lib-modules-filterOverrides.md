@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.filterOverrides](/reference/libfilterOverrides)
+- [lib.filterOverrides](./reference/lib/lib-filterOverrides)
 
 

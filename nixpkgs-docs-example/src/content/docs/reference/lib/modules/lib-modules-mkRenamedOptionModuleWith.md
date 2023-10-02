@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mkRenamedOptionModuleWith](/reference/libmkRenamedOptionModuleWith)
+- [lib.mkRenamedOptionModuleWith](./reference/lib/lib-mkRenamedOptionModuleWith)
 
 

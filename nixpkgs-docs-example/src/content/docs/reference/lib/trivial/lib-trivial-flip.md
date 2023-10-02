@@ -25,6 +25,6 @@ flip :: (a -> b -> c) -> (b -> a -> c)
 
 # Aliases
 
-- [lib.flip](/reference/libflip)
+- [lib.flip](./reference/lib/lib-flip)
 
 

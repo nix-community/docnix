@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.options.mergeEqualOption](/reference/liboptions.mergeEqualOption)
+- [lib.options.mergeEqualOption](./reference/lib/options/lib-options-mergeEqualOption)
 
 

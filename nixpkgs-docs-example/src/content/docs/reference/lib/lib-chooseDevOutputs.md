@@ -18,6 +18,6 @@ chooseDevOutputs :: [Derivation] -> [String]
 
 # Aliases
 
-- [lib.attrsets.chooseDevOutputs](/reference/libattrsets.chooseDevOutputs)
+- [lib.attrsets.chooseDevOutputs](./reference/lib/attrsets/lib-attrsets-chooseDevOutputs)
 
 

@@ -27,9 +27,9 @@ evaluates to `"fabir"`.
 
 # Aliases
 
-- [builtins.replaceStrings](/reference/builtinsreplaceStrings)
-- [lib.replaceChars](/reference/libreplaceChars)
-- [lib.replaceStrings](/reference/libreplaceStrings)
-- [lib.strings.replaceChars](/reference/libstrings.replaceChars)
+- [builtins.replaceStrings](./reference/builtins/builtins-replaceStrings)
+- [lib.replaceChars](./reference/lib/lib-replaceChars)
+- [lib.replaceStrings](./reference/lib/lib-replaceStrings)
+- [lib.strings.replaceChars](./reference/lib/strings/lib-strings-replaceChars)
 
 

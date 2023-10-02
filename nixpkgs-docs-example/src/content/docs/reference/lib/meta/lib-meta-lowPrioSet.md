@@ -12,6 +12,6 @@ Apply lowPrio to an attrset with derivations
 
 # Aliases
 
-- [lib.lowPrioSet](/reference/liblowPrioSet)
+- [lib.lowPrioSet](./reference/lib/lib-lowPrioSet)
 
 

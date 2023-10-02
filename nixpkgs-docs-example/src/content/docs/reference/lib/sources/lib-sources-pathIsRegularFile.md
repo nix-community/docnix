@@ -12,7 +12,7 @@ sidebar:
 
 # Aliases
 
-- [lib.filesystem.pathIsRegularFile](/reference/libfilesystem.pathIsRegularFile)
-- [lib.pathIsRegularFile](/reference/libpathIsRegularFile)
+- [lib.filesystem.pathIsRegularFile](./reference/lib/filesystem/lib-filesystem-pathIsRegularFile)
+- [lib.pathIsRegularFile](./reference/lib/lib-pathIsRegularFile)
 
 

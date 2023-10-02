@@ -12,8 +12,8 @@ sidebar:
 
 # Aliases
 
-- [lib.mkPackageOption](/reference/libmkPackageOption)
-- [lib.options.mkPackageOption](/reference/liboptions.mkPackageOption)
-- [lib.options.mkPackageOptionMD](/reference/liboptions.mkPackageOptionMD)
+- [lib.mkPackageOption](./reference/lib/lib-mkPackageOption)
+- [lib.options.mkPackageOption](./reference/lib/options/lib-options-mkPackageOption)
+- [lib.options.mkPackageOptionMD](./reference/lib/options/lib-options-mkPackageOptionMD)
 
 

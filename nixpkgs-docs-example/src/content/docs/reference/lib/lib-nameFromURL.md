@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.strings.nameFromURL](/reference/libstrings.nameFromURL)
+- [lib.strings.nameFromURL](./reference/lib/strings/lib-strings-nameFromURL)
 
 

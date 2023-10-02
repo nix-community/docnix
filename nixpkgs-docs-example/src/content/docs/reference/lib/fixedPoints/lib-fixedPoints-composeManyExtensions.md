@@ -32,6 +32,6 @@ foldr :: (a -> b -> b) -> b -> [a] -> b
 
 # Aliases
 
-- [lib.composeManyExtensions](/reference/libcomposeManyExtensions)
+- [lib.composeManyExtensions](./reference/lib/lib-composeManyExtensions)
 
 

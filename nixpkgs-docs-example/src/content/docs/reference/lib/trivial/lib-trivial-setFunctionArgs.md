@@ -20,6 +20,6 @@ like callPackage expect to be able to query expected arguments.
 
 # Aliases
 
-- [lib.setFunctionArgs](/reference/libsetFunctionArgs)
+- [lib.setFunctionArgs](./reference/lib/lib-setFunctionArgs)
 
 

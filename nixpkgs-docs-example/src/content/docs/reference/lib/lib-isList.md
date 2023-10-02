@@ -16,8 +16,8 @@ Return `true` if *e* evaluates to a list, and `false` otherwise.
 
 # Aliases
 
-- [builtins.isList](/reference/builtinsisList)
-- [lib.lists.isList](/reference/liblists.isList)
-- [lib.strings.isList](/reference/libstrings.isList)
+- [builtins.isList](./reference/builtins/builtins-isList)
+- [lib.lists.isList](./reference/lib/lists/lib-lists-isList)
+- [lib.strings.isList](./reference/lib/strings/lib-strings-isList)
 
 

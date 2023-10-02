@@ -29,6 +29,6 @@ fixedWidthString :: int -> string -> string -> string
 
 # Aliases
 
-- [lib.fixedWidthString](/reference/libfixedWidthString)
+- [lib.fixedWidthString](./reference/lib/lib-fixedWidthString)
 
 

@@ -14,6 +14,6 @@ into one where changes made in the first are available in the
 
 # Aliases
 
-- [lib.composeExtensions](/reference/libcomposeExtensions)
+- [lib.composeExtensions](./reference/lib/lib-composeExtensions)
 
 

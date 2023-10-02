@@ -16,6 +16,6 @@ setFunctionArgs : (a → b) → Map String Bool.
 
 # Aliases
 
-- [lib.functionArgs](/reference/libfunctionArgs)
+- [lib.functionArgs](./reference/lib/lib-functionArgs)
 
 

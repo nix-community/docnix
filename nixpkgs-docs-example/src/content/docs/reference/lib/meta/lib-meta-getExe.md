@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.getExe](/reference/libgetExe)
+- [lib.getExe](./reference/lib/lib-getExe)
 
 

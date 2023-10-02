@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.evalModules](/reference/libevalModules)
+- [lib.evalModules](./reference/lib/lib-evalModules)
 
 

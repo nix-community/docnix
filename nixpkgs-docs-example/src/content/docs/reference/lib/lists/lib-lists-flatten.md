@@ -22,6 +22,6 @@ flatten 1
 
 # Aliases
 
-- [lib.flatten](/reference/libflatten)
+- [lib.flatten](./reference/lib/lib-flatten)
 
 

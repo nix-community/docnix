@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.converge](/reference/libconverge)
+- [lib.converge](./reference/lib/lib-converge)
 
 

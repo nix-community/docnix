@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.generators.toJSON](/reference/libgenerators.toJSON)
+- [lib.generators.toJSON](./reference/lib/generators/lib-generators-toJSON)
 
 

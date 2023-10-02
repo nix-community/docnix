@@ -18,7 +18,7 @@ evaluate to a number.
 
 # Aliases
 
-- [builtins.lessThan](/reference/builtinslessThan)
-- [lib.lessThan](/reference/liblessThan)
+- [builtins.lessThan](./reference/builtins/builtins-lessThan)
+- [lib.lessThan](./reference/lib/lib-lessThan)
 
 

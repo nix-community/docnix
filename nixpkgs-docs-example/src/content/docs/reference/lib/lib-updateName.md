@@ -18,6 +18,6 @@ updateName (oldName: oldName + "-experimental") somePkg
 
 # Aliases
 
-- [lib.meta.updateName](/reference/libmeta.updateName)
+- [lib.meta.updateName](./reference/lib/meta/lib-meta-updateName)
 
 

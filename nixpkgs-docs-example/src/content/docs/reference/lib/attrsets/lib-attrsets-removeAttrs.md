@@ -23,6 +23,6 @@ evaluates to `{ y = 2; }`.
 
 # Aliases
 
-- [builtins.removeAttrs](/reference/builtinsremoveAttrs)
+- [builtins.removeAttrs](./reference/builtins/builtins-removeAttrs)
 
 

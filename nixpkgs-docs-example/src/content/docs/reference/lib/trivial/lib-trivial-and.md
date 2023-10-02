@@ -12,6 +12,6 @@ boolean “and”
 
 # Aliases
 
-- [lib.and](/reference/liband)
+- [lib.and](./reference/lib/lib-and)
 
 

@@ -30,6 +30,6 @@ assertOneOf :: String -> ComparableVal -> List ComparableVal -> Bool
 
 # Aliases
 
-- [lib.assertOneOf](/reference/libassertOneOf)
+- [lib.assertOneOf](./reference/lib/lib-assertOneOf)
 
 

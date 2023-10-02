@@ -26,6 +26,6 @@ count :: (a -> bool) -> [a] -> int
 
 # Aliases
 
-- [lib.lists.count](/reference/liblists.count)
+- [lib.lists.count](./reference/lib/lists/lib-lists-count)
 
 

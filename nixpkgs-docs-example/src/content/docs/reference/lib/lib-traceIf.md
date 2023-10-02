@@ -26,6 +26,6 @@ traceIf :: bool -> string -> a -> a
 
 # Aliases
 
-- [lib.debug.traceIf](/reference/libdebug.traceIf)
+- [lib.debug.traceIf](./reference/lib/debug/lib-debug-traceIf)
 
 

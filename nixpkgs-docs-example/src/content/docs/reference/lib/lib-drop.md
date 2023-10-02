@@ -27,6 +27,6 @@ drop :: int -> [a] -> [a]
 
 # Aliases
 
-- [lib.lists.drop](/reference/liblists.drop)
+- [lib.lists.drop](./reference/lib/lists/lib-lists-drop)
 
 

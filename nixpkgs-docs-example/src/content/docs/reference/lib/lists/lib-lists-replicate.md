@@ -27,6 +27,6 @@ replicate :: int -> a -> [a]
 
 # Aliases
 
-- [lib.replicate](/reference/libreplicate)
+- [lib.replicate](./reference/lib/lib-replicate)
 
 

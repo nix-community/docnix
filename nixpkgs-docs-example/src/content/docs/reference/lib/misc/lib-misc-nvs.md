@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.nvs](/reference/libnvs)
+- [lib.nvs](./reference/lib/lib-nvs)
 
 

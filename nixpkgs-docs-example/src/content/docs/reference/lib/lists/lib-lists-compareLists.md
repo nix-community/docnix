@@ -25,6 +25,6 @@ compareLists compare [ "a" "b" ] [ "a" "c" ]
 
 # Aliases
 
-- [lib.compareLists](/reference/libcompareLists)
+- [lib.compareLists](./reference/lib/lib-compareLists)
 
 

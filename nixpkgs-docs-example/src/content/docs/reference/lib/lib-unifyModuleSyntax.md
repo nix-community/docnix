@@ -13,6 +13,6 @@ of ‘options’, ‘config’ and ‘imports’ attributes.
 
 # Aliases
 
-- [lib.modules.unifyModuleSyntax](/reference/libmodules.unifyModuleSyntax)
+- [lib.modules.unifyModuleSyntax](./reference/lib/modules/lib-modules-unifyModuleSyntax)
 
 

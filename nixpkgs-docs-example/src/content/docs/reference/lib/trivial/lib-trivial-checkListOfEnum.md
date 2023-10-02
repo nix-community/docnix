@@ -27,6 +27,6 @@ String -> List ComparableVal -> List ComparableVal -> a -> a
 
 # Aliases
 
-- [lib.checkListOfEnum](/reference/libcheckListOfEnum)
+- [lib.checkListOfEnum](./reference/lib/lib-checkListOfEnum)
 
 

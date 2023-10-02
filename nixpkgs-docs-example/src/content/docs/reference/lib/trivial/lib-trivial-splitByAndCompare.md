@@ -35,6 +35,6 @@ compare "fooa" "a" => 1
 
 # Aliases
 
-- [lib.splitByAndCompare](/reference/libsplitByAndCompare)
+- [lib.splitByAndCompare](./reference/lib/lib-splitByAndCompare)
 
 

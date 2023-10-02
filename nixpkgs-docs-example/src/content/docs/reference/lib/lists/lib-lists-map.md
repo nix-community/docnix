@@ -23,6 +23,6 @@ evaluates to `[ "foobar" "foobla" "fooabc" ]`.
 
 # Aliases
 
-- [builtins.map](/reference/builtinsmap)
+- [builtins.map](./reference/builtins/builtins-map)
 
 

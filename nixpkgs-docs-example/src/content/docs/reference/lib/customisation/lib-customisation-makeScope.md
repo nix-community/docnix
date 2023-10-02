@@ -20,6 +20,6 @@ which can form the parent scope for later package sets.
 
 # Aliases
 
-- [lib.makeScope](/reference/libmakeScope)
+- [lib.makeScope](./reference/lib/lib-makeScope)
 
 

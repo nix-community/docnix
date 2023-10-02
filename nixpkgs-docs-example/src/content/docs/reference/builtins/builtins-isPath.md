@@ -16,7 +16,7 @@ Return `true` if *e* evaluates to a path, and `false` otherwise.
 
 # Aliases
 
-- [lib.isPath](/reference/libisPath)
-- [lib.strings.isPath](/reference/libstrings.isPath)
+- [lib.isPath](./reference/lib/lib-isPath)
+- [lib.strings.isPath](./reference/lib/strings/lib-strings-isPath)
 
 

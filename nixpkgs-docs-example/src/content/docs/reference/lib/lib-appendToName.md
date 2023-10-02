@@ -13,6 +13,6 @@ part).
 
 # Aliases
 
-- [lib.meta.appendToName](/reference/libmeta.appendToName)
+- [lib.meta.appendToName](./reference/lib/meta/lib-meta-appendToName)
 
 

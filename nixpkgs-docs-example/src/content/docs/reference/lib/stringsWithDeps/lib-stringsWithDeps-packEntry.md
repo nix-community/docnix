@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.packEntry](/reference/libpackEntry)
+- [lib.packEntry](./reference/lib/lib-packEntry)
 
 

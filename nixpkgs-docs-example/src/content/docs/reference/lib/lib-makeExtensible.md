@@ -13,6 +13,6 @@ customized.
 
 # Aliases
 
-- [lib.fixedPoints.makeExtensible](/reference/libfixedPoints.makeExtensible)
+- [lib.fixedPoints.makeExtensible](./reference/lib/fixedPoints/lib-fixedPoints-makeExtensible)
 
 

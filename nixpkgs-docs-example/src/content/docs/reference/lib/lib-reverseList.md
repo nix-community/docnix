@@ -25,6 +25,6 @@ reverseList :: [a] -> [a]
 
 # Aliases
 
-- [lib.lists.reverseList](/reference/liblists.reverseList)
+- [lib.lists.reverseList](./reference/lib/lists/lib-lists-reverseList)
 
 

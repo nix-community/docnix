@@ -26,6 +26,6 @@ stringAsChars :: (string -> string) -> string -> string
 
 # Aliases
 
-- [lib.stringAsChars](/reference/libstringAsChars)
+- [lib.stringAsChars](./reference/lib/lib-stringAsChars)
 
 

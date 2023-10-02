@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.stringsWithDeps.textClosureMap](/reference/libstringsWithDeps.textClosureMap)
+- [lib.stringsWithDeps.textClosureMap](./reference/lib/stringsWithDeps/lib-stringsWithDeps-textClosureMap)
 
 

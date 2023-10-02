@@ -28,7 +28,7 @@ related to its use.
 
 # Aliases
 
-- [lib.customisation.makeOverridable](/reference/libcustomisation.makeOverridable)
-- [pkgs.makeOverridable](/reference/pkgsmakeOverridable)
+- [lib.customisation.makeOverridable](./reference/lib/customisation/lib-customisation-makeOverridable)
+- [pkgs.makeOverridable](./reference/pkgs/pkgs-makeOverridable)
 
 

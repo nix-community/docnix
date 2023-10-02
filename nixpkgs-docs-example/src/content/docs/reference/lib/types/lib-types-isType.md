@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.isType](/reference/libisType)
+- [lib.isType](./reference/lib/lib-isType)
 
 

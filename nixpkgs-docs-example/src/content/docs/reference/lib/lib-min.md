@@ -12,6 +12,6 @@ Return minimum of two numbers.
 
 # Aliases
 
-- [lib.trivial.min](/reference/libtrivial.min)
+- [lib.trivial.min](./reference/lib/trivial/lib-trivial-min)
 
 

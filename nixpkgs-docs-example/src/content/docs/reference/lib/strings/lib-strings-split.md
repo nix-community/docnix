@@ -44,6 +44,6 @@ Evaluates to `[ " " [ "FOO" ] " " ]`.
 
 # Aliases
 
-- [builtins.split](/reference/builtinssplit)
+- [builtins.split](./reference/builtins/builtins-split)
 
 

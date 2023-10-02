@@ -18,6 +18,6 @@ toDerivation :: Path -> Derivation
 
 # Aliases
 
-- [lib.toDerivation](/reference/libtoDerivation)
+- [lib.toDerivation](./reference/lib/lib-toDerivation)
 
 

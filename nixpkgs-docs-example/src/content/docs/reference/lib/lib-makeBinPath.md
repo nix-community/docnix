@@ -12,8 +12,8 @@ sidebar:
 
 # Aliases
 
-- [lib.makeLibraryPath](/reference/libmakeLibraryPath)
-- [lib.strings.makeBinPath](/reference/libstrings.makeBinPath)
-- [lib.strings.makeLibraryPath](/reference/libstrings.makeLibraryPath)
+- [lib.makeLibraryPath](./reference/lib/lib-makeLibraryPath)
+- [lib.strings.makeBinPath](./reference/lib/strings/lib-strings-makeBinPath)
+- [lib.strings.makeLibraryPath](./reference/lib/strings/lib-strings-makeLibraryPath)
 
 

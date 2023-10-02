@@ -14,6 +14,6 @@ a `literalExpression` would be too hard to read.
 
 # Aliases
 
-- [lib.literalMD](/reference/libliteralMD)
+- [lib.literalMD](./reference/lib/lib-literalMD)
 
 

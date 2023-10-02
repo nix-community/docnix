@@ -61,6 +61,6 @@ updateManyAttrsByPath :: [{ path :: [String]; update :: (Any -> Any); }] -> Attr
 
 # Aliases
 
-- [lib.updateManyAttrsByPath](/reference/libupdateManyAttrsByPath)
+- [lib.updateManyAttrsByPath](./reference/lib/lib-updateManyAttrsByPath)
 
 

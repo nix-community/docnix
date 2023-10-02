@@ -16,6 +16,6 @@ a > b,  compare a b => 1
 
 # Aliases
 
-- [lib.compare](/reference/libcompare)
+- [lib.compare](./reference/lib/lib-compare)
 
 

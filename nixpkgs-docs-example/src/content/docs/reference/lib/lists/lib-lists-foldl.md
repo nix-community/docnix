@@ -31,6 +31,6 @@ foldl :: (b -> a -> b) -> b -> [a] -> b
 
 # Aliases
 
-- [lib.foldl](/reference/libfoldl)
+- [lib.foldl](./reference/lib/lib-foldl)
 
 

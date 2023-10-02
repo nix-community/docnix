@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.trivial.pipe](/reference/libtrivial.pipe)
+- [lib.trivial.pipe](./reference/lib/trivial/lib-trivial-pipe)
 
 

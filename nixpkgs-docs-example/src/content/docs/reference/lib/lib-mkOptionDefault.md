@@ -12,14 +12,14 @@ sidebar:
 
 # Aliases
 
-- [lib.mkDefault](/reference/libmkDefault)
-- [lib.mkForce](/reference/libmkForce)
-- [lib.mkImageMediaOverride](/reference/libmkImageMediaOverride)
-- [lib.mkVMOverride](/reference/libmkVMOverride)
-- [lib.modules.mkDefault](/reference/libmodules.mkDefault)
-- [lib.modules.mkForce](/reference/libmodules.mkForce)
-- [lib.modules.mkImageMediaOverride](/reference/libmodules.mkImageMediaOverride)
-- [lib.modules.mkOptionDefault](/reference/libmodules.mkOptionDefault)
-- [lib.modules.mkVMOverride](/reference/libmodules.mkVMOverride)
+- [lib.mkDefault](./reference/lib/lib-mkDefault)
+- [lib.mkForce](./reference/lib/lib-mkForce)
+- [lib.mkImageMediaOverride](./reference/lib/lib-mkImageMediaOverride)
+- [lib.mkVMOverride](./reference/lib/lib-mkVMOverride)
+- [lib.modules.mkDefault](./reference/lib/modules/lib-modules-mkDefault)
+- [lib.modules.mkForce](./reference/lib/modules/lib-modules-mkForce)
+- [lib.modules.mkImageMediaOverride](./reference/lib/modules/lib-modules-mkImageMediaOverride)
+- [lib.modules.mkOptionDefault](./reference/lib/modules/lib-modules-mkOptionDefault)
+- [lib.modules.mkVMOverride](./reference/lib/modules/lib-modules-mkVMOverride)
 
 

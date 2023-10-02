@@ -25,6 +25,6 @@ attrVals :: [String] -> AttrSet -> [Any]
 
 # Aliases
 
-- [lib.attrVals](/reference/libattrVals)
+- [lib.attrVals](./reference/lib/lib-attrVals)
 
 

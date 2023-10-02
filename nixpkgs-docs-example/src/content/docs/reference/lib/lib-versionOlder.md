@@ -21,6 +21,6 @@ versionOlder "1.1" "1.1"
 
 # Aliases
 
-- [lib.strings.versionOlder](/reference/libstrings.versionOlder)
+- [lib.strings.versionOlder](./reference/lib/strings/lib-strings-versionOlder)
 
 

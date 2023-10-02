@@ -27,6 +27,6 @@ last :: [a] -> a
 
 # Aliases
 
-- [lib.lists.last](/reference/liblists.last)
+- [lib.lists.last](./reference/lib/lists/lib-lists-last)
 
 

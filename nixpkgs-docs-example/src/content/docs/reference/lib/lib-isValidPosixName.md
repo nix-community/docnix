@@ -27,6 +27,6 @@ string -> bool
 
 # Aliases
 
-- [lib.strings.isValidPosixName](/reference/libstrings.isValidPosixName)
+- [lib.strings.isValidPosixName](./reference/lib/strings/lib-strings-isValidPosixName)
 
 

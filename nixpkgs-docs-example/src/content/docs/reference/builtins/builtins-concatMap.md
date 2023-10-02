@@ -17,7 +17,7 @@ but is more efficient.
 
 # Aliases
 
-- [lib.concatMap](/reference/libconcatMap)
-- [lib.lists.concatMap](/reference/liblists.concatMap)
+- [lib.concatMap](./reference/lib/lib-concatMap)
+- [lib.lists.concatMap](./reference/lib/lists/lib-lists-concatMap)
 
 

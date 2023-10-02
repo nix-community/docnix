@@ -16,8 +16,8 @@ Return `true` if *e* evaluates to an integer, and `false` otherwise.
 
 # Aliases
 
-- [lib.isInt](/reference/libisInt)
-- [lib.strings.isInt](/reference/libstrings.isInt)
-- [lib.trivial.isInt](/reference/libtrivial.isInt)
+- [lib.isInt](./reference/lib/lib-isInt)
+- [lib.strings.isInt](./reference/lib/strings/lib-strings-isInt)
+- [lib.trivial.isInt](./reference/lib/trivial/lib-trivial-isInt)
 
 

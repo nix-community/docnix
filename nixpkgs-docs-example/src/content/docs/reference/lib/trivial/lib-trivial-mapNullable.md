@@ -21,6 +21,6 @@ mapNullable (x: x+1) 22
 
 # Aliases
 
-- [lib.mapNullable](/reference/libmapNullable)
+- [lib.mapNullable](./reference/lib/lib-mapNullable)
 
 

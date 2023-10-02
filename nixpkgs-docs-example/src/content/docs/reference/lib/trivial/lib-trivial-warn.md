@@ -23,6 +23,6 @@ string -> a -> a
 
 # Aliases
 
-- [lib.warn](/reference/libwarn)
+- [lib.warn](./reference/lib/lib-warn)
 
 

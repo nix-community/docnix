@@ -54,12 +54,19 @@ const linkCard = (href, title, description) => `
  * @param {[[string]]} aliases
  */
 const getAliases = (aliases, path) => {
-  const paths = aliases
+  const res = aliases
     .filter((p) => !p.every((subpath, idx) => path[idx] === subpath))
-    .map((p) => p.join("."));
-  const res = paths
     .sort()
-    .map((n) => `- [${n}](/reference/${n.replace(".", "")})`)
+    .map((ps) => {
+      const subpath = ps.slice(0, -1);
+      const name = ps.join(".");
+      const title = `${name} ${name.endsWith("'") ? "(Prime)" : ""}`.trim();
+      const label = ps.join(".");
+      return `- [${label}](./reference/${subpath.join("/")}/${title.replaceAll(
+        ".",
+        "-"
+      )})`;
+    })
     .join("\n");
   return res;
 };

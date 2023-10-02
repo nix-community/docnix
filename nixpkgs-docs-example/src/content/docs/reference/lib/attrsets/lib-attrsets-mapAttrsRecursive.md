@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mapAttrsRecursive](/reference/libmapAttrsRecursive)
+- [lib.mapAttrsRecursive](./reference/lib/lib-mapAttrsRecursive)
 
 

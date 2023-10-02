@@ -28,6 +28,6 @@ hasAttrByPath :: [String] -> AttrSet -> Bool
 
 # Aliases
 
-- [lib.hasAttrByPath](/reference/libhasAttrByPath)
+- [lib.hasAttrByPath](./reference/lib/lib-hasAttrByPath)
 
 

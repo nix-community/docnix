@@ -16,6 +16,6 @@ string interpolations and in most functions that expect a string.
 
 # Aliases
 
-- [lib.strings.isStringLike](/reference/libstrings.isStringLike)
+- [lib.strings.isStringLike](./reference/lib/strings/lib-strings-isStringLike)
 
 

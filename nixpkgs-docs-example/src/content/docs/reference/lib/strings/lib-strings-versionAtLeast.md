@@ -23,6 +23,6 @@ versionAtLeast "1.1" "1.2"
 
 # Aliases
 
-- [lib.versionAtLeast](/reference/libversionAtLeast)
+- [lib.versionAtLeast](./reference/lib/lib-versionAtLeast)
 
 

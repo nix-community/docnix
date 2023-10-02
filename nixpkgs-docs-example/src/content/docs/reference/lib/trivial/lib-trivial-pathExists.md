@@ -17,7 +17,7 @@ Return `true` if the path *path* exists at evaluation time, and
 
 # Aliases
 
-- [builtins.pathExists](/reference/builtinspathExists)
-- [lib.pathExists](/reference/libpathExists)
+- [builtins.pathExists](./reference/builtins/builtins-pathExists)
+- [lib.pathExists](./reference/lib/lib-pathExists)
 
 

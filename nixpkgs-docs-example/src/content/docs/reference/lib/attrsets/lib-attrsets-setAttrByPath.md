@@ -25,6 +25,6 @@ setAttrByPath :: [String] -> Any -> AttrSet
 
 # Aliases
 
-- [lib.setAttrByPath](/reference/libsetAttrByPath)
+- [lib.setAttrByPath](./reference/lib/lib-setAttrByPath)
 
 

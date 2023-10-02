@@ -18,6 +18,6 @@ importJSON :: path -> any
 
 # Aliases
 
-- [lib.importJSON](/reference/libimportJSON)
+- [lib.importJSON](./reference/lib/lib-importJSON)
 
 

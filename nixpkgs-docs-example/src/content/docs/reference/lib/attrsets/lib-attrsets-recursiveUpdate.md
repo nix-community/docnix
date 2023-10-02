@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.recursiveUpdate](/reference/librecursiveUpdate)
+- [lib.recursiveUpdate](./reference/lib/lib-recursiveUpdate)
 
 

@@ -19,6 +19,6 @@ toBaseDigits 16 250 => [ 15 10 ]
 
 # Aliases
 
-- [lib.toBaseDigits](/reference/libtoBaseDigits)
+- [lib.toBaseDigits](./reference/lib/lib-toBaseDigits)
 
 

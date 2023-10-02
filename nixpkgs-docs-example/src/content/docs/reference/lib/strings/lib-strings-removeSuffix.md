@@ -27,6 +27,6 @@ string -> string -> string
 
 # Aliases
 
-- [lib.removeSuffix](/reference/libremoveSuffix)
+- [lib.removeSuffix](./reference/lib/lib-removeSuffix)
 
 

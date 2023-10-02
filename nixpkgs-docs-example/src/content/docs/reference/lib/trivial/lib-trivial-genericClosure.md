@@ -39,7 +39,7 @@ evaluates to
 
 # Aliases
 
-- [builtins.genericClosure](/reference/builtinsgenericClosure)
-- [lib.genericClosure](/reference/libgenericClosure)
+- [builtins.genericClosure](./reference/builtins/builtins-genericClosure)
+- [lib.genericClosure](./reference/lib/lib-genericClosure)
 
 

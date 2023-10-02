@@ -31,6 +31,6 @@ mesonBool :: string -> bool -> string
 
 # Aliases
 
-- [lib.strings.mesonBool](/reference/libstrings.mesonBool)
+- [lib.strings.mesonBool](./reference/lib/strings/lib-strings-mesonBool)
 
 

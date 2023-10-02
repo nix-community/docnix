@@ -29,6 +29,6 @@ traceSeq :: a -> b -> b
 
 # Aliases
 
-- [lib.traceSeq](/reference/libtraceSeq)
+- [lib.traceSeq](./reference/lib/lib-traceSeq)
 
 

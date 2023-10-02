@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.trivial.info](/reference/libtrivial.info)
+- [lib.trivial.info](./reference/lib/trivial/lib-trivial-info)
 
 

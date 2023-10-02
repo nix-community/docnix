@@ -28,6 +28,6 @@ findFirst :: (a -> bool) -> a -> [a] -> a
 
 # Aliases
 
-- [lib.findFirst](/reference/libfindFirst)
+- [lib.findFirst](./reference/lib/lib-findFirst)
 
 

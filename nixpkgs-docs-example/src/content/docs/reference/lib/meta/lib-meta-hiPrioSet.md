@@ -12,6 +12,6 @@ Apply hiPrio to an attrset with derivations
 
 # Aliases
 
-- [lib.hiPrioSet](/reference/libhiPrioSet)
+- [lib.hiPrioSet](./reference/lib/lib-hiPrioSet)
 
 

@@ -22,7 +22,7 @@ evaluates to `{ a = 10; b = 20; }`.
 
 # Aliases
 
-- [lib.attrsets.mapAttrs](/reference/libattrsets.mapAttrs)
-- [lib.mapAttrs](/reference/libmapAttrs)
+- [lib.attrsets.mapAttrs](./reference/lib/attrsets/lib-attrsets-mapAttrs)
+- [lib.mapAttrs](./reference/lib/lib-mapAttrs)
 
 

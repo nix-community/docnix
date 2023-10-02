@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.sourceFilesBySuffices](/reference/libsourceFilesBySuffices)
+- [lib.sourceFilesBySuffices](./reference/lib/lib-sourceFilesBySuffices)
 
 

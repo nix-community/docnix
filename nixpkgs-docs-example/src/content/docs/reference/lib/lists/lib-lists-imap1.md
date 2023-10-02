@@ -25,8 +25,8 @@ imap1 :: (int -> a -> b) -> [a] -> [b]
 
 # Aliases
 
-- [lib.imap](/reference/libimap)
-- [lib.imap1](/reference/libimap1)
-- [lib.misc.imap](/reference/libmisc.imap)
+- [lib.imap](./reference/lib/lib-imap)
+- [lib.imap1](./reference/lib/lib-imap1)
+- [lib.misc.imap](./reference/lib/misc/lib-misc-imap)
 
 

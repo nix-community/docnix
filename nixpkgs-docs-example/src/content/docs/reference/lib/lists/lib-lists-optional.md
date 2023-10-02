@@ -29,6 +29,6 @@ optional :: bool -> a -> [a]
 
 # Aliases
 
-- [lib.optional](/reference/liboptional)
+- [lib.optional](./reference/lib/lib-optional)
 
 

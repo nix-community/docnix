@@ -23,6 +23,6 @@ evaluates to `{ y = 2; }`.
 
 # Aliases
 
-- [lib.attrsets.removeAttrs](/reference/libattrsets.removeAttrs)
+- [lib.attrsets.removeAttrs](./reference/lib/attrsets/lib-attrsets-removeAttrs)
 
 

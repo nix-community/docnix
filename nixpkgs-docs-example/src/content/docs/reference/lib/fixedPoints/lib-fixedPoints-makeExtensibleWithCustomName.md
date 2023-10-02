@@ -13,6 +13,6 @@ customized.
 
 # Aliases
 
-- [lib.makeExtensibleWithCustomName](/reference/libmakeExtensibleWithCustomName)
+- [lib.makeExtensibleWithCustomName](./reference/lib/lib-makeExtensibleWithCustomName)
 
 

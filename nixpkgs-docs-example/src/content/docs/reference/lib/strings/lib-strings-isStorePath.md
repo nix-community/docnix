@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.isStorePath](/reference/libisStorePath)
+- [lib.isStorePath](./reference/lib/lib-isStorePath)
 
 

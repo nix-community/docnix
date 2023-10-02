@@ -25,13 +25,13 @@ concat :: [a] -> [a] -> [a]
 
 # Aliases
 
-- [lib.concat](/reference/libconcat)
-- [lib.mergeAttrBy.buildInputs](/reference/libmergeAttrBy.buildInputs)
-- [lib.mergeAttrBy.configureFlags](/reference/libmergeAttrBy.configureFlags)
-- [lib.mergeAttrBy.nativeBuildInputs](/reference/libmergeAttrBy.nativeBuildInputs)
-- [lib.mergeAttrBy.postAll](/reference/libmergeAttrBy.postAll)
-- [lib.mergeAttrBy.prePhases](/reference/libmergeAttrBy.prePhases)
-- [lib.mergeAttrBy.propagatedBuildInputs](/reference/libmergeAttrBy.propagatedBuildInputs)
-- [lib.trivial.concat](/reference/libtrivial.concat)
+- [lib.concat](./reference/lib/lib-concat)
+- [lib.mergeAttrBy.buildInputs](./reference/lib/mergeAttrBy/lib-mergeAttrBy-buildInputs)
+- [lib.mergeAttrBy.configureFlags](./reference/lib/mergeAttrBy/lib-mergeAttrBy-configureFlags)
+- [lib.mergeAttrBy.nativeBuildInputs](./reference/lib/mergeAttrBy/lib-mergeAttrBy-nativeBuildInputs)
+- [lib.mergeAttrBy.postAll](./reference/lib/mergeAttrBy/lib-mergeAttrBy-postAll)
+- [lib.mergeAttrBy.prePhases](./reference/lib/mergeAttrBy/lib-mergeAttrBy-prePhases)
+- [lib.mergeAttrBy.propagatedBuildInputs](./reference/lib/mergeAttrBy/lib-mergeAttrBy-propagatedBuildInputs)
+- [lib.trivial.concat](./reference/lib/trivial/lib-trivial-concat)
 
 

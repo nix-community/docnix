@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.lists.toposort](/reference/liblists.toposort)
+- [lib.lists.toposort](./reference/lib/lists/lib-lists-toposort)
 
 

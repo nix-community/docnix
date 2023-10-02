@@ -16,7 +16,7 @@ Return the difference between the numbers *e1* and *e2*.
 
 # Aliases
 
-- [builtins.sub](/reference/builtinssub)
-- [lib.sub](/reference/libsub)
+- [builtins.sub](./reference/builtins/builtins-sub)
+- [lib.sub](./reference/lib/lib-sub)
 
 

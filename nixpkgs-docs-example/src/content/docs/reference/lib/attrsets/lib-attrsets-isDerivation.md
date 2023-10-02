@@ -29,6 +29,6 @@ isDerivation :: Any -> Bool
 
 # Aliases
 
-- [lib.isDerivation](/reference/libisDerivation)
+- [lib.isDerivation](./reference/lib/lib-isDerivation)
 
 

@@ -18,7 +18,7 @@ element, e.g. `concatStringsSep "/" ["usr" "local" "bin"] ==
 
 # Aliases
 
-- [lib.concatStringsSep](/reference/libconcatStringsSep)
-- [lib.strings.concatStringsSep](/reference/libstrings.concatStringsSep)
+- [lib.concatStringsSep](./reference/lib/lib-concatStringsSep)
+- [lib.strings.concatStringsSep](./reference/lib/strings/lib-strings-concatStringsSep)
 
 

@@ -33,6 +33,6 @@ mapAttrsRecursiveCond :: (AttrSet -> Bool) -> ([String] -> a -> b) -> AttrSet ->
 
 # Aliases
 
-- [lib.mapAttrsRecursiveCond](/reference/libmapAttrsRecursiveCond)
+- [lib.mapAttrsRecursiveCond](./reference/lib/lib-mapAttrsRecursiveCond)
 
 

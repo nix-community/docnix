@@ -22,6 +22,6 @@ withFeature false "shared"
 
 # Aliases
 
-- [lib.withFeature](/reference/libwithFeature)
+- [lib.withFeature](./reference/lib/lib-withFeature)
 
 

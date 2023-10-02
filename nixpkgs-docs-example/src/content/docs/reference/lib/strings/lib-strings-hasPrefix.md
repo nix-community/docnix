@@ -27,6 +27,6 @@ hasPrefix :: string -> string -> bool
 
 # Aliases
 
-- [lib.hasPrefix](/reference/libhasPrefix)
+- [lib.hasPrefix](./reference/lib/lib-hasPrefix)
 
 

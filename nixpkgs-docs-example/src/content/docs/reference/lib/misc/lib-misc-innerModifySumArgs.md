@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.innerModifySumArgs](/reference/libinnerModifySumArgs)
+- [lib.innerModifySumArgs](./reference/lib/lib-innerModifySumArgs)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.info](/reference/libinfo)
+- [lib.info](./reference/lib/lib-info)
 
 

@@ -16,8 +16,8 @@ Return the contents of the file *path* as a string.
 
 # Aliases
 
-- [builtins.readFile](/reference/builtinsreadFile)
-- [lib.readFile](/reference/libreadFile)
-- [lib.trivial.readFile](/reference/libtrivial.readFile)
+- [builtins.readFile](./reference/builtins/builtins-readFile)
+- [lib.readFile](./reference/lib/lib-readFile)
+- [lib.trivial.readFile](./reference/lib/trivial/lib-trivial-readFile)
 
 

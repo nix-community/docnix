@@ -13,6 +13,6 @@ config value.
 
 # Aliases
 
-- [lib.modules.evalOptionValue](/reference/libmodules.evalOptionValue)
+- [lib.modules.evalOptionValue](./reference/lib/modules/lib-modules-evalOptionValue)
 
 

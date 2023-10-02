@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.noDepEntry](/reference/libnoDepEntry)
+- [lib.noDepEntry](./reference/lib/lib-noDepEntry)
 
 

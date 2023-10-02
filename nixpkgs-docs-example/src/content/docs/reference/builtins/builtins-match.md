@@ -43,6 +43,6 @@ Evaluates to `[ "FOO" ]`.
 
 # Aliases
 
-- [lib.strings.match](/reference/libstrings.match)
+- [lib.strings.match](./reference/lib/strings/lib-strings-match)
 
 

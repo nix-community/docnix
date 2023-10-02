@@ -16,6 +16,6 @@ Return the difference between the numbers *e1* and *e2*.
 
 # Aliases
 
-- [lib.trivial.bitNot](/reference/libtrivial.bitNot)
+- [lib.trivial.bitNot](./reference/lib/trivial/lib-trivial-bitNot)
 
 

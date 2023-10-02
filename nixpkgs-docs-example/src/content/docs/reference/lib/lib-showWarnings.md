@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.trivial.showWarnings](/reference/libtrivial.showWarnings)
+- [lib.trivial.showWarnings](./reference/lib/trivial/lib-trivial-showWarnings)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mkOverride](/reference/libmkOverride)
+- [lib.mkOverride](./reference/lib/lib-mkOverride)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.sources.commitIdFromGitRepo](/reference/libsources.commitIdFromGitRepo)
+- [lib.sources.commitIdFromGitRepo](./reference/lib/sources/lib-sources-commitIdFromGitRepo)
 
 

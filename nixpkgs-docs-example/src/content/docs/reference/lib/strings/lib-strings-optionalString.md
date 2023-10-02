@@ -28,6 +28,6 @@ optionalString :: bool -> string -> string
 
 # Aliases
 
-- [lib.optionalString](/reference/liboptionalString)
+- [lib.optionalString](./reference/lib/lib-optionalString)
 
 

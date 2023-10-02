@@ -35,6 +35,6 @@ compare "fooa" "a" => 1
 
 # Aliases
 
-- [lib.trivial.splitByAndCompare](/reference/libtrivial.splitByAndCompare)
+- [lib.trivial.splitByAndCompare](./reference/lib/trivial/lib-trivial-splitByAndCompare)
 
 

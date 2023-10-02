@@ -19,6 +19,6 @@ fixedWidthNumber 5 15
 
 # Aliases
 
-- [lib.strings.fixedWidthNumber](/reference/libstrings.fixedWidthNumber)
+- [lib.strings.fixedWidthNumber](./reference/lib/strings/lib-strings-fixedWidthNumber)
 
 

@@ -14,6 +14,6 @@ using mkOrder.
 
 # Aliases
 
-- [lib.modules.sortProperties](/reference/libmodules.sortProperties)
+- [lib.modules.sortProperties](./reference/lib/modules/lib-modules-sortProperties)
 
 

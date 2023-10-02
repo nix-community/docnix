@@ -20,6 +20,6 @@ even for intermediate values.
 
 # Aliases
 
-- [lib.unique](/reference/libunique)
+- [lib.unique](./reference/lib/lib-unique)
 
 

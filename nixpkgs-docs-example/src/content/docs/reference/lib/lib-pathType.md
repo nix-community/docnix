@@ -17,8 +17,8 @@ one of "directory", "regular", "symlink", or "unknown".
 
 # Aliases
 
-- [builtins.readFileType](/reference/builtinsreadFileType)
-- [lib.filesystem.pathType](/reference/libfilesystem.pathType)
-- [lib.sources.pathType](/reference/libsources.pathType)
+- [builtins.readFileType](./reference/builtins/builtins-readFileType)
+- [lib.filesystem.pathType](./reference/lib/filesystem/lib-filesystem-pathType)
+- [lib.sources.pathType](./reference/lib/sources/lib-sources-pathType)
 
 

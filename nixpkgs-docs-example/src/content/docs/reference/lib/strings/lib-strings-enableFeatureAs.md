@@ -22,6 +22,6 @@ enableFeatureAs false "shared" (throw "ignored")
 
 # Aliases
 
-- [lib.enableFeatureAs](/reference/libenableFeatureAs)
+- [lib.enableFeatureAs](./reference/lib/lib-enableFeatureAs)
 
 

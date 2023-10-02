@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.attrsets.collect](/reference/libattrsets.collect)
+- [lib.attrsets.collect](./reference/lib/attrsets/lib-attrsets-collect)
 
 

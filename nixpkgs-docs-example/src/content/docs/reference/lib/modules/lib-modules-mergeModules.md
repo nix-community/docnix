@@ -31,6 +31,6 @@ unmatchedDefns = [
 
 # Aliases
 
-- [lib.mergeModules](/reference/libmergeModules)
+- [lib.mergeModules](./reference/lib/lib-mergeModules)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.strings.isStorePath](/reference/libstrings.isStorePath)
+- [lib.strings.isStorePath](./reference/lib/strings/lib-strings-isStorePath)
 
 

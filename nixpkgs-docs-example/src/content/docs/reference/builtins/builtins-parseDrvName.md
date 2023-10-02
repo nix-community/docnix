@@ -21,6 +21,6 @@ result is returned in a set `{ name, version }`. Thus,
 
 # Aliases
 
-- [lib.strings.parseDrvName](/reference/libstrings.parseDrvName)
+- [lib.strings.parseDrvName](./reference/lib/strings/lib-strings-parseDrvName)
 
 

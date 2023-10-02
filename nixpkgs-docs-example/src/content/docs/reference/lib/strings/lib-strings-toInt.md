@@ -38,6 +38,6 @@ string -> int
 
 # Aliases
 
-- [lib.toInt](/reference/libtoInt)
+- [lib.toInt](./reference/lib/lib-toInt)
 
 

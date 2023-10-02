@@ -29,6 +29,6 @@ mesonOption :: string -> string -> string
 
 # Aliases
 
-- [lib.mesonOption](/reference/libmesonOption)
+- [lib.mesonOption](./reference/lib/lib-mesonOption)
 
 

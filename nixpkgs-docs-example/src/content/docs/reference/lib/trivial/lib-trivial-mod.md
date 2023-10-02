@@ -21,6 +21,6 @@ mod 1 10
 
 # Aliases
 
-- [lib.mod](/reference/libmod)
+- [lib.mod](./reference/lib/lib-mod)
 
 

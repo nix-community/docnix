@@ -18,7 +18,7 @@ context can be obtained with
 
 # Aliases
 
-- [builtins.hasContext](/reference/builtinshasContext)
-- [lib.pathHasContext](/reference/libpathHasContext)
+- [builtins.hasContext](./reference/builtins/builtins-hasContext)
+- [lib.pathHasContext](./reference/lib/lib-pathHasContext)
 
 

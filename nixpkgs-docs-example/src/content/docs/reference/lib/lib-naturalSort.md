@@ -24,6 +24,6 @@ naturalSort ["v0.2" "v0.15" "v0.0.9"]
 
 # Aliases
 
-- [lib.lists.naturalSort](/reference/liblists.naturalSort)
+- [lib.lists.naturalSort](./reference/lib/lists/lib-lists-naturalSort)
 
 
