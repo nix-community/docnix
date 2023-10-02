@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.uniqList](./reference/lib/lib-uniqList)
+- [lib.uniqList](reference/lib/lib-uniqList)
 
 

@@ -30,6 +30,6 @@ concatMapAttrs :: (String -> a -> AttrSet) -> AttrSet -> AttrSet
 
 # Aliases
 
-- [lib.concatMapAttrs](./reference/lib/lib-concatMapAttrs)
+- [lib.concatMapAttrs](reference/lib/lib-concatMapAttrs)
 
 

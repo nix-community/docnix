@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mkOptionType](./reference/lib/lib-mkOptionType)
+- [lib.mkOptionType](reference/lib/lib-mkOptionType)
 
 

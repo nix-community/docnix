@@ -13,6 +13,6 @@ release branch-off, if applicable). See `oldestSupportedRelease`.
 
 # Aliases
 
-- [lib.isInOldestRelease](./reference/lib/lib-isInOldestRelease)
+- [lib.isInOldestRelease](reference/lib/lib-isInOldestRelease)
 
 

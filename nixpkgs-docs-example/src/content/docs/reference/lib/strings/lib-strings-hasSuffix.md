@@ -27,6 +27,6 @@ hasSuffix :: string -> string -> bool
 
 # Aliases
 
-- [lib.hasSuffix](./reference/lib/lib-hasSuffix)
+- [lib.hasSuffix](reference/lib/lib-hasSuffix)
 
 

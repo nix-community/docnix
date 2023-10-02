@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.defaultMergeArg](./reference/lib/lib-defaultMergeArg)
+- [lib.defaultMergeArg](reference/lib/lib-defaultMergeArg)
 
 

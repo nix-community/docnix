@@ -18,6 +18,6 @@ importTOML :: path -> any
 
 # Aliases
 
-- [lib.importTOML](./reference/lib/lib-importTOML)
+- [lib.importTOML](reference/lib/lib-importTOML)
 
 

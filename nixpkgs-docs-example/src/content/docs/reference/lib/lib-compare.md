@@ -16,6 +16,6 @@ a > b,  compare a b => 1
 
 # Aliases
 
-- [lib.trivial.compare](./reference/lib/trivial/lib-trivial-compare)
+- [lib.trivial.compare](reference/lib/trivial/lib-trivial-compare)
 
 

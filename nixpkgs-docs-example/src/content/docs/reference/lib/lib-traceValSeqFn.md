@@ -14,6 +14,6 @@ it.
 
 # Aliases
 
-- [lib.debug.traceValSeqFn](./reference/lib/debug/lib-debug-traceValSeqFn)
+- [lib.debug.traceValSeqFn](reference/lib/debug/lib-debug-traceValSeqFn)
 
 

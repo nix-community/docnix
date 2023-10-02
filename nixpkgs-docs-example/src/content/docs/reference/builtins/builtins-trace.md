@@ -18,6 +18,6 @@ debugging.
 
 # Aliases
 
-- [lib.trace](./reference/lib/lib-trace)
+- [lib.trace](reference/lib/lib-trace)
 
 

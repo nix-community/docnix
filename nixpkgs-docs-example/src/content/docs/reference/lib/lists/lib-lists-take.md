@@ -27,6 +27,6 @@ take :: int -> [a] -> [a]
 
 # Aliases
 
-- [lib.take](./reference/lib/lib-take)
+- [lib.take](reference/lib/lib-take)
 
 

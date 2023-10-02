@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [pkgs.emacs28WithPackages](./reference/pkgs/pkgs-emacs28WithPackages)
+- [pkgs.emacs28WithPackages](reference/pkgs/pkgs-emacs28WithPackages)
 
 

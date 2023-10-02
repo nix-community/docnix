@@ -16,6 +16,6 @@ implement deep overriding.
 
 # Aliases
 
-- [lib.fix'](./reference/lib/lib-fix' (Prime))
+- [lib.fix'](reference/lib/lib-fix' (Prime))
 
 

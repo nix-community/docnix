@@ -18,8 +18,8 @@ empty by comparing it with `[]`.
 
 # Aliases
 
-- [builtins.head](./reference/builtins/builtins-head)
-- [lib.head](./reference/lib/lib-head)
-- [lib.lists.head](./reference/lib/lists/lib-lists-head)
+- [builtins.head](reference/builtins/builtins-head)
+- [lib.head](reference/lib/lib-head)
+- [lib.lists.head](reference/lib/lists/lib-lists-head)
 
 

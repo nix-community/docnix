@@ -28,6 +28,6 @@ const :: a -> b -> a
 
 # Aliases
 
-- [lib.trivial.const](./reference/lib/trivial/lib-trivial-const)
+- [lib.trivial.const](reference/lib/trivial/lib-trivial-const)
 
 

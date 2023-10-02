@@ -12,12 +12,12 @@ sidebar:
 
 # Aliases
 
-- [lib.attrsets.getBin](./reference/lib/attrsets/lib-attrsets-getBin)
-- [lib.attrsets.getDev](./reference/lib/attrsets/lib-attrsets-getDev)
-- [lib.attrsets.getLib](./reference/lib/attrsets/lib-attrsets-getLib)
-- [lib.attrsets.getMan](./reference/lib/attrsets/lib-attrsets-getMan)
-- [lib.getDev](./reference/lib/lib-getDev)
-- [lib.getLib](./reference/lib/lib-getLib)
-- [lib.getMan](./reference/lib/lib-getMan)
+- [lib.attrsets.getBin](reference/lib/attrsets/lib-attrsets-getBin)
+- [lib.attrsets.getDev](reference/lib/attrsets/lib-attrsets-getDev)
+- [lib.attrsets.getLib](reference/lib/attrsets/lib-attrsets-getLib)
+- [lib.attrsets.getMan](reference/lib/attrsets/lib-attrsets-getMan)
+- [lib.getDev](reference/lib/lib-getDev)
+- [lib.getLib](reference/lib/lib-getLib)
+- [lib.getMan](reference/lib/lib-getMan)
 
 

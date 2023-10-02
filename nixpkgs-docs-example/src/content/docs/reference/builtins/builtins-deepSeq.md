@@ -18,7 +18,7 @@ evaluated recursively.
 
 # Aliases
 
-- [lib.deepSeq](./reference/lib/lib-deepSeq)
-- [lib.trivial.deepSeq](./reference/lib/trivial/lib-trivial-deepSeq)
+- [lib.deepSeq](reference/lib/lib-deepSeq)
+- [lib.trivial.deepSeq](reference/lib/trivial/lib-trivial-deepSeq)
 
 

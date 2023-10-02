@@ -31,6 +31,6 @@ foldl :: (b -> a -> b) -> b -> [a] -> b
 
 # Aliases
 
-- [lib.misc.mergeAttrsByFuncDefaults](./reference/lib/misc/lib-misc-mergeAttrsByFuncDefaults)
+- [lib.misc.mergeAttrsByFuncDefaults](reference/lib/misc/lib-misc-mergeAttrsByFuncDefaults)
 
 

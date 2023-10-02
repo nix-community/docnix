@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.extends](./reference/lib/lib-extends)
+- [lib.extends](reference/lib/lib-extends)
 
 

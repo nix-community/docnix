@@ -12,8 +12,8 @@ Like ‘mkRenamedOptionModule’, but doesn't show a warning.
 
 # Aliases
 
-- [lib.mkAliasOptionModule](./reference/lib/lib-mkAliasOptionModule)
-- [lib.mkAliasOptionModuleMD](./reference/lib/lib-mkAliasOptionModuleMD)
-- [lib.modules.mkAliasOptionModule](./reference/lib/modules/lib-modules-mkAliasOptionModule)
+- [lib.mkAliasOptionModule](reference/lib/lib-mkAliasOptionModule)
+- [lib.mkAliasOptionModuleMD](reference/lib/lib-mkAliasOptionModuleMD)
+- [lib.modules.mkAliasOptionModule](reference/lib/modules/lib-modules-mkAliasOptionModule)
 
 

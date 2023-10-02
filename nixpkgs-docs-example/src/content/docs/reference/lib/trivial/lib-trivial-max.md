@@ -12,6 +12,6 @@ Return maximum of two numbers.
 
 # Aliases
 
-- [lib.max](./reference/lib/lib-max)
+- [lib.max](reference/lib/lib-max)
 
 

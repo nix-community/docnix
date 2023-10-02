@@ -25,6 +25,6 @@ recursion.
 
 # Aliases
 
-- [lib.pushDownProperties](./reference/lib/lib-pushDownProperties)
+- [lib.pushDownProperties](reference/lib/lib-pushDownProperties)
 
 

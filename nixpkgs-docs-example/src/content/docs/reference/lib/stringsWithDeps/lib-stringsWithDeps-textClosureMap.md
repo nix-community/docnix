@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.textClosureMap](./reference/lib/lib-textClosureMap)
+- [lib.textClosureMap](reference/lib/lib-textClosureMap)
 
 

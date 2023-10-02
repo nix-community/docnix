@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.lazyDerivation](./reference/lib/lib-lazyDerivation)
+- [lib.lazyDerivation](reference/lib/lib-lazyDerivation)
 
 

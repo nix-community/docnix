@@ -16,7 +16,7 @@ Return the bitwise AND of the integers *e1* and *e2*.
 
 # Aliases
 
-- [lib.bitAnd](./reference/lib/lib-bitAnd)
-- [lib.trivial.bitAnd](./reference/lib/trivial/lib-trivial-bitAnd)
+- [lib.bitAnd](reference/lib/lib-bitAnd)
+- [lib.trivial.bitAnd](reference/lib/trivial/lib-trivial-bitAnd)
 
 

@@ -14,6 +14,6 @@ individual attributes.
 
 # Aliases
 
-- [lib.callPackagesWith](./reference/lib/lib-callPackagesWith)
+- [lib.callPackagesWith](reference/lib/lib-callPackagesWith)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mergeAttrsConcatenateValues](./reference/lib/lib-mergeAttrsConcatenateValues)
+- [lib.mergeAttrsConcatenateValues](reference/lib/lib-mergeAttrsConcatenateValues)
 
 

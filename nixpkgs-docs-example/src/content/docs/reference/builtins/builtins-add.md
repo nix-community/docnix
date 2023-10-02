@@ -16,7 +16,7 @@ Return the sum of the numbers *e1* and *e2*.
 
 # Aliases
 
-- [lib.add](./reference/lib/lib-add)
-- [lib.trivial.add](./reference/lib/trivial/lib-trivial-add)
+- [lib.add](reference/lib/lib-add)
+- [lib.trivial.add](reference/lib/trivial/lib-trivial-add)
 
 

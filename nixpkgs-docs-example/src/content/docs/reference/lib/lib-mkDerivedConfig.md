@@ -19,6 +19,6 @@ It takes care of setting the right priority using `mkOverride`.
 
 # Aliases
 
-- [lib.modules.mkDerivedConfig](./reference/lib/modules/lib-modules-mkDerivedConfig)
+- [lib.modules.mkDerivedConfig](reference/lib/modules/lib-modules-mkDerivedConfig)
 
 

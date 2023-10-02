@@ -17,8 +17,8 @@ Return `true` if a value equal to *x* occurs in the list *xs*, and
 
 # Aliases
 
-- [builtins.elem](./reference/builtins/builtins-elem)
-- [lib.elem](./reference/lib/lib-elem)
-- [lib.lists.elem](./reference/lib/lists/lib-lists-elem)
+- [builtins.elem](reference/builtins/builtins-elem)
+- [lib.elem](reference/lib/lib-elem)
+- [lib.lists.elem](reference/lib/lists/lib-lists-elem)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.checkFlag](./reference/lib/lib-checkFlag)
+- [lib.checkFlag](reference/lib/lib-checkFlag)
 
 

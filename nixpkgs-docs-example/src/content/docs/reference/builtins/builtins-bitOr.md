@@ -16,7 +16,7 @@ Return the bitwise OR of the integers *e1* and *e2*.
 
 # Aliases
 
-- [lib.bitOr](./reference/lib/lib-bitOr)
-- [lib.trivial.bitOr](./reference/lib/trivial/lib-trivial-bitOr)
+- [lib.bitOr](reference/lib/lib-bitOr)
+- [lib.trivial.bitOr](reference/lib/trivial/lib-trivial-bitOr)
 
 

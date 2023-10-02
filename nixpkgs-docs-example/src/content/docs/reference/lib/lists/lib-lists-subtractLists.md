@@ -19,6 +19,6 @@ subtractLists [ 3 2 ] [ 1 2 3 4 5 3 ]
 
 # Aliases
 
-- [lib.subtractLists](./reference/lib/lib-subtractLists)
+- [lib.subtractLists](reference/lib/lib-subtractLists)
 
 

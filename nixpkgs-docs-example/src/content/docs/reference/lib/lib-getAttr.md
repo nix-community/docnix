@@ -19,7 +19,7 @@ identifier.
 
 # Aliases
 
-- [builtins.getAttr](./reference/builtins/builtins-getAttr)
-- [lib.attrsets.getAttr](./reference/lib/attrsets/lib-attrsets-getAttr)
+- [builtins.getAttr](reference/builtins/builtins-getAttr)
+- [lib.attrsets.getAttr](reference/lib/attrsets/lib-attrsets-getAttr)
 
 

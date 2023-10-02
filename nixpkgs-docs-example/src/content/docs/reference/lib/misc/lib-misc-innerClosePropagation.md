@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.innerClosePropagation](./reference/lib/lib-innerClosePropagation)
+- [lib.innerClosePropagation](reference/lib/lib-innerClosePropagation)
 
 

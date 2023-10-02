@@ -31,6 +31,6 @@ mesonEnable :: string -> bool -> string
 
 # Aliases
 
-- [lib.strings.mesonEnable](./reference/lib/strings/lib-strings-mesonEnable)
+- [lib.strings.mesonEnable](reference/lib/strings/lib-strings-mesonEnable)
 
 

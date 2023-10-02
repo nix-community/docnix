@@ -17,7 +17,7 @@ Return `true` if the path *path* exists at evaluation time, and
 
 # Aliases
 
-- [lib.pathExists](./reference/lib/lib-pathExists)
-- [lib.trivial.pathExists](./reference/lib/trivial/lib-trivial-pathExists)
+- [lib.pathExists](reference/lib/lib-pathExists)
+- [lib.trivial.pathExists](reference/lib/trivial/lib-trivial-pathExists)
 
 

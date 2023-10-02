@@ -26,6 +26,6 @@ filterAttrs :: (String -> Any -> Bool) -> AttrSet -> AttrSet
 
 # Aliases
 
-- [lib.filterAttrs](./reference/lib/lib-filterAttrs)
+- [lib.filterAttrs](reference/lib/lib-filterAttrs)
 
 

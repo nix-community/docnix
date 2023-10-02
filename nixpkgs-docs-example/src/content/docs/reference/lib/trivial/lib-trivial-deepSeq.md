@@ -18,7 +18,7 @@ evaluated recursively.
 
 # Aliases
 
-- [builtins.deepSeq](./reference/builtins/builtins-deepSeq)
-- [lib.deepSeq](./reference/lib/lib-deepSeq)
+- [builtins.deepSeq](reference/builtins/builtins-deepSeq)
+- [lib.deepSeq](reference/lib/lib-deepSeq)
 
 

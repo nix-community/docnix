@@ -19,6 +19,6 @@ toHexString 250 => "FA"
 
 # Aliases
 
-- [lib.trivial.toHexString](./reference/lib/trivial/lib-trivial-toHexString)
+- [lib.trivial.toHexString](reference/lib/trivial/lib-trivial-toHexString)
 
 

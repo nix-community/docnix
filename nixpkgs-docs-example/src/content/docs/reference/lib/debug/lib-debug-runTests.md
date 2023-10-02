@@ -73,6 +73,6 @@ result :: a;
 
 # Aliases
 
-- [lib.runTests](./reference/lib/lib-runTests)
+- [lib.runTests](reference/lib/lib-runTests)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.sources.canCleanSource](./reference/lib/sources/lib-sources-canCleanSource)
+- [lib.sources.canCleanSource](reference/lib/sources/lib-sources-canCleanSource)
 
 

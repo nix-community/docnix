@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.modules.mkOverride](./reference/lib/modules/lib-modules-mkOverride)
+- [lib.modules.mkOverride](reference/lib/modules/lib-modules-mkOverride)
 
 

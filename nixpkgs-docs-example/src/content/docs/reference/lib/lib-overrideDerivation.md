@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.customisation.overrideDerivation](./reference/lib/customisation/lib-customisation-overrideDerivation)
+- [lib.customisation.overrideDerivation](reference/lib/customisation/lib-customisation-overrideDerivation)
 
 

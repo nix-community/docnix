@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mergeDefinitions](./reference/lib/lib-mergeDefinitions)
+- [lib.mergeDefinitions](reference/lib/lib-mergeDefinitions)
 
 

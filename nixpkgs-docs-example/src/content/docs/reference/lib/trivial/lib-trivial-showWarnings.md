@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.showWarnings](./reference/lib/lib-showWarnings)
+- [lib.showWarnings](reference/lib/lib-showWarnings)
 
 

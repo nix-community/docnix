@@ -18,7 +18,7 @@ context can be obtained with
 
 # Aliases
 
-- [lib.pathHasContext](./reference/lib/lib-pathHasContext)
-- [lib.sources.pathHasContext](./reference/lib/sources/lib-sources-pathHasContext)
+- [lib.pathHasContext](reference/lib/lib-pathHasContext)
+- [lib.sources.pathHasContext](reference/lib/sources/lib-sources-pathHasContext)
 
 

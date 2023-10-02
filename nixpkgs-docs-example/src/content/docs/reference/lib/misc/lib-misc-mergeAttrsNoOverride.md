@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mergeAttrsNoOverride](./reference/lib/lib-mergeAttrsNoOverride)
+- [lib.mergeAttrsNoOverride](reference/lib/lib-mergeAttrsNoOverride)
 
 

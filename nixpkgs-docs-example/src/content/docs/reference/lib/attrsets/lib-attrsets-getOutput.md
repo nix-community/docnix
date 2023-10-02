@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.getOutput](./reference/lib/lib-getOutput)
+- [lib.getOutput](reference/lib/lib-getOutput)
 
 

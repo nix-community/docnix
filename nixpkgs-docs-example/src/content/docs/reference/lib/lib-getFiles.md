@@ -23,9 +23,9 @@ evaluates to `[ "foobar" "foobla" "fooabc" ]`.
 
 # Aliases
 
-- [lib.getValues](./reference/lib/lib-getValues)
-- [lib.options.getFiles](./reference/lib/options/lib-options-getFiles)
-- [lib.options.getValues](./reference/lib/options/lib-options-getValues)
-- [pkgs.copyPathsToStore](./reference/pkgs/pkgs-copyPathsToStore)
+- [lib.getValues](reference/lib/lib-getValues)
+- [lib.options.getFiles](reference/lib/options/lib-options-getFiles)
+- [lib.options.getValues](reference/lib/options/lib-options-getValues)
+- [pkgs.copyPathsToStore](reference/pkgs/pkgs-copyPathsToStore)
 
 

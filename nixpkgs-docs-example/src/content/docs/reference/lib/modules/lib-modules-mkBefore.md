@@ -12,8 +12,8 @@ sidebar:
 
 # Aliases
 
-- [lib.mkAfter](./reference/lib/lib-mkAfter)
-- [lib.mkBefore](./reference/lib/lib-mkBefore)
-- [lib.modules.mkAfter](./reference/lib/modules/lib-modules-mkAfter)
+- [lib.mkAfter](reference/lib/lib-mkAfter)
+- [lib.mkBefore](reference/lib/lib-mkBefore)
+- [lib.modules.mkAfter](reference/lib/modules/lib-modules-mkAfter)
 
 

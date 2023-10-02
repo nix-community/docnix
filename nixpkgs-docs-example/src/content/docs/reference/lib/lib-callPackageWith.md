@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.customisation.callPackageWith](./reference/lib/customisation/lib-customisation-callPackageWith)
+- [lib.customisation.callPackageWith](reference/lib/customisation/lib-customisation-callPackageWith)
 
 

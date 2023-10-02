@@ -18,6 +18,6 @@ Create a test assuming that list elements are `true`.
 
 # Aliases
 
-- [lib.testAllTrue](./reference/lib/lib-testAllTrue)
+- [lib.testAllTrue](reference/lib/lib-testAllTrue)
 
 

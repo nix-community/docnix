@@ -28,6 +28,6 @@ forEach :: [a] -> (a -> b) -> [b]
 
 # Aliases
 
-- [lib.forEach](./reference/lib/lib-forEach)
+- [lib.forEach](reference/lib/lib-forEach)
 
 

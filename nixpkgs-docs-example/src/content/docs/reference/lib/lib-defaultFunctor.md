@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.types.defaultFunctor](./reference/lib/types/lib-types-defaultFunctor)
+- [lib.types.defaultFunctor](reference/lib/types/lib-types-defaultFunctor)
 
 

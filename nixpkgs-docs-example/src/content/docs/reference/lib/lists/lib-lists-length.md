@@ -16,7 +16,7 @@ Return the length of the list *e*.
 
 # Aliases
 
-- [builtins.length](./reference/builtins/builtins-length)
-- [lib.length](./reference/lib/lib-length)
+- [builtins.length](reference/builtins/builtins-length)
+- [lib.length](reference/lib/lib-length)
 
 

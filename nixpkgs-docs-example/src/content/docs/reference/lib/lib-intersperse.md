@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.strings.intersperse](./reference/lib/strings/lib-strings-intersperse)
+- [lib.strings.intersperse](reference/lib/strings/lib-strings-intersperse)
 
 

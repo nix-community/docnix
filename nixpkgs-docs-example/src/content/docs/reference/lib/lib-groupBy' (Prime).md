@@ -35,6 +35,6 @@ groupBy' builtins.add 0 (x: boolToString (x > 2)) [ 5 1 2 3 4 ]
 
 # Aliases
 
-- [lib.lists.groupBy'](./reference/lib/lists/lib-lists-groupBy' (Prime))
+- [lib.lists.groupBy'](reference/lib/lists/lib-lists-groupBy' (Prime))
 
 

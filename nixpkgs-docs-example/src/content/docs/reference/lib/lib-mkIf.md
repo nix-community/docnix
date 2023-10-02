@@ -12,6 +12,6 @@ Properties.
 
 # Aliases
 
-- [lib.modules.mkIf](./reference/lib/modules/lib-modules-mkIf)
+- [lib.modules.mkIf](reference/lib/modules/lib-modules-mkIf)
 
 

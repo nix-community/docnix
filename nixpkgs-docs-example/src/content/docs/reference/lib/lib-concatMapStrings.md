@@ -25,6 +25,6 @@ concatMapStrings :: (a -> string) -> [a] -> string
 
 # Aliases
 
-- [lib.strings.concatMapStrings](./reference/lib/strings/lib-strings-concatMapStrings)
+- [lib.strings.concatMapStrings](reference/lib/strings/lib-strings-concatMapStrings)
 
 

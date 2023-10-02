@@ -19,6 +19,6 @@ intersectLists [ 1 2 3 ] [ 6 3 2 ]
 
 # Aliases
 
-- [lib.lists.intersectLists](./reference/lib/lists/lib-lists-intersectLists)
+- [lib.lists.intersectLists](reference/lib/lists/lib-lists-intersectLists)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.getValue](./reference/lib/lib-getValue)
+- [lib.getValue](reference/lib/lib-getValue)
 
 

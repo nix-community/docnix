@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.misc.lazyGenericClosure](./reference/lib/misc/lib-misc-lazyGenericClosure)
+- [lib.misc.lazyGenericClosure](reference/lib/misc/lib-misc-lazyGenericClosure)
 
 

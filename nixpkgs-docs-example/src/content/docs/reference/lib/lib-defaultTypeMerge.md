@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.types.defaultTypeMerge](./reference/lib/types/lib-types-defaultTypeMerge)
+- [lib.types.defaultTypeMerge](reference/lib/types/lib-types-defaultTypeMerge)
 
 

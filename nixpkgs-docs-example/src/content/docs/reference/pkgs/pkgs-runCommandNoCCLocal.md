@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [pkgs.runCommandLocal](./reference/pkgs/pkgs-runCommandLocal)
+- [pkgs.runCommandLocal](reference/pkgs/pkgs-runCommandLocal)
 
 

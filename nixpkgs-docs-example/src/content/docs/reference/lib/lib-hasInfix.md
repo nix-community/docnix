@@ -31,6 +31,6 @@ hasInfix :: string -> string -> bool
 
 # Aliases
 
-- [lib.strings.hasInfix](./reference/lib/strings/lib-strings-hasInfix)
+- [lib.strings.hasInfix](reference/lib/strings/lib-strings-hasInfix)
 
 

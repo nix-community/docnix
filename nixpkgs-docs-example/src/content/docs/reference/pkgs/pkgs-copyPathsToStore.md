@@ -23,9 +23,9 @@ evaluates to `[ "foobar" "foobla" "fooabc" ]`.
 
 # Aliases
 
-- [lib.getFiles](./reference/lib/lib-getFiles)
-- [lib.getValues](./reference/lib/lib-getValues)
-- [lib.options.getFiles](./reference/lib/options/lib-options-getFiles)
-- [lib.options.getValues](./reference/lib/options/lib-options-getValues)
+- [lib.getFiles](reference/lib/lib-getFiles)
+- [lib.getValues](reference/lib/lib-getValues)
+- [lib.options.getFiles](reference/lib/options/lib-options-getFiles)
+- [lib.options.getValues](reference/lib/options/lib-options-getValues)
 
 

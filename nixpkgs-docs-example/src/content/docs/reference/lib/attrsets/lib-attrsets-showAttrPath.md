@@ -30,6 +30,6 @@ showAttrPath :: [String] -> String
 
 # Aliases
 
-- [lib.showAttrPath](./reference/lib/lib-showAttrPath)
+- [lib.showAttrPath](reference/lib/lib-showAttrPath)
 
 

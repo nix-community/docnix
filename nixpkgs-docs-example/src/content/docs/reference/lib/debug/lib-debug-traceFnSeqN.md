@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.traceFnSeqN](./reference/lib/lib-traceFnSeqN)
+- [lib.traceFnSeqN](reference/lib/lib-traceFnSeqN)
 
 

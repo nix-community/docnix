@@ -28,6 +28,6 @@ const :: a -> b -> a
 
 # Aliases
 
-- [lib.const](./reference/lib/lib-const)
+- [lib.const](reference/lib/lib-const)
 
 

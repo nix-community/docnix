@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.collect](./reference/lib/lib-collect)
+- [lib.collect](reference/lib/lib-collect)
 
 

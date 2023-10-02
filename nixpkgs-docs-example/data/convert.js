@@ -62,7 +62,7 @@ const getAliases = (aliases, path) => {
       const name = ps.join(".");
       const title = `${name} ${name.endsWith("'") ? "(Prime)" : ""}`.trim();
       const label = ps.join(".");
-      return `- [${label}](./reference/${subpath.join("/")}/${title.replaceAll(
+      return `- [${label}](reference/${subpath.join("/")}/${title.replaceAll(
         ".",
         "-"
       )})`;

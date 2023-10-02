@@ -25,6 +25,6 @@ nameValuePair :: String -> Any -> { name :: String; value :: Any; }
 
 # Aliases
 
-- [lib.attrsets.nameValuePair](./reference/lib/attrsets/lib-attrsets-nameValuePair)
+- [lib.attrsets.nameValuePair](reference/lib/attrsets/lib-attrsets-nameValuePair)
 
 

@@ -21,6 +21,6 @@ result is returned in a set `{ name, version }`. Thus,
 
 # Aliases
 
-- [builtins.parseDrvName](./reference/builtins/builtins-parseDrvName)
+- [builtins.parseDrvName](reference/builtins/builtins-parseDrvName)
 
 

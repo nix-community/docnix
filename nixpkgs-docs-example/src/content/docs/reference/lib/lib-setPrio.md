@@ -12,6 +12,6 @@ Set the nix-env priority of the package.
 
 # Aliases
 
-- [lib.meta.setPrio](./reference/lib/meta/lib-meta-setPrio)
+- [lib.meta.setPrio](reference/lib/meta/lib-meta-setPrio)
 
 

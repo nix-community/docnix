@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.fix](./reference/lib/lib-fix)
+- [lib.fix](reference/lib/lib-fix)
 
 

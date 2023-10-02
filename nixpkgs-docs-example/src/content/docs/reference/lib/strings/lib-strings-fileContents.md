@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.fileContents](./reference/lib/lib-fileContents)
+- [lib.fileContents](reference/lib/lib-fileContents)
 
 

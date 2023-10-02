@@ -19,10 +19,10 @@ addMetaAttrs {description = "Bla blah";} somePkg
 
 # Aliases
 
-- [lib.hiPrio](./reference/lib/lib-hiPrio)
-- [lib.meta.hiPrio](./reference/lib/meta/lib-meta-hiPrio)
-- [lib.meta.lowPrio](./reference/lib/meta/lib-meta-lowPrio)
-- [pkgs.hiPrio](./reference/pkgs/pkgs-hiPrio)
-- [pkgs.lowPrio](./reference/pkgs/pkgs-lowPrio)
+- [lib.hiPrio](reference/lib/lib-hiPrio)
+- [lib.meta.hiPrio](reference/lib/meta/lib-meta-hiPrio)
+- [lib.meta.lowPrio](reference/lib/meta/lib-meta-lowPrio)
+- [pkgs.hiPrio](reference/pkgs/pkgs-hiPrio)
+- [pkgs.lowPrio](reference/pkgs/pkgs-lowPrio)
 
 

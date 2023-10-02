@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.sourceByRegex](./reference/lib/lib-sourceByRegex)
+- [lib.sourceByRegex](reference/lib/lib-sourceByRegex)
 
 

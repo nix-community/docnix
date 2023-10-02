@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mkAssert](./reference/lib/lib-mkAssert)
+- [lib.mkAssert](reference/lib/lib-mkAssert)
 
 

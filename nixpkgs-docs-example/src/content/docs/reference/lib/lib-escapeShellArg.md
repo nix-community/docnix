@@ -25,6 +25,6 @@ escapeShellArg :: string -> string
 
 # Aliases
 
-- [lib.strings.escapeShellArg](./reference/lib/strings/lib-strings-escapeShellArg)
+- [lib.strings.escapeShellArg](reference/lib/strings/lib-strings-escapeShellArg)
 
 

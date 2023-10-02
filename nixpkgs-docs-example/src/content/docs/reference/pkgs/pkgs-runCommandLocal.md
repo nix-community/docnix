@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [pkgs.runCommandNoCCLocal](./reference/pkgs/pkgs-runCommandNoCCLocal)
+- [pkgs.runCommandNoCCLocal](reference/pkgs/pkgs-runCommandNoCCLocal)
 
 

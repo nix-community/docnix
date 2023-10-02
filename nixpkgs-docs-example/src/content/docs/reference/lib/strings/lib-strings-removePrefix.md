@@ -27,6 +27,6 @@ string -> string -> string
 
 # Aliases
 
-- [lib.removePrefix](./reference/lib/lib-removePrefix)
+- [lib.removePrefix](reference/lib/lib-removePrefix)
 
 

@@ -30,6 +30,6 @@ attrByPath :: [String] -> Any -> AttrSet -> Any
 
 # Aliases
 
-- [lib.attrsets.attrByPath](./reference/lib/attrsets/lib-attrsets-attrByPath)
+- [lib.attrsets.attrByPath](reference/lib/attrsets/lib-attrsets-attrByPath)
 
 

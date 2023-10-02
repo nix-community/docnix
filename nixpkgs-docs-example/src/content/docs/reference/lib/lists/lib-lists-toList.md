@@ -23,6 +23,6 @@ toList "hi"
 
 # Aliases
 
-- [lib.toList](./reference/lib/lib-toList)
+- [lib.toList](reference/lib/lib-toList)
 
 

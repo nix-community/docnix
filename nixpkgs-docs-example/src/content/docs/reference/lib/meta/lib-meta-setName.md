@@ -13,6 +13,6 @@ Change the symbolic name of a package for presentation purposes
 
 # Aliases
 
-- [lib.setName](./reference/lib/lib-setName)
+- [lib.setName](reference/lib/lib-setName)
 
 

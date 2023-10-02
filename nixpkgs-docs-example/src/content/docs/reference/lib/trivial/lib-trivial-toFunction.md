@@ -23,6 +23,6 @@ nix-repl> lib.toFunction (x: x + 1) 2
 
 # Aliases
 
-- [lib.toFunction](./reference/lib/lib-toFunction)
+- [lib.toFunction](reference/lib/lib-toFunction)
 
 

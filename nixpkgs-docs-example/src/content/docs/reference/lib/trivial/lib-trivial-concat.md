@@ -25,13 +25,13 @@ concat :: [a] -> [a] -> [a]
 
 # Aliases
 
-- [lib.concat](./reference/lib/lib-concat)
-- [lib.mergeAttrBy.buildInputs](./reference/lib/mergeAttrBy/lib-mergeAttrBy-buildInputs)
-- [lib.mergeAttrBy.configureFlags](./reference/lib/mergeAttrBy/lib-mergeAttrBy-configureFlags)
-- [lib.mergeAttrBy.nativeBuildInputs](./reference/lib/mergeAttrBy/lib-mergeAttrBy-nativeBuildInputs)
-- [lib.mergeAttrBy.patches](./reference/lib/mergeAttrBy/lib-mergeAttrBy-patches)
-- [lib.mergeAttrBy.postAll](./reference/lib/mergeAttrBy/lib-mergeAttrBy-postAll)
-- [lib.mergeAttrBy.prePhases](./reference/lib/mergeAttrBy/lib-mergeAttrBy-prePhases)
-- [lib.mergeAttrBy.propagatedBuildInputs](./reference/lib/mergeAttrBy/lib-mergeAttrBy-propagatedBuildInputs)
+- [lib.concat](reference/lib/lib-concat)
+- [lib.mergeAttrBy.buildInputs](reference/lib/mergeAttrBy/lib-mergeAttrBy-buildInputs)
+- [lib.mergeAttrBy.configureFlags](reference/lib/mergeAttrBy/lib-mergeAttrBy-configureFlags)
+- [lib.mergeAttrBy.nativeBuildInputs](reference/lib/mergeAttrBy/lib-mergeAttrBy-nativeBuildInputs)
+- [lib.mergeAttrBy.patches](reference/lib/mergeAttrBy/lib-mergeAttrBy-patches)
+- [lib.mergeAttrBy.postAll](reference/lib/mergeAttrBy/lib-mergeAttrBy-postAll)
+- [lib.mergeAttrBy.prePhases](reference/lib/mergeAttrBy/lib-mergeAttrBy-prePhases)
+- [lib.mergeAttrBy.propagatedBuildInputs](reference/lib/mergeAttrBy/lib-mergeAttrBy-propagatedBuildInputs)
 
 

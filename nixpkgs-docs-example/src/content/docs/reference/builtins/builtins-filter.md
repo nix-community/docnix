@@ -17,8 +17,8 @@ function *f* returns `true`.
 
 # Aliases
 
-- [lib.filter](./reference/lib/lib-filter)
-- [lib.lists.filter](./reference/lib/lists/lib-lists-filter)
-- [lib.strings.filter](./reference/lib/strings/lib-strings-filter)
+- [lib.filter](reference/lib/lib-filter)
+- [lib.lists.filter](reference/lib/lists/lib-lists-filter)
+- [lib.strings.filter](reference/lib/strings/lib-strings-filter)
 
 

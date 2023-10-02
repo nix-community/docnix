@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.showFiles](./reference/lib/lib-showFiles)
+- [lib.showFiles](reference/lib/lib-showFiles)
 
 

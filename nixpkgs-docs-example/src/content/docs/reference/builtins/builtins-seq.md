@@ -17,7 +17,7 @@ computation is strict in the value of *e1*.
 
 # Aliases
 
-- [lib.seq](./reference/lib/lib-seq)
-- [lib.trivial.seq](./reference/lib/trivial/lib-trivial-seq)
+- [lib.seq](reference/lib/lib-seq)
+- [lib.trivial.seq](reference/lib/trivial/lib-trivial-seq)
 
 

@@ -16,7 +16,7 @@ Return the sum of the numbers *e1* and *e2*.
 
 # Aliases
 
-- [builtins.add](./reference/builtins/builtins-add)
-- [lib.trivial.add](./reference/lib/trivial/lib-trivial-add)
+- [builtins.add](reference/builtins/builtins-add)
+- [lib.trivial.add](reference/lib/trivial/lib-trivial-add)
 
 

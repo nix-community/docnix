@@ -27,6 +27,6 @@ zipAttrs :: [ AttrSet ] -> AttrSet
 
 # Aliases
 
-- [lib.attrsets.zipAttrs](./reference/lib/attrsets/lib-attrsets-zipAttrs)
+- [lib.attrsets.zipAttrs](reference/lib/attrsets/lib-attrsets-zipAttrs)
 
 

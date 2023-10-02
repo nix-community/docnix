@@ -23,8 +23,8 @@ the argument isn’t a list or is an empty list.
 
 # Aliases
 
-- [lib.lists.tail](./reference/lib/lists/lib-lists-tail)
-- [lib.strings.tail](./reference/lib/strings/lib-strings-tail)
-- [lib.tail](./reference/lib/lib-tail)
+- [lib.lists.tail](reference/lib/lists/lib-lists-tail)
+- [lib.strings.tail](reference/lib/strings/lib-strings-tail)
+- [lib.tail](reference/lib/lib-tail)
 
 

@@ -13,6 +13,6 @@ provided function to the value to be traced.
 
 # Aliases
 
-- [lib.traceValSeqN](./reference/lib/lib-traceValSeqN)
+- [lib.traceValSeqN](reference/lib/lib-traceValSeqN)
 
 

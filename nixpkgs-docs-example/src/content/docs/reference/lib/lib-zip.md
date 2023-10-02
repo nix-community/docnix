@@ -39,9 +39,9 @@ evaluates to
 
 # Aliases
 
-- [builtins.zipAttrsWith](./reference/builtins/builtins-zipAttrsWith)
-- [lib.attrsets.zip](./reference/lib/attrsets/lib-attrsets-zip)
-- [lib.attrsets.zipAttrsWith](./reference/lib/attrsets/lib-attrsets-zipAttrsWith)
-- [lib.zipAttrsWith](./reference/lib/lib-zipAttrsWith)
+- [builtins.zipAttrsWith](reference/builtins/builtins-zipAttrsWith)
+- [lib.attrsets.zip](reference/lib/attrsets/lib-attrsets-zip)
+- [lib.attrsets.zipAttrsWith](reference/lib/attrsets/lib-attrsets-zipAttrsWith)
+- [lib.zipAttrsWith](reference/lib/lib-zipAttrsWith)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.getLicenseFromSpdxId](./reference/lib/lib-getLicenseFromSpdxId)
+- [lib.getLicenseFromSpdxId](reference/lib/lib-getLicenseFromSpdxId)
 
 

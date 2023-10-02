@@ -16,7 +16,7 @@ Return the bitwise AND of the integers *e1* and *e2*.
 
 # Aliases
 
-- [builtins.bitAnd](./reference/builtins/builtins-bitAnd)
-- [lib.bitAnd](./reference/lib/lib-bitAnd)
+- [builtins.bitAnd](reference/builtins/builtins-bitAnd)
+- [lib.bitAnd](reference/lib/lib-bitAnd)
 
 

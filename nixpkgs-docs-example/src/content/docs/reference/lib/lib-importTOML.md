@@ -18,6 +18,6 @@ importTOML :: path -> any
 
 # Aliases
 
-- [lib.trivial.importTOML](./reference/lib/trivial/lib-trivial-importTOML)
+- [lib.trivial.importTOML](reference/lib/trivial/lib-trivial-importTOML)
 
 

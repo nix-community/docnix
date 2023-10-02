@@ -18,7 +18,7 @@ dontRecurseIntoAttrs :: AttrSet -> AttrSet
 
 # Aliases
 
-- [lib.attrsets.dontRecurseIntoAttrs](./reference/lib/attrsets/lib-attrsets-dontRecurseIntoAttrs)
-- [pkgs.dontRecurseIntoAttrs](./reference/pkgs/pkgs-dontRecurseIntoAttrs)
+- [lib.attrsets.dontRecurseIntoAttrs](reference/lib/attrsets/lib-attrsets-dontRecurseIntoAttrs)
+- [pkgs.dontRecurseIntoAttrs](reference/pkgs/pkgs-dontRecurseIntoAttrs)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.showOption](./reference/lib/lib-showOption)
+- [lib.showOption](reference/lib/lib-showOption)
 
 

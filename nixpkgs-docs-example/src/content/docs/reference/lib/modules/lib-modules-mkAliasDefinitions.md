@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mkAliasDefinitions](./reference/lib/lib-mkAliasDefinitions)
+- [lib.mkAliasDefinitions](reference/lib/lib-mkAliasDefinitions)
 
 

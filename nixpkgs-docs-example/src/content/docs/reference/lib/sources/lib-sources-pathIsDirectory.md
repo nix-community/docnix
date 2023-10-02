@@ -12,7 +12,7 @@ sidebar:
 
 # Aliases
 
-- [lib.filesystem.pathIsDirectory](./reference/lib/filesystem/lib-filesystem-pathIsDirectory)
-- [lib.pathIsDirectory](./reference/lib/lib-pathIsDirectory)
+- [lib.filesystem.pathIsDirectory](reference/lib/filesystem/lib-filesystem-pathIsDirectory)
+- [lib.pathIsDirectory](reference/lib/lib-pathIsDirectory)
 
 

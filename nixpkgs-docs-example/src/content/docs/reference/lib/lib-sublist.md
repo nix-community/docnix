@@ -28,6 +28,6 @@ sublist :: int -> int -> [a] -> [a]
 
 # Aliases
 
-- [lib.lists.sublist](./reference/lib/lists/lib-lists-sublist)
+- [lib.lists.sublist](reference/lib/lists/lib-lists-sublist)
 
 

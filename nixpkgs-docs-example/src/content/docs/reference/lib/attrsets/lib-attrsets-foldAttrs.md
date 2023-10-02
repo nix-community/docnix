@@ -25,6 +25,6 @@ foldAttrs :: (Any -> Any -> Any) -> Any -> [AttrSets] -> Any
 
 # Aliases
 
-- [lib.foldAttrs](./reference/lib/lib-foldAttrs)
+- [lib.foldAttrs](reference/lib/lib-foldAttrs)
 
 

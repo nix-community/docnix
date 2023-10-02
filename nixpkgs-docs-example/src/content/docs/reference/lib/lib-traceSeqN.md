@@ -28,6 +28,6 @@ traceSeqN :: Int -> a -> b -> b
 
 # Aliases
 
-- [lib.debug.traceSeqN](./reference/lib/debug/lib-debug-traceSeqN)
+- [lib.debug.traceSeqN](reference/lib/debug/lib-debug-traceSeqN)
 
 

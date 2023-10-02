@@ -25,6 +25,6 @@ remove :: a -> [a] -> [a]
 
 # Aliases
 
-- [lib.remove](./reference/lib/lib-remove)
+- [lib.remove](reference/lib/lib-remove)
 
 

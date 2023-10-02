@@ -12,6 +12,6 @@ Return minimum of two numbers.
 
 # Aliases
 
-- [lib.min](./reference/lib/lib-min)
+- [lib.min](reference/lib/lib-min)
 
 

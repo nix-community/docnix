@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.foldlAttrs](./reference/lib/lib-foldlAttrs)
+- [lib.foldlAttrs](reference/lib/lib-foldlAttrs)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.listDfs](./reference/lib/lib-listDfs)
+- [lib.listDfs](reference/lib/lib-listDfs)
 
 

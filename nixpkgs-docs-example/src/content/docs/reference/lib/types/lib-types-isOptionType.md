@@ -12,8 +12,8 @@ sidebar:
 
 # Aliases
 
-- [lib.isOption](./reference/lib/lib-isOption)
-- [lib.isOptionType](./reference/lib/lib-isOptionType)
-- [lib.options.isOption](./reference/lib/options/lib-options-isOption)
+- [lib.isOption](reference/lib/lib-isOption)
+- [lib.isOptionType](reference/lib/lib-isOptionType)
+- [lib.options.isOption](reference/lib/options/lib-options-isOption)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mergeOneOption](./reference/lib/lib-mergeOneOption)
+- [lib.mergeOneOption](reference/lib/lib-mergeOneOption)
 
 

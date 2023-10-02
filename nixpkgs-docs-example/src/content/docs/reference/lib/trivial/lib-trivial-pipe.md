@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.pipe](./reference/lib/lib-pipe)
+- [lib.pipe](reference/lib/lib-pipe)
 
 

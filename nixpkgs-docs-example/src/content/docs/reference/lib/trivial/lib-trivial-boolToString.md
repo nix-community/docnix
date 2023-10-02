@@ -22,6 +22,6 @@ boolToString :: bool -> string
 
 # Aliases
 
-- [lib.boolToString](./reference/lib/lib-boolToString)
+- [lib.boolToString](reference/lib/lib-boolToString)
 
 

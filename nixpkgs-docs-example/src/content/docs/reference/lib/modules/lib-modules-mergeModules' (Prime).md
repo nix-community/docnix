@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mergeModules'](./reference/lib/lib-mergeModules' (Prime))
+- [lib.mergeModules'](reference/lib/lib-mergeModules' (Prime))
 
 

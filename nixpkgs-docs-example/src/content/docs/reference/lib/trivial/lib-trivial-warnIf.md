@@ -18,6 +18,6 @@ bool -> string -> a -> a
 
 # Aliases
 
-- [lib.warnIf](./reference/lib/lib-warnIf)
+- [lib.warnIf](reference/lib/lib-warnIf)
 
 

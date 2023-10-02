@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.setAttr](./reference/lib/lib-setAttr)
+- [lib.setAttr](reference/lib/lib-setAttr)
 
 
