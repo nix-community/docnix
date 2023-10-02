@@ -62,9 +62,9 @@ const getAliases = (aliases, path) => {
       const name = ps.join(".");
       const title = `${name} ${name.endsWith("'") ? "(Prime)" : ""}`.trim();
       const label = ps.join(".");
-      return `- [${label}](/nix-doc-comments/reference/${subpath.join(
-        "/"
-      )}/${title.replaceAll(".", "-")})`.toLowerCase();
+      return `- [${label}](/nix-doc-comments/reference/${subpath
+        .join("/")
+        .toLowerCase()}/${title.replaceAll(".", "-").toLowerCase()})`;
     })
     .join("\n");
   return res;
