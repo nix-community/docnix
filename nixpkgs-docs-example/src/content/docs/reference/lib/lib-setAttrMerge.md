@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.misc.setAttrMerge](reference/lib/misc/lib-misc-setAttrMerge)
+- [lib.misc.setAttrMerge](/nix-doc-comments/reference/lib/misc/lib-misc-setAttrMerge)
 
 

@@ -19,6 +19,6 @@ toBaseDigits 16 250 => [ 15 10 ]
 
 # Aliases
 
-- [lib.trivial.toBaseDigits](reference/lib/trivial/lib-trivial-toBaseDigits)
+- [lib.trivial.toBaseDigits](/nix-doc-comments/reference/lib/trivial/lib-trivial-toBaseDigits)
 
 

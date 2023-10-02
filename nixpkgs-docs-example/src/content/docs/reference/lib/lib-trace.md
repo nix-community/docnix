@@ -18,6 +18,6 @@ debugging.
 
 # Aliases
 
-- [builtins.trace](reference/builtins/builtins-trace)
+- [builtins.trace](/nix-doc-comments/reference/builtins/builtins-trace)
 
 

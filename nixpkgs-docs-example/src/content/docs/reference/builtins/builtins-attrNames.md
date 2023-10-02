@@ -18,7 +18,7 @@ alphabetically sorted list. For instance, `builtins.attrNames { y
 
 # Aliases
 
-- [lib.attrNames](reference/lib/lib-attrNames)
-- [lib.attrsets.attrNames](reference/lib/attrsets/lib-attrsets-attrNames)
+- [lib.attrNames](/nix-doc-comments/reference/lib/lib-attrNames)
+- [lib.attrsets.attrNames](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-attrNames)
 
 

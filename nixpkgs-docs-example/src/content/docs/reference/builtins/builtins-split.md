@@ -44,6 +44,6 @@ Evaluates to `[ " " [ "FOO" ] " " ]`.
 
 # Aliases
 
-- [lib.strings.split](reference/lib/strings/lib-strings-split)
+- [lib.strings.split](/nix-doc-comments/reference/lib/strings/lib-strings-split)
 
 

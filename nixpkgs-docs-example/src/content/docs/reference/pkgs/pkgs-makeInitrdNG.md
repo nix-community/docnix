@@ -12,9 +12,9 @@ sidebar:
 
 # Aliases
 
-- [pkgs.clwrapperFunction](reference/pkgs/pkgs-clwrapperFunction)
-- [pkgs.gccFun](reference/pkgs/pkgs-gccFun)
-- [pkgs.makeImpureTest](reference/pkgs/pkgs-makeImpureTest)
-- [pkgs.makeInitrd](reference/pkgs/pkgs-makeInitrd)
+- [pkgs.clwrapperFunction](/nix-doc-comments/reference/pkgs/pkgs-clwrapperFunction)
+- [pkgs.gccFun](/nix-doc-comments/reference/pkgs/pkgs-gccFun)
+- [pkgs.makeImpureTest](/nix-doc-comments/reference/pkgs/pkgs-makeImpureTest)
+- [pkgs.makeInitrd](/nix-doc-comments/reference/pkgs/pkgs-makeInitrd)
 
 

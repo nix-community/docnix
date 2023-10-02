@@ -12,7 +12,7 @@ sidebar:
 
 # Aliases
 
-- [lib.pathIsRegularFile](reference/lib/lib-pathIsRegularFile)
-- [lib.sources.pathIsRegularFile](reference/lib/sources/lib-sources-pathIsRegularFile)
+- [lib.pathIsRegularFile](/nix-doc-comments/reference/lib/lib-pathIsRegularFile)
+- [lib.sources.pathIsRegularFile](/nix-doc-comments/reference/lib/sources/lib-sources-pathIsRegularFile)
 
 

@@ -28,6 +28,6 @@ const :: a -> b -> a
 
 # Aliases
 
-- [lib.const](reference/lib/lib-const)
+- [lib.const](/nix-doc-comments/reference/lib/lib-const)
 
 

@@ -17,7 +17,7 @@ of *list*, and `false` otherwise.
 
 # Aliases
 
-- [builtins.all](reference/builtins/builtins-all)
-- [lib.lists.all](reference/lib/lists/lib-lists-all)
+- [builtins.all](/nix-doc-comments/reference/builtins/builtins-all)
+- [lib.lists.all](/nix-doc-comments/reference/lib/lists/lib-lists-all)
 
 

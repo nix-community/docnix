@@ -29,6 +29,6 @@ mesonOption :: string -> string -> string
 
 # Aliases
 
-- [lib.mesonOption](reference/lib/lib-mesonOption)
+- [lib.mesonOption](/nix-doc-comments/reference/lib/lib-mesonOption)
 
 

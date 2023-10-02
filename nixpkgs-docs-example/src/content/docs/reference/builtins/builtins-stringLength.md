@@ -17,7 +17,7 @@ evaluation is aborted.
 
 # Aliases
 
-- [lib.stringLength](reference/lib/lib-stringLength)
-- [lib.strings.stringLength](reference/lib/strings/lib-strings-stringLength)
+- [lib.stringLength](/nix-doc-comments/reference/lib/lib-stringLength)
+- [lib.strings.stringLength](/nix-doc-comments/reference/lib/strings/lib-strings-stringLength)
 
 

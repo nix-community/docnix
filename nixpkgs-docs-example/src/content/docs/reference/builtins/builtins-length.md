@@ -16,7 +16,7 @@ Return the length of the list *e*.
 
 # Aliases
 
-- [lib.length](reference/lib/lib-length)
-- [lib.lists.length](reference/lib/lists/lib-lists-length)
+- [lib.length](/nix-doc-comments/reference/lib/lib-length)
+- [lib.lists.length](/nix-doc-comments/reference/lib/lists/lib-lists-length)
 
 

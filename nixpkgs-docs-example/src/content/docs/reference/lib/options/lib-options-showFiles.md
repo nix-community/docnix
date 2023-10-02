@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.showFiles](reference/lib/lib-showFiles)
+- [lib.showFiles](/nix-doc-comments/reference/lib/lib-showFiles)
 
 

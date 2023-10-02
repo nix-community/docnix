@@ -12,7 +12,7 @@ sidebar:
 
 # Aliases
 
-- [lib.filesystem.pathIsDirectory](reference/lib/filesystem/lib-filesystem-pathIsDirectory)
-- [lib.sources.pathIsDirectory](reference/lib/sources/lib-sources-pathIsDirectory)
+- [lib.filesystem.pathIsDirectory](/nix-doc-comments/reference/lib/filesystem/lib-filesystem-pathIsDirectory)
+- [lib.sources.pathIsDirectory](/nix-doc-comments/reference/lib/sources/lib-sources-pathIsDirectory)
 
 

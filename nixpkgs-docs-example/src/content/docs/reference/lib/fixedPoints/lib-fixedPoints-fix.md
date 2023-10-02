@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.fix](reference/lib/lib-fix)
+- [lib.fix](/nix-doc-comments/reference/lib/lib-fix)
 
 

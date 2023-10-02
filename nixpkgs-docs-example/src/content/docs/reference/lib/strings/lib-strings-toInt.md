@@ -38,6 +38,6 @@ string -> int
 
 # Aliases
 
-- [lib.toInt](reference/lib/lib-toInt)
+- [lib.toInt](/nix-doc-comments/reference/lib/lib-toInt)
 
 

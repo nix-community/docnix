@@ -16,7 +16,7 @@ Return the sum of the numbers *e1* and *e2*.
 
 # Aliases
 
-- [builtins.add](reference/builtins/builtins-add)
-- [lib.add](reference/lib/lib-add)
+- [builtins.add](/nix-doc-comments/reference/builtins/builtins-add)
+- [lib.add](/nix-doc-comments/reference/lib/lib-add)
 
 

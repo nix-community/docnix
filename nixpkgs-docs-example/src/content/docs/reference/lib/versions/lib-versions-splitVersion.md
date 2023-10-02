@@ -18,7 +18,7 @@ same version splitting logic underlying the version comparison in
 
 # Aliases
 
-- [builtins.splitVersion](reference/builtins/builtins-splitVersion)
-- [lib.splitVersion](reference/lib/lib-splitVersion)
+- [builtins.splitVersion](/nix-doc-comments/reference/builtins/builtins-splitVersion)
+- [lib.splitVersion](/nix-doc-comments/reference/lib/lib-splitVersion)
 
 

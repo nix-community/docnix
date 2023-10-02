@@ -37,6 +37,6 @@ string -> int
 
 # Aliases
 
-- [lib.toIntBase10](reference/lib/lib-toIntBase10)
+- [lib.toIntBase10](/nix-doc-comments/reference/lib/lib-toIntBase10)
 
 

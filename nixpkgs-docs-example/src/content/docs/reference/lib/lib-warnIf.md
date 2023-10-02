@@ -18,6 +18,6 @@ bool -> string -> a -> a
 
 # Aliases
 
-- [lib.trivial.warnIf](reference/lib/trivial/lib-trivial-warnIf)
+- [lib.trivial.warnIf](/nix-doc-comments/reference/lib/trivial/lib-trivial-warnIf)
 
 

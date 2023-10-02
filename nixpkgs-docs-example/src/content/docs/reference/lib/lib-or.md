@@ -12,6 +12,6 @@ boolean “or”
 
 # Aliases
 
-- [lib.trivial.or](reference/lib/trivial/lib-trivial-or)
+- [lib.trivial.or](/nix-doc-comments/reference/lib/trivial/lib-trivial-or)
 
 

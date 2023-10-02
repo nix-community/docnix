@@ -30,6 +30,6 @@ cartesianProductOfSets :: AttrSet -> [AttrSet]
 
 # Aliases
 
-- [lib.cartesianProductOfSets](reference/lib/lib-cartesianProductOfSets)
+- [lib.cartesianProductOfSets](/nix-doc-comments/reference/lib/lib-cartesianProductOfSets)
 
 

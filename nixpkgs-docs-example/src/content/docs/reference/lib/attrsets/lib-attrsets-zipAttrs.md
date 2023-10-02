@@ -27,6 +27,6 @@ zipAttrs :: [ AttrSet ] -> AttrSet
 
 # Aliases
 
-- [lib.zipAttrs](reference/lib/lib-zipAttrs)
+- [lib.zipAttrs](/nix-doc-comments/reference/lib/lib-zipAttrs)
 
 

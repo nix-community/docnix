@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mkOverride](reference/lib/lib-mkOverride)
+- [lib.mkOverride](/nix-doc-comments/reference/lib/lib-mkOverride)
 
 

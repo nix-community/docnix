@@ -14,6 +14,6 @@ using mkOrder.
 
 # Aliases
 
-- [lib.sortProperties](reference/lib/lib-sortProperties)
+- [lib.sortProperties](/nix-doc-comments/reference/lib/lib-sortProperties)
 
 

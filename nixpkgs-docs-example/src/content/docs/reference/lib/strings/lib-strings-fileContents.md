@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.fileContents](reference/lib/lib-fileContents)
+- [lib.fileContents](/nix-doc-comments/reference/lib/lib-fileContents)
 
 

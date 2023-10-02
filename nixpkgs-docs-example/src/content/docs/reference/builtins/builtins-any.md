@@ -17,7 +17,7 @@ element of *list*, and `false` otherwise.
 
 # Aliases
 
-- [lib.any](reference/lib/lib-any)
-- [lib.lists.any](reference/lib/lists/lib-lists-any)
+- [lib.any](/nix-doc-comments/reference/lib/lib-any)
+- [lib.lists.any](/nix-doc-comments/reference/lib/lists/lib-lists-any)
 
 

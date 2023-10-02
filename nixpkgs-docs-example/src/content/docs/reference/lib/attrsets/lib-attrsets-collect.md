@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.collect](reference/lib/lib-collect)
+- [lib.collect](/nix-doc-comments/reference/lib/lib-collect)
 
 

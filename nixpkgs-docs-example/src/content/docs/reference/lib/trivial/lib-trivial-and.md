@@ -12,6 +12,6 @@ boolean “and”
 
 # Aliases
 
-- [lib.and](reference/lib/lib-and)
+- [lib.and](/nix-doc-comments/reference/lib/lib-and)
 
 

@@ -27,6 +27,6 @@ range :: int -> int -> [int]
 
 # Aliases
 
-- [lib.range](reference/lib/lib-range)
+- [lib.range](/nix-doc-comments/reference/lib/lib-range)
 
 

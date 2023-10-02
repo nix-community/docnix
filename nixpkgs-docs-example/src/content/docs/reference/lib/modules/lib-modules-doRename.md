@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.doRename](reference/lib/lib-doRename)
+- [lib.doRename](/nix-doc-comments/reference/lib/lib-doRename)
 
 

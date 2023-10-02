@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.attrsets.getOutput](reference/lib/attrsets/lib-attrsets-getOutput)
+- [lib.attrsets.getOutput](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getOutput)
 
 

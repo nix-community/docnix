@@ -18,6 +18,6 @@ chooseDevOutputs :: [Derivation] -> [String]
 
 # Aliases
 
-- [lib.chooseDevOutputs](reference/lib/lib-chooseDevOutputs)
+- [lib.chooseDevOutputs](/nix-doc-comments/reference/lib/lib-chooseDevOutputs)
 
 

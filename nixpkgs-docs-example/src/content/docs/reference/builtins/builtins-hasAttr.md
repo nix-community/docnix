@@ -18,7 +18,7 @@ since *s* is an expression rather than an identifier.
 
 # Aliases
 
-- [lib.attrsets.hasAttr](reference/lib/attrsets/lib-attrsets-hasAttr)
-- [lib.hasAttr](reference/lib/lib-hasAttr)
+- [lib.attrsets.hasAttr](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-hasAttr)
+- [lib.hasAttr](/nix-doc-comments/reference/lib/lib-hasAttr)
 
 

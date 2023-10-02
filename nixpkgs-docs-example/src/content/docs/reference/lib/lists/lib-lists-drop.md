@@ -27,6 +27,6 @@ drop :: int -> [a] -> [a]
 
 # Aliases
 
-- [lib.drop](reference/lib/lib-drop)
+- [lib.drop](/nix-doc-comments/reference/lib/lib-drop)
 
 

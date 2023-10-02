@@ -13,6 +13,6 @@ customized.
 
 # Aliases
 
-- [lib.makeExtensible](reference/lib/lib-makeExtensible)
+- [lib.makeExtensible](/nix-doc-comments/reference/lib/lib-makeExtensible)
 
 

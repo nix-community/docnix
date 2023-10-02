@@ -22,6 +22,6 @@ replacementInstructions SHOULD be provided!
 
 # Aliases
 
-- [lib.modules.mkRemovedOptionModule](reference/lib/modules/lib-modules-mkRemovedOptionModule)
+- [lib.modules.mkRemovedOptionModule](/nix-doc-comments/reference/lib/modules/lib-modules-mkRemovedOptionModule)
 
 

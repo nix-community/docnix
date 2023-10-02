@@ -23,6 +23,6 @@ string -> a -> a
 
 # Aliases
 
-- [lib.warn](reference/lib/lib-warn)
+- [lib.warn](/nix-doc-comments/reference/lib/lib-warn)
 
 

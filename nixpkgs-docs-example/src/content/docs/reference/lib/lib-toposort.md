@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.lists.toposort](reference/lib/lists/lib-lists-toposort)
+- [lib.lists.toposort](/nix-doc-comments/reference/lib/lists/lib-lists-toposort)
 
 

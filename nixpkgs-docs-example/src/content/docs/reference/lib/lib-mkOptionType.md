@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.types.mkOptionType](reference/lib/types/lib-types-mkOptionType)
+- [lib.types.mkOptionType](/nix-doc-comments/reference/lib/types/lib-types-mkOptionType)
 
 

@@ -13,6 +13,6 @@ Change the symbolic name of a package for presentation purposes
 
 # Aliases
 
-- [lib.meta.setName](reference/lib/meta/lib-meta-setName)
+- [lib.meta.setName](/nix-doc-comments/reference/lib/meta/lib-meta-setName)
 
 

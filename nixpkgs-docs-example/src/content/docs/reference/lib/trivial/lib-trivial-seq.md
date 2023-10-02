@@ -17,7 +17,7 @@ computation is strict in the value of *e1*.
 
 # Aliases
 
-- [builtins.seq](reference/builtins/builtins-seq)
-- [lib.seq](reference/lib/lib-seq)
+- [builtins.seq](/nix-doc-comments/reference/builtins/builtins-seq)
+- [lib.seq](/nix-doc-comments/reference/lib/lib-seq)
 
 

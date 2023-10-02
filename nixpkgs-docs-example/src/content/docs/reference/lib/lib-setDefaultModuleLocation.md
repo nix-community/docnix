@@ -12,6 +12,6 @@ Wrap a module with a default location for reporting errors.
 
 # Aliases
 
-- [lib.modules.setDefaultModuleLocation](reference/lib/modules/lib-modules-setDefaultModuleLocation)
+- [lib.modules.setDefaultModuleLocation](/nix-doc-comments/reference/lib/modules/lib-modules-setDefaultModuleLocation)
 
 

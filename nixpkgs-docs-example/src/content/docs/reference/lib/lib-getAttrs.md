@@ -26,6 +26,6 @@ getAttrs :: [String] -> AttrSet -> AttrSet
 
 # Aliases
 
-- [lib.attrsets.getAttrs](reference/lib/attrsets/lib-attrsets-getAttrs)
+- [lib.attrsets.getAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getAttrs)
 
 

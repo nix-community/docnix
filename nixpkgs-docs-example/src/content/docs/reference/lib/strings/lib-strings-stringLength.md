@@ -17,7 +17,7 @@ evaluation is aborted.
 
 # Aliases
 
-- [builtins.stringLength](reference/builtins/builtins-stringLength)
-- [lib.stringLength](reference/lib/lib-stringLength)
+- [builtins.stringLength](/nix-doc-comments/reference/builtins/builtins-stringLength)
+- [lib.stringLength](/nix-doc-comments/reference/lib/lib-stringLength)
 
 

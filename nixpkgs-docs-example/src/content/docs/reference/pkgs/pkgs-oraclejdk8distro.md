@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [pkgs.jdkdistro](reference/pkgs/pkgs-jdkdistro)
+- [pkgs.jdkdistro](/nix-doc-comments/reference/pkgs/pkgs-jdkdistro)
 
 

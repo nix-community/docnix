@@ -32,8 +32,8 @@ foldr :: (a -> b -> b) -> b -> [a] -> b
 
 # Aliases
 
-- [lib.fold](reference/lib/lib-fold)
-- [lib.foldr](reference/lib/lib-foldr)
-- [lib.lists.foldr](reference/lib/lists/lib-lists-foldr)
+- [lib.fold](/nix-doc-comments/reference/lib/lib-fold)
+- [lib.foldr](/nix-doc-comments/reference/lib/lib-foldr)
+- [lib.lists.foldr](/nix-doc-comments/reference/lib/lists/lib-lists-foldr)
 
 

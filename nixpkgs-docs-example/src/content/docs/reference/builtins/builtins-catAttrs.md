@@ -24,7 +24,7 @@ evaluates to `[1 2]`.
 
 # Aliases
 
-- [lib.attrsets.catAttrs](reference/lib/attrsets/lib-attrsets-catAttrs)
-- [lib.catAttrs](reference/lib/lib-catAttrs)
+- [lib.attrsets.catAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-catAttrs)
+- [lib.catAttrs](/nix-doc-comments/reference/lib/lib-catAttrs)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.attrsets.recursiveUpdate](reference/lib/attrsets/lib-attrsets-recursiveUpdate)
+- [lib.attrsets.recursiveUpdate](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-recursiveUpdate)
 
 

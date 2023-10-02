@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.misc.getValue](reference/lib/misc/lib-misc-getValue)
+- [lib.misc.getValue](/nix-doc-comments/reference/lib/misc/lib-misc-getValue)
 
 

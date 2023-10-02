@@ -17,8 +17,8 @@ Return `true` if a value equal to *x* occurs in the list *xs*, and
 
 # Aliases
 
-- [lib.elem](reference/lib/lib-elem)
-- [lib.lists.elem](reference/lib/lists/lib-lists-elem)
-- [lib.strings.elem](reference/lib/strings/lib-strings-elem)
+- [lib.elem](/nix-doc-comments/reference/lib/lib-elem)
+- [lib.lists.elem](/nix-doc-comments/reference/lib/lists/lib-lists-elem)
+- [lib.strings.elem](/nix-doc-comments/reference/lib/strings/lib-strings-elem)
 
 

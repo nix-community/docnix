@@ -27,6 +27,6 @@ init :: [a] -> [a]
 
 # Aliases
 
-- [lib.init](reference/lib/lib-init)
+- [lib.init](/nix-doc-comments/reference/lib/lib-init)
 
 

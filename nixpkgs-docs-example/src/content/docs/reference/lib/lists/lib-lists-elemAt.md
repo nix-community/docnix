@@ -17,8 +17,8 @@ from 0. A fatal error occurs if the index is out of bounds.
 
 # Aliases
 
-- [builtins.elemAt](reference/builtins/builtins-elemAt)
-- [lib.elemAt](reference/lib/lib-elemAt)
-- [lib.strings.elemAt](reference/lib/strings/lib-strings-elemAt)
+- [builtins.elemAt](/nix-doc-comments/reference/builtins/builtins-elemAt)
+- [lib.elemAt](/nix-doc-comments/reference/lib/lib-elemAt)
+- [lib.strings.elemAt](/nix-doc-comments/reference/lib/strings/lib-strings-elemAt)
 
 

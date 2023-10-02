@@ -16,7 +16,7 @@ Return the length of the list *e*.
 
 # Aliases
 
-- [builtins.length](reference/builtins/builtins-length)
-- [lib.length](reference/lib/lib-length)
+- [builtins.length](/nix-doc-comments/reference/builtins/builtins-length)
+- [lib.length](/nix-doc-comments/reference/lib/lib-length)
 
 

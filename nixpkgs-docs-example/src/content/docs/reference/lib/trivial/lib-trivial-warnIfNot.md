@@ -18,6 +18,6 @@ bool -> string -> a -> a
 
 # Aliases
 
-- [lib.warnIfNot](reference/lib/lib-warnIfNot)
+- [lib.warnIfNot](/nix-doc-comments/reference/lib/lib-warnIfNot)
 
 

@@ -28,6 +28,6 @@ mapAttrs' :: (String -> Any -> { name :: String; value :: Any; }) -> AttrSet -> 
 
 # Aliases
 
-- [lib.attrsets.mapAttrs'](reference/lib/attrsets/lib-attrsets-mapAttrs' (Prime))
+- [lib.attrsets.mapAttrs'](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-mapAttrs' (Prime))
 
 

@@ -22,6 +22,6 @@ enableFeature false "shared"
 
 # Aliases
 
-- [lib.enableFeature](reference/lib/lib-enableFeature)
+- [lib.enableFeature](/nix-doc-comments/reference/lib/lib-enableFeature)
 
 

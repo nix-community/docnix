@@ -16,7 +16,7 @@ Return the bitwise XOR of the integers *e1* and *e2*.
 
 # Aliases
 
-- [builtins.bitXor](reference/builtins/builtins-bitXor)
-- [lib.bitXor](reference/lib/lib-bitXor)
+- [builtins.bitXor](/nix-doc-comments/reference/builtins/builtins-bitXor)
+- [lib.bitXor](/nix-doc-comments/reference/lib/lib-bitXor)
 
 

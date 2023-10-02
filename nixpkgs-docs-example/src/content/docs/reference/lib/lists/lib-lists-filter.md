@@ -17,8 +17,8 @@ function *f* returns `true`.
 
 # Aliases
 
-- [builtins.filter](reference/builtins/builtins-filter)
-- [lib.filter](reference/lib/lib-filter)
-- [lib.strings.filter](reference/lib/strings/lib-strings-filter)
+- [builtins.filter](/nix-doc-comments/reference/builtins/builtins-filter)
+- [lib.filter](/nix-doc-comments/reference/lib/lib-filter)
+- [lib.strings.filter](/nix-doc-comments/reference/lib/strings/lib-strings-filter)
 
 

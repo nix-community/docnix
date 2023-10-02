@@ -12,8 +12,8 @@ sidebar:
 
 # Aliases
 
-- [lib.maybeAttr](reference/lib/lib-maybeAttr)
-- [lib.maybeAttrNullable](reference/lib/lib-maybeAttrNullable)
-- [lib.misc.maybeAttrNullable](reference/lib/misc/lib-misc-maybeAttrNullable)
+- [lib.maybeAttr](/nix-doc-comments/reference/lib/lib-maybeAttr)
+- [lib.maybeAttrNullable](/nix-doc-comments/reference/lib/lib-maybeAttrNullable)
+- [lib.misc.maybeAttrNullable](/nix-doc-comments/reference/lib/misc/lib-misc-maybeAttrNullable)
 
 

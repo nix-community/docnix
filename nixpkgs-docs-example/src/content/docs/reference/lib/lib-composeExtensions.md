@@ -14,6 +14,6 @@ into one where changes made in the first are available in the
 
 # Aliases
 
-- [lib.fixedPoints.composeExtensions](reference/lib/fixedPoints/lib-fixedPoints-composeExtensions)
+- [lib.fixedPoints.composeExtensions](/nix-doc-comments/reference/lib/fixedPoints/lib-fixedPoints-composeExtensions)
 
 

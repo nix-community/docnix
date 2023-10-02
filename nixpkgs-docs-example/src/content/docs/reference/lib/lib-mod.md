@@ -21,6 +21,6 @@ mod 1 10
 
 # Aliases
 
-- [lib.trivial.mod](reference/lib/trivial/lib-trivial-mod)
+- [lib.trivial.mod](/nix-doc-comments/reference/lib/trivial/lib-trivial-mod)
 
 

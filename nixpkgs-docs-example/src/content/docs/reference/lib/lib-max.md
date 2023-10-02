@@ -12,6 +12,6 @@ Return maximum of two numbers.
 
 # Aliases
 
-- [lib.trivial.max](reference/lib/trivial/lib-trivial-max)
+- [lib.trivial.max](/nix-doc-comments/reference/lib/trivial/lib-trivial-max)
 
 

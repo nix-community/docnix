@@ -14,6 +14,6 @@ it.
 
 # Aliases
 
-- [lib.traceValSeq](reference/lib/lib-traceValSeq)
+- [lib.traceValSeq](/nix-doc-comments/reference/lib/lib-traceValSeq)
 
 

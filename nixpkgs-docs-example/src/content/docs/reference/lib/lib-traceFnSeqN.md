@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.debug.traceFnSeqN](reference/lib/debug/lib-debug-traceFnSeqN)
+- [lib.debug.traceFnSeqN](/nix-doc-comments/reference/lib/debug/lib-debug-traceFnSeqN)
 
 

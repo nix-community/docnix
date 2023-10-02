@@ -21,6 +21,6 @@ compatibility with out-of-tree code.
 
 # Aliases
 
-- [lib.scrubOptionValue](reference/lib/lib-scrubOptionValue)
+- [lib.scrubOptionValue](/nix-doc-comments/reference/lib/lib-scrubOptionValue)
 
 

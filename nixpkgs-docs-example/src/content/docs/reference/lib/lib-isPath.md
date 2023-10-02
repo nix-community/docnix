@@ -16,7 +16,7 @@ Return `true` if *e* evaluates to a path, and `false` otherwise.
 
 # Aliases
 
-- [builtins.isPath](reference/builtins/builtins-isPath)
-- [lib.strings.isPath](reference/lib/strings/lib-strings-isPath)
+- [builtins.isPath](/nix-doc-comments/reference/builtins/builtins-isPath)
+- [lib.strings.isPath](/nix-doc-comments/reference/lib/strings/lib-strings-isPath)
 
 

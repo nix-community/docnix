@@ -19,6 +19,6 @@ subtractLists [ 3 2 ] [ 1 2 3 4 5 3 ]
 
 # Aliases
 
-- [lib.lists.subtractLists](reference/lib/lists/lib-lists-subtractLists)
+- [lib.lists.subtractLists](/nix-doc-comments/reference/lib/lists/lib-lists-subtractLists)
 
 

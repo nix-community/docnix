@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mergeAttrsWithFunc](reference/lib/lib-mergeAttrsWithFunc)
+- [lib.mergeAttrsWithFunc](/nix-doc-comments/reference/lib/lib-mergeAttrsWithFunc)
 
 

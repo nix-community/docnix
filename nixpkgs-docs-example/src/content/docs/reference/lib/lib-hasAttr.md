@@ -18,7 +18,7 @@ since *s* is an expression rather than an identifier.
 
 # Aliases
 
-- [builtins.hasAttr](reference/builtins/builtins-hasAttr)
-- [lib.attrsets.hasAttr](reference/lib/attrsets/lib-attrsets-hasAttr)
+- [builtins.hasAttr](/nix-doc-comments/reference/builtins/builtins-hasAttr)
+- [lib.attrsets.hasAttr](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-hasAttr)
 
 

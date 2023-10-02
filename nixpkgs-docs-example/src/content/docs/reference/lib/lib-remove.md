@@ -25,6 +25,6 @@ remove :: a -> [a] -> [a]
 
 # Aliases
 
-- [lib.lists.remove](reference/lib/lists/lib-lists-remove)
+- [lib.lists.remove](/nix-doc-comments/reference/lib/lists/lib-lists-remove)
 
 

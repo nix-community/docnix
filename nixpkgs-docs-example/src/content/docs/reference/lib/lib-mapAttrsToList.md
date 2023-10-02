@@ -27,6 +27,6 @@ mapAttrsToList :: (String -> a -> b) -> AttrSet -> [b]
 
 # Aliases
 
-- [lib.attrsets.mapAttrsToList](reference/lib/attrsets/lib-attrsets-mapAttrsToList)
+- [lib.attrsets.mapAttrsToList](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-mapAttrsToList)
 
 

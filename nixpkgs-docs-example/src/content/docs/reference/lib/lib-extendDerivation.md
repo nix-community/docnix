@@ -13,6 +13,6 @@ the derivation itself and check a given condition when evaluating.
 
 # Aliases
 
-- [lib.customisation.extendDerivation](reference/lib/customisation/lib-customisation-extendDerivation)
+- [lib.customisation.extendDerivation](/nix-doc-comments/reference/lib/customisation/lib-customisation-extendDerivation)
 
 

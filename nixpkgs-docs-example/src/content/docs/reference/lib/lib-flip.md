@@ -25,6 +25,6 @@ flip :: (a -> b -> c) -> (b -> a -> c)
 
 # Aliases
 
-- [lib.trivial.flip](reference/lib/trivial/lib-trivial-flip)
+- [lib.trivial.flip](/nix-doc-comments/reference/lib/trivial/lib-trivial-flip)
 
 

@@ -27,6 +27,6 @@ singleton :: a -> [a]
 
 # Aliases
 
-- [lib.lists.singleton](reference/lib/lists/lib-lists-singleton)
+- [lib.lists.singleton](/nix-doc-comments/reference/lib/lists/lib-lists-singleton)
 
 

@@ -20,6 +20,6 @@ even for intermediate values.
 
 # Aliases
 
-- [lib.unique](reference/lib/lib-unique)
+- [lib.unique](/nix-doc-comments/reference/lib/lib-unique)
 
 

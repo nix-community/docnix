@@ -31,6 +31,6 @@ findSingle :: (a -> bool) -> a -> a -> [a] -> a
 
 # Aliases
 
-- [lib.lists.findSingle](reference/lib/lists/lib-lists-findSingle)
+- [lib.lists.findSingle](/nix-doc-comments/reference/lib/lists/lib-lists-findSingle)
 
 

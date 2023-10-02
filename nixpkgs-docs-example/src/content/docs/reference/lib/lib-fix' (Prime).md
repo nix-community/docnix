@@ -16,6 +16,6 @@ implement deep overriding.
 
 # Aliases
 
-- [lib.fixedPoints.fix'](reference/lib/fixedPoints/lib-fixedPoints-fix' (Prime))
+- [lib.fixedPoints.fix'](/nix-doc-comments/reference/lib/fixedPoints/lib-fixedPoints-fix' (Prime))
 
 

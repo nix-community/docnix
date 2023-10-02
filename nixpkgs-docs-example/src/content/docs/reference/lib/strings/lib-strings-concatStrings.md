@@ -18,6 +18,6 @@ element, e.g. `concatStringsSep "/" ["usr" "local" "bin"] ==
 
 # Aliases
 
-- [lib.concatStrings](reference/lib/lib-concatStrings)
+- [lib.concatStrings](/nix-doc-comments/reference/lib/lib-concatStrings)
 
 

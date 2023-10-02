@@ -21,6 +21,6 @@ mod 1 10
 
 # Aliases
 
-- [lib.mod](reference/lib/lib-mod)
+- [lib.mod](/nix-doc-comments/reference/lib/lib-mod)
 
 

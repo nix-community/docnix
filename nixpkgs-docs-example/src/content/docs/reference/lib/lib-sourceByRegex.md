@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.sources.sourceByRegex](reference/lib/sources/lib-sources-sourceByRegex)
+- [lib.sources.sourceByRegex](/nix-doc-comments/reference/lib/sources/lib-sources-sourceByRegex)
 
 

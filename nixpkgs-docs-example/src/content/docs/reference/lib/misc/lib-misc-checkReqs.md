@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.checkReqs](reference/lib/lib-checkReqs)
+- [lib.checkReqs](/nix-doc-comments/reference/lib/lib-checkReqs)
 
 

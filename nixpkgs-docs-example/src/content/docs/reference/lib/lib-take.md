@@ -27,6 +27,6 @@ take :: int -> [a] -> [a]
 
 # Aliases
 
-- [lib.lists.take](reference/lib/lists/lib-lists-take)
+- [lib.lists.take](/nix-doc-comments/reference/lib/lists/lib-lists-take)
 
 

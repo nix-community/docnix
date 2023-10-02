@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.readPathsFromFile](reference/lib/lib-readPathsFromFile)
+- [lib.readPathsFromFile](/nix-doc-comments/reference/lib/lib-readPathsFromFile)
 
 

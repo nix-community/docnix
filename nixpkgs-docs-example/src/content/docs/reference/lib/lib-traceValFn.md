@@ -27,6 +27,6 @@ traceValFn :: (a -> b) -> a -> a
 
 # Aliases
 
-- [lib.debug.traceValFn](reference/lib/debug/lib-debug-traceValFn)
+- [lib.debug.traceValFn](/nix-doc-comments/reference/lib/debug/lib-debug-traceValFn)
 
 

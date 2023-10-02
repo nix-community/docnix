@@ -16,7 +16,7 @@ Return `true` if *e* evaluates to a bool, and `false` otherwise.
 
 # Aliases
 
-- [builtins.isBool](reference/builtins/builtins-isBool)
-- [lib.trivial.isBool](reference/lib/trivial/lib-trivial-isBool)
+- [builtins.isBool](/nix-doc-comments/reference/builtins/builtins-isBool)
+- [lib.trivial.isBool](/nix-doc-comments/reference/lib/trivial/lib-trivial-isBool)
 
 

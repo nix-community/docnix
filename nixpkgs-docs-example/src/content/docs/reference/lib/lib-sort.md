@@ -28,7 +28,7 @@ deemed equal by the comparator.
 
 # Aliases
 
-- [builtins.sort](reference/builtins/builtins-sort)
-- [lib.lists.sort](reference/lib/lists/lib-lists-sort)
+- [builtins.sort](/nix-doc-comments/reference/builtins/builtins-sort)
+- [lib.lists.sort](/nix-doc-comments/reference/lib/lists/lib-lists-sort)
 
 

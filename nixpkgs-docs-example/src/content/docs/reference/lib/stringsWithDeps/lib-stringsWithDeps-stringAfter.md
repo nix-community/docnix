@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.stringAfter](reference/lib/lib-stringAfter)
+- [lib.stringAfter](/nix-doc-comments/reference/lib/lib-stringAfter)
 
 

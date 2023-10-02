@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.fullDepEntry](reference/lib/lib-fullDepEntry)
+- [lib.fullDepEntry](/nix-doc-comments/reference/lib/lib-fullDepEntry)
 
 

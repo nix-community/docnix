@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.recursiveUpdate](reference/lib/lib-recursiveUpdate)
+- [lib.recursiveUpdate](/nix-doc-comments/reference/lib/lib-recursiveUpdate)
 
 

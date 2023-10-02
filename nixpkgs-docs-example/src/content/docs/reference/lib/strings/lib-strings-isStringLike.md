@@ -16,6 +16,6 @@ string interpolations and in most functions that expect a string.
 
 # Aliases
 
-- [lib.isStringLike](reference/lib/lib-isStringLike)
+- [lib.isStringLike](/nix-doc-comments/reference/lib/lib-isStringLike)
 
 

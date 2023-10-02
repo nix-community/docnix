@@ -19,6 +19,6 @@ fixedWidthNumber 5 15
 
 # Aliases
 
-- [lib.fixedWidthNumber](reference/lib/lib-fixedWidthNumber)
+- [lib.fixedWidthNumber](/nix-doc-comments/reference/lib/lib-fixedWidthNumber)
 
 

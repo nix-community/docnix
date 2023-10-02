@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [pkgs.oraclejdk8distro](reference/pkgs/pkgs-oraclejdk8distro)
+- [pkgs.oraclejdk8distro](/nix-doc-comments/reference/pkgs/pkgs-oraclejdk8distro)
 
 

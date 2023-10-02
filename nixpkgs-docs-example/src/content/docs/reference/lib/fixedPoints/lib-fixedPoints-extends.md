@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.extends](reference/lib/lib-extends)
+- [lib.extends](/nix-doc-comments/reference/lib/lib-extends)
 
 

@@ -23,6 +23,6 @@ getVersion pkgs.youtube-dl
 
 # Aliases
 
-- [lib.strings.getVersion](reference/lib/strings/lib-strings-getVersion)
+- [lib.strings.getVersion](/nix-doc-comments/reference/lib/strings/lib-strings-getVersion)
 
 

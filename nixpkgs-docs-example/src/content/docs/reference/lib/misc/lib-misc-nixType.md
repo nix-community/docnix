@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.nixType](reference/lib/lib-nixType)
+- [lib.nixType](/nix-doc-comments/reference/lib/lib-nixType)
 
 

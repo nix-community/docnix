@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.modules.mkAliasAndWrapDefinitions](reference/lib/modules/lib-modules-mkAliasAndWrapDefinitions)
+- [lib.modules.mkAliasAndWrapDefinitions](/nix-doc-comments/reference/lib/modules/lib-modules-mkAliasAndWrapDefinitions)
 
 

@@ -17,8 +17,8 @@ from 0. A fatal error occurs if the index is out of bounds.
 
 # Aliases
 
-- [lib.elemAt](reference/lib/lib-elemAt)
-- [lib.lists.elemAt](reference/lib/lists/lib-lists-elemAt)
-- [lib.strings.elemAt](reference/lib/strings/lib-strings-elemAt)
+- [lib.elemAt](/nix-doc-comments/reference/lib/lib-elemAt)
+- [lib.lists.elemAt](/nix-doc-comments/reference/lib/lists/lib-lists-elemAt)
+- [lib.strings.elemAt](/nix-doc-comments/reference/lib/strings/lib-strings-elemAt)
 
 

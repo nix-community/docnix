@@ -16,7 +16,7 @@ Return `true` if *e* evaluates to a float, and `false` otherwise.
 
 # Aliases
 
-- [builtins.isFloat](reference/builtins/builtins-isFloat)
-- [lib.trivial.isFloat](reference/lib/trivial/lib-trivial-isFloat)
+- [builtins.isFloat](/nix-doc-comments/reference/builtins/builtins-isFloat)
+- [lib.trivial.isFloat](/nix-doc-comments/reference/lib/trivial/lib-trivial-isFloat)
 
 

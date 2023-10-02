@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.optionAttrSetToDocList](reference/lib/lib-optionAttrSetToDocList)
+- [lib.optionAttrSetToDocList](/nix-doc-comments/reference/lib/lib-optionAttrSetToDocList)
 
 

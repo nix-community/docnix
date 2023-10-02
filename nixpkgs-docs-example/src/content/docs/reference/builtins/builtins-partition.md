@@ -30,7 +30,7 @@ evaluates to
 
 # Aliases
 
-- [lib.lists.partition](reference/lib/lists/lib-lists-partition)
-- [lib.partition](reference/lib/lib-partition)
+- [lib.lists.partition](/nix-doc-comments/reference/lib/lists/lib-lists-partition)
+- [lib.partition](/nix-doc-comments/reference/lib/lib-partition)
 
 

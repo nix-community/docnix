@@ -27,14 +27,14 @@ evaluates to `"fabir"`.
 
 # Aliases
 
-- [lib.escapeRegex](reference/lib/lib-escapeRegex)
-- [lib.escapeURL](reference/lib/lib-escapeURL)
-- [lib.escapeXML](reference/lib/lib-escapeXML)
-- [lib.strings.escapeRegex](reference/lib/strings/lib-strings-escapeRegex)
-- [lib.strings.escapeXML](reference/lib/strings/lib-strings-escapeXML)
-- [lib.strings.toLower](reference/lib/strings/lib-strings-toLower)
-- [lib.strings.toUpper](reference/lib/strings/lib-strings-toUpper)
-- [lib.toLower](reference/lib/lib-toLower)
-- [lib.toUpper](reference/lib/lib-toUpper)
+- [lib.escapeRegex](/nix-doc-comments/reference/lib/lib-escapeRegex)
+- [lib.escapeURL](/nix-doc-comments/reference/lib/lib-escapeURL)
+- [lib.escapeXML](/nix-doc-comments/reference/lib/lib-escapeXML)
+- [lib.strings.escapeRegex](/nix-doc-comments/reference/lib/strings/lib-strings-escapeRegex)
+- [lib.strings.escapeXML](/nix-doc-comments/reference/lib/strings/lib-strings-escapeXML)
+- [lib.strings.toLower](/nix-doc-comments/reference/lib/strings/lib-strings-toLower)
+- [lib.strings.toUpper](/nix-doc-comments/reference/lib/strings/lib-strings-toUpper)
+- [lib.toLower](/nix-doc-comments/reference/lib/lib-toLower)
+- [lib.toUpper](/nix-doc-comments/reference/lib/lib-toUpper)
 
 

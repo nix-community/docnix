@@ -20,6 +20,6 @@ mkEnableOption "foo"
 
 # Aliases
 
-- [lib.mkEnableOption](reference/lib/lib-mkEnableOption)
+- [lib.mkEnableOption](/nix-doc-comments/reference/lib/lib-mkEnableOption)
 
 

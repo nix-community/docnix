@@ -26,6 +26,6 @@ escape :: [string] -> string -> string
 
 # Aliases
 
-- [lib.strings.escape](reference/lib/strings/lib-strings-escape)
+- [lib.strings.escape](/nix-doc-comments/reference/lib/strings/lib-strings-escape)
 
 

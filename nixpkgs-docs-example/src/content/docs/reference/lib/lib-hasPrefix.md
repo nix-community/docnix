@@ -27,6 +27,6 @@ hasPrefix :: string -> string -> bool
 
 # Aliases
 
-- [lib.strings.hasPrefix](reference/lib/strings/lib-strings-hasPrefix)
+- [lib.strings.hasPrefix](/nix-doc-comments/reference/lib/strings/lib-strings-hasPrefix)
 
 

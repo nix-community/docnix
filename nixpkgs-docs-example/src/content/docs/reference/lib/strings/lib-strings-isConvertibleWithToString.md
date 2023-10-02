@@ -15,6 +15,6 @@ null, bool, list of similarly coercible values.
 
 # Aliases
 
-- [lib.strings.isCoercibleToString](reference/lib/strings/lib-strings-isCoercibleToString)
+- [lib.strings.isCoercibleToString](/nix-doc-comments/reference/lib/strings/lib-strings-isCoercibleToString)
 
 

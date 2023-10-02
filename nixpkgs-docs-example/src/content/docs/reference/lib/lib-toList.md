@@ -23,6 +23,6 @@ toList "hi"
 
 # Aliases
 
-- [lib.lists.toList](reference/lib/lists/lib-lists-toList)
+- [lib.lists.toList](/nix-doc-comments/reference/lib/lists/lib-lists-toList)
 
 

@@ -18,6 +18,6 @@ bool -> string -> a -> a
 
 # Aliases
 
-- [lib.throwIf](reference/lib/lib-throwIf)
+- [lib.throwIf](/nix-doc-comments/reference/lib/lib-throwIf)
 
 

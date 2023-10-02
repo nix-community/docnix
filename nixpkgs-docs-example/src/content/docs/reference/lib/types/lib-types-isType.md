@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.isType](reference/lib/lib-isType)
+- [lib.isType](/nix-doc-comments/reference/lib/lib-isType)
 
 

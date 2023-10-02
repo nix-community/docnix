@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.info](reference/lib/lib-info)
+- [lib.info](/nix-doc-comments/reference/lib/lib-info)
 
 

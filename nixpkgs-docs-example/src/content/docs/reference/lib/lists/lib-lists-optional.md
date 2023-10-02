@@ -29,6 +29,6 @@ optional :: bool -> a -> [a]
 
 # Aliases
 
-- [lib.optional](reference/lib/lib-optional)
+- [lib.optional](/nix-doc-comments/reference/lib/lib-optional)
 
 

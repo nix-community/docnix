@@ -34,6 +34,6 @@ bool -> string -> a -> a
 
 # Aliases
 
-- [lib.throwIfNot](reference/lib/lib-throwIfNot)
+- [lib.throwIfNot](/nix-doc-comments/reference/lib/lib-throwIfNot)
 
 

@@ -13,6 +13,6 @@ hopefully it helps a little bit.
 
 # Aliases
 
-- [lib.customisation.makeScopeWithSplicing'](reference/lib/customisation/lib-customisation-makeScopeWithSplicing' (Prime))
+- [lib.customisation.makeScopeWithSplicing'](/nix-doc-comments/reference/lib/customisation/lib-customisation-makeScopeWithSplicing' (Prime))
 
 

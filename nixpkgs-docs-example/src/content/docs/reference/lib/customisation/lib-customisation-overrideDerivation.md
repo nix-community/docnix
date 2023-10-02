@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.overrideDerivation](reference/lib/lib-overrideDerivation)
+- [lib.overrideDerivation](/nix-doc-comments/reference/lib/lib-overrideDerivation)
 
 

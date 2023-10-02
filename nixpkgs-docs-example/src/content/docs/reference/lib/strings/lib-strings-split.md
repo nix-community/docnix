@@ -44,6 +44,6 @@ Evaluates to `[ " " [ "FOO" ] " " ]`.
 
 # Aliases
 
-- [builtins.split](reference/builtins/builtins-split)
+- [builtins.split](/nix-doc-comments/reference/builtins/builtins-split)
 
 

@@ -27,6 +27,6 @@ last :: [a] -> a
 
 # Aliases
 
-- [lib.last](reference/lib/lib-last)
+- [lib.last](/nix-doc-comments/reference/lib/lib-last)
 
 

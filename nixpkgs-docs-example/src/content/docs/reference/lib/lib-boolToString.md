@@ -22,6 +22,6 @@ boolToString :: bool -> string
 
 # Aliases
 
-- [lib.trivial.boolToString](reference/lib/trivial/lib-trivial-boolToString)
+- [lib.trivial.boolToString](/nix-doc-comments/reference/lib/trivial/lib-trivial-boolToString)
 
 

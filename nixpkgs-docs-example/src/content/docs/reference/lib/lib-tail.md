@@ -23,8 +23,8 @@ the argument isn’t a list or is an empty list.
 
 # Aliases
 
-- [builtins.tail](reference/builtins/builtins-tail)
-- [lib.lists.tail](reference/lib/lists/lib-lists-tail)
-- [lib.strings.tail](reference/lib/strings/lib-strings-tail)
+- [builtins.tail](/nix-doc-comments/reference/builtins/builtins-tail)
+- [lib.lists.tail](/nix-doc-comments/reference/lib/lists/lib-lists-tail)
+- [lib.strings.tail](/nix-doc-comments/reference/lib/strings/lib-strings-tail)
 
 

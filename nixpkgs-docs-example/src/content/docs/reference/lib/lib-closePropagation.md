@@ -12,7 +12,7 @@ sidebar:
 
 # Aliases
 
-- [lib.misc.closePropagation](reference/lib/misc/lib-misc-closePropagation)
-- [lib.misc.closePropagationFast](reference/lib/misc/lib-misc-closePropagationFast)
+- [lib.misc.closePropagation](/nix-doc-comments/reference/lib/misc/lib-misc-closePropagation)
+- [lib.misc.closePropagationFast](/nix-doc-comments/reference/lib/misc/lib-misc-closePropagationFast)
 
 

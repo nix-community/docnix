@@ -19,6 +19,6 @@ intersectLists [ 1 2 3 ] [ 6 3 2 ]
 
 # Aliases
 
-- [lib.intersectLists](reference/lib/lib-intersectLists)
+- [lib.intersectLists](/nix-doc-comments/reference/lib/lib-intersectLists)
 
 

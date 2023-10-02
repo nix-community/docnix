@@ -23,6 +23,6 @@ getVersion pkgs.youtube-dl
 
 # Aliases
 
-- [lib.getVersion](reference/lib/lib-getVersion)
+- [lib.getVersion](/nix-doc-comments/reference/lib/lib-getVersion)
 
 

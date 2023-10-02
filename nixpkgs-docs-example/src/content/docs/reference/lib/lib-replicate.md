@@ -27,6 +27,6 @@ replicate :: int -> a -> [a]
 
 # Aliases
 
-- [lib.lists.replicate](reference/lib/lists/lib-lists-replicate)
+- [lib.lists.replicate](/nix-doc-comments/reference/lib/lists/lib-lists-replicate)
 
 

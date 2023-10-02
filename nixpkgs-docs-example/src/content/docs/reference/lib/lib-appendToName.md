@@ -13,6 +13,6 @@ part).
 
 # Aliases
 
-- [lib.meta.appendToName](reference/lib/meta/lib-meta-appendToName)
+- [lib.meta.appendToName](/nix-doc-comments/reference/lib/meta/lib-meta-appendToName)
 
 

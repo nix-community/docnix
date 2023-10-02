@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.stringsWithDeps.fullDepEntry](reference/lib/stringsWithDeps/lib-stringsWithDeps-fullDepEntry)
+- [lib.stringsWithDeps.fullDepEntry](/nix-doc-comments/reference/lib/stringsWithDeps/lib-stringsWithDeps-fullDepEntry)
 
 

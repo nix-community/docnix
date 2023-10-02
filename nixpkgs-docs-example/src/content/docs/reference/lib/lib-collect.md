@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.attrsets.collect](reference/lib/attrsets/lib-attrsets-collect)
+- [lib.attrsets.collect](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-collect)
 
 

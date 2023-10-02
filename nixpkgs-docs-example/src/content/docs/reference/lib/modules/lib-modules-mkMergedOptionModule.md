@@ -38,6 +38,6 @@ x.y.z to the result of the merge function
 
 # Aliases
 
-- [lib.mkMergedOptionModule](reference/lib/lib-mkMergedOptionModule)
+- [lib.mkMergedOptionModule](/nix-doc-comments/reference/lib/lib-mkMergedOptionModule)
 
 

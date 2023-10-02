@@ -39,9 +39,9 @@ evaluates to
 
 # Aliases
 
-- [lib.attrsets.zip](reference/lib/attrsets/lib-attrsets-zip)
-- [lib.attrsets.zipAttrsWith](reference/lib/attrsets/lib-attrsets-zipAttrsWith)
-- [lib.zip](reference/lib/lib-zip)
-- [lib.zipAttrsWith](reference/lib/lib-zipAttrsWith)
+- [lib.attrsets.zip](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zip)
+- [lib.attrsets.zipAttrsWith](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipAttrsWith)
+- [lib.zip](/nix-doc-comments/reference/lib/lib-zip)
+- [lib.zipAttrsWith](/nix-doc-comments/reference/lib/lib-zipAttrsWith)
 
 

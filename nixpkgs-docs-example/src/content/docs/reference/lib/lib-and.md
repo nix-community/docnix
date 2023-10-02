@@ -12,6 +12,6 @@ boolean “and”
 
 # Aliases
 
-- [lib.trivial.and](reference/lib/trivial/lib-trivial-and)
+- [lib.trivial.and](/nix-doc-comments/reference/lib/trivial/lib-trivial-and)
 
 

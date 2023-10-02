@@ -18,7 +18,7 @@ element, e.g. `concatStringsSep "/" ["usr" "local" "bin"] ==
 
 # Aliases
 
-- [builtins.concatStringsSep](reference/builtins/builtins-concatStringsSep)
-- [lib.concatStringsSep](reference/lib/lib-concatStringsSep)
+- [builtins.concatStringsSep](/nix-doc-comments/reference/builtins/builtins-concatStringsSep)
+- [lib.concatStringsSep](/nix-doc-comments/reference/lib/lib-concatStringsSep)
 
 

@@ -16,7 +16,7 @@ Return the difference between the numbers *e1* and *e2*.
 
 # Aliases
 
-- [builtins.sub](reference/builtins/builtins-sub)
-- [lib.trivial.sub](reference/lib/trivial/lib-trivial-sub)
+- [builtins.sub](/nix-doc-comments/reference/builtins/builtins-sub)
+- [lib.trivial.sub](/nix-doc-comments/reference/lib/trivial/lib-trivial-sub)
 
 

@@ -28,6 +28,6 @@ sublist :: int -> int -> [a] -> [a]
 
 # Aliases
 
-- [lib.sublist](reference/lib/lib-sublist)
+- [lib.sublist](/nix-doc-comments/reference/lib/lib-sublist)
 
 

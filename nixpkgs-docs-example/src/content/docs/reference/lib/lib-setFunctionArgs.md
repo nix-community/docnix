@@ -20,6 +20,6 @@ like callPackage expect to be able to query expected arguments.
 
 # Aliases
 
-- [lib.trivial.setFunctionArgs](reference/lib/trivial/lib-trivial-setFunctionArgs)
+- [lib.trivial.setFunctionArgs](/nix-doc-comments/reference/lib/trivial/lib-trivial-setFunctionArgs)
 
 

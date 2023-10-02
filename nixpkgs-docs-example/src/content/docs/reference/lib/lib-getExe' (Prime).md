@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.meta.getExe'](reference/lib/meta/lib-meta-getExe' (Prime))
+- [lib.meta.getExe'](/nix-doc-comments/reference/lib/meta/lib-meta-getExe' (Prime))
 
 

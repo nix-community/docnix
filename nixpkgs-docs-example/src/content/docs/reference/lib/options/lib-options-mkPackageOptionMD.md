@@ -13,8 +13,8 @@ documentation, which is no longer required.
 
 # Aliases
 
-- [lib.mkPackageOption](reference/lib/lib-mkPackageOption)
-- [lib.mkPackageOptionMD](reference/lib/lib-mkPackageOptionMD)
-- [lib.options.mkPackageOption](reference/lib/options/lib-options-mkPackageOption)
+- [lib.mkPackageOption](/nix-doc-comments/reference/lib/lib-mkPackageOption)
+- [lib.mkPackageOptionMD](/nix-doc-comments/reference/lib/lib-mkPackageOptionMD)
+- [lib.options.mkPackageOption](/nix-doc-comments/reference/lib/options/lib-options-mkPackageOption)
 
 

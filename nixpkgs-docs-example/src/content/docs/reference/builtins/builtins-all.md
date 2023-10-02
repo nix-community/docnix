@@ -17,7 +17,7 @@ of *list*, and `false` otherwise.
 
 # Aliases
 
-- [lib.all](reference/lib/lib-all)
-- [lib.lists.all](reference/lib/lists/lib-lists-all)
+- [lib.all](/nix-doc-comments/reference/lib/lib-all)
+- [lib.lists.all](/nix-doc-comments/reference/lib/lists/lib-lists-all)
 
 

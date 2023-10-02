@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.meta.getLicenseFromSpdxId](reference/lib/meta/lib-meta-getLicenseFromSpdxId)
+- [lib.meta.getLicenseFromSpdxId](/nix-doc-comments/reference/lib/meta/lib-meta-getLicenseFromSpdxId)
 
 

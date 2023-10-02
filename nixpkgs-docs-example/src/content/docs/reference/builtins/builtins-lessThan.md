@@ -18,7 +18,7 @@ evaluate to a number.
 
 # Aliases
 
-- [lib.lessThan](reference/lib/lib-lessThan)
-- [lib.trivial.lessThan](reference/lib/trivial/lib-trivial-lessThan)
+- [lib.lessThan](/nix-doc-comments/reference/lib/lib-lessThan)
+- [lib.trivial.lessThan](/nix-doc-comments/reference/lib/trivial/lib-trivial-lessThan)
 
 

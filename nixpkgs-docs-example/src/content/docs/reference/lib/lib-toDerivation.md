@@ -18,6 +18,6 @@ toDerivation :: Path -> Derivation
 
 # Aliases
 
-- [lib.attrsets.toDerivation](reference/lib/attrsets/lib-attrsets-toDerivation)
+- [lib.attrsets.toDerivation](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-toDerivation)
 
 

@@ -28,6 +28,6 @@ optionalAttrs :: Bool -> AttrSet -> AttrSet
 
 # Aliases
 
-- [lib.attrsets.optionalAttrs](reference/lib/attrsets/lib-attrsets-optionalAttrs)
+- [lib.attrsets.optionalAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-optionalAttrs)
 
 
