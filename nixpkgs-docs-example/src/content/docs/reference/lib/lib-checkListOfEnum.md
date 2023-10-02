@@ -27,6 +27,6 @@ String -> List ComparableVal -> List ComparableVal -> a -> a
 
 # Aliases
 
-- [lib.trivial.checkListOfEnum](/nix-doc-comments/reference/lib/trivial/lib-trivial-checkListOfEnum)
+- [lib.trivial.checklistofenum](/nix-doc-comments/reference/lib/trivial/lib-trivial-checklistofenum)
 
 

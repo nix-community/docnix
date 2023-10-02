@@ -14,6 +14,6 @@ a `literalExpression` would be too hard to read.
 
 # Aliases
 
-- [lib.options.literalMD](/nix-doc-comments/reference/lib/options/lib-options-literalMD)
+- [lib.options.literalmd](/nix-doc-comments/reference/lib/options/lib-options-literalmd)
 
 

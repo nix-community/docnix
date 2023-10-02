@@ -13,6 +13,6 @@ config value.
 
 # Aliases
 
-- [lib.evalOptionValue](/nix-doc-comments/reference/lib/lib-evalOptionValue)
+- [lib.evaloptionvalue](/nix-doc-comments/reference/lib/lib-evaloptionvalue)
 
 

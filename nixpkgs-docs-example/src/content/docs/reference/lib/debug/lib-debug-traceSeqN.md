@@ -28,6 +28,6 @@ traceSeqN :: Int -> a -> b -> b
 
 # Aliases
 
-- [lib.traceSeqN](/nix-doc-comments/reference/lib/lib-traceSeqN)
+- [lib.traceseqn](/nix-doc-comments/reference/lib/lib-traceseqn)
 
 

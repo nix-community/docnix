@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.makeSearchPath](/nix-doc-comments/reference/lib/lib-makeSearchPath)
+- [lib.makesearchpath](/nix-doc-comments/reference/lib/lib-makesearchpath)
 
 

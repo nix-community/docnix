@@ -16,7 +16,7 @@ Return the bitwise AND of the integers *e1* and *e2*.
 
 # Aliases
 
-- [builtins.bitAnd](/nix-doc-comments/reference/builtins/builtins-bitAnd)
-- [lib.bitAnd](/nix-doc-comments/reference/lib/lib-bitAnd)
+- [builtins.bitand](/nix-doc-comments/reference/builtins/builtins-bitand)
+- [lib.bitand](/nix-doc-comments/reference/lib/lib-bitand)
 
 

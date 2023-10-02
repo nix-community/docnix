@@ -15,8 +15,8 @@ other values or packages.
 
 # Aliases
 
-- [lib.literalExpression](/nix-doc-comments/reference/lib/lib-literalExpression)
-- [lib.options.literalExample](/nix-doc-comments/reference/lib/options/lib-options-literalExample)
-- [lib.options.literalExpression](/nix-doc-comments/reference/lib/options/lib-options-literalExpression)
+- [lib.literalexpression](/nix-doc-comments/reference/lib/lib-literalexpression)
+- [lib.options.literalexample](/nix-doc-comments/reference/lib/options/lib-options-literalexample)
+- [lib.options.literalexpression](/nix-doc-comments/reference/lib/options/lib-options-literalexpression)
 
 

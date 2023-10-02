@@ -26,6 +26,6 @@ addContextFrom pkgs.coreutils "bar"
 
 # Aliases
 
-- [lib.strings.addContextFrom](/nix-doc-comments/reference/lib/strings/lib-strings-addContextFrom)
+- [lib.strings.addcontextfrom](/nix-doc-comments/reference/lib/strings/lib-strings-addcontextfrom)
 
 

@@ -12,7 +12,7 @@ sidebar:
 
 # Aliases
 
-- [lib.filesystem.pathIsRegularFile](/nix-doc-comments/reference/lib/filesystem/lib-filesystem-pathIsRegularFile)
-- [lib.pathIsRegularFile](/nix-doc-comments/reference/lib/lib-pathIsRegularFile)
+- [lib.filesystem.pathisregularfile](/nix-doc-comments/reference/lib/filesystem/lib-filesystem-pathisregularfile)
+- [lib.pathisregularfile](/nix-doc-comments/reference/lib/lib-pathisregularfile)
 
 

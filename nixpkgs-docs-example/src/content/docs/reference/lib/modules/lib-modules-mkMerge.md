@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mkMerge](/nix-doc-comments/reference/lib/lib-mkMerge)
+- [lib.mkmerge](/nix-doc-comments/reference/lib/lib-mkmerge)
 
 

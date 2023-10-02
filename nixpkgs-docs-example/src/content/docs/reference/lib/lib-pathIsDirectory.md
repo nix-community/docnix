@@ -12,7 +12,7 @@ sidebar:
 
 # Aliases
 
-- [lib.filesystem.pathIsDirectory](/nix-doc-comments/reference/lib/filesystem/lib-filesystem-pathIsDirectory)
-- [lib.sources.pathIsDirectory](/nix-doc-comments/reference/lib/sources/lib-sources-pathIsDirectory)
+- [lib.filesystem.pathisdirectory](/nix-doc-comments/reference/lib/filesystem/lib-filesystem-pathisdirectory)
+- [lib.sources.pathisdirectory](/nix-doc-comments/reference/lib/sources/lib-sources-pathisdirectory)
 
 

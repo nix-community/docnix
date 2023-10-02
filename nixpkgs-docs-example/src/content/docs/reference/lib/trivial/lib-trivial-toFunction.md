@@ -23,6 +23,6 @@ nix-repl> lib.toFunction (x: x + 1) 2
 
 # Aliases
 
-- [lib.toFunction](/nix-doc-comments/reference/lib/lib-toFunction)
+- [lib.tofunction](/nix-doc-comments/reference/lib/lib-tofunction)
 
 

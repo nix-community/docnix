@@ -16,8 +16,8 @@ Return the contents of the file *path* as a string.
 
 # Aliases
 
-- [builtins.readFile](/nix-doc-comments/reference/builtins/builtins-readFile)
-- [lib.readFile](/nix-doc-comments/reference/lib/lib-readFile)
-- [lib.trivial.readFile](/nix-doc-comments/reference/lib/trivial/lib-trivial-readFile)
+- [builtins.readfile](/nix-doc-comments/reference/builtins/builtins-readfile)
+- [lib.readfile](/nix-doc-comments/reference/lib/lib-readfile)
+- [lib.trivial.readfile](/nix-doc-comments/reference/lib/trivial/lib-trivial-readfile)
 
 

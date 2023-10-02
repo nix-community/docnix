@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.commitIdFromGitRepo](/nix-doc-comments/reference/lib/lib-commitIdFromGitRepo)
+- [lib.commitidfromgitrepo](/nix-doc-comments/reference/lib/lib-commitidfromgitrepo)
 
 

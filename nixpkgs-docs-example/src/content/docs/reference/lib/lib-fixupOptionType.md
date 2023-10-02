@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.modules.fixupOptionType](/nix-doc-comments/reference/lib/modules/lib-modules-fixupOptionType)
+- [lib.modules.fixupoptiontype](/nix-doc-comments/reference/lib/modules/lib-modules-fixupoptiontype)
 
 

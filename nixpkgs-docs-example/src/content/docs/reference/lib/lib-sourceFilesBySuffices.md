@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.sources.sourceFilesBySuffices](/nix-doc-comments/reference/lib/sources/lib-sources-sourceFilesBySuffices)
+- [lib.sources.sourcefilesbysuffices](/nix-doc-comments/reference/lib/sources/lib-sources-sourcefilesbysuffices)
 
 

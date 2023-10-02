@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.generators.toJSON](/nix-doc-comments/reference/lib/generators/lib-generators-toJSON)
+- [lib.generators.tojson](/nix-doc-comments/reference/lib/generators/lib-generators-tojson)
 
 

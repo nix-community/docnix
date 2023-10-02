@@ -14,6 +14,6 @@ it.
 
 # Aliases
 
-- [lib.debug.traceValSeq](/nix-doc-comments/reference/lib/debug/lib-debug-traceValSeq)
+- [lib.debug.tracevalseq](/nix-doc-comments/reference/lib/debug/lib-debug-tracevalseq)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.misc.foldArgs](/nix-doc-comments/reference/lib/misc/lib-misc-foldArgs)
+- [lib.misc.foldargs](/nix-doc-comments/reference/lib/misc/lib-misc-foldargs)
 
 

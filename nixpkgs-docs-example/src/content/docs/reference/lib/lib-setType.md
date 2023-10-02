@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.types.setType](/nix-doc-comments/reference/lib/types/lib-types-setType)
+- [lib.types.settype](/nix-doc-comments/reference/lib/types/lib-types-settype)
 
 

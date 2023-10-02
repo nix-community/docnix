@@ -40,8 +40,8 @@ evaluates to
 # Aliases
 
 - [lib.attrsets.zip](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zip)
-- [lib.attrsets.zipAttrsWith](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipAttrsWith)
+- [lib.attrsets.zipattrswith](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipattrswith)
 - [lib.zip](/nix-doc-comments/reference/lib/lib-zip)
-- [lib.zipAttrsWith](/nix-doc-comments/reference/lib/lib-zipAttrsWith)
+- [lib.zipattrswith](/nix-doc-comments/reference/lib/lib-zipattrswith)
 
 

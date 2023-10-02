@@ -22,7 +22,7 @@ evaluates to `{ a = 10; b = 20; }`.
 
 # Aliases
 
-- [lib.attrsets.mapAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-mapAttrs)
-- [lib.mapAttrs](/nix-doc-comments/reference/lib/lib-mapAttrs)
+- [lib.attrsets.mapattrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-mapattrs)
+- [lib.mapattrs](/nix-doc-comments/reference/lib/lib-mapattrs)
 
 

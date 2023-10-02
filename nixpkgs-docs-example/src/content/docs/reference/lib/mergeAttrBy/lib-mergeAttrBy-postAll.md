@@ -26,12 +26,12 @@ concat :: [a] -> [a] -> [a]
 # Aliases
 
 - [lib.concat](/nix-doc-comments/reference/lib/lib-concat)
-- [lib.mergeAttrBy.buildInputs](/nix-doc-comments/reference/lib/mergeAttrBy/lib-mergeAttrBy-buildInputs)
-- [lib.mergeAttrBy.configureFlags](/nix-doc-comments/reference/lib/mergeAttrBy/lib-mergeAttrBy-configureFlags)
-- [lib.mergeAttrBy.nativeBuildInputs](/nix-doc-comments/reference/lib/mergeAttrBy/lib-mergeAttrBy-nativeBuildInputs)
-- [lib.mergeAttrBy.patches](/nix-doc-comments/reference/lib/mergeAttrBy/lib-mergeAttrBy-patches)
-- [lib.mergeAttrBy.prePhases](/nix-doc-comments/reference/lib/mergeAttrBy/lib-mergeAttrBy-prePhases)
-- [lib.mergeAttrBy.propagatedBuildInputs](/nix-doc-comments/reference/lib/mergeAttrBy/lib-mergeAttrBy-propagatedBuildInputs)
+- [lib.mergeattrby.buildinputs](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-buildinputs)
+- [lib.mergeattrby.configureflags](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-configureflags)
+- [lib.mergeattrby.nativebuildinputs](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-nativebuildinputs)
+- [lib.mergeattrby.patches](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-patches)
+- [lib.mergeattrby.prephases](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-prephases)
+- [lib.mergeattrby.propagatedbuildinputs](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-propagatedbuildinputs)
 - [lib.trivial.concat](/nix-doc-comments/reference/lib/trivial/lib-trivial-concat)
 
 

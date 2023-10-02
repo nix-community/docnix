@@ -18,6 +18,6 @@ updateName (oldName: oldName + "-experimental") somePkg
 
 # Aliases
 
-- [lib.updateName](/nix-doc-comments/reference/lib/lib-updateName)
+- [lib.updatename](/nix-doc-comments/reference/lib/lib-updatename)
 
 

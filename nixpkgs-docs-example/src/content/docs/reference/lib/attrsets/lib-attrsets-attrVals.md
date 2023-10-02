@@ -25,6 +25,6 @@ attrVals :: [String] -> AttrSet -> [Any]
 
 # Aliases
 
-- [lib.attrVals](/nix-doc-comments/reference/lib/lib-attrVals)
+- [lib.attrvals](/nix-doc-comments/reference/lib/lib-attrvals)
 
 

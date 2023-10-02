@@ -18,7 +18,7 @@ evaluate to a number.
 
 # Aliases
 
-- [builtins.lessThan](/nix-doc-comments/reference/builtins/builtins-lessThan)
-- [lib.lessThan](/nix-doc-comments/reference/lib/lib-lessThan)
+- [builtins.lessthan](/nix-doc-comments/reference/builtins/builtins-lessthan)
+- [lib.lessthan](/nix-doc-comments/reference/lib/lib-lessthan)
 
 

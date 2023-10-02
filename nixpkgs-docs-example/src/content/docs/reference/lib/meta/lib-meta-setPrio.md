@@ -12,6 +12,6 @@ Set the nix-env priority of the package.
 
 # Aliases
 
-- [lib.setPrio](/nix-doc-comments/reference/lib/lib-setPrio)
+- [lib.setprio](/nix-doc-comments/reference/lib/lib-setprio)
 
 

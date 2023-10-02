@@ -12,6 +12,6 @@ Disable Hydra builds of given derivation.
 
 # Aliases
 
-- [lib.dontDistribute](/nix-doc-comments/reference/lib/lib-dontDistribute)
+- [lib.dontdistribute](/nix-doc-comments/reference/lib/lib-dontdistribute)
 
 

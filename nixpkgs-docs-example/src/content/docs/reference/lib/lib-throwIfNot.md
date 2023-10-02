@@ -34,6 +34,6 @@ bool -> string -> a -> a
 
 # Aliases
 
-- [lib.trivial.throwIfNot](/nix-doc-comments/reference/lib/trivial/lib-trivial-throwIfNot)
+- [lib.trivial.throwifnot](/nix-doc-comments/reference/lib/trivial/lib-trivial-throwifnot)
 
 

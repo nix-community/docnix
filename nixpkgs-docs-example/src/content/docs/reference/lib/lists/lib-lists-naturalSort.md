@@ -24,6 +24,6 @@ naturalSort ["v0.2" "v0.15" "v0.0.9"]
 
 # Aliases
 
-- [lib.naturalSort](/nix-doc-comments/reference/lib/lib-naturalSort)
+- [lib.naturalsort](/nix-doc-comments/reference/lib/lib-naturalsort)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.concatImapStringsSep](/nix-doc-comments/reference/lib/lib-concatImapStringsSep)
+- [lib.concatimapstringssep](/nix-doc-comments/reference/lib/lib-concatimapstringssep)
 
 

@@ -15,6 +15,6 @@ garbage collection.
 
 # Aliases
 
-- [lib.customisation.hydraJob](/nix-doc-comments/reference/lib/customisation/lib-customisation-hydraJob)
+- [lib.customisation.hydrajob](/nix-doc-comments/reference/lib/customisation/lib-customisation-hydrajob)
 
 

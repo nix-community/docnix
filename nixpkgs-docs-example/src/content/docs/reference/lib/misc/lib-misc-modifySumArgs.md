@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.modifySumArgs](/nix-doc-comments/reference/lib/lib-modifySumArgs)
+- [lib.modifysumargs](/nix-doc-comments/reference/lib/lib-modifysumargs)
 
 

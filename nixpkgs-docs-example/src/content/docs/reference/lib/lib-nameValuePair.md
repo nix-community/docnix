@@ -25,6 +25,6 @@ nameValuePair :: String -> Any -> { name :: String; value :: Any; }
 
 # Aliases
 
-- [lib.attrsets.nameValuePair](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-nameValuePair)
+- [lib.attrsets.namevaluepair](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-namevaluepair)
 
 

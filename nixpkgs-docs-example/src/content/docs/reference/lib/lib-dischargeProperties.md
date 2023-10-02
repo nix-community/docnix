@@ -20,6 +20,6 @@ yields ‘[ 1 2 ]’.
 
 # Aliases
 
-- [lib.modules.dischargeProperties](/nix-doc-comments/reference/lib/modules/lib-modules-dischargeProperties)
+- [lib.modules.dischargeproperties](/nix-doc-comments/reference/lib/modules/lib-modules-dischargeproperties)
 
 

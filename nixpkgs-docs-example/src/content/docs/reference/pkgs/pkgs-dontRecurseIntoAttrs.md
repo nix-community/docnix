@@ -18,7 +18,7 @@ dontRecurseIntoAttrs :: AttrSet -> AttrSet
 
 # Aliases
 
-- [lib.attrsets.dontRecurseIntoAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-dontRecurseIntoAttrs)
-- [lib.dontRecurseIntoAttrs](/nix-doc-comments/reference/lib/lib-dontRecurseIntoAttrs)
+- [lib.attrsets.dontrecurseintoattrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-dontrecurseintoattrs)
+- [lib.dontrecurseintoattrs](/nix-doc-comments/reference/lib/lib-dontrecurseintoattrs)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.isStorePath](/nix-doc-comments/reference/lib/lib-isStorePath)
+- [lib.isstorepath](/nix-doc-comments/reference/lib/lib-isstorepath)
 
 

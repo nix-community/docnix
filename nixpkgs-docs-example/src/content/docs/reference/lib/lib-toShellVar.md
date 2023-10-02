@@ -35,6 +35,6 @@ string -> (string | listOf string | attrsOf string) -> string
 
 # Aliases
 
-- [lib.strings.toShellVar](/nix-doc-comments/reference/lib/strings/lib-strings-toShellVar)
+- [lib.strings.toshellvar](/nix-doc-comments/reference/lib/strings/lib-strings-toshellvar)
 
 

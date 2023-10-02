@@ -17,8 +17,8 @@ one of "directory", "regular", "symlink", or "unknown".
 
 # Aliases
 
-- [builtins.readFileType](/nix-doc-comments/reference/builtins/builtins-readFileType)
-- [lib.filesystem.pathType](/nix-doc-comments/reference/lib/filesystem/lib-filesystem-pathType)
-- [lib.sources.pathType](/nix-doc-comments/reference/lib/sources/lib-sources-pathType)
+- [builtins.readfiletype](/nix-doc-comments/reference/builtins/builtins-readfiletype)
+- [lib.filesystem.pathtype](/nix-doc-comments/reference/lib/filesystem/lib-filesystem-pathtype)
+- [lib.sources.pathtype](/nix-doc-comments/reference/lib/sources/lib-sources-pathtype)
 
 

@@ -12,6 +12,6 @@ Properties.
 
 # Aliases
 
-- [lib.modules.mkIf](/nix-doc-comments/reference/lib/modules/lib-modules-mkIf)
+- [lib.modules.mkif](/nix-doc-comments/reference/lib/modules/lib-modules-mkif)
 
 

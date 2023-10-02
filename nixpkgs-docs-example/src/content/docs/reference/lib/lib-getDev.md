@@ -12,12 +12,12 @@ sidebar:
 
 # Aliases
 
-- [lib.attrsets.getBin](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getBin)
-- [lib.attrsets.getDev](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getDev)
-- [lib.attrsets.getLib](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getLib)
-- [lib.attrsets.getMan](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getMan)
-- [lib.getBin](/nix-doc-comments/reference/lib/lib-getBin)
-- [lib.getLib](/nix-doc-comments/reference/lib/lib-getLib)
-- [lib.getMan](/nix-doc-comments/reference/lib/lib-getMan)
+- [lib.attrsets.getbin](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getbin)
+- [lib.attrsets.getdev](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getdev)
+- [lib.attrsets.getlib](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getlib)
+- [lib.attrsets.getman](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getman)
+- [lib.getbin](/nix-doc-comments/reference/lib/lib-getbin)
+- [lib.getlib](/nix-doc-comments/reference/lib/lib-getlib)
+- [lib.getman](/nix-doc-comments/reference/lib/lib-getman)
 
 

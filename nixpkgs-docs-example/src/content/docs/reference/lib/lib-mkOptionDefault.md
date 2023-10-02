@@ -12,14 +12,14 @@ sidebar:
 
 # Aliases
 
-- [lib.mkDefault](/nix-doc-comments/reference/lib/lib-mkDefault)
-- [lib.mkForce](/nix-doc-comments/reference/lib/lib-mkForce)
-- [lib.mkImageMediaOverride](/nix-doc-comments/reference/lib/lib-mkImageMediaOverride)
-- [lib.mkVMOverride](/nix-doc-comments/reference/lib/lib-mkVMOverride)
-- [lib.modules.mkDefault](/nix-doc-comments/reference/lib/modules/lib-modules-mkDefault)
-- [lib.modules.mkForce](/nix-doc-comments/reference/lib/modules/lib-modules-mkForce)
-- [lib.modules.mkImageMediaOverride](/nix-doc-comments/reference/lib/modules/lib-modules-mkImageMediaOverride)
-- [lib.modules.mkOptionDefault](/nix-doc-comments/reference/lib/modules/lib-modules-mkOptionDefault)
-- [lib.modules.mkVMOverride](/nix-doc-comments/reference/lib/modules/lib-modules-mkVMOverride)
+- [lib.mkdefault](/nix-doc-comments/reference/lib/lib-mkdefault)
+- [lib.mkforce](/nix-doc-comments/reference/lib/lib-mkforce)
+- [lib.mkimagemediaoverride](/nix-doc-comments/reference/lib/lib-mkimagemediaoverride)
+- [lib.mkvmoverride](/nix-doc-comments/reference/lib/lib-mkvmoverride)
+- [lib.modules.mkdefault](/nix-doc-comments/reference/lib/modules/lib-modules-mkdefault)
+- [lib.modules.mkforce](/nix-doc-comments/reference/lib/modules/lib-modules-mkforce)
+- [lib.modules.mkimagemediaoverride](/nix-doc-comments/reference/lib/modules/lib-modules-mkimagemediaoverride)
+- [lib.modules.mkoptiondefault](/nix-doc-comments/reference/lib/modules/lib-modules-mkoptiondefault)
+- [lib.modules.mkvmoverride](/nix-doc-comments/reference/lib/modules/lib-modules-mkvmoverride)
 
 

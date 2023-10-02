@@ -26,6 +26,6 @@ filterAttrsRecursive :: (String -> Any -> Bool) -> AttrSet -> AttrSet
 
 # Aliases
 
-- [lib.filterAttrsRecursive](/nix-doc-comments/reference/lib/lib-filterAttrsRecursive)
+- [lib.filterattrsrecursive](/nix-doc-comments/reference/lib/lib-filterattrsrecursive)
 
 

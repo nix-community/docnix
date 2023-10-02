@@ -21,6 +21,6 @@ mapNullable (x: x+1) 22
 
 # Aliases
 
-- [lib.trivial.mapNullable](/nix-doc-comments/reference/lib/trivial/lib-trivial-mapNullable)
+- [lib.trivial.mapnullable](/nix-doc-comments/reference/lib/trivial/lib-trivial-mapnullable)
 
 

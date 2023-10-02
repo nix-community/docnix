@@ -16,7 +16,7 @@ Return `true` if *e* evaluates to a float, and `false` otherwise.
 
 # Aliases
 
-- [builtins.isFloat](/nix-doc-comments/reference/builtins/builtins-isFloat)
-- [lib.isFloat](/nix-doc-comments/reference/lib/lib-isFloat)
+- [builtins.isfloat](/nix-doc-comments/reference/builtins/builtins-isfloat)
+- [lib.isfloat](/nix-doc-comments/reference/lib/lib-isfloat)
 
 

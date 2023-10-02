@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.setAttr](/nix-doc-comments/reference/lib/lib-setAttr)
+- [lib.setattr](/nix-doc-comments/reference/lib/lib-setattr)
 
 

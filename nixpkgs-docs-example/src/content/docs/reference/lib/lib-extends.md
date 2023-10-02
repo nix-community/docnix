@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.fixedPoints.extends](/nix-doc-comments/reference/lib/fixedPoints/lib-fixedPoints-extends)
+- [lib.fixedpoints.extends](/nix-doc-comments/reference/lib/fixedpoints/lib-fixedpoints-extends)
 
 

@@ -13,6 +13,6 @@ provided function to the value to be traced.
 
 # Aliases
 
-- [lib.debug.traceValSeqNFn](/nix-doc-comments/reference/lib/debug/lib-debug-traceValSeqNFn)
+- [lib.debug.tracevalseqnfn](/nix-doc-comments/reference/lib/debug/lib-debug-tracevalseqnfn)
 
 

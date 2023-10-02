@@ -17,7 +17,7 @@ but is more efficient.
 
 # Aliases
 
-- [lib.concatMap](/nix-doc-comments/reference/lib/lib-concatMap)
-- [lib.lists.concatMap](/nix-doc-comments/reference/lib/lists/lib-lists-concatMap)
+- [lib.concatmap](/nix-doc-comments/reference/lib/lib-concatmap)
+- [lib.lists.concatmap](/nix-doc-comments/reference/lib/lists/lib-lists-concatmap)
 
 

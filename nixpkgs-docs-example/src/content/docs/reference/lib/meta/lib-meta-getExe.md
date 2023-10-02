@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.getExe](/nix-doc-comments/reference/lib/lib-getExe)
+- [lib.getexe](/nix-doc-comments/reference/lib/lib-getexe)
 
 

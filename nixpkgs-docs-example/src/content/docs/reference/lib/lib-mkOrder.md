@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.modules.mkOrder](/nix-doc-comments/reference/lib/modules/lib-modules-mkOrder)
+- [lib.modules.mkorder](/nix-doc-comments/reference/lib/modules/lib-modules-mkorder)
 
 

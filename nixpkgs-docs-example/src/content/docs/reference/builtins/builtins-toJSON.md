@@ -21,6 +21,6 @@ represented as a JSON string of the resulting store path.
 
 # Aliases
 
-- [lib.strings.toJSON](/nix-doc-comments/reference/lib/strings/lib-strings-toJSON)
+- [lib.strings.tojson](/nix-doc-comments/reference/lib/strings/lib-strings-tojson)
 
 

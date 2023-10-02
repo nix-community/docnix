@@ -25,6 +25,6 @@ reverseList :: [a] -> [a]
 
 # Aliases
 
-- [lib.reverseList](/nix-doc-comments/reference/lib/lib-reverseList)
+- [lib.reverselist](/nix-doc-comments/reference/lib/lib-reverselist)
 
 

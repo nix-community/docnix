@@ -29,6 +29,6 @@ isDerivation :: Any -> Bool
 
 # Aliases
 
-- [lib.attrsets.isDerivation](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-isDerivation)
+- [lib.attrsets.isderivation](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-isderivation)
 
 

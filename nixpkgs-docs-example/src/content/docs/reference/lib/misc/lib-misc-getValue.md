@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.getValue](/nix-doc-comments/reference/lib/lib-getValue)
+- [lib.getvalue](/nix-doc-comments/reference/lib/lib-getvalue)
 
 

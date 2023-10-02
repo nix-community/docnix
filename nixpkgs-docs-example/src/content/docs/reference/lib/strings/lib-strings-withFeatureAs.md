@@ -22,6 +22,6 @@ withFeatureAs false "shared" (throw "ignored")
 
 # Aliases
 
-- [lib.withFeatureAs](/nix-doc-comments/reference/lib/lib-withFeatureAs)
+- [lib.withfeatureas](/nix-doc-comments/reference/lib/lib-withfeatureas)
 
 

@@ -28,6 +28,6 @@ findFirst :: (a -> bool) -> a -> [a] -> a
 
 # Aliases
 
-- [lib.lists.findFirst](/nix-doc-comments/reference/lib/lists/lib-lists-findFirst)
+- [lib.lists.findfirst](/nix-doc-comments/reference/lib/lists/lib-lists-findfirst)
 
 

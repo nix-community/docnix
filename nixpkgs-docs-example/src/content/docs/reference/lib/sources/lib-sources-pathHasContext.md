@@ -18,7 +18,7 @@ context can be obtained with
 
 # Aliases
 
-- [builtins.hasContext](/nix-doc-comments/reference/builtins/builtins-hasContext)
-- [lib.pathHasContext](/nix-doc-comments/reference/lib/lib-pathHasContext)
+- [builtins.hascontext](/nix-doc-comments/reference/builtins/builtins-hascontext)
+- [lib.pathhascontext](/nix-doc-comments/reference/lib/lib-pathhascontext)
 
 

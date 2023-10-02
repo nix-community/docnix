@@ -22,6 +22,6 @@ enableFeatureAs false "shared" (throw "ignored")
 
 # Aliases
 
-- [lib.enableFeatureAs](/nix-doc-comments/reference/lib/lib-enableFeatureAs)
+- [lib.enablefeatureas](/nix-doc-comments/reference/lib/lib-enablefeatureas)
 
 

@@ -18,6 +18,6 @@ toDerivation :: Path -> Derivation
 
 # Aliases
 
-- [lib.toDerivation](/nix-doc-comments/reference/lib/lib-toDerivation)
+- [lib.toderivation](/nix-doc-comments/reference/lib/lib-toderivation)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.sources.cleanSource](/nix-doc-comments/reference/lib/sources/lib-sources-cleanSource)
+- [lib.sources.cleansource](/nix-doc-comments/reference/lib/sources/lib-sources-cleansource)
 
 

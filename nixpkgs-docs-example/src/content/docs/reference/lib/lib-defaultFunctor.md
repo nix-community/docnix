@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.types.defaultFunctor](/nix-doc-comments/reference/lib/types/lib-types-defaultFunctor)
+- [lib.types.defaultfunctor](/nix-doc-comments/reference/lib/types/lib-types-defaultfunctor)
 
 

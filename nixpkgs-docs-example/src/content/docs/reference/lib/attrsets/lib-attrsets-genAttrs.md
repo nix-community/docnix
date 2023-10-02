@@ -26,6 +26,6 @@ genAttrs :: [ String ] -> (String -> Any) -> AttrSet
 
 # Aliases
 
-- [lib.genAttrs](/nix-doc-comments/reference/lib/lib-genAttrs)
+- [lib.genattrs](/nix-doc-comments/reference/lib/lib-genattrs)
 
 

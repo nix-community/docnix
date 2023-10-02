@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.getOutput](/nix-doc-comments/reference/lib/lib-getOutput)
+- [lib.getoutput](/nix-doc-comments/reference/lib/lib-getoutput)
 
 

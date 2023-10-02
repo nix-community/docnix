@@ -23,6 +23,6 @@ getName pkgs.youtube-dl
 
 # Aliases
 
-- [lib.strings.getName](/nix-doc-comments/reference/lib/strings/lib-strings-getName)
+- [lib.strings.getname](/nix-doc-comments/reference/lib/strings/lib-strings-getname)
 
 

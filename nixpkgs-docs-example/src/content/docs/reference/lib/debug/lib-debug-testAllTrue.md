@@ -18,6 +18,6 @@ Create a test assuming that list elements are `true`.
 
 # Aliases
 
-- [lib.testAllTrue](/nix-doc-comments/reference/lib/lib-testAllTrue)
+- [lib.testalltrue](/nix-doc-comments/reference/lib/lib-testalltrue)
 
 

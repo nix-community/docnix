@@ -17,7 +17,7 @@ but is more efficient.
 
 # Aliases
 
-- [builtins.concatMap](/nix-doc-comments/reference/builtins/builtins-concatMap)
-- [lib.concatMap](/nix-doc-comments/reference/lib/lib-concatMap)
+- [builtins.concatmap](/nix-doc-comments/reference/builtins/builtins-concatmap)
+- [lib.concatmap](/nix-doc-comments/reference/lib/lib-concatmap)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.foldlAttrs](/nix-doc-comments/reference/lib/lib-foldlAttrs)
+- [lib.foldlattrs](/nix-doc-comments/reference/lib/lib-foldlattrs)
 
 

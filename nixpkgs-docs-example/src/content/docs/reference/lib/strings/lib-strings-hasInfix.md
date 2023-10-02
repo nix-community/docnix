@@ -31,6 +31,6 @@ hasInfix :: string -> string -> bool
 
 # Aliases
 
-- [lib.hasInfix](/nix-doc-comments/reference/lib/lib-hasInfix)
+- [lib.hasinfix](/nix-doc-comments/reference/lib/lib-hasinfix)
 
 

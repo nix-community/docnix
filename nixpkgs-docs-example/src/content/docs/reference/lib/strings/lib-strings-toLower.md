@@ -27,14 +27,14 @@ evaluates to `"fabir"`.
 
 # Aliases
 
-- [lib.escapeRegex](/nix-doc-comments/reference/lib/lib-escapeRegex)
-- [lib.escapeURL](/nix-doc-comments/reference/lib/lib-escapeURL)
-- [lib.escapeXML](/nix-doc-comments/reference/lib/lib-escapeXML)
-- [lib.strings.escapeRegex](/nix-doc-comments/reference/lib/strings/lib-strings-escapeRegex)
-- [lib.strings.escapeURL](/nix-doc-comments/reference/lib/strings/lib-strings-escapeURL)
-- [lib.strings.escapeXML](/nix-doc-comments/reference/lib/strings/lib-strings-escapeXML)
-- [lib.strings.toUpper](/nix-doc-comments/reference/lib/strings/lib-strings-toUpper)
-- [lib.toLower](/nix-doc-comments/reference/lib/lib-toLower)
-- [lib.toUpper](/nix-doc-comments/reference/lib/lib-toUpper)
+- [lib.escaperegex](/nix-doc-comments/reference/lib/lib-escaperegex)
+- [lib.escapeurl](/nix-doc-comments/reference/lib/lib-escapeurl)
+- [lib.escapexml](/nix-doc-comments/reference/lib/lib-escapexml)
+- [lib.strings.escaperegex](/nix-doc-comments/reference/lib/strings/lib-strings-escaperegex)
+- [lib.strings.escapeurl](/nix-doc-comments/reference/lib/strings/lib-strings-escapeurl)
+- [lib.strings.escapexml](/nix-doc-comments/reference/lib/strings/lib-strings-escapexml)
+- [lib.strings.toupper](/nix-doc-comments/reference/lib/strings/lib-strings-toupper)
+- [lib.tolower](/nix-doc-comments/reference/lib/lib-tolower)
+- [lib.toupper](/nix-doc-comments/reference/lib/lib-toupper)
 
 

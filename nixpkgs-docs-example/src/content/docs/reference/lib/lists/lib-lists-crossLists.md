@@ -19,6 +19,6 @@ crossLists (x:y: "${toString x}${toString y}") [[1 2] [3 4]]
 
 # Aliases
 
-- [lib.crossLists](/nix-doc-comments/reference/lib/lib-crossLists)
+- [lib.crosslists](/nix-doc-comments/reference/lib/lib-crosslists)
 
 

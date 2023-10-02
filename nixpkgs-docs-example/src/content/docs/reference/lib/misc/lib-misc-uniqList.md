@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.uniqList](/nix-doc-comments/reference/lib/lib-uniqList)
+- [lib.uniqlist](/nix-doc-comments/reference/lib/lib-uniqlist)
 
 

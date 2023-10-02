@@ -27,6 +27,6 @@ string -> string -> string
 
 # Aliases
 
-- [lib.removeSuffix](/nix-doc-comments/reference/lib/lib-removeSuffix)
+- [lib.removesuffix](/nix-doc-comments/reference/lib/lib-removesuffix)
 
 

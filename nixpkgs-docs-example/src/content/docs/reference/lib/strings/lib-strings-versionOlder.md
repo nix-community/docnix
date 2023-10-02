@@ -21,6 +21,6 @@ versionOlder "1.1" "1.1"
 
 # Aliases
 
-- [lib.versionOlder](/nix-doc-comments/reference/lib/lib-versionOlder)
+- [lib.versionolder](/nix-doc-comments/reference/lib/lib-versionolder)
 
 

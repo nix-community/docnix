@@ -13,6 +13,6 @@ release branch-off, if applicable). See `oldestSupportedRelease`.
 
 # Aliases
 
-- [lib.isInOldestRelease](/nix-doc-comments/reference/lib/lib-isInOldestRelease)
+- [lib.isinoldestrelease](/nix-doc-comments/reference/lib/lib-isinoldestrelease)
 
 

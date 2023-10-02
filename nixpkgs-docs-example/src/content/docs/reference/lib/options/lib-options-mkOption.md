@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mkOption](/nix-doc-comments/reference/lib/lib-mkOption)
+- [lib.mkoption](/nix-doc-comments/reference/lib/lib-mkoption)
 
 

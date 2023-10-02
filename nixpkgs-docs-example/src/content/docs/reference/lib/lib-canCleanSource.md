@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.sources.canCleanSource](/nix-doc-comments/reference/lib/sources/lib-sources-canCleanSource)
+- [lib.sources.cancleansource](/nix-doc-comments/reference/lib/sources/lib-sources-cancleansource)
 
 

@@ -27,6 +27,6 @@ string -> string -> string
 
 # Aliases
 
-- [lib.removePrefix](/nix-doc-comments/reference/lib/lib-removePrefix)
+- [lib.removeprefix](/nix-doc-comments/reference/lib/lib-removeprefix)
 
 

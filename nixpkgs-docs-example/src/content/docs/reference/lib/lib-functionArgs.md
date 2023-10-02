@@ -16,6 +16,6 @@ setFunctionArgs : (a → b) → Map String Bool.
 
 # Aliases
 
-- [lib.trivial.functionArgs](/nix-doc-comments/reference/lib/trivial/lib-trivial-functionArgs)
+- [lib.trivial.functionargs](/nix-doc-comments/reference/lib/trivial/lib-trivial-functionargs)
 
 

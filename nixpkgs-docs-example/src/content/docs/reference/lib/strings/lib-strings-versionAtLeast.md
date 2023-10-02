@@ -23,6 +23,6 @@ versionAtLeast "1.1" "1.2"
 
 # Aliases
 
-- [lib.versionAtLeast](/nix-doc-comments/reference/lib/lib-versionAtLeast)
+- [lib.versionatleast](/nix-doc-comments/reference/lib/lib-versionatleast)
 
 

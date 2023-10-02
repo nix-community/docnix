@@ -12,8 +12,8 @@ sidebar:
 
 # Aliases
 
-- [lib.mkAfter](/nix-doc-comments/reference/lib/lib-mkAfter)
-- [lib.modules.mkAfter](/nix-doc-comments/reference/lib/modules/lib-modules-mkAfter)
-- [lib.modules.mkBefore](/nix-doc-comments/reference/lib/modules/lib-modules-mkBefore)
+- [lib.mkafter](/nix-doc-comments/reference/lib/lib-mkafter)
+- [lib.modules.mkafter](/nix-doc-comments/reference/lib/modules/lib-modules-mkafter)
+- [lib.modules.mkbefore](/nix-doc-comments/reference/lib/modules/lib-modules-mkbefore)
 
 

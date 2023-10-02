@@ -31,6 +31,6 @@ mesonBool :: string -> bool -> string
 
 # Aliases
 
-- [lib.strings.mesonBool](/nix-doc-comments/reference/lib/strings/lib-strings-mesonBool)
+- [lib.strings.mesonbool](/nix-doc-comments/reference/lib/strings/lib-strings-mesonbool)
 
 

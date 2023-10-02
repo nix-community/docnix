@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.nameFromURL](/nix-doc-comments/reference/lib/lib-nameFromURL)
+- [lib.namefromurl](/nix-doc-comments/reference/lib/lib-namefromurl)
 
 

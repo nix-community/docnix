@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mergeModules'](/nix-doc-comments/reference/lib/lib-mergeModules' (Prime))
+- [lib.mergemodules'](/nix-doc-comments/reference/lib/lib-mergemodules' (prime))
 
 

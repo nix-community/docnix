@@ -19,6 +19,6 @@ addMetaAttrs {description = "Bla blah";} somePkg
 
 # Aliases
 
-- [lib.meta.addMetaAttrs](/nix-doc-comments/reference/lib/meta/lib-meta-addMetaAttrs)
+- [lib.meta.addmetaattrs](/nix-doc-comments/reference/lib/meta/lib-meta-addmetaattrs)
 
 

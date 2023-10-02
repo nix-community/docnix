@@ -19,6 +19,6 @@ toBaseDigits 16 250 => [ 15 10 ]
 
 # Aliases
 
-- [lib.toBaseDigits](/nix-doc-comments/reference/lib/lib-toBaseDigits)
+- [lib.tobasedigits](/nix-doc-comments/reference/lib/lib-tobasedigits)
 
 

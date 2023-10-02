@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.showOptionWithDefLocs](/nix-doc-comments/reference/lib/lib-showOptionWithDefLocs)
+- [lib.showoptionwithdeflocs](/nix-doc-comments/reference/lib/lib-showoptionwithdeflocs)
 
 

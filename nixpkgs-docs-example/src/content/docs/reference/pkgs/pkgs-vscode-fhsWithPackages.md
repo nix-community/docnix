@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [pkgs.vscodium-fhsWithPackages](/nix-doc-comments/reference/pkgs/pkgs-vscodium-fhsWithPackages)
+- [pkgs.vscodium-fhswithpackages](/nix-doc-comments/reference/pkgs/pkgs-vscodium-fhswithpackages)
 
 

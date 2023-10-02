@@ -64,7 +64,7 @@ const getAliases = (aliases, path) => {
       const label = ps.join(".");
       return `- [${label}](/nix-doc-comments/reference/${subpath.join(
         "/"
-      )}/${title.replaceAll(".", "-")})`;
+      )}/${title.replaceAll(".", "-")})`.toLowerCase();
     })
     .join("\n");
   return res;

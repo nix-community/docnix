@@ -22,6 +22,6 @@ returns the value `{ x = [ 1 2 3 ]; y = null; }`.
 
 # Aliases
 
-- [lib.strings.fromJSON](/nix-doc-comments/reference/lib/strings/lib-strings-fromJSON)
+- [lib.strings.fromjson](/nix-doc-comments/reference/lib/strings/lib-strings-fromjson)
 
 

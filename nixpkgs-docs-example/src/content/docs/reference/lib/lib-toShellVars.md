@@ -31,6 +31,6 @@ attrsOf (string | listOf string | attrsOf string) -> string
 
 # Aliases
 
-- [lib.strings.toShellVars](/nix-doc-comments/reference/lib/strings/lib-strings-toShellVars)
+- [lib.strings.toshellvars](/nix-doc-comments/reference/lib/strings/lib-strings-toshellvars)
 
 

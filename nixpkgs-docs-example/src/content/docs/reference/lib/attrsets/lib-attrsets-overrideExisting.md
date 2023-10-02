@@ -30,6 +30,6 @@ overrideExisting :: AttrSet -> AttrSet -> AttrSet
 
 # Aliases
 
-- [lib.overrideExisting](/nix-doc-comments/reference/lib/lib-overrideExisting)
+- [lib.overrideexisting](/nix-doc-comments/reference/lib/lib-overrideexisting)
 
 

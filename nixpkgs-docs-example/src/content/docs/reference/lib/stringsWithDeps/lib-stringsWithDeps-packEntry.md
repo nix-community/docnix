@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.packEntry](/nix-doc-comments/reference/lib/lib-packEntry)
+- [lib.packentry](/nix-doc-comments/reference/lib/lib-packentry)
 
 

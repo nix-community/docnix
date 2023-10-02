@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mapAttrsFlatten](/nix-doc-comments/reference/lib/lib-mapAttrsFlatten)
+- [lib.mapattrsflatten](/nix-doc-comments/reference/lib/lib-mapattrsflatten)
 
 

@@ -21,6 +21,6 @@ mapNullable (x: x+1) 22
 
 # Aliases
 
-- [lib.mapNullable](/nix-doc-comments/reference/lib/lib-mapNullable)
+- [lib.mapnullable](/nix-doc-comments/reference/lib/lib-mapnullable)
 
 

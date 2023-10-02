@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.showWarnings](/nix-doc-comments/reference/lib/lib-showWarnings)
+- [lib.showwarnings](/nix-doc-comments/reference/lib/lib-showwarnings)
 
 

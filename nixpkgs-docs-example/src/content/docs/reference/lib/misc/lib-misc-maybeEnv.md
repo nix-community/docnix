@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.maybeEnv](/nix-doc-comments/reference/lib/lib-maybeEnv)
+- [lib.maybeenv](/nix-doc-comments/reference/lib/lib-maybeenv)
 
 

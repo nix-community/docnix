@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [pkgs.callPackage_i686](/nix-doc-comments/reference/pkgs/pkgs-callPackage_i686)
+- [pkgs.callpackage_i686](/nix-doc-comments/reference/pkgs/pkgs-callpackage_i686)
 
 

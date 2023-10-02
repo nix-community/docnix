@@ -16,6 +16,6 @@ implement deep overriding.
 
 # Aliases
 
-- [lib.fix'](/nix-doc-comments/reference/lib/lib-fix' (Prime))
+- [lib.fix'](/nix-doc-comments/reference/lib/lib-fix' (prime))
 
 

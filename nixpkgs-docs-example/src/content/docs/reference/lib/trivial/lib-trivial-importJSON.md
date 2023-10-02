@@ -18,6 +18,6 @@ importJSON :: path -> any
 
 # Aliases
 
-- [lib.importJSON](/nix-doc-comments/reference/lib/lib-importJSON)
+- [lib.importjson](/nix-doc-comments/reference/lib/lib-importjson)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.condConcat](/nix-doc-comments/reference/lib/lib-condConcat)
+- [lib.condconcat](/nix-doc-comments/reference/lib/lib-condconcat)
 
 

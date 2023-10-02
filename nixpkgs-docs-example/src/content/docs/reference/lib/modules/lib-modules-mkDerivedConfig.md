@@ -19,6 +19,6 @@ It takes care of setting the right priority using `mkOverride`.
 
 # Aliases
 
-- [lib.mkDerivedConfig](/nix-doc-comments/reference/lib/lib-mkDerivedConfig)
+- [lib.mkderivedconfig](/nix-doc-comments/reference/lib/lib-mkderivedconfig)
 
 

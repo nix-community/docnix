@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.derivations.lazyDerivation](/nix-doc-comments/reference/lib/derivations/lib-derivations-lazyDerivation)
+- [lib.derivations.lazyderivation](/nix-doc-comments/reference/lib/derivations/lib-derivations-lazyderivation)
 
 

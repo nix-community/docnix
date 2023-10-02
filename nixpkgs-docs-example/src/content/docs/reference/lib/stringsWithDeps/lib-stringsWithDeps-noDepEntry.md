@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.noDepEntry](/nix-doc-comments/reference/lib/lib-noDepEntry)
+- [lib.nodepentry](/nix-doc-comments/reference/lib/lib-nodepentry)
 
 

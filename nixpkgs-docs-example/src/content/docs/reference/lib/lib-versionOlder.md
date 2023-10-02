@@ -21,6 +21,6 @@ versionOlder "1.1" "1.1"
 
 # Aliases
 
-- [lib.strings.versionOlder](/nix-doc-comments/reference/lib/strings/lib-strings-versionOlder)
+- [lib.strings.versionolder](/nix-doc-comments/reference/lib/strings/lib-strings-versionolder)
 
 

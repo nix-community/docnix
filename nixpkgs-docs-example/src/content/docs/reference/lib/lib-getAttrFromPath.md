@@ -29,6 +29,6 @@ getAttrFromPath :: [String] -> AttrSet -> Any
 
 # Aliases
 
-- [lib.attrsets.getAttrFromPath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getAttrFromPath)
+- [lib.attrsets.getattrfrompath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getattrfrompath)
 
 

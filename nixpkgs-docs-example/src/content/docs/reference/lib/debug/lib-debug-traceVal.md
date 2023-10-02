@@ -27,6 +27,6 @@ traceValFn :: (a -> b) -> a -> a
 
 # Aliases
 
-- [lib.traceVal](/nix-doc-comments/reference/lib/lib-traceVal)
+- [lib.traceval](/nix-doc-comments/reference/lib/lib-traceval)
 
 

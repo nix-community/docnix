@@ -21,6 +21,6 @@ represented as a JSON string of the resulting store path.
 
 # Aliases
 
-- [builtins.toJSON](/nix-doc-comments/reference/builtins/builtins-toJSON)
+- [builtins.tojson](/nix-doc-comments/reference/builtins/builtins-tojson)
 
 

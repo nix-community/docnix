@@ -16,8 +16,8 @@ Return `true` if *e* evaluates to an integer, and `false` otherwise.
 
 # Aliases
 
-- [lib.isInt](/nix-doc-comments/reference/lib/lib-isInt)
-- [lib.strings.isInt](/nix-doc-comments/reference/lib/strings/lib-strings-isInt)
-- [lib.trivial.isInt](/nix-doc-comments/reference/lib/trivial/lib-trivial-isInt)
+- [lib.isint](/nix-doc-comments/reference/lib/lib-isint)
+- [lib.strings.isint](/nix-doc-comments/reference/lib/strings/lib-strings-isint)
+- [lib.trivial.isint](/nix-doc-comments/reference/lib/trivial/lib-trivial-isint)
 
 

@@ -20,7 +20,7 @@ even for intermediate values.
 
 # Aliases
 
-- [builtins.foldl'](/nix-doc-comments/reference/builtins/builtins-foldl' (Prime))
-- [lib.lists.foldl'](/nix-doc-comments/reference/lib/lists/lib-lists-foldl' (Prime))
+- [builtins.foldl'](/nix-doc-comments/reference/builtins/builtins-foldl' (prime))
+- [lib.lists.foldl'](/nix-doc-comments/reference/lib/lists/lib-lists-foldl' (prime))
 
 

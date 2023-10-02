@@ -26,8 +26,8 @@ zipAttrsWithNames :: [ String ] -> (String -> [ Any ] -> Any) -> [ AttrSet ] -> 
 
 # Aliases
 
-- [lib.attrsets.zipAttrsWithNames](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipAttrsWithNames)
-- [lib.zipAttrsWithNames](/nix-doc-comments/reference/lib/lib-zipAttrsWithNames)
-- [lib.zipWithNames](/nix-doc-comments/reference/lib/lib-zipWithNames)
+- [lib.attrsets.zipattrswithnames](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipattrswithnames)
+- [lib.zipattrswithnames](/nix-doc-comments/reference/lib/lib-zipattrswithnames)
+- [lib.zipwithnames](/nix-doc-comments/reference/lib/lib-zipwithnames)
 
 

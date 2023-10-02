@@ -22,6 +22,6 @@ enableFeature false "shared"
 
 # Aliases
 
-- [lib.strings.enableFeature](/nix-doc-comments/reference/lib/strings/lib-strings-enableFeature)
+- [lib.strings.enablefeature](/nix-doc-comments/reference/lib/strings/lib-strings-enablefeature)
 
 

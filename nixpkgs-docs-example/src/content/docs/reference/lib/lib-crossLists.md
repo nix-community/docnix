@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.lists.crossLists](/nix-doc-comments/reference/lib/lists/lib-lists-crossLists)
+- [lib.lists.crosslists](/nix-doc-comments/reference/lib/lists/lib-lists-crosslists)
 
 

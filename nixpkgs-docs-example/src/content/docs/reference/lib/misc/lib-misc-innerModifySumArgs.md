@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.innerModifySumArgs](/nix-doc-comments/reference/lib/lib-innerModifySumArgs)
+- [lib.innermodifysumargs](/nix-doc-comments/reference/lib/lib-innermodifysumargs)
 
 

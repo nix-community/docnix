@@ -12,6 +12,6 @@ Compatibility.
 
 # Aliases
 
-- [lib.modules.fixMergeModules](/nix-doc-comments/reference/lib/modules/lib-modules-fixMergeModules)
+- [lib.modules.fixmergemodules](/nix-doc-comments/reference/lib/modules/lib-modules-fixmergemodules)
 
 

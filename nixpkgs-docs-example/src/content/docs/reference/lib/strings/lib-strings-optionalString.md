@@ -28,6 +28,6 @@ optionalString :: bool -> string -> string
 
 # Aliases
 
-- [lib.optionalString](/nix-doc-comments/reference/lib/lib-optionalString)
+- [lib.optionalstring](/nix-doc-comments/reference/lib/lib-optionalstring)
 
 

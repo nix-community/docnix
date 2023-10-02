@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.misc.mergeAttrsConcatenateValues](/nix-doc-comments/reference/lib/misc/lib-misc-mergeAttrsConcatenateValues)
+- [lib.misc.mergeattrsconcatenatevalues](/nix-doc-comments/reference/lib/misc/lib-misc-mergeattrsconcatenatevalues)
 
 

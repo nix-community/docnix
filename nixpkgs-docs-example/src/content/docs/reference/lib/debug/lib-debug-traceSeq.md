@@ -29,6 +29,6 @@ traceSeq :: a -> b -> b
 
 # Aliases
 
-- [lib.traceSeq](/nix-doc-comments/reference/lib/lib-traceSeq)
+- [lib.traceseq](/nix-doc-comments/reference/lib/lib-traceseq)
 
 

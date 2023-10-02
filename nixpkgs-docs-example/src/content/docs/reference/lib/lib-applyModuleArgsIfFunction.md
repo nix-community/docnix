@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.modules.applyModuleArgsIfFunction](/nix-doc-comments/reference/lib/modules/lib-modules-applyModuleArgsIfFunction)
+- [lib.modules.applymoduleargsiffunction](/nix-doc-comments/reference/lib/modules/lib-modules-applymoduleargsiffunction)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.sources.pathIsGitRepo](/nix-doc-comments/reference/lib/sources/lib-sources-pathIsGitRepo)
+- [lib.sources.pathisgitrepo](/nix-doc-comments/reference/lib/sources/lib-sources-pathisgitrepo)
 
 

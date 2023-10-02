@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mkAssert](/nix-doc-comments/reference/lib/lib-mkAssert)
+- [lib.mkassert](/nix-doc-comments/reference/lib/lib-mkassert)
 
 

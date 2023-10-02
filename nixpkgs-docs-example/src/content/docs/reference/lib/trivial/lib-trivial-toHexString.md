@@ -19,6 +19,6 @@ toHexString 250 => "FA"
 
 # Aliases
 
-- [lib.toHexString](/nix-doc-comments/reference/lib/lib-toHexString)
+- [lib.tohexstring](/nix-doc-comments/reference/lib/lib-tohexstring)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.strings.toIntBase10](/nix-doc-comments/reference/lib/strings/lib-strings-toIntBase10)
+- [lib.strings.tointbase10](/nix-doc-comments/reference/lib/strings/lib-strings-tointbase10)
 
 

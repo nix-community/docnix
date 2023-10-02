@@ -28,7 +28,7 @@ related to its use.
 
 # Aliases
 
-- [lib.customisation.makeOverridable](/nix-doc-comments/reference/lib/customisation/lib-customisation-makeOverridable)
-- [lib.makeOverridable](/nix-doc-comments/reference/lib/lib-makeOverridable)
+- [lib.customisation.makeoverridable](/nix-doc-comments/reference/lib/customisation/lib-customisation-makeoverridable)
+- [lib.makeoverridable](/nix-doc-comments/reference/lib/lib-makeoverridable)
 
 

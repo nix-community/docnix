@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mergeAttrBy.postInstall](/nix-doc-comments/reference/lib/mergeAttrBy/lib-mergeAttrBy-postInstall)
+- [lib.mergeattrby.postinstall](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-postinstall)
 
 

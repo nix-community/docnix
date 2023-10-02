@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.listDfs](/nix-doc-comments/reference/lib/lib-listDfs)
+- [lib.listdfs](/nix-doc-comments/reference/lib/lib-listdfs)
 
 

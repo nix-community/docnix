@@ -16,6 +16,6 @@ values of the options are not accessed.
 
 # Aliases
 
-- [lib.options.mkSinkUndeclaredOptions](/nix-doc-comments/reference/lib/options/lib-options-mkSinkUndeclaredOptions)
+- [lib.options.mksinkundeclaredoptions](/nix-doc-comments/reference/lib/options/lib-options-mksinkundeclaredoptions)
 
 

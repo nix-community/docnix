@@ -20,6 +20,6 @@ which can form the parent scope for later package sets.
 
 # Aliases
 
-- [lib.customisation.makeScope](/nix-doc-comments/reference/lib/customisation/lib-customisation-makeScope)
+- [lib.customisation.makescope](/nix-doc-comments/reference/lib/customisation/lib-customisation-makescope)
 
 

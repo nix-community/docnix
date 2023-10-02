@@ -25,6 +25,6 @@ matchAttrs :: AttrSet -> AttrSet -> Bool
 
 # Aliases
 
-- [lib.matchAttrs](/nix-doc-comments/reference/lib/lib-matchAttrs)
+- [lib.matchattrs](/nix-doc-comments/reference/lib/lib-matchattrs)
 
 

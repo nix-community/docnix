@@ -30,6 +30,6 @@ attrByPath :: [String] -> Any -> AttrSet -> Any
 
 # Aliases
 
-- [lib.attrByPath](/nix-doc-comments/reference/lib/lib-attrByPath)
+- [lib.attrbypath](/nix-doc-comments/reference/lib/lib-attrbypath)
 
 

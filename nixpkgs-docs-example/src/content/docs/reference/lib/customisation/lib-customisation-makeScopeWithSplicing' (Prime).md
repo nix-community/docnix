@@ -13,6 +13,6 @@ hopefully it helps a little bit.
 
 # Aliases
 
-- [lib.makeScopeWithSplicing'](/nix-doc-comments/reference/lib/lib-makeScopeWithSplicing' (Prime))
+- [lib.makescopewithsplicing'](/nix-doc-comments/reference/lib/lib-makescopewithsplicing' (prime))
 
 

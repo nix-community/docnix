@@ -25,6 +25,6 @@ foldAttrs :: (Any -> Any -> Any) -> Any -> [AttrSets] -> Any
 
 # Aliases
 
-- [lib.foldAttrs](/nix-doc-comments/reference/lib/lib-foldAttrs)
+- [lib.foldattrs](/nix-doc-comments/reference/lib/lib-foldattrs)
 
 

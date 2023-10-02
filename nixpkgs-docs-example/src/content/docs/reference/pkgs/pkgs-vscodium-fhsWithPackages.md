@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [pkgs.vscode-fhsWithPackages](/nix-doc-comments/reference/pkgs/pkgs-vscode-fhsWithPackages)
+- [pkgs.vscode-fhswithpackages](/nix-doc-comments/reference/pkgs/pkgs-vscode-fhswithpackages)
 
 

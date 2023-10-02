@@ -22,6 +22,6 @@ withFeature false "shared"
 
 # Aliases
 
-- [lib.withFeature](/nix-doc-comments/reference/lib/lib-withFeature)
+- [lib.withfeature](/nix-doc-comments/reference/lib/lib-withfeature)
 
 

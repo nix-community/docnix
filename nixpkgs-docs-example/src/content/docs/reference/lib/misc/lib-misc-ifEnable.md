@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.ifEnable](/nix-doc-comments/reference/lib/lib-ifEnable)
+- [lib.ifenable](/nix-doc-comments/reference/lib/lib-ifenable)
 
 

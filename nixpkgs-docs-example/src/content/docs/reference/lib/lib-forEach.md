@@ -28,6 +28,6 @@ forEach :: [a] -> (a -> b) -> [b]
 
 # Aliases
 
-- [lib.lists.forEach](/nix-doc-comments/reference/lib/lists/lib-lists-forEach)
+- [lib.lists.foreach](/nix-doc-comments/reference/lib/lists/lib-lists-foreach)
 
 

@@ -14,6 +14,6 @@ topological sort of the depstrings.
 
 # Aliases
 
-- [lib.textClosureList](/nix-doc-comments/reference/lib/lib-textClosureList)
+- [lib.textclosurelist](/nix-doc-comments/reference/lib/lib-textclosurelist)
 
 

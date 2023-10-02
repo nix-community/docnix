@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.showOption](/nix-doc-comments/reference/lib/lib-showOption)
+- [lib.showoption](/nix-doc-comments/reference/lib/lib-showoption)
 
 

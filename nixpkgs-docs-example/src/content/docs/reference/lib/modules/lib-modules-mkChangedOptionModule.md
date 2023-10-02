@@ -33,6 +33,6 @@ result of the change function
 
 # Aliases
 
-- [lib.mkChangedOptionModule](/nix-doc-comments/reference/lib/lib-mkChangedOptionModule)
+- [lib.mkchangedoptionmodule](/nix-doc-comments/reference/lib/lib-mkchangedoptionmodule)
 
 

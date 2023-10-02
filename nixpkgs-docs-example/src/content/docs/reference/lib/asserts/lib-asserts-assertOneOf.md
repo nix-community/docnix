@@ -30,6 +30,6 @@ assertOneOf :: String -> ComparableVal -> List ComparableVal -> Bool
 
 # Aliases
 
-- [lib.assertOneOf](/nix-doc-comments/reference/lib/lib-assertOneOf)
+- [lib.assertoneof](/nix-doc-comments/reference/lib/lib-assertoneof)
 
 

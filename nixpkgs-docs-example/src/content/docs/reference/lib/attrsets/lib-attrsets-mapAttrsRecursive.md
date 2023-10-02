@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mapAttrsRecursive](/nix-doc-comments/reference/lib/lib-mapAttrsRecursive)
+- [lib.mapattrsrecursive](/nix-doc-comments/reference/lib/lib-mapattrsrecursive)
 
 

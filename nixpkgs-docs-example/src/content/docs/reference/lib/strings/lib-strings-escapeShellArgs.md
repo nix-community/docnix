@@ -27,6 +27,6 @@ concatMapStringsSep :: string -> (a -> string) -> [a] -> string
 
 # Aliases
 
-- [lib.escapeShellArgs](/nix-doc-comments/reference/lib/lib-escapeShellArgs)
+- [lib.escapeshellargs](/nix-doc-comments/reference/lib/lib-escapeshellargs)
 
 

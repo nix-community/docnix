@@ -17,7 +17,7 @@ corresponding to the sorted attribute names.
 
 # Aliases
 
-- [builtins.attrValues](/nix-doc-comments/reference/builtins/builtins-attrValues)
-- [lib.attrValues](/nix-doc-comments/reference/lib/lib-attrValues)
+- [builtins.attrvalues](/nix-doc-comments/reference/builtins/builtins-attrvalues)
+- [lib.attrvalues](/nix-doc-comments/reference/lib/lib-attrvalues)
 
 

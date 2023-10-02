@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.innerClosePropagation](/nix-doc-comments/reference/lib/lib-innerClosePropagation)
+- [lib.innerclosepropagation](/nix-doc-comments/reference/lib/lib-innerclosepropagation)
 
 

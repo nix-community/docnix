@@ -94,7 +94,7 @@
           if item.docs.lambdaDocs.position != null
           then
             builtins.filter (
-              other: other.docs.lambdaDocs.position == item.docs.lambdaDocs.position
+              other: other.docs.lambdaDocs.position == item.docs.lambdaDocs.position && item.docs.lambdaDocs.countApplied == 0
             )
             list
           else if item.docs.lambdaDocs.isPrimop

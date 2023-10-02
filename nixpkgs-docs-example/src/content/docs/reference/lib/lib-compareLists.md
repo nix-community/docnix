@@ -25,6 +25,6 @@ compareLists compare [ "a" "b" ] [ "a" "c" ]
 
 # Aliases
 
-- [lib.lists.compareLists](/nix-doc-comments/reference/lib/lists/lib-lists-compareLists)
+- [lib.lists.comparelists](/nix-doc-comments/reference/lib/lists/lib-lists-comparelists)
 
 

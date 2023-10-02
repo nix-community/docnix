@@ -12,7 +12,7 @@ sidebar:
 
 # Aliases
 
-- [lib.closePropagation](/nix-doc-comments/reference/lib/lib-closePropagation)
-- [lib.misc.closePropagation](/nix-doc-comments/reference/lib/misc/lib-misc-closePropagation)
+- [lib.closepropagation](/nix-doc-comments/reference/lib/lib-closepropagation)
+- [lib.misc.closepropagation](/nix-doc-comments/reference/lib/misc/lib-misc-closepropagation)
 
 

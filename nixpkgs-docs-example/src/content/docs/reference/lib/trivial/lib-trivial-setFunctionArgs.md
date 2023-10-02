@@ -20,6 +20,6 @@ like callPackage expect to be able to query expected arguments.
 
 # Aliases
 
-- [lib.setFunctionArgs](/nix-doc-comments/reference/lib/lib-setFunctionArgs)
+- [lib.setfunctionargs](/nix-doc-comments/reference/lib/lib-setfunctionargs)
 
 

@@ -23,6 +23,6 @@ nix-repl> lib.toFunction (x: x + 1) 2
 
 # Aliases
 
-- [lib.trivial.toFunction](/nix-doc-comments/reference/lib/trivial/lib-trivial-toFunction)
+- [lib.trivial.tofunction](/nix-doc-comments/reference/lib/trivial/lib-trivial-tofunction)
 
 

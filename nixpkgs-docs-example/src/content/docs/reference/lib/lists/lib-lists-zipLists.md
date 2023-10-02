@@ -27,6 +27,6 @@ zipListsWith :: (a -> b -> c) -> [a] -> [b] -> [c]
 
 # Aliases
 
-- [lib.zipLists](/nix-doc-comments/reference/lib/lib-zipLists)
+- [lib.ziplists](/nix-doc-comments/reference/lib/lib-ziplists)
 
 

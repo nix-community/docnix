@@ -22,6 +22,6 @@ returns the value `{ x = [ 1 2 3 ]; y = null; }`.
 
 # Aliases
 
-- [builtins.fromJSON](/nix-doc-comments/reference/builtins/builtins-fromJSON)
+- [builtins.fromjson](/nix-doc-comments/reference/builtins/builtins-fromjson)
 
 

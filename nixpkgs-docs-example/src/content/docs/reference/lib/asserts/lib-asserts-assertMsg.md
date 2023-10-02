@@ -29,6 +29,6 @@ assertMsg :: Bool -> String -> Bool
 
 # Aliases
 
-- [lib.assertMsg](/nix-doc-comments/reference/lib/lib-assertMsg)
+- [lib.assertmsg](/nix-doc-comments/reference/lib/lib-assertmsg)
 
 

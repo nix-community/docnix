@@ -27,6 +27,6 @@ hasSuffix :: string -> string -> bool
 
 # Aliases
 
-- [lib.hasSuffix](/nix-doc-comments/reference/lib/lib-hasSuffix)
+- [lib.hassuffix](/nix-doc-comments/reference/lib/lib-hassuffix)
 
 

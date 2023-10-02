@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.defaultTypeMerge](/nix-doc-comments/reference/lib/lib-defaultTypeMerge)
+- [lib.defaulttypemerge](/nix-doc-comments/reference/lib/lib-defaulttypemerge)
 
 

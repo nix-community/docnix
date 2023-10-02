@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.callPackageWith](/nix-doc-comments/reference/lib/lib-callPackageWith)
+- [lib.callpackagewith](/nix-doc-comments/reference/lib/lib-callpackagewith)
 
 

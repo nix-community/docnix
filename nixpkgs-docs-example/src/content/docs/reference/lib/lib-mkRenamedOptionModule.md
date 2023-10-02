@@ -23,6 +23,6 @@ non-aliased option.
 
 # Aliases
 
-- [lib.modules.mkRenamedOptionModule](/nix-doc-comments/reference/lib/modules/lib-modules-mkRenamedOptionModule)
+- [lib.modules.mkrenamedoptionmodule](/nix-doc-comments/reference/lib/modules/lib-modules-mkrenamedoptionmodule)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.stringsWithDeps.stringAfter](/nix-doc-comments/reference/lib/stringsWithDeps/lib-stringsWithDeps-stringAfter)
+- [lib.stringswithdeps.stringafter](/nix-doc-comments/reference/lib/stringswithdeps/lib-stringswithdeps-stringafter)
 
 

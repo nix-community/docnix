@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.options.mergeDefaultOption](/nix-doc-comments/reference/lib/options/lib-options-mergeDefaultOption)
+- [lib.options.mergedefaultoption](/nix-doc-comments/reference/lib/options/lib-options-mergedefaultoption)
 
 

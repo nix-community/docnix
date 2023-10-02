@@ -28,6 +28,6 @@ hasAttrByPath :: [String] -> AttrSet -> Bool
 
 # Aliases
 
-- [lib.hasAttrByPath](/nix-doc-comments/reference/lib/lib-hasAttrByPath)
+- [lib.hasattrbypath](/nix-doc-comments/reference/lib/lib-hasattrbypath)
 
 

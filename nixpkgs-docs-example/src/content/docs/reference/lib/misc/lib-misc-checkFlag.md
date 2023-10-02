@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.checkFlag](/nix-doc-comments/reference/lib/lib-checkFlag)
+- [lib.checkflag](/nix-doc-comments/reference/lib/lib-checkflag)
 
 

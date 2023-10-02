@@ -33,7 +33,7 @@ recurseIntoAttrs :: AttrSet -> AttrSet
 
 # Aliases
 
-- [lib.attrsets.recurseIntoAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-recurseIntoAttrs)
-- [pkgs.recurseIntoAttrs](/nix-doc-comments/reference/pkgs/pkgs-recurseIntoAttrs)
+- [lib.attrsets.recurseintoattrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-recurseintoattrs)
+- [pkgs.recurseintoattrs](/nix-doc-comments/reference/pkgs/pkgs-recurseintoattrs)
 
 

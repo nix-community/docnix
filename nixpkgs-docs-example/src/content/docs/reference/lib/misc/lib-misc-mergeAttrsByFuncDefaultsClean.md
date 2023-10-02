@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mergeAttrsByFuncDefaultsClean](/nix-doc-comments/reference/lib/lib-mergeAttrsByFuncDefaultsClean)
+- [lib.mergeattrsbyfuncdefaultsclean](/nix-doc-comments/reference/lib/lib-mergeattrsbyfuncdefaultsclean)
 
 

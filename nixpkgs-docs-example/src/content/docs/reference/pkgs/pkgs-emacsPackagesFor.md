@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [pkgs.emacsPackagesNgFor](/nix-doc-comments/reference/pkgs/pkgs-emacsPackagesNgFor)
+- [pkgs.emacspackagesngfor](/nix-doc-comments/reference/pkgs/pkgs-emacspackagesngfor)
 
 

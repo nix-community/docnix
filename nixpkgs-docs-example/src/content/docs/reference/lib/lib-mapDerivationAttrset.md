@@ -12,6 +12,6 @@ Apply a function to each derivation and only to derivations in an attrset.
 
 # Aliases
 
-- [lib.meta.mapDerivationAttrset](/nix-doc-comments/reference/lib/meta/lib-meta-mapDerivationAttrset)
+- [lib.meta.mapderivationattrset](/nix-doc-comments/reference/lib/meta/lib-meta-mapderivationattrset)
 
 

@@ -73,6 +73,6 @@ result :: a;
 
 # Aliases
 
-- [lib.runTests](/nix-doc-comments/reference/lib/lib-runTests)
+- [lib.runtests](/nix-doc-comments/reference/lib/lib-runtests)
 
 

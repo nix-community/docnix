@@ -14,6 +14,6 @@ individual attributes.
 
 # Aliases
 
-- [lib.callPackagesWith](/nix-doc-comments/reference/lib/lib-callPackagesWith)
+- [lib.callpackageswith](/nix-doc-comments/reference/lib/lib-callpackageswith)
 
 

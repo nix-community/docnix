@@ -13,6 +13,6 @@ It should be slightly more efficient than (intersectLists a b == [])
 
 # Aliases
 
-- [lib.mutuallyExclusive](/nix-doc-comments/reference/lib/lib-mutuallyExclusive)
+- [lib.mutuallyexclusive](/nix-doc-comments/reference/lib/lib-mutuallyexclusive)
 
 

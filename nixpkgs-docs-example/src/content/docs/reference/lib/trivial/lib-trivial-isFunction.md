@@ -13,6 +13,6 @@ annotated with function args.
 
 # Aliases
 
-- [lib.isFunction](/nix-doc-comments/reference/lib/lib-isFunction)
+- [lib.isfunction](/nix-doc-comments/reference/lib/lib-isfunction)
 
 

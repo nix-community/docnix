@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.attrsets.updateManyAttrsByPath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-updateManyAttrsByPath)
+- [lib.attrsets.updatemanyattrsbypath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-updatemanyattrsbypath)
 
 

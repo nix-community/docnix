@@ -12,8 +12,8 @@ sidebar:
 
 # Aliases
 
-- [lib.isOptionType](/nix-doc-comments/reference/lib/lib-isOptionType)
-- [lib.options.isOption](/nix-doc-comments/reference/lib/options/lib-options-isOption)
-- [lib.types.isOptionType](/nix-doc-comments/reference/lib/types/lib-types-isOptionType)
+- [lib.isoptiontype](/nix-doc-comments/reference/lib/lib-isoptiontype)
+- [lib.options.isoption](/nix-doc-comments/reference/lib/options/lib-options-isoption)
+- [lib.types.isoptiontype](/nix-doc-comments/reference/lib/types/lib-types-isoptiontype)
 
 

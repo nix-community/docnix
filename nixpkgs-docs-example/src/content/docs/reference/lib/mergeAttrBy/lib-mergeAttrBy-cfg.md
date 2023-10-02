@@ -21,9 +21,9 @@ mergeAttrs { a = 1; b = 2; } { b = 3; c = 4; }
 
 # Aliases
 
-- [lib.mergeAttrBy.flags](/nix-doc-comments/reference/lib/mergeAttrBy/lib-mergeAttrBy-flags)
-- [lib.mergeAttrBy.meta](/nix-doc-comments/reference/lib/mergeAttrBy/lib-mergeAttrBy-meta)
-- [lib.mergeAttrs](/nix-doc-comments/reference/lib/lib-mergeAttrs)
-- [lib.trivial.mergeAttrs](/nix-doc-comments/reference/lib/trivial/lib-trivial-mergeAttrs)
+- [lib.mergeattrby.flags](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-flags)
+- [lib.mergeattrby.meta](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-meta)
+- [lib.mergeattrs](/nix-doc-comments/reference/lib/lib-mergeattrs)
+- [lib.trivial.mergeattrs](/nix-doc-comments/reference/lib/trivial/lib-trivial-mergeattrs)
 
 

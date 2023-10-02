@@ -18,10 +18,10 @@ mkUint64 :: Int -> gvariant
 
 # Aliases
 
-- [lib.gvariant.mkInt16](/nix-doc-comments/reference/lib/gvariant/lib-gvariant-mkInt16)
-- [lib.gvariant.mkInt64](/nix-doc-comments/reference/lib/gvariant/lib-gvariant-mkInt64)
-- [lib.gvariant.mkUchar](/nix-doc-comments/reference/lib/gvariant/lib-gvariant-mkUchar)
-- [lib.gvariant.mkUint16](/nix-doc-comments/reference/lib/gvariant/lib-gvariant-mkUint16)
-- [lib.gvariant.mkUint32](/nix-doc-comments/reference/lib/gvariant/lib-gvariant-mkUint32)
+- [lib.gvariant.mkint16](/nix-doc-comments/reference/lib/gvariant/lib-gvariant-mkint16)
+- [lib.gvariant.mkint64](/nix-doc-comments/reference/lib/gvariant/lib-gvariant-mkint64)
+- [lib.gvariant.mkuchar](/nix-doc-comments/reference/lib/gvariant/lib-gvariant-mkuchar)
+- [lib.gvariant.mkuint16](/nix-doc-comments/reference/lib/gvariant/lib-gvariant-mkuint16)
+- [lib.gvariant.mkuint32](/nix-doc-comments/reference/lib/gvariant/lib-gvariant-mkuint32)
 
 

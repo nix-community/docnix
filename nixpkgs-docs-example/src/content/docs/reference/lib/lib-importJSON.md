@@ -18,6 +18,6 @@ importJSON :: path -> any
 
 # Aliases
 
-- [lib.trivial.importJSON](/nix-doc-comments/reference/lib/trivial/lib-trivial-importJSON)
+- [lib.trivial.importjson](/nix-doc-comments/reference/lib/trivial/lib-trivial-importjson)
 
 

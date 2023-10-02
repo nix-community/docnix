@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.modules.evalModules](/nix-doc-comments/reference/lib/modules/lib-modules-evalModules)
+- [lib.modules.evalmodules](/nix-doc-comments/reference/lib/modules/lib-modules-evalmodules)
 
 

@@ -12,6 +12,6 @@ sidebar:
 
 # Aliases
 
-- [lib.mergeEqualOption](/nix-doc-comments/reference/lib/lib-mergeEqualOption)
+- [lib.mergeequaloption](/nix-doc-comments/reference/lib/lib-mergeequaloption)
 
 

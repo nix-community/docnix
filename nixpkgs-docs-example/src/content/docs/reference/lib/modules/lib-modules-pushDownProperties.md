@@ -25,6 +25,6 @@ recursion.
 
 # Aliases
 
-- [lib.pushDownProperties](/nix-doc-comments/reference/lib/lib-pushDownProperties)
+- [lib.pushdownproperties](/nix-doc-comments/reference/lib/lib-pushdownproperties)
 
 

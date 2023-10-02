@@ -18,6 +18,6 @@ updateName (oldName: oldName + "-experimental") somePkg
 
 # Aliases
 
-- [lib.meta.updateName](/nix-doc-comments/reference/lib/meta/lib-meta-updateName)
+- [lib.meta.updatename](/nix-doc-comments/reference/lib/meta/lib-meta-updatename)
 
 
