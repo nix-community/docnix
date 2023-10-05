@@ -46,12 +46,11 @@
       /**
       Foo docs
       */
-      # TODO: line comments are ignored
-      # TODO: line comments are ignored
+      # TODO: line comments break the relation between comment and documentable node.
       foo = "A very intricate string";
     };
     expected = {
-      content = "Foo docs";
+      content = "";
       position = expr.position;
     };
   };
@@ -87,7 +86,7 @@
       Foo docs
       */
       /*
-      Comment interruptus
+      Multiline comments break the relation between comment and documentable node.
       */
       foo = "A very intricate string";
     };
