@@ -1,6 +1,6 @@
 ---
 title: lib.lists.foldl
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L115C11
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L115C11
 description: lib.lists.foldl
 sidebar:
 
@@ -24,7 +24,7 @@ lstrange [ 1 2 3 4 ]
 
 # Type
 
-```haskell
+```
 foldl :: (b -> a -> b) -> b -> [a] -> b
 ```
 

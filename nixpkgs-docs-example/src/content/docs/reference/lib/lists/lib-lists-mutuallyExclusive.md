@@ -1,6 +1,6 @@
 ---
 title: lib.lists.mutuallyExclusive
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L1091C23
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1091C23
 description: lib.lists.mutuallyExclusive
 sidebar:
 
@@ -13,6 +13,6 @@ It should be slightly more efficient than (intersectLists a b == [])
 
 # Aliases
 
-- [lib.mutuallyexclusive](/nix-doc-comments/reference/lib/lib-mutuallyexclusive)
+- [lib.mutuallyExclusive](/nix-doc-comments/reference/lib/lib-mutuallyexclusive)
 
 

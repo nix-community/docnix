@@ -1,6 +1,6 @@
 ---
 title: lib.traceIf
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/debug.nix#L55C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L55C5
 description: lib.traceIf
 sidebar:
 
@@ -19,13 +19,13 @@ trace: hello
 
 # Type
 
-```haskell
+```
 traceIf :: bool -> string -> a -> a
 ```
 
 
 # Aliases
 
-- [lib.debug.traceif](/nix-doc-comments/reference/lib/debug/lib-debug-traceif)
+- [lib.debug.traceIf](/nix-doc-comments/reference/lib/debug/lib-debug-traceif)
 
 

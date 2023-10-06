@@ -1,6 +1,6 @@
 ---
 title: lib.removePrefix
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L898C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L898C5
 description: lib.removePrefix
 sidebar:
 
@@ -20,13 +20,13 @@ removePrefix "xxx" "foo.bar.baz"
 
 # Type
 
-```haskell
+```
 string -> string -> string
 ```
 
 
 # Aliases
 
-- [lib.strings.removeprefix](/nix-doc-comments/reference/lib/strings/lib-strings-removeprefix)
+- [lib.strings.removePrefix](/nix-doc-comments/reference/lib/strings/lib-strings-removeprefix)
 
 

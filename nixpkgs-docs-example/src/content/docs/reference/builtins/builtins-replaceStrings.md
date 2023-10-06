@@ -27,9 +27,9 @@ evaluates to `"fabir"`.
 
 # Aliases
 
-- [lib.replacechars](/nix-doc-comments/reference/lib/lib-replacechars)
-- [lib.replacestrings](/nix-doc-comments/reference/lib/lib-replacestrings)
-- [lib.strings.replacechars](/nix-doc-comments/reference/lib/strings/lib-strings-replacechars)
-- [lib.strings.replacestrings](/nix-doc-comments/reference/lib/strings/lib-strings-replacestrings)
+- [lib.replaceChars](/nix-doc-comments/reference/lib/lib-replacechars)
+- [lib.replaceStrings](/nix-doc-comments/reference/lib/lib-replacestrings)
+- [lib.strings.replaceChars](/nix-doc-comments/reference/lib/strings/lib-strings-replacechars)
+- [lib.strings.replaceStrings](/nix-doc-comments/reference/lib/strings/lib-strings-replacestrings)
 
 

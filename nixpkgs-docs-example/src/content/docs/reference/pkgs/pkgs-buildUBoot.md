@@ -1,6 +1,6 @@
 ---
 title: pkgs.buildUBoot
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/customisation.nix#L74C24
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L74C24
 description: pkgs.buildUBoot
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.filterAttrsRecursive
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L409C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L409C5
 description: lib.filterAttrsRecursive
 sidebar:
 
@@ -19,13 +19,13 @@ filterAttrsRecursive (n: v: v != null) { foo = { bar = null; }; }
 
 # Type
 
-```haskell
+```
 filterAttrsRecursive :: (String -> Any -> Bool) -> AttrSet -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.attrsets.filterattrsrecursive](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-filterattrsrecursive)
+- [lib.attrsets.filterAttrsRecursive](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-filterattrsrecursive)
 
 

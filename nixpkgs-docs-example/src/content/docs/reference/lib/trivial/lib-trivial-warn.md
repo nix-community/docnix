@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.warn
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L472C10
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L472C10
 description: lib.trivial.warn
 sidebar:
 
@@ -16,7 +16,7 @@ To get a call stack trace and abort evaluation, set the environment variable
 
 # Type
 
-```haskell
+```
 string -> a -> a
 ```
 

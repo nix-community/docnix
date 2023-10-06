@@ -1,6 +1,6 @@
 ---
 title: lib.literalExpression
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/options.nix#L387C23
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L387C23
 description: lib.literalExpression
 sidebar:
 
@@ -15,8 +15,8 @@ other values or packages.
 
 # Aliases
 
-- [lib.literalexample](/nix-doc-comments/reference/lib/lib-literalexample)
-- [lib.options.literalexample](/nix-doc-comments/reference/lib/options/lib-options-literalexample)
-- [lib.options.literalexpression](/nix-doc-comments/reference/lib/options/lib-options-literalexpression)
+- [lib.literalExample](/nix-doc-comments/reference/lib/lib-literalexample)
+- [lib.options.literalExample](/nix-doc-comments/reference/lib/options/lib-options-literalexample)
+- [lib.options.literalExpression](/nix-doc-comments/reference/lib/options/lib-options-literalexpression)
 
 

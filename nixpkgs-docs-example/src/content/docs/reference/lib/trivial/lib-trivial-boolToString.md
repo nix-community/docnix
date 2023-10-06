@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.boolToString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L162C18
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L162C18
 description: lib.trivial.boolToString
 sidebar:
 
@@ -15,13 +15,13 @@ and "" (sic!).
 
 # Type
 
-```haskell
+```
 boolToString :: bool -> string
 ```
 
 
 # Aliases
 
-- [lib.booltostring](/nix-doc-comments/reference/lib/lib-booltostring)
+- [lib.boolToString](/nix-doc-comments/reference/lib/lib-booltostring)
 
 

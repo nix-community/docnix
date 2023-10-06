@@ -1,6 +1,6 @@
 ---
 title: lib.lists.compareLists
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L787C18
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L787C18
 description: lib.lists.compareLists
 sidebar:
 
@@ -25,6 +25,6 @@ compareLists compare [ "a" "b" ] [ "a" "c" ]
 
 # Aliases
 
-- [lib.comparelists](/nix-doc-comments/reference/lib/lib-comparelists)
+- [lib.compareLists](/nix-doc-comments/reference/lib/lib-comparelists)
 
 

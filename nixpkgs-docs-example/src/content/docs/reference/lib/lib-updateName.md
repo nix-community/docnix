@@ -1,6 +1,6 @@
 ---
 title: lib.updateName
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/meta.nix#L47C16
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L47C16
 description: lib.updateName
 sidebar:
 
@@ -18,6 +18,6 @@ updateName (oldName: oldName + "-experimental") somePkg
 
 # Aliases
 
-- [lib.meta.updatename](/nix-doc-comments/reference/lib/meta/lib-meta-updatename)
+- [lib.meta.updateName](/nix-doc-comments/reference/lib/meta/lib-meta-updatename)
 
 

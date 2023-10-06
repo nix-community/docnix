@@ -1,6 +1,6 @@
 ---
 title: lib.strings.getName
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1004C13
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1004C13
 description: lib.strings.getName
 sidebar:
 
@@ -23,6 +23,6 @@ getName pkgs.youtube-dl
 
 # Aliases
 
-- [lib.getname](/nix-doc-comments/reference/lib/lib-getname)
+- [lib.getName](/nix-doc-comments/reference/lib/lib-getname)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.options.scrubOptionValue
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/options.nix#L361C22
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L361C22
 description: lib.options.scrubOptionValue
 sidebar:
 
@@ -21,6 +21,6 @@ compatibility with out-of-tree code.
 
 # Aliases
 
-- [lib.scruboptionvalue](/nix-doc-comments/reference/lib/lib-scruboptionvalue)
+- [lib.scrubOptionValue](/nix-doc-comments/reference/lib/lib-scruboptionvalue)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.groupBy' (Prime)
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L583C14
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L583C14
 description: lib.groupBy'
 sidebar:
 
@@ -16,25 +16,25 @@ Predicate should return a string which becomes keys of attrset `groupBy` returns
 
 ```nix
 groupBy (x: boolToString (x > 2)) [ 5 1 2 3 4 ]
-=> { true = [ 5 3 4 ]; false = [ 1 2 ]; }
-groupBy (x: x.name) [ {name = "icewm"; script = "icewm &";}
-{name = "xfce";  script = "xfce4-session &";}
-{name = "icewm"; script = "icewmbg &";}
-{name = "mate";  script = "gnome-session &";}
-]
-=> { icewm = [ { name = "icewm"; script = "icewm &"; }
-{ name = "icewm"; script = "icewmbg &"; } ];
-mate  = [ { name = "mate";  script = "gnome-session &"; } ];
-xfce  = [ { name = "xfce";  script = "xfce4-session &"; } ];
-}
+           => { true = [ 5 3 4 ]; false = [ 1 2 ]; }
+           groupBy (x: x.name) [ {name = "icewm"; script = "icewm &";}
+                                 {name = "xfce";  script = "xfce4-session &";}
+                                 {name = "icewm"; script = "icewmbg &";}
+                                 {name = "mate";  script = "gnome-session &";}
+                               ]
+           => { icewm = [ { name = "icewm"; script = "icewm &"; }
+                          { name = "icewm"; script = "icewmbg &"; } ];
+                mate  = [ { name = "mate";  script = "gnome-session &"; } ];
+                xfce  = [ { name = "xfce";  script = "xfce4-session &"; } ];
+              }
 
-groupBy' builtins.add 0 (x: boolToString (x > 2)) [ 5 1 2 3 4 ]
-=> { true = 12; false = 3; }
+           groupBy' builtins.add 0 (x: boolToString (x > 2)) [ 5 1 2 3 4 ]
+           => { true = 12; false = 3; }
 ```
 
 
 # Aliases
 
-- [lib.lists.groupby'](/nix-doc-comments/reference/lib/lists/lib-lists-groupby' (prime))
+- [lib.lists.groupBy'](/nix-doc-comments/reference/lib/lists/lib-lists-groupby' (prime))
 
 

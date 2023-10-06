@@ -1,6 +1,6 @@
 ---
 title: lib.range
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L505C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L505C5
 description: lib.range
 sidebar:
 
@@ -20,7 +20,7 @@ range 3 2
 
 # Type
 
-```haskell
+```
 range :: int -> int -> [int]
 ```
 

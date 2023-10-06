@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.genAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L778C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L778C5
 description: lib.attrsets.genAttrs
 sidebar:
 
@@ -19,13 +19,13 @@ genAttrs [ "foo" "bar" ] (name: "x_" + name)
 
 # Type
 
-```haskell
+```
 genAttrs :: [ String ] -> (String -> Any) -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.genattrs](/nix-doc-comments/reference/lib/lib-genattrs)
+- [lib.genAttrs](/nix-doc-comments/reference/lib/lib-genattrs)
 
 

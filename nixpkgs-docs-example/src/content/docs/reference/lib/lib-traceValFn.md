@@ -1,6 +1,6 @@
 ---
 title: lib.traceValFn
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/debug.nix#L81C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L81C5
 description: lib.traceValFn
 sidebar:
 
@@ -20,13 +20,13 @@ trace: mystring foo
 
 # Type
 
-```haskell
+```
 traceValFn :: (a -> b) -> a -> a
 ```
 
 
 # Aliases
 
-- [lib.debug.tracevalfn](/nix-doc-comments/reference/lib/debug/lib-debug-tracevalfn)
+- [lib.debug.traceValFn](/nix-doc-comments/reference/lib/debug/lib-debug-tracevalfn)
 
 

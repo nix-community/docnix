@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.const
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L42C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L42C5
 description: lib.trivial.const
 sidebar:
 
@@ -21,7 +21,7 @@ let f = const 5; in f 10
 
 # Type
 
-```haskell
+```
 const :: a -> b -> a
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: lib.fixedWidthString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1215C22
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1215C22
 description: lib.fixedWidthString
 sidebar:
 
@@ -22,13 +22,13 @@ fixedWidthString 5 "0" (toString 15)
 
 # Type
 
-```haskell
+```
 fixedWidthString :: int -> string -> string -> string
 ```
 
 
 # Aliases
 
-- [lib.strings.fixedwidthstring](/nix-doc-comments/reference/lib/strings/lib-strings-fixedwidthstring)
+- [lib.strings.fixedWidthString](/nix-doc-comments/reference/lib/strings/lib-strings-fixedwidthstring)
 
 

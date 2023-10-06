@@ -1,6 +1,6 @@
 ---
 title: lib.appendToName
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/meta.nix#L54C18
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L54C18
 description: lib.appendToName
 sidebar:
 
@@ -13,6 +13,6 @@ part).
 
 # Aliases
 
-- [lib.meta.appendtoname](/nix-doc-comments/reference/lib/meta/lib-meta-appendtoname)
+- [lib.meta.appendToName](/nix-doc-comments/reference/lib/meta/lib-meta-appendtoname)
 
 

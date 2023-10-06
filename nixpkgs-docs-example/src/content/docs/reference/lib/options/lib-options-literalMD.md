@@ -1,6 +1,6 @@
 ---
 title: lib.options.literalMD
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/options.nix#L404C15
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L404C15
 description: lib.options.literalMD
 sidebar:
 
@@ -14,6 +14,6 @@ a `literalExpression` would be too hard to read.
 
 # Aliases
 
-- [lib.literalmd](/nix-doc-comments/reference/lib/lib-literalmd)
+- [lib.literalMD](/nix-doc-comments/reference/lib/lib-literalmd)
 
 

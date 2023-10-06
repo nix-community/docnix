@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.toDerivation
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L819C6
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L819C6
 description: lib.attrsets.toDerivation
 sidebar:
 
@@ -11,13 +11,13 @@ Converts a store path to a fake derivation.
 
 # Type
 
-```haskell
+```
 toDerivation :: Path -> Derivation
 ```
 
 
 # Aliases
 
-- [lib.toderivation](/nix-doc-comments/reference/lib/lib-toderivation)
+- [lib.toDerivation](/nix-doc-comments/reference/lib/lib-toderivation)
 
 

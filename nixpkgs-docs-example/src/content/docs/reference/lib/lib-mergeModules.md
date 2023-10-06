@@ -1,6 +1,6 @@
 ---
 title: lib.mergeModules
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L543C18
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L543C18
 description: lib.mergeModules
 sidebar:
 
@@ -31,6 +31,6 @@ unmatchedDefns = [
 
 # Aliases
 
-- [lib.modules.mergemodules](/nix-doc-comments/reference/lib/modules/lib-modules-mergemodules)
+- [lib.modules.mergeModules](/nix-doc-comments/reference/lib/modules/lib-modules-mergemodules)
 
 

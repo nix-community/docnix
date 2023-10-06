@@ -1,6 +1,6 @@
 ---
 title: lib.lists.remove
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L228C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L228C5
 description: lib.lists.remove
 sidebar:
 
@@ -18,7 +18,7 @@ remove 3 [ 1 3 4 3 ]
 
 # Type
 
-```haskell
+```
 remove :: a -> [a] -> [a]
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: lib.lists.replicate
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L531C15
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L531C15
 description: lib.lists.replicate
 sidebar:
 
@@ -20,7 +20,7 @@ replicate 2 true
 
 # Type
 
-```haskell
+```
 replicate :: int -> a -> [a]
 ```
 

@@ -1,19 +1,19 @@
 ---
 title: lib.makeBinPath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L264C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L264C5
 description: lib.makeBinPath
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L264C5">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L264C5">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.makelibrarypath](/nix-doc-comments/reference/lib/lib-makelibrarypath)
-- [lib.strings.makebinpath](/nix-doc-comments/reference/lib/strings/lib-strings-makebinpath)
-- [lib.strings.makelibrarypath](/nix-doc-comments/reference/lib/strings/lib-strings-makelibrarypath)
+- [lib.makeLibraryPath](/nix-doc-comments/reference/lib/lib-makelibrarypath)
+- [lib.strings.makeBinPath](/nix-doc-comments/reference/lib/strings/lib-strings-makebinpath)
+- [lib.strings.makeLibraryPath](/nix-doc-comments/reference/lib/strings/lib-strings-makelibrarypath)
 
 

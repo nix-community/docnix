@@ -18,6 +18,6 @@ Return a string representing the type of the value *e*, namely
 
 # Aliases
 
-- [builtins.typeof](/nix-doc-comments/reference/builtins/builtins-typeof)
+- [builtins.typeOf](/nix-doc-comments/reference/builtins/builtins-typeof)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.mapNullable
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L214C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L214C5
 description: lib.mapNullable
 sidebar:
 
@@ -21,6 +21,6 @@ mapNullable (x: x+1) 22
 
 # Aliases
 
-- [lib.trivial.mapnullable](/nix-doc-comments/reference/lib/trivial/lib-trivial-mapnullable)
+- [lib.trivial.mapNullable](/nix-doc-comments/reference/lib/trivial/lib-trivial-mapnullable)
 
 

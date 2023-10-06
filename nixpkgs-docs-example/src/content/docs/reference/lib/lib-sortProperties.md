@@ -1,6 +1,6 @@
 ---
 title: lib.sortProperties
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L951C20
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L951C20
 description: lib.sortProperties
 sidebar:
 
@@ -14,6 +14,6 @@ using mkOrder.
 
 # Aliases
 
-- [lib.modules.sortproperties](/nix-doc-comments/reference/lib/modules/lib-modules-sortproperties)
+- [lib.modules.sortProperties](/nix-doc-comments/reference/lib/modules/lib-modules-sortproperties)
 
 

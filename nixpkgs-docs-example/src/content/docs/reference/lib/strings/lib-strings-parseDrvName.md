@@ -21,6 +21,6 @@ result is returned in a set `{ name, version }`. Thus,
 
 # Aliases
 
-- [builtins.parsedrvname](/nix-doc-comments/reference/builtins/builtins-parsedrvname)
+- [builtins.parseDrvName](/nix-doc-comments/reference/builtins/builtins-parsedrvname)
 
 

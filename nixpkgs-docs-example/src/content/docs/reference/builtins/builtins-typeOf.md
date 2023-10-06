@@ -18,6 +18,6 @@ Return a string representing the type of the value *e*, namely
 
 # Aliases
 
-- [lib.strings.typeof](/nix-doc-comments/reference/lib/strings/lib-strings-typeof)
+- [lib.strings.typeOf](/nix-doc-comments/reference/lib/strings/lib-strings-typeof)
 
 

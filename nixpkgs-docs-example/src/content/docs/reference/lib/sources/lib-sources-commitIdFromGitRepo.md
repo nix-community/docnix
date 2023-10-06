@@ -1,17 +1,17 @@
 ---
 title: lib.sources.commitIdFromGitRepo
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/sources.nix#L184C25
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L184C25
 description: lib.sources.commitIdFromGitRepo
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/sources.nix#L184C25">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L184C25">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.commitidfromgitrepo](/nix-doc-comments/reference/lib/lib-commitidfromgitrepo)
+- [lib.commitIdFromGitRepo](/nix-doc-comments/reference/lib/lib-commitidfromgitrepo)
 
 

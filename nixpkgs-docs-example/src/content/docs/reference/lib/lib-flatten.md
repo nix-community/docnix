@@ -1,6 +1,6 @@
 ---
 title: lib.flatten
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L205C13
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L205C13
 description: lib.flatten
 sidebar:
 

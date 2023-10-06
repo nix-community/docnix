@@ -1,6 +1,6 @@
 ---
 title: lib.versions.pad
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/versions.nix#L85C9
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L85C9
 description: lib.versions.pad
 sidebar:
 

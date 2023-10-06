@@ -1,6 +1,6 @@
 ---
 title: lib.strings.escapeShellArg
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L613C20
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L613C20
 description: lib.strings.escapeShellArg
 sidebar:
 
@@ -18,13 +18,13 @@ escapeShellArg "esc'ape\nme"
 
 # Type
 
-```haskell
+```
 escapeShellArg :: string -> string
 ```
 
 
 # Aliases
 
-- [lib.escapeshellarg](/nix-doc-comments/reference/lib/lib-escapeshellarg)
+- [lib.escapeShellArg](/nix-doc-comments/reference/lib/lib-escapeshellarg)
 
 

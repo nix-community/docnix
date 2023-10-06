@@ -1,6 +1,6 @@
 ---
 title: lib.dontRecurseIntoAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L1316C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1316C5
 description: lib.dontRecurseIntoAttrs
 sidebar:
 
@@ -11,14 +11,14 @@ Undo the effect of recurseIntoAttrs.
 
 # Type
 
-```haskell
+```
 dontRecurseIntoAttrs :: AttrSet -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.attrsets.dontrecurseintoattrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-dontrecurseintoattrs)
-- [pkgs.dontrecurseintoattrs](/nix-doc-comments/reference/pkgs/pkgs-dontrecurseintoattrs)
+- [lib.attrsets.dontRecurseIntoAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-dontrecurseintoattrs)
+- [pkgs.dontRecurseIntoAttrs](/nix-doc-comments/reference/pkgs/pkgs-dontrecurseintoattrs)
 
 

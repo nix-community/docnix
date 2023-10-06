@@ -20,6 +20,6 @@ algorithm is the same as the one used by [`nix-env
 
 # Aliases
 
-- [builtins.compareversions](/nix-doc-comments/reference/builtins/builtins-compareversions)
+- [builtins.compareVersions](/nix-doc-comments/reference/builtins/builtins-compareversions)
 
 

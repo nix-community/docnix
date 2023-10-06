@@ -1,6 +1,6 @@
 ---
 title: lib.options.renderOptionValue
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/options.nix#L373C23
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L373C23
 description: lib.options.renderOptionValue
 sidebar:
 

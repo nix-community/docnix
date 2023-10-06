@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.splitByAndCompare
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L402C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L402C5
 description: lib.trivial.splitByAndCompare
 sidebar:
 
@@ -17,24 +17,24 @@ and `no` respectively.
 ```nix
 let cmp = splitByAndCompare (hasPrefix "foo") compare compare; in
 
-cmp "a" "z" => -1
-cmp "fooa" "fooz" => -1
+           cmp "a" "z" => -1
+           cmp "fooa" "fooz" => -1
 
-cmp "f" "a" => 1
-cmp "fooa" "a" => -1
-# while
-compare "fooa" "a" => 1
+           cmp "f" "a" => 1
+           cmp "fooa" "a" => -1
+           # while
+           compare "fooa" "a" => 1
 ```
 
 # Type
 
-```haskell
+```
 (a -> bool) -> (a -> a -> int) -> (a -> a -> int) -> (a -> a -> int)
 ```
 
 
 # Aliases
 
-- [lib.splitbyandcompare](/nix-doc-comments/reference/lib/lib-splitbyandcompare)
+- [lib.splitByAndCompare](/nix-doc-comments/reference/lib/lib-splitbyandcompare)
 
 

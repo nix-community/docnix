@@ -1,6 +1,6 @@
 ---
 title: lib.mkRenamedOptionModule
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L1136C27
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1136C27
 description: lib.mkRenamedOptionModule
 sidebar:
 
@@ -23,6 +23,6 @@ non-aliased option.
 
 # Aliases
 
-- [lib.modules.mkrenamedoptionmodule](/nix-doc-comments/reference/lib/modules/lib-modules-mkrenamedoptionmodule)
+- [lib.modules.mkRenamedOptionModule](/nix-doc-comments/reference/lib/modules/lib-modules-mkrenamedoptionmodule)
 
 

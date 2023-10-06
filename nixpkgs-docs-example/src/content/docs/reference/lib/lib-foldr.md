@@ -1,6 +1,6 @@
 ---
 title: lib.foldr
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L77C11
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L77C11
 description: lib.foldr
 sidebar:
 
@@ -25,7 +25,7 @@ strange [ 1 2 3 4 ]
 
 # Type
 
-```haskell
+```
 foldr :: (a -> b -> b) -> b -> [a] -> b
 ```
 

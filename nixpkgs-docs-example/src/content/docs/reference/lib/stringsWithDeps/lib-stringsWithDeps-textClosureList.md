@@ -1,6 +1,6 @@
 ---
 title: lib.stringsWithDeps.textClosureList
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings-with-deps.nix#L61C21
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L61C21
 description: lib.stringsWithDeps.textClosureList
 sidebar:
 
@@ -14,6 +14,6 @@ topological sort of the depstrings.
 
 # Aliases
 
-- [lib.textclosurelist](/nix-doc-comments/reference/lib/lib-textclosurelist)
+- [lib.textClosureList](/nix-doc-comments/reference/lib/lib-textclosurelist)
 
 

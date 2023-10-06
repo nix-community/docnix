@@ -1,6 +1,6 @@
 ---
 title: lib.strings.mesonOption
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1072C17
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1072C17
 description: lib.strings.mesonOption
 sidebar:
 
@@ -19,7 +19,7 @@ mesonOption "engine" "opengl"
 
 # Type
 
-```haskell
+```
 mesonOption :: string -> string -> string
 
 @param feature The feature to be set
@@ -29,6 +29,6 @@ mesonOption :: string -> string -> string
 
 # Aliases
 
-- [lib.mesonoption](/nix-doc-comments/reference/lib/lib-mesonoption)
+- [lib.mesonOption](/nix-doc-comments/reference/lib/lib-mesonoption)
 
 

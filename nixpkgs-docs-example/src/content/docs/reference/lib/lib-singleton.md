@@ -1,6 +1,6 @@
 ---
 title: lib.singleton
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L31C15
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L31C15
 description: lib.singleton
 sidebar:
 
@@ -20,7 +20,7 @@ singleton "foo"
 
 # Type
 
-```haskell
+```
 singleton :: a -> [a]
 ```
 

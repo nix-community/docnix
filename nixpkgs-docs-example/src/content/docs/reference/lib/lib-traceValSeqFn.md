@@ -1,6 +1,6 @@
 ---
 title: lib.traceValSeqFn
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/debug.nix#L169C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L169C5
 description: lib.traceValSeqFn
 sidebar:
 
@@ -14,6 +14,6 @@ it.
 
 # Aliases
 
-- [lib.debug.tracevalseqfn](/nix-doc-comments/reference/lib/debug/lib-debug-tracevalseqfn)
+- [lib.debug.traceValSeqFn](/nix-doc-comments/reference/lib/debug/lib-debug-tracevalseqfn)
 
 

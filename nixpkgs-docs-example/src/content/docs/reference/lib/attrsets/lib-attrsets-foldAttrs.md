@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.foldAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L508C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L508C5
 description: lib.attrsets.foldAttrs
 sidebar:
 
@@ -18,13 +18,13 @@ foldAttrs (item: acc: [item] ++ acc) [] [{ a = 2; } { a = 3; }]
 
 # Type
 
-```haskell
+```
 foldAttrs :: (Any -> Any -> Any) -> Any -> [AttrSets] -> Any
 ```
 
 
 # Aliases
 
-- [lib.foldattrs](/nix-doc-comments/reference/lib/lib-foldattrs)
+- [lib.foldAttrs](/nix-doc-comments/reference/lib/lib-foldattrs)
 
 

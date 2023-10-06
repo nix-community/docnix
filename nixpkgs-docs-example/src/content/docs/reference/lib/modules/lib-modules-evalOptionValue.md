@@ -1,6 +1,6 @@
 ---
 title: lib.modules.evalOptionValue
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L782C21
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L782C21
 description: lib.modules.evalOptionValue
 sidebar:
 
@@ -13,6 +13,6 @@ config value.
 
 # Aliases
 
-- [lib.evaloptionvalue](/nix-doc-comments/reference/lib/lib-evaloptionvalue)
+- [lib.evalOptionValue](/nix-doc-comments/reference/lib/lib-evaloptionvalue)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.withFeature
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1176C17
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1176C17
 description: lib.withFeature
 sidebar:
 
@@ -22,6 +22,6 @@ withFeature false "shared"
 
 # Aliases
 
-- [lib.strings.withfeature](/nix-doc-comments/reference/lib/strings/lib-strings-withfeature)
+- [lib.strings.withFeature](/nix-doc-comments/reference/lib/strings/lib-strings-withfeature)
 
 

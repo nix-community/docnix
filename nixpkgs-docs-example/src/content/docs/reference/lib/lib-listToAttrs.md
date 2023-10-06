@@ -38,7 +38,7 @@ evaluates to
 
 # Aliases
 
-- [builtins.listtoattrs](/nix-doc-comments/reference/builtins/builtins-listtoattrs)
-- [lib.attrsets.listtoattrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-listtoattrs)
+- [builtins.listToAttrs](/nix-doc-comments/reference/builtins/builtins-listtoattrs)
+- [lib.attrsets.listToAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-listtoattrs)
 
 

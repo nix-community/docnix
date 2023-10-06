@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.importTOML
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L437C16
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L437C16
 description: lib.trivial.importTOML
 sidebar:
 
@@ -11,13 +11,13 @@ Reads a TOML file.
 
 # Type
 
-```haskell
+```
 importTOML :: path -> any
 ```
 
 
 # Aliases
 
-- [lib.importtoml](/nix-doc-comments/reference/lib/lib-importtoml)
+- [lib.importTOML](/nix-doc-comments/reference/lib/lib-importtoml)
 
 

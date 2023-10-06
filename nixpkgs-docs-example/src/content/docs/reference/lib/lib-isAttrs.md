@@ -16,8 +16,8 @@ Return `true` if *e* evaluates to a set, and `false` otherwise.
 
 # Aliases
 
-- [builtins.isattrs](/nix-doc-comments/reference/builtins/builtins-isattrs)
-- [lib.attrsets.isattrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-isattrs)
-- [lib.strings.isattrs](/nix-doc-comments/reference/lib/strings/lib-strings-isattrs)
+- [builtins.isAttrs](/nix-doc-comments/reference/builtins/builtins-isattrs)
+- [lib.attrsets.isAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-isattrs)
+- [lib.strings.isAttrs](/nix-doc-comments/reference/lib/strings/lib-strings-isattrs)
 
 

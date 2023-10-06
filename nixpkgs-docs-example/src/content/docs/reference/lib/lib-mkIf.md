@@ -1,6 +1,6 @@
 ---
 title: lib.mkIf
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L1011C10
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1011C10
 description: lib.mkIf
 sidebar:
 
@@ -12,6 +12,6 @@ Properties.
 
 # Aliases
 
-- [lib.modules.mkif](/nix-doc-comments/reference/lib/modules/lib-modules-mkif)
+- [lib.modules.mkIf](/nix-doc-comments/reference/lib/modules/lib-modules-mkif)
 
 

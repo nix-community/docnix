@@ -1,6 +1,6 @@
 ---
 title: lib.hiPrioSet
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/meta.nix#L89C15
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L89C15
 description: lib.hiPrioSet
 sidebar:
 
@@ -12,6 +12,6 @@ Apply hiPrio to an attrset with derivations
 
 # Aliases
 
-- [lib.meta.hiprioset](/nix-doc-comments/reference/lib/meta/lib-meta-hiprioset)
+- [lib.meta.hiPrioSet](/nix-doc-comments/reference/lib/meta/lib-meta-hiprioset)
 
 

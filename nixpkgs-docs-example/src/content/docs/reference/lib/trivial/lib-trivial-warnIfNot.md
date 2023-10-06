@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.warnIfNot
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L494C15
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L494C15
 description: lib.trivial.warnIfNot
 sidebar:
 
@@ -11,13 +11,13 @@ Like warnIf, but negated (warn if the first argument is `false`).
 
 # Type
 
-```haskell
+```
 bool -> string -> a -> a
 ```
 
 
 # Aliases
 
-- [lib.warnifnot](/nix-doc-comments/reference/lib/lib-warnifnot)
+- [lib.warnIfNot](/nix-doc-comments/reference/lib/lib-warnifnot)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.dischargeProperties
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L900C25
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L900C25
 description: lib.dischargeProperties
 sidebar:
 
@@ -20,6 +20,6 @@ yields ‘[ 1 2 ]’.
 
 # Aliases
 
-- [lib.modules.dischargeproperties](/nix-doc-comments/reference/lib/modules/lib-modules-dischargeproperties)
+- [lib.modules.dischargeProperties](/nix-doc-comments/reference/lib/modules/lib-modules-dischargeproperties)
 
 

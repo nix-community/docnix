@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.toBaseDigits
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L659C18
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L659C18
 description: lib.trivial.toBaseDigits
 sidebar:
 
@@ -19,6 +19,6 @@ toBaseDigits 16 250 => [ 15 10 ]
 
 # Aliases
 
-- [lib.tobasedigits](/nix-doc-comments/reference/lib/lib-tobasedigits)
+- [lib.toBaseDigits](/nix-doc-comments/reference/lib/lib-tobasedigits)
 
 

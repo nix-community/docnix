@@ -1,6 +1,6 @@
 ---
 title: lib.optionalString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L347C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L347C5
 description: lib.optionalString
 sidebar:
 
@@ -21,13 +21,13 @@ optionalString false "some-string"
 
 # Type
 
-```haskell
+```
 optionalString :: bool -> string -> string
 ```
 
 
 # Aliases
 
-- [lib.strings.optionalstring](/nix-doc-comments/reference/lib/strings/lib-strings-optionalstring)
+- [lib.strings.optionalString](/nix-doc-comments/reference/lib/strings/lib-strings-optionalstring)
 
 

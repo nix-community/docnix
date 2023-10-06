@@ -1,6 +1,6 @@
 ---
 title: lib.importJSON
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L425C16
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L425C16
 description: lib.importJSON
 sidebar:
 
@@ -11,13 +11,13 @@ Reads a JSON file.
 
 # Type
 
-```haskell
+```
 importJSON :: path -> any
 ```
 
 
 # Aliases
 
-- [lib.trivial.importjson](/nix-doc-comments/reference/lib/trivial/lib-trivial-importjson)
+- [lib.trivial.importJSON](/nix-doc-comments/reference/lib/trivial/lib-trivial-importjson)
 
 

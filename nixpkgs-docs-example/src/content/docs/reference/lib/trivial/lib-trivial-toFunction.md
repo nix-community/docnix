@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.toFunction
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L617C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L617C5
 description: lib.trivial.toFunction
 sidebar:
 
@@ -14,15 +14,15 @@ Returns callable values as is.
 
 ```nix
 nix-repl> lib.toFunction 1 2
-1
+          1
 
-nix-repl> lib.toFunction (x: x + 1) 2
-3
+          nix-repl> lib.toFunction (x: x + 1) 2
+          3
 ```
 
 
 # Aliases
 
-- [lib.tofunction](/nix-doc-comments/reference/lib/lib-tofunction)
+- [lib.toFunction](/nix-doc-comments/reference/lib/lib-tofunction)
 
 

@@ -23,9 +23,9 @@ evaluates to `[ "foobar" "foobla" "fooabc" ]`.
 
 # Aliases
 
-- [lib.getfiles](/nix-doc-comments/reference/lib/lib-getfiles)
-- [lib.getvalues](/nix-doc-comments/reference/lib/lib-getvalues)
-- [lib.options.getfiles](/nix-doc-comments/reference/lib/options/lib-options-getfiles)
-- [pkgs.copypathstostore](/nix-doc-comments/reference/pkgs/pkgs-copypathstostore)
+- [lib.getFiles](/nix-doc-comments/reference/lib/lib-getfiles)
+- [lib.getValues](/nix-doc-comments/reference/lib/lib-getvalues)
+- [lib.options.getFiles](/nix-doc-comments/reference/lib/options/lib-options-getfiles)
+- [pkgs.copyPathsToStore](/nix-doc-comments/reference/pkgs/pkgs-copypathstostore)
 
 

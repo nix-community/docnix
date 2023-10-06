@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkArray
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/gvariant.nix#L100C13
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L100C13
 description: lib.gvariant.mkArray
 sidebar:
 
@@ -18,7 +18,7 @@ lib.gvariant.mkArray [ "a" "b" "c" ]
 
 # Type
 
-```haskell
+```
 mkArray :: [Any] -> gvariant
 ```
 

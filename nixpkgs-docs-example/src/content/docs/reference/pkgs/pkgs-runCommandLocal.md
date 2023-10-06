@@ -1,17 +1,17 @@
 ---
 title: pkgs.runCommandLocal
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/pkgs/build-support/trivial-builders/default.nix#L44C21
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L44C21
 description: pkgs.runCommandLocal
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/pkgs/build-support/trivial-builders/default.nix#L44C21">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L44C21">Contribute Now!</a>
 
 
 # Aliases
 
-- [pkgs.runcommandnocclocal](/nix-doc-comments/reference/pkgs/pkgs-runcommandnocclocal)
+- [pkgs.runCommandNoCCLocal](/nix-doc-comments/reference/pkgs/pkgs-runcommandnocclocal)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.hasInfix
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L449C14
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L449C14
 description: lib.hasInfix
 sidebar:
 
@@ -24,13 +24,13 @@ hasInfix "foo" "abcd"
 
 # Type
 
-```haskell
+```
 hasInfix :: string -> string -> bool
 ```
 
 
 # Aliases
 
-- [lib.strings.hasinfix](/nix-doc-comments/reference/lib/strings/lib-strings-hasinfix)
+- [lib.strings.hasInfix](/nix-doc-comments/reference/lib/strings/lib-strings-hasinfix)
 
 

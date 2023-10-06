@@ -1,6 +1,6 @@
 ---
 title: lib.setPrio
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/meta.nix#L66C13
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L66C13
 description: lib.setPrio
 sidebar:
 
@@ -12,6 +12,6 @@ Set the nix-env priority of the package.
 
 # Aliases
 
-- [lib.meta.setprio](/nix-doc-comments/reference/lib/meta/lib-meta-setprio)
+- [lib.meta.setPrio](/nix-doc-comments/reference/lib/meta/lib-meta-setprio)
 
 

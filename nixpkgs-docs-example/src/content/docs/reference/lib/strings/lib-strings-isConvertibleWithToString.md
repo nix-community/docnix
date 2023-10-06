@@ -1,6 +1,6 @@
 ---
 title: lib.strings.isConvertibleWithToString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1272C31
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1272C31
 description: lib.strings.isConvertibleWithToString
 sidebar:
 
@@ -15,6 +15,6 @@ null, bool, list of similarly coercible values.
 
 # Aliases
 
-- [lib.strings.iscoercibletostring](/nix-doc-comments/reference/lib/strings/lib-strings-iscoercibletostring)
+- [lib.strings.isCoercibleToString](/nix-doc-comments/reference/lib/strings/lib-strings-iscoercibletostring)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.mkSinkUndeclaredOptions
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/options.nix#L221C29
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L221C29
 description: lib.mkSinkUndeclaredOptions
 sidebar:
 
@@ -16,6 +16,6 @@ values of the options are not accessed.
 
 # Aliases
 
-- [lib.options.mksinkundeclaredoptions](/nix-doc-comments/reference/lib/options/lib-options-mksinkundeclaredoptions)
+- [lib.options.mkSinkUndeclaredOptions](/nix-doc-comments/reference/lib/options/lib-options-mksinkundeclaredoptions)
 
 

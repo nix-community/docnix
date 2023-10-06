@@ -1,6 +1,6 @@
 ---
 title: lib.sublist
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L939C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L939C5
 description: lib.sublist
 sidebar:
 
@@ -21,7 +21,7 @@ sublist 1 3 [ ]
 
 # Type
 
-```haskell
+```
 sublist :: int -> int -> [a] -> [a]
 ```
 

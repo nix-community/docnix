@@ -1,6 +1,6 @@
 ---
 title: lib.attrByPath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L38C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L38C5
 description: lib.attrByPath
 sidebar:
 
@@ -23,13 +23,13 @@ attrByPath ["z" "z"] 6 x
 
 # Type
 
-```haskell
+```
 attrByPath :: [String] -> Any -> AttrSet -> Any
 ```
 
 
 # Aliases
 
-- [lib.attrsets.attrbypath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-attrbypath)
+- [lib.attrsets.attrByPath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-attrbypath)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.strings.escapeNixString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L733C21
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L733C21
 description: lib.strings.escapeNixString
 sidebar:
 
@@ -18,7 +18,7 @@ escapeNixString "hello\${}\n"
 
 # Type
 
-```haskell
+```
 string -> string
 ```
 

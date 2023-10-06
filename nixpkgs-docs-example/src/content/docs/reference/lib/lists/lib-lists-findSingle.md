@@ -1,6 +1,6 @@
 ---
 title: lib.lists.findSingle
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L254C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L254C5
 description: lib.lists.findSingle
 sidebar:
 
@@ -24,13 +24,13 @@ findSingle (x: x == 3) "none" "multiple" [ 1 9 ]
 
 # Type
 
-```haskell
+```
 findSingle :: (a -> bool) -> a -> a -> [a] -> a
 ```
 
 
 # Aliases
 
-- [lib.findsingle](/nix-doc-comments/reference/lib/lib-findsingle)
+- [lib.findSingle](/nix-doc-comments/reference/lib/lib-findsingle)
 
 

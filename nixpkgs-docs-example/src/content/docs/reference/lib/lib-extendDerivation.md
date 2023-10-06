@@ -1,6 +1,6 @@
 ---
 title: lib.extendDerivation
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/customisation.nix#L203C22
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L203C22
 description: lib.extendDerivation
 sidebar:
 
@@ -13,6 +13,6 @@ the derivation itself and check a given condition when evaluating.
 
 # Aliases
 
-- [lib.customisation.extendderivation](/nix-doc-comments/reference/lib/customisation/lib-customisation-extendderivation)
+- [lib.customisation.extendDerivation](/nix-doc-comments/reference/lib/customisation/lib-customisation-extendderivation)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.strings.isValidPosixName
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L651C22
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L651C22
 description: lib.strings.isValidPosixName
 sidebar:
 
@@ -20,13 +20,13 @@ isValidPosixName "0-bad.jpg"
 
 # Type
 
-```haskell
+```
 string -> bool
 ```
 
 
 # Aliases
 
-- [lib.isvalidposixname](/nix-doc-comments/reference/lib/lib-isvalidposixname)
+- [lib.isValidPosixName](/nix-doc-comments/reference/lib/lib-isvalidposixname)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.lists.removePrefix
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L911C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L911C5
 description: lib.lists.removePrefix
 sidebar:
 
@@ -21,7 +21,7 @@ removePrefix [ 0 1 ] [ 1 2 3 4 ]
 
 # Type
 
-```haskell
+```
 removePrefix :: [a] -> [a] -> [a]
 ```
 

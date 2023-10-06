@@ -1,6 +1,6 @@
 ---
 title: lib.strings.hasSuffix
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L406C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L406C5
 description: lib.strings.hasSuffix
 sidebar:
 
@@ -20,13 +20,13 @@ hasSuffix "foo" "barfoo"
 
 # Type
 
-```haskell
+```
 hasSuffix :: string -> string -> bool
 ```
 
 
 # Aliases
 
-- [lib.hassuffix](/nix-doc-comments/reference/lib/lib-hassuffix)
+- [lib.hasSuffix](/nix-doc-comments/reference/lib/lib-hassuffix)
 
 

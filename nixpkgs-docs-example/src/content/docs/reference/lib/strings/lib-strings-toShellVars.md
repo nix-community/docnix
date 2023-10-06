@@ -1,6 +1,6 @@
 ---
 title: lib.strings.toShellVars
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L715C17
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L715C17
 description: lib.strings.toShellVars
 sidebar:
 
@@ -14,23 +14,23 @@ using `toShellVar`.
 
 ```nix
 let
-foo = "value";
-bar = foo;
+  foo = "value";
+  bar = foo;
 in ''
-${toShellVars { inherit foo bar; }}
-[[ "$foo" == "$bar" ]]
+  ${toShellVars { inherit foo bar; }}
+  [[ "$foo" == "$bar" ]]
 ''
 ```
 
 # Type
 
-```haskell
+```
 attrsOf (string | listOf string | attrsOf string) -> string
 ```
 
 
 # Aliases
 
-- [lib.toshellvars](/nix-doc-comments/reference/lib/lib-toshellvars)
+- [lib.toShellVars](/nix-doc-comments/reference/lib/lib-toshellvars)
 
 

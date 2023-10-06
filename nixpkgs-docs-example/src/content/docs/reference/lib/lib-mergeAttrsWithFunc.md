@@ -1,17 +1,17 @@
 ---
 title: lib.mergeAttrsWithFunc
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L208C24
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L208C24
 description: lib.mergeAttrsWithFunc
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L208C24">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L208C24">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.misc.mergeattrswithfunc](/nix-doc-comments/reference/lib/misc/lib-misc-mergeattrswithfunc)
+- [lib.misc.mergeAttrsWithFunc](/nix-doc-comments/reference/lib/misc/lib-misc-mergeattrswithfunc)
 
 

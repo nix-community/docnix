@@ -1,6 +1,6 @@
 ---
 title: lib.mkAliasOptionModuleMD
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L1250C25
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1250C25
 description: lib.mkAliasOptionModuleMD
 sidebar:
 
@@ -12,8 +12,8 @@ Like ‘mkRenamedOptionModule’, but doesn't show a warning.
 
 # Aliases
 
-- [lib.mkaliasoptionmodule](/nix-doc-comments/reference/lib/lib-mkaliasoptionmodule)
-- [lib.modules.mkaliasoptionmodule](/nix-doc-comments/reference/lib/modules/lib-modules-mkaliasoptionmodule)
-- [lib.modules.mkaliasoptionmodulemd](/nix-doc-comments/reference/lib/modules/lib-modules-mkaliasoptionmodulemd)
+- [lib.mkAliasOptionModule](/nix-doc-comments/reference/lib/lib-mkaliasoptionmodule)
+- [lib.modules.mkAliasOptionModule](/nix-doc-comments/reference/lib/modules/lib-modules-mkaliasoptionmodule)
+- [lib.modules.mkAliasOptionModuleMD](/nix-doc-comments/reference/lib/modules/lib-modules-mkaliasoptionmodulemd)
 
 

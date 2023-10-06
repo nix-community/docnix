@@ -1,6 +1,6 @@
 ---
 title: lib.last
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L1003C10
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1003C10
 description: lib.last
 sidebar:
 
@@ -20,7 +20,7 @@ last [ 1 2 3 ]
 
 # Type
 
-```haskell
+```
 last :: [a] -> a
 ```
 

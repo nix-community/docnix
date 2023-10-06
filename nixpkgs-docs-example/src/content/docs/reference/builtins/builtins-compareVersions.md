@@ -20,6 +20,6 @@ algorithm is the same as the one used by [`nix-env
 
 # Aliases
 
-- [lib.strings.compareversions](/nix-doc-comments/reference/lib/strings/lib-strings-compareversions)
+- [lib.strings.compareVersions](/nix-doc-comments/reference/lib/strings/lib-strings-compareversions)
 
 

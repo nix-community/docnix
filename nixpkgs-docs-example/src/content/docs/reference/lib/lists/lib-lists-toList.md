@@ -1,6 +1,6 @@
 ---
 title: lib.lists.toList
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L483C12
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L483C12
 description: lib.lists.toList
 sidebar:
 
@@ -23,6 +23,6 @@ toList "hi"
 
 # Aliases
 
-- [lib.tolist](/nix-doc-comments/reference/lib/lib-tolist)
+- [lib.toList](/nix-doc-comments/reference/lib/lib-tolist)
 
 

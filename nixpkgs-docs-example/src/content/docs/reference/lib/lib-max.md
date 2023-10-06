@@ -1,6 +1,6 @@
 ---
 title: lib.max
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L341C9
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L341C9
 description: lib.max
 sidebar:
 

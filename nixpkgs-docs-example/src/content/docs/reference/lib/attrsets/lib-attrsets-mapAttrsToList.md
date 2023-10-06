@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.mapAttrsToList
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L678C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L678C5
 description: lib.attrsets.mapAttrsToList
 sidebar:
 
@@ -14,19 +14,19 @@ the result in a list.
 
 ```nix
 mapAttrsToList (name: value: name + value)
-{ x = "a"; y = "b"; }
+   { x = "a"; y = "b"; }
 => [ "xa" "yb" ]
 ```
 
 # Type
 
-```haskell
+```
 mapAttrsToList :: (String -> a -> b) -> AttrSet -> [b]
 ```
 
 
 # Aliases
 
-- [lib.mapattrstolist](/nix-doc-comments/reference/lib/lib-mapattrstolist)
+- [lib.mapAttrsToList](/nix-doc-comments/reference/lib/lib-mapattrstolist)
 
 

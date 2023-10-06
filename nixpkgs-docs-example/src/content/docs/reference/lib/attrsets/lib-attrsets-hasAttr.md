@@ -18,7 +18,7 @@ since *s* is an expression rather than an identifier.
 
 # Aliases
 
-- [builtins.hasattr](/nix-doc-comments/reference/builtins/builtins-hasattr)
-- [lib.hasattr](/nix-doc-comments/reference/lib/lib-hasattr)
+- [builtins.hasAttr](/nix-doc-comments/reference/builtins/builtins-hasattr)
+- [lib.hasAttr](/nix-doc-comments/reference/lib/lib-hasattr)
 
 

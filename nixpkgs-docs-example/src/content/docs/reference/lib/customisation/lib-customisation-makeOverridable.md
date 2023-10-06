@@ -1,6 +1,6 @@
 ---
 title: lib.customisation.makeOverridable
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/customisation.nix#L74C21
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L74C21
 description: lib.customisation.makeOverridable
 sidebar:
 
@@ -28,7 +28,7 @@ related to its use.
 
 # Aliases
 
-- [lib.makeoverridable](/nix-doc-comments/reference/lib/lib-makeoverridable)
-- [pkgs.makeoverridable](/nix-doc-comments/reference/pkgs/pkgs-makeoverridable)
+- [lib.makeOverridable](/nix-doc-comments/reference/lib/lib-makeoverridable)
+- [pkgs.makeOverridable](/nix-doc-comments/reference/pkgs/pkgs-makeoverridable)
 
 

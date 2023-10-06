@@ -1,6 +1,6 @@
 ---
 title: lib.debug.testAllTrue
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/debug.nix#L307C17
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L307C17
 description: lib.debug.testAllTrue
 sidebar:
 
@@ -18,6 +18,6 @@ Create a test assuming that list elements are `true`.
 
 # Aliases
 
-- [lib.testalltrue](/nix-doc-comments/reference/lib/lib-testalltrue)
+- [lib.testAllTrue](/nix-doc-comments/reference/lib/lib-testalltrue)
 
 

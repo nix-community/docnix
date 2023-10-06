@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.functionArgs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L589C18
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L589C18
 description: lib.trivial.functionArgs
 sidebar:
 
@@ -16,6 +16,6 @@ setFunctionArgs : (a → b) → Map String Bool.
 
 # Aliases
 
-- [lib.functionargs](/nix-doc-comments/reference/lib/lib-functionargs)
+- [lib.functionArgs](/nix-doc-comments/reference/lib/lib-functionargs)
 
 

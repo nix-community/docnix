@@ -1,6 +1,6 @@
 ---
 title: lib.setName
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/meta.nix#L35C13
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L35C13
 description: lib.setName
 sidebar:
 
@@ -13,6 +13,6 @@ Change the symbolic name of a package for presentation purposes
 
 # Aliases
 
-- [lib.meta.setname](/nix-doc-comments/reference/lib/meta/lib-meta-setname)
+- [lib.meta.setName](/nix-doc-comments/reference/lib/meta/lib-meta-setname)
 
 

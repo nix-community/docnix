@@ -1,6 +1,6 @@
 ---
 title: lib.debug.runTests
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/debug.nix#L289C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L289C5
 description: lib.debug.runTests
 sidebar:
 
@@ -31,28 +31,28 @@ Important: Only attributes that start with `test` are executed.
 
 ```nix
 runTests {
-testAndOk = {
-expr = lib.and true false;
-expected = false;
-};
-testAndFail = {
-expr = lib.and true false;
-expected = true;
-};
+  testAndOk = {
+    expr = lib.and true false;
+    expected = false;
+  };
+  testAndFail = {
+    expr = lib.and true false;
+    expected = true;
+  };
 }
 ->
 [
-{
-name = "testAndFail";
-expected = true;
-result = false;
-}
+  {
+    name = "testAndFail";
+    expected = true;
+    result = false;
+  }
 ]
 ```
 
 # Type
 
-```haskell
+```
 runTests :: {
 tests = [ String ];
 ${testName} :: {
@@ -73,6 +73,6 @@ result :: a;
 
 # Aliases
 
-- [lib.runtests](/nix-doc-comments/reference/lib/lib-runtests)
+- [lib.runTests](/nix-doc-comments/reference/lib/lib-runtests)
 
 

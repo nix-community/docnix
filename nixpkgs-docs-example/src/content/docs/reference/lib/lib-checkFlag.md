@@ -1,17 +1,17 @@
 ---
 title: lib.checkFlag
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L57C15
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L57C15
 description: lib.checkFlag
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L57C15">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L57C15">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.misc.checkflag](/nix-doc-comments/reference/lib/misc/lib-misc-checkflag)
+- [lib.misc.checkFlag](/nix-doc-comments/reference/lib/misc/lib-misc-checkflag)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.mapDerivationAttrset
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/meta.nix#L61C26
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L61C26
 description: lib.mapDerivationAttrset
 sidebar:
 
@@ -12,6 +12,6 @@ Apply a function to each derivation and only to derivations in an attrset.
 
 # Aliases
 
-- [lib.meta.mapderivationattrset](/nix-doc-comments/reference/lib/meta/lib-meta-mapderivationattrset)
+- [lib.meta.mapDerivationAttrset](/nix-doc-comments/reference/lib/meta/lib-meta-mapderivationattrset)
 
 

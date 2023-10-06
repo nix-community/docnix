@@ -1,6 +1,6 @@
 ---
 title: lib.mkRemovedOptionModule
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L1106C27
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1106C27
 description: lib.mkRemovedOptionModule
 sidebar:
 
@@ -22,6 +22,6 @@ replacementInstructions SHOULD be provided!
 
 # Aliases
 
-- [lib.modules.mkremovedoptionmodule](/nix-doc-comments/reference/lib/modules/lib-modules-mkremovedoptionmodule)
+- [lib.modules.mkRemovedOptionModule](/nix-doc-comments/reference/lib/modules/lib-modules-mkremovedoptionmodule)
 
 

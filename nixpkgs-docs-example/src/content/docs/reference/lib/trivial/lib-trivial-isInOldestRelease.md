@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.isInOldestRelease
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L263C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L263C5
 description: lib.trivial.isInOldestRelease
 sidebar:
 
@@ -13,6 +13,6 @@ release branch-off, if applicable). See `oldestSupportedRelease`.
 
 # Aliases
 
-- [lib.isinoldestrelease](/nix-doc-comments/reference/lib/lib-isinoldestrelease)
+- [lib.isInOldestRelease](/nix-doc-comments/reference/lib/lib-isinoldestrelease)
 
 

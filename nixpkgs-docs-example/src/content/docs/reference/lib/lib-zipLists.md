@@ -1,6 +1,6 @@
 ---
 title: lib.zipLists
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L615C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L615C5
 description: lib.zipLists
 sidebar:
 
@@ -20,13 +20,13 @@ zipListsWith (a: b: a + b) ["h" "l"] ["e" "o"]
 
 # Type
 
-```haskell
+```
 zipListsWith :: (a -> b -> c) -> [a] -> [b] -> [c]
 ```
 
 
 # Aliases
 
-- [lib.lists.ziplists](/nix-doc-comments/reference/lib/lists/lib-lists-ziplists)
+- [lib.lists.zipLists](/nix-doc-comments/reference/lib/lists/lib-lists-ziplists)
 
 

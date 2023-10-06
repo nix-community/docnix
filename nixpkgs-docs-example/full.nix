@@ -1,12 +1,8 @@
 {
   pkgs ?
-    import /home/johannes/git/nixpkgs {
-      config = {
-        inHydra = true;
-        allowUnfree = true;
-      };
-    },
+    import (builtins.fetchTree { repo = "nixpkgs"; ref="migrated"; owner="hsjobeki"; type="github"; }) {}
 }: let
+  
   inherit pkgs;
   inherit (pkgs) lib;
 
@@ -138,23 +134,7 @@
   fun = {
     inherit (pkgs) lib;
   };
-
   all = descend ["lib"] pkgs.lib ++ builtinsDocs ++ descend ["pkgs"] trivials ++  descend ["pkgs" "stdenv"] stdenvs;
 in {
   inherit force descend pkgs debugFile isRecursive addAliases fun getDocsFromBuiltins builtinsDocs all trivials;
 }
-# debugFile (descend ["pkgs" "lib"] pkgs.lib)
-# debugFile (descend ["pkgs"] pkgs)
-# libDocs =
-#   lib.filterAttrs (n: v: v != null)
-#   (lib.mapAttrs (n: v:
-#     if builtins.typeOf v == "lambda"
-#     then builtins.unsafeGetLambdaDoc v
-#     else null)
-#   lib);
-# nestedLibAttrs = lib.filterAttrs (n: v: builtins.typeOf v == "set") lib;
-# libMdList = map (name: {
-#   inherit name;
-#   inherit (libDocs.${name}) content isPrimop position;
-# }) (builtins.attrNames libDocs);
-

@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkVariant
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/gvariant.nix#L152C15
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L152C15
 description: lib.gvariant.mkVariant
 sidebar:
 
@@ -14,14 +14,14 @@ of different GVariant type.
 
 ```nix
 lib.gvariant.mkArray [
-(lib.gvariant.mkVariant "a string")
-(lib.gvariant.mkVariant (lib.gvariant.mkInt32 1))
+  (lib.gvariant.mkVariant "a string")
+  (lib.gvariant.mkVariant (lib.gvariant.mkInt32 1))
 ]
 ```
 
 # Type
 
-```haskell
+```
 mkVariant :: Any -> gvariant
 ```
 

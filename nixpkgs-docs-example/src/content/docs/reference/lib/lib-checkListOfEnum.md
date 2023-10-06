@@ -1,6 +1,6 @@
 ---
 title: lib.checkListOfEnum
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L552C21
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L552C21
 description: lib.checkListOfEnum
 sidebar:
 
@@ -20,13 +20,13 @@ error: color variants: bright, black unexpected; valid ones: standard, light, da
 
 # Type
 
-```haskell
+```
 String -> List ComparableVal -> List ComparableVal -> a -> a
 ```
 
 
 # Aliases
 
-- [lib.trivial.checklistofenum](/nix-doc-comments/reference/lib/trivial/lib-trivial-checklistofenum)
+- [lib.trivial.checkListOfEnum](/nix-doc-comments/reference/lib/trivial/lib-trivial-checklistofenum)
 
 

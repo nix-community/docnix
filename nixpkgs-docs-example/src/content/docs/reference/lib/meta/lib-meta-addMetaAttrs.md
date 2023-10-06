@@ -1,6 +1,6 @@
 ---
 title: lib.meta.addMetaAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/meta.nix#L21C18
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L21C18
 description: lib.meta.addMetaAttrs
 sidebar:
 
@@ -19,6 +19,6 @@ addMetaAttrs {description = "Bla blah";} somePkg
 
 # Aliases
 
-- [lib.addmetaattrs](/nix-doc-comments/reference/lib/lib-addmetaattrs)
+- [lib.addMetaAttrs](/nix-doc-comments/reference/lib/lib-addmetaattrs)
 
 

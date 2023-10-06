@@ -1,6 +1,6 @@
 ---
 title: lib.modules.mkChangedOptionModule
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L1244C27
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1244C27
 description: lib.modules.mkChangedOptionModule
 sidebar:
 
@@ -33,6 +33,6 @@ result of the change function
 
 # Aliases
 
-- [lib.mkchangedoptionmodule](/nix-doc-comments/reference/lib/lib-mkchangedoptionmodule)
+- [lib.mkChangedOptionModule](/nix-doc-comments/reference/lib/lib-mkchangedoptionmodule)
 
 

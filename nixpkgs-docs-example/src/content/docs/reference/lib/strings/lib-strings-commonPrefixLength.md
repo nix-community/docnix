@@ -1,6 +1,6 @@
 ---
 title: lib.strings.commonPrefixLength
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1569C24
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1569C24
 description: lib.strings.commonPrefixLength
 sidebar:
 

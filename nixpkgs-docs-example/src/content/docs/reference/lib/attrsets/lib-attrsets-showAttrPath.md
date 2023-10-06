@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.showAttrPath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L1156C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1156C5
 description: lib.attrsets.showAttrPath
 sidebar:
 
@@ -23,13 +23,13 @@ showAttrPath []
 
 # Type
 
-```haskell
+```
 showAttrPath :: [String] -> String
 ```
 
 
 # Aliases
 
-- [lib.showattrpath](/nix-doc-comments/reference/lib/lib-showattrpath)
+- [lib.showAttrPath](/nix-doc-comments/reference/lib/lib-showattrpath)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.modules.pushDownProperties
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L879C24
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L879C24
 description: lib.modules.pushDownProperties
 sidebar:
 
@@ -25,6 +25,6 @@ recursion.
 
 # Aliases
 
-- [lib.pushdownproperties](/nix-doc-comments/reference/lib/lib-pushdownproperties)
+- [lib.pushDownProperties](/nix-doc-comments/reference/lib/lib-pushdownproperties)
 
 

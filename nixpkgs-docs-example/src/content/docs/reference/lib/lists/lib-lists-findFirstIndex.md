@@ -1,6 +1,6 @@
 ---
 title: lib.lists.findFirstIndex
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L287C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L287C5
 description: lib.lists.findFirstIndex
 sidebar:
 
@@ -21,7 +21,7 @@ findFirstIndex (x: x > 9) null [ 0 6 4 ]
 
 # Type
 
-```haskell
+```
 findFirstIndex :: (a -> Bool) -> b -> [a] -> (Int | b)
 ```
 

@@ -1,17 +1,17 @@
 ---
 title: lib.strings.readPathsFromFile
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1450C6
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1450C6
 description: lib.strings.readPathsFromFile
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1450C6">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1450C6">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.readpathsfromfile](/nix-doc-comments/reference/lib/lib-readpathsfromfile)
+- [lib.readPathsFromFile](/nix-doc-comments/reference/lib/lib-readpathsfromfile)
 
 

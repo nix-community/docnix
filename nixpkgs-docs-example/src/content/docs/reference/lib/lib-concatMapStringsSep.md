@@ -1,6 +1,6 @@
 ---
 title: lib.concatMapStringsSep
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L163C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L163C5
 description: lib.concatMapStringsSep
 sidebar:
 
@@ -20,13 +20,13 @@ concatMapStringsSep "-" (x: toUpper x)  ["foo" "bar" "baz"]
 
 # Type
 
-```haskell
+```
 concatMapStringsSep :: string -> (a -> string) -> [a] -> string
 ```
 
 
 # Aliases
 
-- [lib.strings.concatmapstringssep](/nix-doc-comments/reference/lib/strings/lib-strings-concatmapstringssep)
+- [lib.strings.concatMapStringsSep](/nix-doc-comments/reference/lib/strings/lib-strings-concatmapstringssep)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.hasAttrByPath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L71C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L71C5
 description: lib.hasAttrByPath
 sidebar:
 
@@ -21,13 +21,13 @@ hasAttrByPath ["z" "z"] x
 
 # Type
 
-```haskell
+```
 hasAttrByPath :: [String] -> AttrSet -> Bool
 ```
 
 
 # Aliases
 
-- [lib.attrsets.hasattrbypath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-hasattrbypath)
+- [lib.attrsets.hasAttrByPath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-hasattrbypath)
 
 

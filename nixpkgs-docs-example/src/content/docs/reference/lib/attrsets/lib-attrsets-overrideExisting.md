@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.overrideExisting
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L1127C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1127C5
 description: lib.attrsets.overrideExisting
 sidebar:
 
@@ -23,13 +23,13 @@ overrideExisting { a = 3; b = 2; } { a = 1; }
 
 # Type
 
-```haskell
+```
 overrideExisting :: AttrSet -> AttrSet -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.overrideexisting](/nix-doc-comments/reference/lib/lib-overrideexisting)
+- [lib.overrideExisting](/nix-doc-comments/reference/lib/lib-overrideexisting)
 
 

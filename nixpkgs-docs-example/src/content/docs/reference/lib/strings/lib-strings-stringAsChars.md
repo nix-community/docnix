@@ -1,6 +1,6 @@
 ---
 title: lib.strings.stringAsChars
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L509C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L509C5
 description: lib.strings.stringAsChars
 sidebar:
 
@@ -19,13 +19,13 @@ stringAsChars (x: if x == "a" then "i" else x) "nax"
 
 # Type
 
-```haskell
+```
 stringAsChars :: (string -> string) -> string -> string
 ```
 
 
 # Aliases
 
-- [lib.stringaschars](/nix-doc-comments/reference/lib/lib-stringaschars)
+- [lib.stringAsChars](/nix-doc-comments/reference/lib/lib-stringaschars)
 
 

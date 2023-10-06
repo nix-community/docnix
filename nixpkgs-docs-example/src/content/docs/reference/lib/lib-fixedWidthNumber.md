@@ -1,6 +1,6 @@
 ---
 title: lib.fixedWidthNumber
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1236C22
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1236C22
 description: lib.fixedWidthNumber
 sidebar:
 
@@ -19,6 +19,6 @@ fixedWidthNumber 5 15
 
 # Aliases
 
-- [lib.strings.fixedwidthnumber](/nix-doc-comments/reference/lib/strings/lib-strings-fixedwidthnumber)
+- [lib.strings.fixedWidthNumber](/nix-doc-comments/reference/lib/strings/lib-strings-fixedwidthnumber)
 
 

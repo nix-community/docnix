@@ -16,7 +16,7 @@ Return the bitwise OR of the integers *e1* and *e2*.
 
 # Aliases
 
-- [builtins.bitor](/nix-doc-comments/reference/builtins/builtins-bitor)
-- [lib.bitor](/nix-doc-comments/reference/lib/lib-bitor)
+- [builtins.bitOr](/nix-doc-comments/reference/builtins/builtins-bitor)
+- [lib.bitOr](/nix-doc-comments/reference/lib/lib-bitor)
 
 

@@ -39,7 +39,7 @@ evaluates to
 
 # Aliases
 
-- [builtins.genericclosure](/nix-doc-comments/reference/builtins/builtins-genericclosure)
-- [lib.genericclosure](/nix-doc-comments/reference/lib/lib-genericclosure)
+- [builtins.genericClosure](/nix-doc-comments/reference/builtins/builtins-genericclosure)
+- [lib.genericClosure](/nix-doc-comments/reference/lib/lib-genericclosure)
 
 

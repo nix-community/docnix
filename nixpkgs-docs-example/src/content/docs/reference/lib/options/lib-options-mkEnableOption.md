@@ -1,6 +1,6 @@
 ---
 title: lib.options.mkEnableOption
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/options.nix#L116C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L116C5
 description: lib.options.mkEnableOption
 sidebar:
 
@@ -20,6 +20,6 @@ mkEnableOption "foo"
 
 # Aliases
 
-- [lib.mkenableoption](/nix-doc-comments/reference/lib/lib-mkenableoption)
+- [lib.mkEnableOption](/nix-doc-comments/reference/lib/lib-mkenableoption)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.customisation.callPackagesWith
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/customisation.nix#L184C22
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L184C22
 description: lib.customisation.callPackagesWith
 sidebar:
 
@@ -14,6 +14,6 @@ individual attributes.
 
 # Aliases
 
-- [lib.callpackageswith](/nix-doc-comments/reference/lib/lib-callpackageswith)
+- [lib.callPackagesWith](/nix-doc-comments/reference/lib/lib-callpackageswith)
 
 

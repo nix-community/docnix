@@ -1,6 +1,6 @@
 ---
 title: lib.drop
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L864C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L864C5
 description: lib.drop
 sidebar:
 
@@ -20,7 +20,7 @@ drop 2 [ ]
 
 # Type
 
-```haskell
+```
 drop :: int -> [a] -> [a]
 ```
 

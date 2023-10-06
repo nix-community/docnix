@@ -1,6 +1,6 @@
 ---
 title: lib.makeExtensible
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/fixed-points.nix#L151C48
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L151C48
 description: lib.makeExtensible
 sidebar:
 
@@ -13,6 +13,6 @@ customized.
 
 # Aliases
 
-- [lib.fixedpoints.makeextensible](/nix-doc-comments/reference/lib/fixedpoints/lib-fixedpoints-makeextensible)
+- [lib.fixedPoints.makeExtensible](/nix-doc-comments/reference/lib/fixedpoints/lib-fixedpoints-makeextensible)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.customisation.hydraJob
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/customisation.nix#L239C14
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L239C14
 description: lib.customisation.hydraJob
 sidebar:
 
@@ -15,6 +15,6 @@ garbage collection.
 
 # Aliases
 
-- [lib.hydrajob](/nix-doc-comments/reference/lib/lib-hydrajob)
+- [lib.hydraJob](/nix-doc-comments/reference/lib/lib-hydrajob)
 
 

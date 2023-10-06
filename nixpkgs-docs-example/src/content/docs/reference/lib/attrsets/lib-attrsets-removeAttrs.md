@@ -23,6 +23,6 @@ evaluates to `{ y = 2; }`.
 
 # Aliases
 
-- [builtins.removeattrs](/nix-doc-comments/reference/builtins/builtins-removeattrs)
+- [builtins.removeAttrs](/nix-doc-comments/reference/builtins/builtins-removeattrs)
 
 

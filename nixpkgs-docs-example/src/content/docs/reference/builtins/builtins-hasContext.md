@@ -18,7 +18,7 @@ context can be obtained with
 
 # Aliases
 
-- [lib.pathhascontext](/nix-doc-comments/reference/lib/lib-pathhascontext)
-- [lib.sources.pathhascontext](/nix-doc-comments/reference/lib/sources/lib-sources-pathhascontext)
+- [lib.pathHasContext](/nix-doc-comments/reference/lib/lib-pathhascontext)
+- [lib.sources.pathHasContext](/nix-doc-comments/reference/lib/sources/lib-sources-pathhascontext)
 
 

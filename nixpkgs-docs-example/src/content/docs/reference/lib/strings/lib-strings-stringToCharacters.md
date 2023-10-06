@@ -1,6 +1,6 @@
 ---
 title: lib.strings.stringToCharacters
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L487C24
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L487C24
 description: lib.strings.stringToCharacters
 sidebar:
 
@@ -28,13 +28,13 @@ stringToCharacters "🦄"
 
 # Type
 
-```haskell
+```
 stringToCharacters :: string -> [string]
 ```
 
 
 # Aliases
 
-- [lib.stringtocharacters](/nix-doc-comments/reference/lib/lib-stringtocharacters)
+- [lib.stringToCharacters](/nix-doc-comments/reference/lib/lib-stringtocharacters)
 
 

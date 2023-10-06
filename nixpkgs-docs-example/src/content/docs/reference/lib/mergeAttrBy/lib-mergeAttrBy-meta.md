@@ -1,6 +1,6 @@
 ---
 title: lib.mergeAttrBy.meta
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L178C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L178C5
 description: lib.mergeAttrBy.meta
 sidebar:
 
@@ -21,9 +21,9 @@ mergeAttrs { a = 1; b = 2; } { b = 3; c = 4; }
 
 # Aliases
 
-- [lib.mergeattrby.cfg](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-cfg)
-- [lib.mergeattrby.flags](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-flags)
-- [lib.mergeattrs](/nix-doc-comments/reference/lib/lib-mergeattrs)
-- [lib.trivial.mergeattrs](/nix-doc-comments/reference/lib/trivial/lib-trivial-mergeattrs)
+- [lib.mergeAttrBy.cfg](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-cfg)
+- [lib.mergeAttrBy.flags](/nix-doc-comments/reference/lib/mergeattrby/lib-mergeattrby-flags)
+- [lib.mergeAttrs](/nix-doc-comments/reference/lib/lib-mergeattrs)
+- [lib.trivial.mergeAttrs](/nix-doc-comments/reference/lib/trivial/lib-trivial-mergeattrs)
 
 

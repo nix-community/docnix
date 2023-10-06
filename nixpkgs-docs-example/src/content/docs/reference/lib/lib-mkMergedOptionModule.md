@@ -1,6 +1,6 @@
 ---
 title: lib.mkMergedOptionModule
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L1196C26
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1196C26
 description: lib.mkMergedOptionModule
 sidebar:
 
@@ -38,6 +38,6 @@ x.y.z to the result of the merge function
 
 # Aliases
 
-- [lib.modules.mkmergedoptionmodule](/nix-doc-comments/reference/lib/modules/lib-modules-mkmergedoptionmodule)
+- [lib.modules.mkMergedOptionModule](/nix-doc-comments/reference/lib/modules/lib-modules-mkmergedoptionmodule)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.updateManyAttrsByPath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L276C6
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L276C6
 description: lib.attrsets.updateManyAttrsByPath
 sidebar:
 
@@ -36,31 +36,31 @@ intermediate attribute sets are implicitly created as needed
 
 ```nix
 updateManyAttrsByPath [
-{
-path = [ "a" "b" ];
-update = old: { d = old.c; };
-}
-{
-path = [ "a" "b" "c" ];
-update = old: old + 1;
-}
-{
-path = [ "x" "y" ];
-update = old: "xy";
-}
+  {
+    path = [ "a" "b" ];
+    update = old: { d = old.c; };
+  }
+  {
+    path = [ "a" "b" "c" ];
+    update = old: old + 1;
+  }
+  {
+    path = [ "x" "y" ];
+    update = old: "xy";
+  }
 ] { a.b.c = 0; }
 => { a = { b = { d = 1; }; }; x = { y = "xy"; }; }
 ```
 
 # Type
 
-```haskell
+```
 updateManyAttrsByPath :: [{ path :: [String]; update :: (Any -> Any); }] -> AttrSet -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.updatemanyattrsbypath](/nix-doc-comments/reference/lib/lib-updatemanyattrsbypath)
+- [lib.updateManyAttrsByPath](/nix-doc-comments/reference/lib/lib-updatemanyattrsbypath)
 
 

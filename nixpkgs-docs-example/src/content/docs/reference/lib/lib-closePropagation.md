@@ -1,18 +1,18 @@
 ---
 title: lib.closePropagation
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L168C26
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L168C26
 description: lib.closePropagation
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L168C26">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L168C26">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.misc.closepropagation](/nix-doc-comments/reference/lib/misc/lib-misc-closepropagation)
-- [lib.misc.closepropagationfast](/nix-doc-comments/reference/lib/misc/lib-misc-closepropagationfast)
+- [lib.misc.closePropagation](/nix-doc-comments/reference/lib/misc/lib-misc-closepropagation)
+- [lib.misc.closePropagationFast](/nix-doc-comments/reference/lib/misc/lib-misc-closepropagationfast)
 
 

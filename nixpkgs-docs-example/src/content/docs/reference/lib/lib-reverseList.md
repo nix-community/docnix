@@ -1,6 +1,6 @@
 ---
 title: lib.reverseList
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L656C17
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L656C17
 description: lib.reverseList
 sidebar:
 
@@ -18,13 +18,13 @@ reverseList [ "b" "o" "j" ]
 
 # Type
 
-```haskell
+```
 reverseList :: [a] -> [a]
 ```
 
 
 # Aliases
 
-- [lib.lists.reverselist](/nix-doc-comments/reference/lib/lists/lib-lists-reverselist)
+- [lib.lists.reverseList](/nix-doc-comments/reference/lib/lists/lib-lists-reverselist)
 
 

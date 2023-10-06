@@ -1,6 +1,6 @@
 ---
 title: lib.matchAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L1092C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1092C5
 description: lib.matchAttrs
 sidebar:
 
@@ -18,13 +18,13 @@ matchAttrs { cpu = {}; } { cpu = { bits = 64; }; }
 
 # Type
 
-```haskell
+```
 matchAttrs :: AttrSet -> AttrSet -> Bool
 ```
 
 
 # Aliases
 
-- [lib.attrsets.matchattrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-matchattrs)
+- [lib.attrsets.matchAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-matchattrs)
 
 

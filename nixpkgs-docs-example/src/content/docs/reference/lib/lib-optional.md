@@ -1,6 +1,6 @@
 ---
 title: lib.optional
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L442C14
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L442C14
 description: lib.optional
 sidebar:
 
@@ -22,7 +22,7 @@ optional false "foo"
 
 # Type
 
-```haskell
+```
 optional :: bool -> a -> [a]
 ```
 

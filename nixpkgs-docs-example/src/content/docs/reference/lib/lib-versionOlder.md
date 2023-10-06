@@ -1,6 +1,6 @@
 ---
 title: lib.versionOlder
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L972C18
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L972C18
 description: lib.versionOlder
 sidebar:
 
@@ -21,6 +21,6 @@ versionOlder "1.1" "1.1"
 
 # Aliases
 
-- [lib.strings.versionolder](/nix-doc-comments/reference/lib/strings/lib-strings-versionolder)
+- [lib.strings.versionOlder](/nix-doc-comments/reference/lib/strings/lib-strings-versionolder)
 
 

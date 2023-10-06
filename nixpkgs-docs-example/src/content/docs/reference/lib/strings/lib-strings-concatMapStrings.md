@@ -1,6 +1,6 @@
 ---
 title: lib.strings.concatMapStrings
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L78C22
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L78C22
 description: lib.strings.concatMapStrings
 sidebar:
 
@@ -18,13 +18,13 @@ concatMapStrings (x: "a" + x) ["foo" "bar"]
 
 # Type
 
-```haskell
+```
 concatMapStrings :: (a -> string) -> [a] -> string
 ```
 
 
 # Aliases
 
-- [lib.concatmapstrings](/nix-doc-comments/reference/lib/lib-concatmapstrings)
+- [lib.concatMapStrings](/nix-doc-comments/reference/lib/lib-concatmapstrings)
 
 

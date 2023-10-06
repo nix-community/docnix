@@ -1,6 +1,6 @@
 ---
 title: lib.strings.versionAtLeast
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L988C20
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L988C20
 description: lib.strings.versionAtLeast
 sidebar:
 
@@ -23,6 +23,6 @@ versionAtLeast "1.1" "1.2"
 
 # Aliases
 
-- [lib.versionatleast](/nix-doc-comments/reference/lib/lib-versionatleast)
+- [lib.versionAtLeast](/nix-doc-comments/reference/lib/lib-versionatleast)
 
 

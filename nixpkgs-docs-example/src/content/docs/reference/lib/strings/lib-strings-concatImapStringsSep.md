@@ -1,17 +1,17 @@
 ---
 title: lib.strings.concatImapStringsSep
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L188C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L188C5
 description: lib.strings.concatImapStringsSep
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L188C5">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L188C5">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.concatimapstringssep](/nix-doc-comments/reference/lib/lib-concatimapstringssep)
+- [lib.concatImapStringsSep](/nix-doc-comments/reference/lib/lib-concatimapstringssep)
 
 

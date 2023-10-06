@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.throwIfNot
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L521C16
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L521C16
 description: lib.trivial.throwIfNot
 sidebar:
 
@@ -27,13 +27,13 @@ pkgs
 
 # Type
 
-```haskell
+```
 bool -> string -> a -> a
 ```
 
 
 # Aliases
 
-- [lib.throwifnot](/nix-doc-comments/reference/lib/lib-throwifnot)
+- [lib.throwIfNot](/nix-doc-comments/reference/lib/lib-throwifnot)
 
 

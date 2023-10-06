@@ -1,6 +1,6 @@
 ---
 title: lib.makeExtensibleWithCustomName
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/fixed-points.nix#L151C34
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L151C34
 description: lib.makeExtensibleWithCustomName
 sidebar:
 
@@ -13,6 +13,6 @@ customized.
 
 # Aliases
 
-- [lib.fixedpoints.makeextensiblewithcustomname](/nix-doc-comments/reference/lib/fixedpoints/lib-fixedpoints-makeextensiblewithcustomname)
+- [lib.fixedPoints.makeExtensibleWithCustomName](/nix-doc-comments/reference/lib/fixedpoints/lib-fixedpoints-makeextensiblewithcustomname)
 
 

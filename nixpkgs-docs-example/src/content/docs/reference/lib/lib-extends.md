@@ -1,17 +1,17 @@
 ---
 title: lib.extends
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/fixed-points.nix#L99C13
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L99C13
 description: lib.extends
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/fixed-points.nix#L99C13">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L99C13">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.fixedpoints.extends](/nix-doc-comments/reference/lib/fixedpoints/lib-fixedpoints-extends)
+- [lib.fixedPoints.extends](/nix-doc-comments/reference/lib/fixedpoints/lib-fixedpoints-extends)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.zipAttrsWithNames
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L879C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L879C5
 description: lib.zipAttrsWithNames
 sidebar:
 
@@ -19,15 +19,15 @@ zipAttrsWithNames ["a"] (name: vs: vs) [{a = "x";} {a = "y"; b = "z";}]
 
 # Type
 
-```haskell
+```
 zipAttrsWithNames :: [ String ] -> (String -> [ Any ] -> Any) -> [ AttrSet ] -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.attrsets.zipattrswithnames](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipattrswithnames)
-- [lib.attrsets.zipwithnames](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipwithnames)
-- [lib.zipwithnames](/nix-doc-comments/reference/lib/lib-zipwithnames)
+- [lib.attrsets.zipAttrsWithNames](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipattrswithnames)
+- [lib.attrsets.zipWithNames](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipwithnames)
+- [lib.zipWithNames](/nix-doc-comments/reference/lib/lib-zipwithnames)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.dontDistribute
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/meta.nix#L28C20
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L28C20
 description: lib.dontDistribute
 sidebar:
 
@@ -12,6 +12,6 @@ Disable Hydra builds of given derivation.
 
 # Aliases
 
-- [lib.meta.dontdistribute](/nix-doc-comments/reference/lib/meta/lib-meta-dontdistribute)
+- [lib.meta.dontDistribute](/nix-doc-comments/reference/lib/meta/lib-meta-dontdistribute)
 
 

@@ -16,6 +16,6 @@ Return the difference between the numbers *e1* and *e2*.
 
 # Aliases
 
-- [lib.bitnot](/nix-doc-comments/reference/lib/lib-bitnot)
+- [lib.bitNot](/nix-doc-comments/reference/lib/lib-bitnot)
 
 

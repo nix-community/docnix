@@ -1,6 +1,6 @@
 ---
 title: lib.lists.imap0
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L154C11
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L154C11
 description: lib.lists.imap0
 sidebar:
 
@@ -18,7 +18,7 @@ imap0 (i: v: "${v}-${toString i}") ["a" "b"]
 
 # Type
 
-```haskell
+```
 imap0 :: (int -> a -> b) -> [a] -> [b]
 ```
 

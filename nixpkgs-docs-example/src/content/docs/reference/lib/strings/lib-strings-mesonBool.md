@@ -1,6 +1,6 @@
 ---
 title: lib.strings.mesonBool
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1099C15
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1099C15
 description: lib.strings.mesonBool
 sidebar:
 
@@ -21,7 +21,7 @@ mesonBool "static" false
 
 # Type
 
-```haskell
+```
 mesonBool :: string -> bool -> string
 
 @param condition The condition to be made true or false
@@ -31,6 +31,6 @@ mesonBool :: string -> bool -> string
 
 # Aliases
 
-- [lib.mesonbool](/nix-doc-comments/reference/lib/lib-mesonbool)
+- [lib.mesonBool](/nix-doc-comments/reference/lib/lib-mesonbool)
 
 

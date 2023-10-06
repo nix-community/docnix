@@ -1,6 +1,6 @@
 ---
 title: lib.versions.major
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/versions.nix#L30C11
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L30C11
 description: lib.versions.major
 sidebar:
 

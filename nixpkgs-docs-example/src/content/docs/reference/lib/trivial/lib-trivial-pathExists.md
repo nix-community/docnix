@@ -17,7 +17,7 @@ Return `true` if the path *path* exists at evaluation time, and
 
 # Aliases
 
-- [builtins.pathexists](/nix-doc-comments/reference/builtins/builtins-pathexists)
-- [lib.pathexists](/nix-doc-comments/reference/lib/lib-pathexists)
+- [builtins.pathExists](/nix-doc-comments/reference/builtins/builtins-pathexists)
+- [lib.pathExists](/nix-doc-comments/reference/lib/lib-pathexists)
 
 

@@ -17,8 +17,8 @@ one of "directory", "regular", "symlink", or "unknown".
 
 # Aliases
 
-- [lib.filesystem.pathtype](/nix-doc-comments/reference/lib/filesystem/lib-filesystem-pathtype)
-- [lib.pathtype](/nix-doc-comments/reference/lib/lib-pathtype)
-- [lib.sources.pathtype](/nix-doc-comments/reference/lib/sources/lib-sources-pathtype)
+- [lib.filesystem.pathType](/nix-doc-comments/reference/lib/filesystem/lib-filesystem-pathtype)
+- [lib.pathType](/nix-doc-comments/reference/lib/lib-pathtype)
+- [lib.sources.pathType](/nix-doc-comments/reference/lib/sources/lib-sources-pathtype)
 
 

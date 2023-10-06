@@ -1,6 +1,6 @@
 ---
 title: lib.mesonEnable
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1126C17
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1126C17
 description: lib.mesonEnable
 sidebar:
 
@@ -21,7 +21,7 @@ mesonEnable "savage" false
 
 # Type
 
-```haskell
+```
 mesonEnable :: string -> bool -> string
 
 @param feature The feature to be enabled or disabled
@@ -31,6 +31,6 @@ mesonEnable :: string -> bool -> string
 
 # Aliases
 
-- [lib.strings.mesonenable](/nix-doc-comments/reference/lib/strings/lib-strings-mesonenable)
+- [lib.strings.mesonEnable](/nix-doc-comments/reference/lib/strings/lib-strings-mesonenable)
 
 

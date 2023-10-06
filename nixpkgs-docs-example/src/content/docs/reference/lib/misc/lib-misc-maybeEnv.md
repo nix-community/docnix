@@ -1,17 +1,17 @@
 ---
 title: lib.misc.maybeEnv
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L14C14
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L14C14
 description: lib.misc.maybeEnv
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L14C14">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L14C14">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.maybeenv](/nix-doc-comments/reference/lib/lib-maybeenv)
+- [lib.maybeEnv](/nix-doc-comments/reference/lib/lib-maybeenv)
 
 

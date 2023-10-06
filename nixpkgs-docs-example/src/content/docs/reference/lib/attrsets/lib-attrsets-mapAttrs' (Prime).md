@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.mapAttrs' (Prime)
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L652C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L652C5
 description: lib.attrsets.mapAttrs'
 sidebar:
 
@@ -15,19 +15,19 @@ return both the new name and value as a `nameValuePair`.
 
 ```nix
 mapAttrs' (name: value: nameValuePair ("foo_" + name) ("bar-" + value))
-{ x = "a"; y = "b"; }
+   { x = "a"; y = "b"; }
 => { foo_x = "bar-a"; foo_y = "bar-b"; }
 ```
 
 # Type
 
-```haskell
+```
 mapAttrs' :: (String -> Any -> { name :: String; value :: Any; }) -> AttrSet -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.mapattrs'](/nix-doc-comments/reference/lib/lib-mapattrs' (prime))
+- [lib.mapAttrs'](/nix-doc-comments/reference/lib/lib-mapattrs' (prime))
 
 

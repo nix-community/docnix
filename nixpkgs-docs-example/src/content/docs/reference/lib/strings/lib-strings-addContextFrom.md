@@ -1,6 +1,6 @@
 ---
 title: lib.strings.addContextFrom
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L857C20
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L857C20
 description: lib.strings.addContextFrom
 sidebar:
 
@@ -26,6 +26,6 @@ addContextFrom pkgs.coreutils "bar"
 
 # Aliases
 
-- [lib.addcontextfrom](/nix-doc-comments/reference/lib/lib-addcontextfrom)
+- [lib.addContextFrom](/nix-doc-comments/reference/lib/lib-addcontextfrom)
 
 

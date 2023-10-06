@@ -1,6 +1,6 @@
 ---
 title: lib.composeManyExtensions
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L77C20
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L77C20
 description: lib.composeManyExtensions
 sidebar:
 
@@ -25,13 +25,13 @@ strange [ 1 2 3 4 ]
 
 # Type
 
-```haskell
+```
 foldr :: (a -> b -> b) -> b -> [a] -> b
 ```
 
 
 # Aliases
 
-- [lib.fixedpoints.composemanyextensions](/nix-doc-comments/reference/lib/fixedpoints/lib-fixedpoints-composemanyextensions)
+- [lib.fixedPoints.composeManyExtensions](/nix-doc-comments/reference/lib/fixedpoints/lib-fixedpoints-composemanyextensions)
 
 

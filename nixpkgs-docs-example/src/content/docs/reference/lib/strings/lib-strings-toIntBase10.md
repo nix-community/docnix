@@ -1,6 +1,6 @@
 ---
 title: lib.strings.toIntBase10
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1402C17
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1402C17
 description: lib.strings.toIntBase10
 sidebar:
 
@@ -13,30 +13,30 @@ Parse a string as a base 10 int. This supports parsing of zero-padded integers.
 
 ```nix
 toIntBase10 "1337"
-=> 1337
+           => 1337
 
-toIntBase10 "-4"
-=> -4
+           toIntBase10 "-4"
+           => -4
 
-toIntBase10 " 123 "
-=> 123
+           toIntBase10 " 123 "
+           => 123
 
-toIntBase10 "00024"
-=> 24
+           toIntBase10 "00024"
+           => 24
 
-toIntBase10 "3.14"
-=> error: floating point JSON numbers are not supported
+           toIntBase10 "3.14"
+           => error: floating point JSON numbers are not supported
 ```
 
 # Type
 
-```haskell
+```
 string -> int
 ```
 
 
 # Aliases
 
-- [lib.tointbase10](/nix-doc-comments/reference/lib/lib-tointbase10)
+- [lib.toIntBase10](/nix-doc-comments/reference/lib/lib-tointbase10)
 
 

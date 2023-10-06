@@ -1,6 +1,6 @@
 ---
 title: lib.customisation.makeScopeWithSplicing' (Prime)
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/customisation.nix#L306C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L306C5
 description: lib.customisation.makeScopeWithSplicing'
 sidebar:
 
@@ -13,6 +13,6 @@ hopefully it helps a little bit.
 
 # Aliases
 
-- [lib.makescopewithsplicing'](/nix-doc-comments/reference/lib/lib-makescopewithsplicing' (prime))
+- [lib.makeScopeWithSplicing'](/nix-doc-comments/reference/lib/lib-makescopewithsplicing' (prime))
 
 

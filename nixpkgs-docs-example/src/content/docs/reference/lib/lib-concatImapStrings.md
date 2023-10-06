@@ -1,6 +1,6 @@
 ---
 title: lib.concatImapStrings
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L97C23
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L97C23
 description: lib.concatImapStrings
 sidebar:
 
@@ -19,13 +19,13 @@ concatImapStrings (pos: x: "${toString pos}-${x}") ["foo" "bar"]
 
 # Type
 
-```haskell
+```
 concatImapStrings :: (int -> a -> string) -> [a] -> string
 ```
 
 
 # Aliases
 
-- [lib.strings.concatimapstrings](/nix-doc-comments/reference/lib/strings/lib-strings-concatimapstrings)
+- [lib.strings.concatImapStrings](/nix-doc-comments/reference/lib/strings/lib-strings-concatimapstrings)
 
 

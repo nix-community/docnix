@@ -1,6 +1,6 @@
 ---
 title: lib.lists.hasPrefix
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L887C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L887C5
 description: lib.lists.hasPrefix
 sidebar:
 
@@ -20,7 +20,7 @@ hasPrefix [ 0 1 ] [ 1 2 3 4 ]
 
 # Type
 
-```haskell
+```
 hasPrefix :: [a] -> [a] -> bool
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: lib.lists.crossLists
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L1042C6
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1042C6
 description: lib.lists.crossLists
 sidebar:
 
@@ -19,6 +19,6 @@ crossLists (x:y: "${toString x}${toString y}") [[1 2] [3 4]]
 
 # Aliases
 
-- [lib.crosslists](/nix-doc-comments/reference/lib/lib-crosslists)
+- [lib.crossLists](/nix-doc-comments/reference/lib/lib-crosslists)
 
 

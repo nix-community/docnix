@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.toHexString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L632C17
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L632C17
 description: lib.trivial.toHexString
 sidebar:
 
@@ -19,6 +19,6 @@ toHexString 250 => "FA"
 
 # Aliases
 
-- [lib.tohexstring](/nix-doc-comments/reference/lib/lib-tohexstring)
+- [lib.toHexString](/nix-doc-comments/reference/lib/lib-tohexstring)
 
 

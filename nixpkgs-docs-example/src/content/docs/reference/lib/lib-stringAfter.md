@@ -1,17 +1,17 @@
 ---
 title: lib.stringAfter
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings-with-deps.nix#L84C17
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L84C17
 description: lib.stringAfter
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/strings-with-deps.nix#L84C17">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L84C17">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.stringswithdeps.stringafter](/nix-doc-comments/reference/lib/stringswithdeps/lib-stringswithdeps-stringafter)
+- [lib.stringsWithDeps.stringAfter](/nix-doc-comments/reference/lib/stringswithdeps/lib-stringswithdeps-stringafter)
 
 

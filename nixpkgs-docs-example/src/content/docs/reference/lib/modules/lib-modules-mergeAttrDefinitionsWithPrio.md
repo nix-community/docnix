@@ -1,6 +1,6 @@
 ---
 title: lib.modules.mergeAttrDefinitionsWithPrio
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L982C34
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L982C34
 description: lib.modules.mergeAttrDefinitionsWithPrio
 sidebar:
 
@@ -14,7 +14,7 @@ This does not account for all option semantics, such as readOnly.
 
 # Type
 
-```haskell
+```
 option -> attrsOf { highestPrio, value }
 ```
 

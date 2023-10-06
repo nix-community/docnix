@@ -23,8 +23,8 @@ returns the list `[ 0 1 4 9 16 ]`.
 
 # Aliases
 
-- [builtins.genlist](/nix-doc-comments/reference/builtins/builtins-genlist)
-- [lib.genlist](/nix-doc-comments/reference/lib/lib-genlist)
-- [lib.lists.genlist](/nix-doc-comments/reference/lib/lists/lib-lists-genlist)
+- [builtins.genList](/nix-doc-comments/reference/builtins/builtins-genlist)
+- [lib.genList](/nix-doc-comments/reference/lib/lib-genlist)
+- [lib.lists.genList](/nix-doc-comments/reference/lib/lists/lib-lists-genlist)
 
 

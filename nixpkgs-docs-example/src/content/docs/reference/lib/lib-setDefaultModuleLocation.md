@@ -1,6 +1,6 @@
 ---
 title: lib.setDefaultModuleLocation
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L451C30
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L451C30
 description: lib.setDefaultModuleLocation
 sidebar:
 
@@ -12,6 +12,6 @@ Wrap a module with a default location for reporting errors.
 
 # Aliases
 
-- [lib.modules.setdefaultmodulelocation](/nix-doc-comments/reference/lib/modules/lib-modules-setdefaultmodulelocation)
+- [lib.modules.setDefaultModuleLocation](/nix-doc-comments/reference/lib/modules/lib-modules-setdefaultmodulelocation)
 
 

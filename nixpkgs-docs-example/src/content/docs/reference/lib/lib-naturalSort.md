@@ -1,6 +1,6 @@
 ---
 title: lib.naturalSort
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L814C17
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L814C17
 description: lib.naturalSort
 sidebar:
 
@@ -24,6 +24,6 @@ naturalSort ["v0.2" "v0.15" "v0.0.9"]
 
 # Aliases
 
-- [lib.lists.naturalsort](/nix-doc-comments/reference/lib/lists/lib-lists-naturalsort)
+- [lib.lists.naturalSort](/nix-doc-comments/reference/lib/lists/lib-lists-naturalsort)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.versions.patch
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/versions.nix#L54C11
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L54C11
 description: lib.versions.patch
 sidebar:
 

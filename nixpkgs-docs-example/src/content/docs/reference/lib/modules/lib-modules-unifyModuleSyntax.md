@@ -1,6 +1,6 @@
 ---
 title: lib.modules.unifyModuleSyntax
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L458C23
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L458C23
 description: lib.modules.unifyModuleSyntax
 sidebar:
 
@@ -13,6 +13,6 @@ of ‘options’, ‘config’ and ‘imports’ attributes.
 
 # Aliases
 
-- [lib.unifymodulesyntax](/nix-doc-comments/reference/lib/lib-unifymodulesyntax)
+- [lib.unifyModuleSyntax](/nix-doc-comments/reference/lib/lib-unifymodulesyntax)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkEmptyArray
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/gvariant.nix#L128C18
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L128C18
 description: lib.gvariant.mkEmptyArray
 sidebar:
 
@@ -18,7 +18,7 @@ lib.gvariant.mkEmptyArray (lib.gvariant.type.string)
 
 # Type
 
-```haskell
+```
 mkEmptyArray :: gvariant.type -> gvariant
 ```
 

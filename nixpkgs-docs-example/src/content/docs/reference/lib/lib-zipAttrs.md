@@ -1,6 +1,6 @@
 ---
 title: lib.zipAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L936C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L936C5
 description: lib.zipAttrs
 sidebar:
 
@@ -20,13 +20,13 @@ zipAttrs [{a = "x";} {a = "y"; b = "z";}]
 
 # Type
 
-```haskell
+```
 zipAttrs :: [ AttrSet ] -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.attrsets.zipattrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipattrs)
+- [lib.attrsets.zipAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipattrs)
 
 

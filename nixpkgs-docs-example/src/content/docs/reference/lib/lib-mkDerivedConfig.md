@@ -1,6 +1,6 @@
 ---
 title: lib.mkDerivedConfig
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L1280C21
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1280C21
 description: lib.mkDerivedConfig
 sidebar:
 
@@ -19,6 +19,6 @@ It takes care of setting the right priority using `mkOverride`.
 
 # Aliases
 
-- [lib.modules.mkderivedconfig](/nix-doc-comments/reference/lib/modules/lib-modules-mkderivedconfig)
+- [lib.modules.mkDerivedConfig](/nix-doc-comments/reference/lib/modules/lib-modules-mkderivedconfig)
 
 

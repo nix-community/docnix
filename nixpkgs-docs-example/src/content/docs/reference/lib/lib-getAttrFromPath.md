@@ -1,6 +1,6 @@
 ---
 title: lib.getAttrFromPath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L133C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L133C5
 description: lib.getAttrFromPath
 sidebar:
 
@@ -22,13 +22,13 @@ getAttrFromPath ["z" "z"] x
 
 # Type
 
-```haskell
+```
 getAttrFromPath :: [String] -> AttrSet -> Any
 ```
 
 
 # Aliases
 
-- [lib.attrsets.getattrfrompath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getattrfrompath)
+- [lib.attrsets.getAttrFromPath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-getattrfrompath)
 
 

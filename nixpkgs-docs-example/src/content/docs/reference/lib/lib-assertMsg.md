@@ -1,6 +1,6 @@
 ---
 title: lib.assertMsg
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/asserts.nix#L28C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L28C5
 description: lib.assertMsg
 sidebar:
 
@@ -14,21 +14,21 @@ Intended to be used to augment asserts with helpful error messages.
 
 ```nix
 assertMsg false "nope"
-stderr> error: nope
+           stderr> error: nope
 
-assert assertMsg ("foo" == "bar") "foo is not bar, silly"; ""
-stderr> error: foo is not bar, silly
+           assert assertMsg ("foo" == "bar") "foo is not bar, silly"; ""
+           stderr> error: foo is not bar, silly
 ```
 
 # Type
 
-```haskell
+```
 assertMsg :: Bool -> String -> Bool
 ```
 
 
 # Aliases
 
-- [lib.asserts.assertmsg](/nix-doc-comments/reference/lib/asserts/lib-asserts-assertmsg)
+- [lib.asserts.assertMsg](/nix-doc-comments/reference/lib/asserts/lib-asserts-assertmsg)
 
 

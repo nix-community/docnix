@@ -1,6 +1,6 @@
 ---
 title: pkgs.callPackages
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/customisation.nix#L184C32
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L184C32
 description: pkgs.callPackages
 sidebar:
 

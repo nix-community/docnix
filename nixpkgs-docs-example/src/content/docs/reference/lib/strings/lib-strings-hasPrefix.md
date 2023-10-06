@@ -1,6 +1,6 @@
 ---
 title: lib.strings.hasPrefix
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L371C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L371C5
 description: lib.strings.hasPrefix
 sidebar:
 
@@ -20,13 +20,13 @@ hasPrefix "foo" "barfoo"
 
 # Type
 
-```haskell
+```
 hasPrefix :: string -> string -> bool
 ```
 
 
 # Aliases
 
-- [lib.hasprefix](/nix-doc-comments/reference/lib/lib-hasprefix)
+- [lib.hasPrefix](/nix-doc-comments/reference/lib/lib-hasprefix)
 
 

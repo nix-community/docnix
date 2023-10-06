@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkMaybe
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/gvariant.nix#L201C13
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L201C13
 description: lib.gvariant.mkMaybe
 sidebar:
 
@@ -11,7 +11,7 @@ Returns the GVariant maybe from the given element type.
 
 # Type
 
-```haskell
+```
 mkMaybe :: gvariant.type -> Any -> gvariant
 ```
 

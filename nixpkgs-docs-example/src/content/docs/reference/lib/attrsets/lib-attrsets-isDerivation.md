@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.isDerivation
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L806C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L806C5
 description: lib.attrsets.isDerivation
 sidebar:
 
@@ -22,13 +22,13 @@ isDerivation "foobar"
 
 # Type
 
-```haskell
+```
 isDerivation :: Any -> Bool
 ```
 
 
 # Aliases
 
-- [lib.isderivation](/nix-doc-comments/reference/lib/lib-isderivation)
+- [lib.isDerivation](/nix-doc-comments/reference/lib/lib-isderivation)
 
 

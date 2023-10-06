@@ -1,6 +1,6 @@
 ---
 title: lib.warnIf
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L483C12
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L483C12
 description: lib.warnIf
 sidebar:
 
@@ -11,13 +11,13 @@ Like warn, but only warn when the first argument is `true`.
 
 # Type
 
-```haskell
+```
 bool -> string -> a -> a
 ```
 
 
 # Aliases
 
-- [lib.trivial.warnif](/nix-doc-comments/reference/lib/trivial/lib-trivial-warnif)
+- [lib.trivial.warnIf](/nix-doc-comments/reference/lib/trivial/lib-trivial-warnif)
 
 

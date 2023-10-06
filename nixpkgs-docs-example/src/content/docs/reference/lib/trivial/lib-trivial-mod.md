@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.mod
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L355C9
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L355C9
 description: lib.trivial.mod
 sidebar:
 

@@ -24,7 +24,7 @@ evaluates to `[1 2]`.
 
 # Aliases
 
-- [builtins.catattrs](/nix-doc-comments/reference/builtins/builtins-catattrs)
-- [lib.catattrs](/nix-doc-comments/reference/lib/lib-catattrs)
+- [builtins.catAttrs](/nix-doc-comments/reference/builtins/builtins-catattrs)
+- [lib.catAttrs](/nix-doc-comments/reference/lib/lib-catattrs)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.escapeShellArgs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L167C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L167C5
 description: lib.escapeShellArgs
 sidebar:
 
@@ -20,13 +20,13 @@ concatMapStringsSep "-" (x: toUpper x)  ["foo" "bar" "baz"]
 
 # Type
 
-```haskell
+```
 concatMapStringsSep :: string -> (a -> string) -> [a] -> string
 ```
 
 
 # Aliases
 
-- [lib.strings.escapeshellargs](/nix-doc-comments/reference/lib/strings/lib-strings-escapeshellargs)
+- [lib.strings.escapeShellArgs](/nix-doc-comments/reference/lib/strings/lib-strings-escapeshellargs)
 
 

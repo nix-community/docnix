@@ -1,17 +1,17 @@
 ---
 title: lib.attrsets.getOutput
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L1178C15
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1178C15
 description: lib.attrsets.getOutput
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L1178C15">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1178C15">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.getoutput](/nix-doc-comments/reference/lib/lib-getoutput)
+- [lib.getOutput](/nix-doc-comments/reference/lib/lib-getoutput)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.traceSeqN
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/debug.nix#L149C15
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L149C15
 description: lib.traceSeqN
 sidebar:
 
@@ -21,13 +21,13 @@ trace: { a = { b = {…}; }; }
 
 # Type
 
-```haskell
+```
 traceSeqN :: Int -> a -> b -> b
 ```
 
 
 # Aliases
 
-- [lib.debug.traceseqn](/nix-doc-comments/reference/lib/debug/lib-debug-traceseqn)
+- [lib.debug.traceSeqN](/nix-doc-comments/reference/lib/debug/lib-debug-traceseqn)
 
 

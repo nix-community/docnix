@@ -1,6 +1,6 @@
 ---
 title: lib.traceSeq
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/debug.nix#L126C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L126C5
 description: lib.traceSeq
 sidebar:
 
@@ -22,13 +22,13 @@ trace: { a = { b = { c = 3; }; }; }
 
 # Type
 
-```haskell
+```
 traceSeq :: a -> b -> b
 ```
 
 
 # Aliases
 
-- [lib.debug.traceseq](/nix-doc-comments/reference/lib/debug/lib-debug-traceseq)
+- [lib.debug.traceSeq](/nix-doc-comments/reference/lib/debug/lib-debug-traceseq)
 
 

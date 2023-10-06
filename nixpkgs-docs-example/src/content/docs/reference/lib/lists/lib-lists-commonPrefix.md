@@ -1,6 +1,6 @@
 ---
 title: lib.lists.commonPrefix
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L972C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L972C5
 description: lib.lists.commonPrefix
 sidebar:
 
@@ -22,7 +22,7 @@ commonPrefix [ 1 2 3 ] [ 4 5 6 ]
 
 # Type
 
-```haskell
+```
 commonPrefix :: [a] -> [a] -> [a]
 ```
 

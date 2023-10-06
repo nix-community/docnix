@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.throwIf
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L532C13
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L532C13
 description: lib.trivial.throwIf
 sidebar:
 
@@ -11,13 +11,13 @@ Like throwIfNot, but negated (throw if the first argument is `true`).
 
 # Type
 
-```haskell
+```
 bool -> string -> a -> a
 ```
 
 
 # Aliases
 
-- [lib.throwif](/nix-doc-comments/reference/lib/lib-throwif)
+- [lib.throwIf](/nix-doc-comments/reference/lib/lib-throwif)
 
 

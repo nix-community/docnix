@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.mapAttrsRecursiveCond
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L742C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L742C5
 description: lib.attrsets.mapAttrsRecursiveCond
 sidebar:
 
@@ -19,20 +19,20 @@ does recurse, and does not apply the map function.
 # To prevent recursing into derivations (which are attribute
 # sets with the attribute "type" equal to "derivation"):
 mapAttrsRecursiveCond
-(as: !(as ? "type" && as.type == "derivation"))
-(x: ... do something ...)
-attrs
+  (as: !(as ? "type" && as.type == "derivation"))
+  (x: ... do something ...)
+  attrs
 ```
 
 # Type
 
-```haskell
+```
 mapAttrsRecursiveCond :: (AttrSet -> Bool) -> ([String] -> a -> b) -> AttrSet -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.mapattrsrecursivecond](/nix-doc-comments/reference/lib/lib-mapattrsrecursivecond)
+- [lib.mapAttrsRecursiveCond](/nix-doc-comments/reference/lib/lib-mapattrsrecursivecond)
 
 

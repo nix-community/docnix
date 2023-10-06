@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.getAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L340C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L340C5
 description: lib.attrsets.getAttrs
 sidebar:
 
@@ -19,13 +19,13 @@ getAttrs [ "a" "b" ] { a = 1; b = 2; c = 3; }
 
 # Type
 
-```haskell
+```
 getAttrs :: [String] -> AttrSet -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.getattrs](/nix-doc-comments/reference/lib/lib-getattrs)
+- [lib.getAttrs](/nix-doc-comments/reference/lib/lib-getattrs)
 
 

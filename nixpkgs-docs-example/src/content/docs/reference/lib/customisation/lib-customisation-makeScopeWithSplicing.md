@@ -1,6 +1,6 @@
 ---
 title: lib.customisation.makeScopeWithSplicing
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/customisation.nix#L296C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L296C5
 description: lib.customisation.makeScopeWithSplicing
 sidebar:
 
@@ -12,6 +12,6 @@ backward compatibility with old uncurried form; deprecated
 
 # Aliases
 
-- [lib.makescopewithsplicing](/nix-doc-comments/reference/lib/lib-makescopewithsplicing)
+- [lib.makeScopeWithSplicing](/nix-doc-comments/reference/lib/lib-makescopewithsplicing)
 
 

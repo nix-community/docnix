@@ -1,17 +1,17 @@
 ---
 title: lib.mapAttrsFlatten
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L192C21
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L192C21
 description: lib.mapAttrsFlatten
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L192C21">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L192C21">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.misc.mapattrsflatten](/nix-doc-comments/reference/lib/misc/lib-misc-mapattrsflatten)
+- [lib.misc.mapAttrsFlatten](/nix-doc-comments/reference/lib/misc/lib-misc-mapattrsflatten)
 
 

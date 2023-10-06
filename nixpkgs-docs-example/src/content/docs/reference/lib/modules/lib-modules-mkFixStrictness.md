@@ -1,6 +1,6 @@
 ---
 title: lib.modules.mkFixStrictness
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L19C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L19C5
 description: lib.modules.mkFixStrictness
 sidebar:
 
@@ -12,7 +12,7 @@ For when you need a function that does “nothing”.
 
 # Type
 
-```haskell
+```
 id :: a -> a
 ```
 
@@ -20,9 +20,9 @@ id :: a -> a
 # Aliases
 
 - [lib.id](/nix-doc-comments/reference/lib/lib-id)
-- [lib.mddoc](/nix-doc-comments/reference/lib/lib-mddoc)
-- [lib.mkfixstrictness](/nix-doc-comments/reference/lib/lib-mkfixstrictness)
-- [lib.options.mddoc](/nix-doc-comments/reference/lib/options/lib-options-mddoc)
+- [lib.mdDoc](/nix-doc-comments/reference/lib/lib-mddoc)
+- [lib.mkFixStrictness](/nix-doc-comments/reference/lib/lib-mkfixstrictness)
+- [lib.options.mdDoc](/nix-doc-comments/reference/lib/options/lib-options-mddoc)
 - [lib.trivial.id](/nix-doc-comments/reference/lib/trivial/lib-trivial-id)
 
 

@@ -1,6 +1,6 @@
 ---
 title: pkgs.hiPrio
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/meta.nix#L21C28
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L21C28
 description: pkgs.hiPrio
 sidebar:
 
@@ -19,10 +19,10 @@ addMetaAttrs {description = "Bla blah";} somePkg
 
 # Aliases
 
-- [lib.hiprio](/nix-doc-comments/reference/lib/lib-hiprio)
-- [lib.lowprio](/nix-doc-comments/reference/lib/lib-lowprio)
-- [lib.meta.hiprio](/nix-doc-comments/reference/lib/meta/lib-meta-hiprio)
-- [lib.meta.lowprio](/nix-doc-comments/reference/lib/meta/lib-meta-lowprio)
-- [pkgs.lowprio](/nix-doc-comments/reference/pkgs/pkgs-lowprio)
+- [lib.hiPrio](/nix-doc-comments/reference/lib/lib-hiprio)
+- [lib.lowPrio](/nix-doc-comments/reference/lib/lib-lowprio)
+- [lib.meta.hiPrio](/nix-doc-comments/reference/lib/meta/lib-meta-hiprio)
+- [lib.meta.lowPrio](/nix-doc-comments/reference/lib/meta/lib-meta-lowprio)
+- [pkgs.lowPrio](/nix-doc-comments/reference/pkgs/pkgs-lowprio)
 
 

@@ -1,17 +1,17 @@
 ---
 title: lib.overrideDerivation
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/customisation.nix#L40C24
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L40C24
 description: lib.overrideDerivation
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/customisation.nix#L40C24">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L40C24">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.customisation.overridederivation](/nix-doc-comments/reference/lib/customisation/lib-customisation-overridederivation)
+- [lib.customisation.overrideDerivation](/nix-doc-comments/reference/lib/customisation/lib-customisation-overridederivation)
 
 

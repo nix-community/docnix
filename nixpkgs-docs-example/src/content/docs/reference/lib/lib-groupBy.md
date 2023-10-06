@@ -31,7 +31,7 @@ evaluates to
 
 # Aliases
 
-- [builtins.groupby](/nix-doc-comments/reference/builtins/builtins-groupby)
-- [lib.lists.groupby](/nix-doc-comments/reference/lib/lists/lib-lists-groupby)
+- [builtins.groupBy](/nix-doc-comments/reference/builtins/builtins-groupby)
+- [lib.lists.groupBy](/nix-doc-comments/reference/lib/lists/lib-lists-groupby)
 
 

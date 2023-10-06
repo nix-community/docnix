@@ -1,6 +1,6 @@
 ---
 title: lib.strings.getVersion
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1025C16
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1025C16
 description: lib.strings.getVersion
 sidebar:
 
@@ -23,6 +23,6 @@ getVersion pkgs.youtube-dl
 
 # Aliases
 
-- [lib.getversion](/nix-doc-comments/reference/lib/lib-getversion)
+- [lib.getVersion](/nix-doc-comments/reference/lib/lib-getversion)
 
 

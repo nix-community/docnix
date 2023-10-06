@@ -1,6 +1,6 @@
 ---
 title: lib.lists.init
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L1025C10
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1025C10
 description: lib.lists.init
 sidebar:
 
@@ -20,7 +20,7 @@ init [ 1 2 3 ]
 
 # Type
 
-```haskell
+```
 init :: [a] -> [a]
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: pkgs.recurseIntoAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L1302C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1302C5
 description: pkgs.recurseIntoAttrs
 sidebar:
 
@@ -18,22 +18,22 @@ apply itself recursively for nested attribute sets.
 ```nix
 { pkgs ? import <nixpkgs> {} }:
 {
-myTools = pkgs.lib.recurseIntoAttrs {
-inherit (pkgs) hello figlet;
-};
+  myTools = pkgs.lib.recurseIntoAttrs {
+    inherit (pkgs) hello figlet;
+  };
 }
 ```
 
 # Type
 
-```haskell
+```
 recurseIntoAttrs :: AttrSet -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.attrsets.recurseintoattrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-recurseintoattrs)
-- [lib.recurseintoattrs](/nix-doc-comments/reference/lib/lib-recurseintoattrs)
+- [lib.attrsets.recurseIntoAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-recurseintoattrs)
+- [lib.recurseIntoAttrs](/nix-doc-comments/reference/lib/lib-recurseintoattrs)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.strings.enableFeature
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1144C19
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1144C19
 description: lib.strings.enableFeature
 sidebar:
 
@@ -22,6 +22,6 @@ enableFeature false "shared"
 
 # Aliases
 
-- [lib.enablefeature](/nix-doc-comments/reference/lib/lib-enablefeature)
+- [lib.enableFeature](/nix-doc-comments/reference/lib/lib-enablefeature)
 
 

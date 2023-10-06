@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.revisionWithDefault
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L295C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L295C5
 description: lib.trivial.revisionWithDefault
 sidebar:
 
@@ -12,7 +12,7 @@ returns the supplied default value otherwise.
 
 # Type
 
-```haskell
+```
 revisionWithDefault :: string -> string
 ```
 

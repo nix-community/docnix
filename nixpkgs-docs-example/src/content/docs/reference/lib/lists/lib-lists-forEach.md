@@ -1,6 +1,6 @@
 ---
 title: lib.lists.forEach
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L52C13
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L52C13
 description: lib.lists.forEach
 sidebar:
 
@@ -14,20 +14,20 @@ flipped.
 
 ```nix
 forEach [ 1 2 ] (x:
-toString x
+  toString x
 )
 => [ "1" "2" ]
 ```
 
 # Type
 
-```haskell
+```
 forEach :: [a] -> (a -> b) -> [b]
 ```
 
 
 # Aliases
 
-- [lib.foreach](/nix-doc-comments/reference/lib/lib-foreach)
+- [lib.forEach](/nix-doc-comments/reference/lib/lib-foreach)
 
 

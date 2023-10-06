@@ -1,6 +1,6 @@
 ---
 title: lib.filterAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L384C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L384C5
 description: lib.filterAttrs
 sidebar:
 
@@ -19,13 +19,13 @@ filterAttrs (n: v: n == "foo") { foo = 1; bar = 2; }
 
 # Type
 
-```haskell
+```
 filterAttrs :: (String -> Any -> Bool) -> AttrSet -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.attrsets.filterattrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-filterattrs)
+- [lib.attrsets.filterAttrs](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-filterattrs)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.mergeOptionDecls
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/modules.nix#L748C4
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L748C4
 description: lib.mergeOptionDecls
 sidebar:
 
@@ -22,6 +22,6 @@ correspond to the definition of 'loc' in 'opt.file'.
 
 # Aliases
 
-- [lib.modules.mergeoptiondecls](/nix-doc-comments/reference/lib/modules/lib-modules-mergeoptiondecls)
+- [lib.modules.mergeOptionDecls](/nix-doc-comments/reference/lib/modules/lib-modules-mergeoptiondecls)
 
 

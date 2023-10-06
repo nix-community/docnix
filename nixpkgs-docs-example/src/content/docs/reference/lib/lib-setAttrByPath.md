@@ -1,6 +1,6 @@
 ---
 title: lib.setAttrByPath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L100C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L100C5
 description: lib.setAttrByPath
 sidebar:
 
@@ -18,13 +18,13 @@ setAttrByPath ["a" "b"] 3
 
 # Type
 
-```haskell
+```
 setAttrByPath :: [String] -> Any -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.attrsets.setattrbypath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-setattrbypath)
+- [lib.attrsets.setAttrByPath](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-setattrbypath)
 
 

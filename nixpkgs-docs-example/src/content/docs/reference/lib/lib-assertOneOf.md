@@ -1,6 +1,6 @@
 ---
 title: lib.assertOneOf
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/asserts.nix#L56C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L56C5
 description: lib.assertOneOf
 sidebar:
 
@@ -23,13 +23,13 @@ stderr> ], but is: "libressl"
 
 # Type
 
-```haskell
+```
 assertOneOf :: String -> ComparableVal -> List ComparableVal -> Bool
 ```
 
 
 # Aliases
 
-- [lib.asserts.assertoneof](/nix-doc-comments/reference/lib/asserts/lib-asserts-assertoneof)
+- [lib.asserts.assertOneOf](/nix-doc-comments/reference/lib/asserts/lib-asserts-assertoneof)
 
 

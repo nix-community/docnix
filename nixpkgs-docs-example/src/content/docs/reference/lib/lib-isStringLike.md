@@ -1,6 +1,6 @@
 ---
 title: lib.isStringLike
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L1284C18
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1284C18
 description: lib.isStringLike
 sidebar:
 
@@ -16,6 +16,6 @@ string interpolations and in most functions that expect a string.
 
 # Aliases
 
-- [lib.strings.isstringlike](/nix-doc-comments/reference/lib/strings/lib-strings-isstringlike)
+- [lib.strings.isStringLike](/nix-doc-comments/reference/lib/strings/lib-strings-isstringlike)
 
 

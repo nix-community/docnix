@@ -1,17 +1,17 @@
 ---
 title: lib.lists.listDfs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L681C13
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L681C13
 description: lib.lists.listDfs
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L681C13">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L681C13">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.listdfs](/nix-doc-comments/reference/lib/lib-listdfs)
+- [lib.listDfs](/nix-doc-comments/reference/lib/lib-listdfs)
 
 

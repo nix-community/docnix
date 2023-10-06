@@ -1,6 +1,6 @@
 ---
 title: lib.strings.toShellVar
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/strings.nix#L679C16
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L679C16
 description: lib.strings.toShellVar
 sidebar:
 
@@ -21,20 +21,20 @@ assume a shell that understands Bash syntax (e.g. Bash or ZSH).
 
 ```nix
 ''
-${toShellVar "foo" "some string"}
-[[ "$foo" == "some string" ]]
+  ${toShellVar "foo" "some string"}
+  [[ "$foo" == "some string" ]]
 ''
 ```
 
 # Type
 
-```haskell
+```
 string -> (string | listOf string | attrsOf string) -> string
 ```
 
 
 # Aliases
 
-- [lib.toshellvar](/nix-doc-comments/reference/lib/lib-toshellvar)
+- [lib.toShellVar](/nix-doc-comments/reference/lib/lib-toshellvar)
 
 

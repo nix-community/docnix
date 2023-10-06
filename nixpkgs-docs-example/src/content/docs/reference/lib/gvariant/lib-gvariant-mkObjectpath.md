@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkObjectpath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/gvariant.nix#L289C18
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L289C18
 description: lib.gvariant.mkObjectpath
 sidebar:
 
@@ -11,7 +11,7 @@ Returns the GVariant object path from the given Nix string value.
 
 # Type
 
-```haskell
+```
 mkObjectpath :: String -> gvariant
 ```
 

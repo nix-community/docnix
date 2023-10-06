@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.optionalAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L854C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L854C5
 description: lib.attrsets.optionalAttrs
 sidebar:
 
@@ -21,13 +21,13 @@ optionalAttrs (false) { my = "set"; }
 
 # Type
 
-```haskell
+```
 optionalAttrs :: Bool -> AttrSet -> AttrSet
 ```
 
 
 # Aliases
 
-- [lib.optionalattrs](/nix-doc-comments/reference/lib/lib-optionalattrs)
+- [lib.optionalAttrs](/nix-doc-comments/reference/lib/lib-optionalattrs)
 
 

@@ -1,17 +1,17 @@
 ---
 title: lib.recursiveUpdateUntil
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L1021C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1021C5
 description: lib.recursiveUpdateUntil
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L1021C5">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1021C5">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.attrsets.recursiveupdateuntil](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-recursiveupdateuntil)
+- [lib.attrsets.recursiveUpdateUntil](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-recursiveupdateuntil)
 
 

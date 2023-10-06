@@ -1,6 +1,6 @@
 ---
 title: lib.composeExtensions
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/fixed-points.nix#L107C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L107C5
 description: lib.composeExtensions
 sidebar:
 
@@ -14,6 +14,6 @@ into one where changes made in the first are available in the
 
 # Aliases
 
-- [lib.fixedpoints.composeextensions](/nix-doc-comments/reference/lib/fixedpoints/lib-fixedpoints-composeextensions)
+- [lib.fixedPoints.composeExtensions](/nix-doc-comments/reference/lib/fixedpoints/lib-fixedpoints-composeextensions)
 
 

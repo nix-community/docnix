@@ -1,17 +1,17 @@
 ---
 title: lib.misc.uniqListExt
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L100C17
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L100C17
 description: lib.misc.uniqListExt
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L100C17">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L100C17">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.uniqlistext](/nix-doc-comments/reference/lib/lib-uniqlistext)
+- [lib.uniqListExt](/nix-doc-comments/reference/lib/lib-uniqlistext)
 
 

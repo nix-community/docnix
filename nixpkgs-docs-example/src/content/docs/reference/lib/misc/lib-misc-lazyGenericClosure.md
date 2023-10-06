@@ -1,17 +1,17 @@
 ---
 title: lib.misc.lazyGenericClosure
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L124C24
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L124C24
 description: lib.misc.lazyGenericClosure
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/lib/deprecated.nix#L124C24">Contribute Now!</a>
+<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L124C24">Contribute Now!</a>
 
 
 # Aliases
 
-- [lib.lazygenericclosure](/nix-doc-comments/reference/lib/lib-lazygenericclosure)
+- [lib.lazyGenericClosure](/nix-doc-comments/reference/lib/lib-lazygenericclosure)
 
 

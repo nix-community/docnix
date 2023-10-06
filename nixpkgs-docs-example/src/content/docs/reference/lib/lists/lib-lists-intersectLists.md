@@ -1,6 +1,6 @@
 ---
 title: lib.lists.intersectLists
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L1073C20
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1073C20
 description: lib.lists.intersectLists
 sidebar:
 
@@ -19,6 +19,6 @@ intersectLists [ 1 2 3 ] [ 6 3 2 ]
 
 # Aliases
 
-- [lib.intersectlists](/nix-doc-comments/reference/lib/lib-intersectlists)
+- [lib.intersectLists](/nix-doc-comments/reference/lib/lib-intersectlists)
 
 

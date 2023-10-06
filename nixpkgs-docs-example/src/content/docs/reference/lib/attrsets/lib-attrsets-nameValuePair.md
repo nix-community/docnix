@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.nameValuePair
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L603C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L603C5
 description: lib.attrsets.nameValuePair
 sidebar:
 
@@ -18,13 +18,13 @@ nameValuePair "some" 6
 
 # Type
 
-```haskell
+```
 nameValuePair :: String -> Any -> { name :: String; value :: Any; }
 ```
 
 
 # Aliases
 
-- [lib.namevaluepair](/nix-doc-comments/reference/lib/lib-namevaluepair)
+- [lib.nameValuePair](/nix-doc-comments/reference/lib/lib-namevaluepair)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.lists.take
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L842C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L842C5
 description: lib.lists.take
 sidebar:
 
@@ -20,7 +20,7 @@ take 2 [ ]
 
 # Type
 
-```haskell
+```
 take :: int -> [a] -> [a]
 ```
 

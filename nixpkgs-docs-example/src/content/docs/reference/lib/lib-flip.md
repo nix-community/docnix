@@ -1,6 +1,6 @@
 ---
 title: lib.flip
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L198C10
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L198C10
 description: lib.flip
 sidebar:
 
@@ -18,7 +18,7 @@ flip concat [1] [2]
 
 # Type
 
-```haskell
+```
 flip :: (a -> b -> c) -> (b -> a -> c)
 ```
 

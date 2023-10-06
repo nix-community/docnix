@@ -1,6 +1,6 @@
 ---
 title: lib.makeScope
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/customisation.nix#L279C15
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L279C15
 description: lib.makeScope
 sidebar:
 
@@ -20,6 +20,6 @@ which can form the parent scope for later package sets.
 
 # Aliases
 
-- [lib.customisation.makescope](/nix-doc-comments/reference/lib/customisation/lib-customisation-makescope)
+- [lib.customisation.makeScope](/nix-doc-comments/reference/lib/customisation/lib-customisation-makescope)
 
 

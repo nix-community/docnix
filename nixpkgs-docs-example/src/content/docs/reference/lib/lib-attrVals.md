@@ -1,6 +1,6 @@
 ---
 title: lib.attrVals
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/attrsets.nix#L296C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L296C5
 description: lib.attrVals
 sidebar:
 
@@ -18,13 +18,13 @@ attrVals ["a" "b" "c"] as
 
 # Type
 
-```haskell
+```
 attrVals :: [String] -> AttrSet -> [Any]
 ```
 
 
 # Aliases
 
-- [lib.attrsets.attrvals](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-attrvals)
+- [lib.attrsets.attrVals](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-attrvals)
 
 

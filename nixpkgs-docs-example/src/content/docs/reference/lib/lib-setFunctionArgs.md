@@ -1,6 +1,6 @@
 ---
 title: lib.setFunctionArgs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/trivial.nix#L576C21
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L576C21
 description: lib.setFunctionArgs
 sidebar:
 
@@ -20,6 +20,6 @@ like callPackage expect to be able to query expected arguments.
 
 # Aliases
 
-- [lib.trivial.setfunctionargs](/nix-doc-comments/reference/lib/trivial/lib-trivial-setfunctionargs)
+- [lib.trivial.setFunctionArgs](/nix-doc-comments/reference/lib/trivial/lib-trivial-setfunctionargs)
 
 

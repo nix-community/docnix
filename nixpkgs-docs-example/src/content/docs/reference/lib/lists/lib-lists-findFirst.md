@@ -1,6 +1,6 @@
 ---
 title: lib.lists.findFirst
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/lib/lists.nix#L346C5
+editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L346C5
 description: lib.lists.findFirst
 sidebar:
 
@@ -21,13 +21,13 @@ findFirst (x: x > 9) 7 [ 1 6 4 ]
 
 # Type
 
-```haskell
+```
 findFirst :: (a -> bool) -> a -> [a] -> a
 ```
 
 
 # Aliases
 
-- [lib.findfirst](/nix-doc-comments/reference/lib/lib-findfirst)
+- [lib.findFirst](/nix-doc-comments/reference/lib/lib-findfirst)
 
 
