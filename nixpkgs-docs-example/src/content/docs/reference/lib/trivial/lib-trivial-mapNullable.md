@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.mapNullable
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L214C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L214C5
 description: lib.trivial.mapNullable
 sidebar:
 

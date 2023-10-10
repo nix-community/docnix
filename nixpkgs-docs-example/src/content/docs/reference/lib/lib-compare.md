@@ -1,6 +1,6 @@
 ---
 title: lib.compare
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L367C13
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L367C13
 description: lib.compare
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.debug.traceIf
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L55C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/debug.nix#L55C5
 description: lib.debug.traceIf
 sidebar:
 

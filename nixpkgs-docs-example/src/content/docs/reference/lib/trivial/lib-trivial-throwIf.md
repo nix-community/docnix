@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.throwIf
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L532C13
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L532C13
 description: lib.trivial.throwIf
 sidebar:
 

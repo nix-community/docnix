@@ -1,6 +1,6 @@
 ---
 title: lib.misc.mergeAttrsByFuncDefaults
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L115C20
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L115C20
 description: lib.misc.mergeAttrsByFuncDefaults
 sidebar:
 

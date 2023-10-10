@@ -1,6 +1,6 @@
 ---
 title: lib.fixMergeModules
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1090C21
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L1090C21
 description: lib.fixMergeModules
 sidebar:
 

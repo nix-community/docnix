@@ -1,6 +1,6 @@
 ---
 title: lib.and
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L121C9
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L121C9
 description: lib.and
 sidebar:
 

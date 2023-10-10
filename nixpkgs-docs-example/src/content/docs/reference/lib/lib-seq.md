@@ -1,6 +1,6 @@
 ---
 title: lib.seq
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.seq
 sidebar:
 
@@ -17,6 +17,7 @@ computation is strict in the value of *e1*.
 
 # Aliases
 
+- [builtins.seq](/nix-doc-comments/reference/builtins/builtins-seq)
 - [builtins.seq](/nix-doc-comments/reference/builtins/builtins-seq)
 - [lib.trivial.seq](/nix-doc-comments/reference/lib/trivial/lib-trivial-seq)
 

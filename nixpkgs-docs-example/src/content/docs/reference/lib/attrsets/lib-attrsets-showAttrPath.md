@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.showAttrPath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1156C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L1156C5
 description: lib.attrsets.showAttrPath
 sidebar:
 

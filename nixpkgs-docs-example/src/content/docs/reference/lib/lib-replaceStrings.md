@@ -1,6 +1,6 @@
 ---
 title: lib.replaceStrings
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.replaceStrings
 sidebar:
 
@@ -27,6 +27,7 @@ evaluates to `"fabir"`.
 
 # Aliases
 
+- [builtins.replaceStrings](/nix-doc-comments/reference/builtins/builtins-replacestrings)
 - [builtins.replaceStrings](/nix-doc-comments/reference/builtins/builtins-replacestrings)
 - [lib.replaceChars](/nix-doc-comments/reference/lib/lib-replacechars)
 - [lib.strings.replaceChars](/nix-doc-comments/reference/lib/strings/lib-strings-replacechars)

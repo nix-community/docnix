@@ -1,13 +1,13 @@
 ---
 title: pkgs.makeInitrd
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L125C35
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/customisation.nix#L125C35
 description: pkgs.makeInitrd
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L125C35">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/customisation.nix#L125C35">Contribute Now!</a>
 
 
 # Aliases

@@ -1,6 +1,6 @@
 ---
 title: lib.meta.platformMatch
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L107C19
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L107C19
 description: lib.meta.platformMatch
 sidebar:
 

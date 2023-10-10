@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.warn
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L472C10
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L472C10
 description: lib.trivial.warn
 sidebar:
 

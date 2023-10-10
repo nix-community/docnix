@@ -1,6 +1,6 @@
 ---
 title: lib.removeSuffix
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L939C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L939C5
 description: lib.removeSuffix
 sidebar:
 

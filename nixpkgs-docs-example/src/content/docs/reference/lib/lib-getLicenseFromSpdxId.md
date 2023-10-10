@@ -1,13 +1,13 @@
 ---
 title: lib.getLicenseFromSpdxId
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L158C8
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L158C8
 description: lib.getLicenseFromSpdxId
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L158C8">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L158C8">Contribute Now!</a>
 
 
 # Aliases

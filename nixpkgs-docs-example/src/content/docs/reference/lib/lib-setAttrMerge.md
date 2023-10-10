@@ -1,13 +1,13 @@
 ---
 title: lib.setAttrMerge
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L202C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/deprecated.nix#L202C18
 description: lib.setAttrMerge
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L202C18">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/deprecated.nix#L202C18">Contribute Now!</a>
 
 
 # Aliases

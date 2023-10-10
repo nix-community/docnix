@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.getAttrFromPath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L133C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L133C5
 description: lib.attrsets.getAttrFromPath
 sidebar:
 

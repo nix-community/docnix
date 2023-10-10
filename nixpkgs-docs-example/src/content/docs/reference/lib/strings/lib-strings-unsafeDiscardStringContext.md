@@ -1,6 +1,6 @@
 ---
 title: lib.strings.unsafeDiscardStringContext
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.strings.unsafeDiscardStringContext
 sidebar:
 
@@ -11,7 +11,11 @@ sidebar:
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc">Contribute Now!</a>
+Contribute Now!
 
+
+# Aliases
+
+- [builtins.unsafeDiscardStringContext](/nix-doc-comments/reference/builtins/builtins-unsafediscardstringcontext)
 
 

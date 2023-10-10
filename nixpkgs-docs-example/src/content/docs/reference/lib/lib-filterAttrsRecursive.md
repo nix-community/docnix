@@ -1,6 +1,6 @@
 ---
 title: lib.filterAttrsRecursive
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L409C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L409C5
 description: lib.filterAttrsRecursive
 sidebar:
 

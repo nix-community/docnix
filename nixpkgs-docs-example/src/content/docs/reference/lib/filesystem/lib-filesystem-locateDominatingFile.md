@@ -1,6 +1,6 @@
 ---
 title: lib.filesystem.locateDominatingFile
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L145C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/filesystem.nix#L145C5
 description: lib.filesystem.locateDominatingFile
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.filesystem.pathType
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.filesystem.pathType
 sidebar:
 

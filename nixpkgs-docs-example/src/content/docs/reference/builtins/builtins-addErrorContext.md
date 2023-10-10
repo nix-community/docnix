@@ -1,6 +1,6 @@
 ---
 title: builtins.addErrorContext
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: builtins.addErrorContext
 sidebar:
 
@@ -11,7 +11,7 @@ sidebar:
     order: 0
 ---
 
-<a href="https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc">Contribute Now!</a>
+Contribute Now!
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.concatLists
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.concatLists
 sidebar:
 
@@ -16,6 +16,7 @@ Concatenate a list of lists into a single list.
 
 # Aliases
 
+- [builtins.concatLists](/nix-doc-comments/reference/builtins/builtins-concatlists)
 - [builtins.concatLists](/nix-doc-comments/reference/builtins/builtins-concatlists)
 - [lib.lists.concatLists](/nix-doc-comments/reference/lib/lists/lib-lists-concatlists)
 

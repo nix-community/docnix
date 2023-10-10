@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.zip
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.attrsets.zip
 sidebar:
 

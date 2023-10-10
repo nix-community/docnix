@@ -1,6 +1,6 @@
 ---
 title: lib.lists.elemAt
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.lists.elemAt
 sidebar:
 
@@ -17,6 +17,7 @@ from 0. A fatal error occurs if the index is out of bounds.
 
 # Aliases
 
+- [builtins.elemAt](/nix-doc-comments/reference/builtins/builtins-elemat)
 - [builtins.elemAt](/nix-doc-comments/reference/builtins/builtins-elemat)
 - [lib.elemAt](/nix-doc-comments/reference/lib/lib-elemat)
 - [lib.strings.elemAt](/nix-doc-comments/reference/lib/strings/lib-strings-elemat)

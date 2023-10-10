@@ -1,6 +1,6 @@
 ---
 title: lib.addErrorContext
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.addErrorContext
 sidebar:
 
@@ -11,7 +11,11 @@ sidebar:
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc">Contribute Now!</a>
+Contribute Now!
 
+
+# Aliases
+
+- [builtins.addErrorContext](/nix-doc-comments/reference/builtins/builtins-adderrorcontext)
 
 

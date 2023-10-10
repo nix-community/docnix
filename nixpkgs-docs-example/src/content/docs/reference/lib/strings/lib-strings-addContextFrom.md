@@ -1,6 +1,6 @@
 ---
 title: lib.strings.addContextFrom
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L857C20
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L857C20
 description: lib.strings.addContextFrom
 sidebar:
 

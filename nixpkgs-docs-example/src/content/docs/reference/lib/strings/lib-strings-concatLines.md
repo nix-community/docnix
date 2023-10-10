@@ -1,6 +1,6 @@
 ---
 title: lib.strings.concatLines
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L78C25
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L78C25
 description: lib.strings.concatLines
 sidebar:
 

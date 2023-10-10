@@ -1,6 +1,6 @@
 ---
 title: lib.any
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.any
 sidebar:
 
@@ -17,6 +17,7 @@ element of *list*, and `false` otherwise.
 
 # Aliases
 
+- [builtins.any](/nix-doc-comments/reference/builtins/builtins-any)
 - [builtins.any](/nix-doc-comments/reference/builtins/builtins-any)
 - [lib.lists.any](/nix-doc-comments/reference/lib/lists/lib-lists-any)
 

@@ -1,13 +1,13 @@
 ---
 title: lib.collect
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L544C3
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L544C3
 description: lib.collect
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L544C3">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L544C3">Contribute Now!</a>
 
 
 # Aliases

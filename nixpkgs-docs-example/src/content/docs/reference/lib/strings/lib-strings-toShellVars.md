@@ -1,6 +1,6 @@
 ---
 title: lib.strings.toShellVars
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L715C17
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L715C17
 description: lib.strings.toShellVars
 sidebar:
 

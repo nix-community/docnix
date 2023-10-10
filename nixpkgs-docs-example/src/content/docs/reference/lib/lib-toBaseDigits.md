@@ -1,6 +1,6 @@
 ---
 title: lib.toBaseDigits
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L659C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L659C18
 description: lib.toBaseDigits
 sidebar:
 

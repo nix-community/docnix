@@ -1,6 +1,6 @@
 ---
 title: lib.versions.majorMinor
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L67C16
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/versions.nix#L67C16
 description: lib.versions.majorMinor
 sidebar:
 

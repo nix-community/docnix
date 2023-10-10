@@ -1,13 +1,13 @@
 ---
 title: lib.pathIsRegularFile
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L102C23
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/filesystem.nix#L102C23
 description: lib.pathIsRegularFile
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L102C23">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/filesystem.nix#L102C23">Contribute Now!</a>
 
 
 # Aliases

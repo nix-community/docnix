@@ -1,6 +1,6 @@
 ---
 title: lib.meta.appendToName
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L54C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L54C18
 description: lib.meta.appendToName
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.deepSeq
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.deepSeq
 sidebar:
 
@@ -18,6 +18,7 @@ evaluated recursively.
 
 # Aliases
 
+- [builtins.deepSeq](/nix-doc-comments/reference/builtins/builtins-deepseq)
 - [builtins.deepSeq](/nix-doc-comments/reference/builtins/builtins-deepseq)
 - [lib.trivial.deepSeq](/nix-doc-comments/reference/lib/trivial/lib-trivial-deepseq)
 

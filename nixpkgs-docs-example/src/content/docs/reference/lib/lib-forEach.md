@@ -1,6 +1,6 @@
 ---
 title: lib.forEach
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L52C13
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L52C13
 description: lib.forEach
 sidebar:
 

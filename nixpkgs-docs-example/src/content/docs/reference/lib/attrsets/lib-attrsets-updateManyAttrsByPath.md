@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.updateManyAttrsByPath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L276C6
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L276C6
 description: lib.attrsets.updateManyAttrsByPath
 sidebar:
 

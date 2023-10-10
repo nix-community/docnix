@@ -1,6 +1,6 @@
 ---
 title: lib.mergeModules
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L543C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L543C18
 description: lib.mergeModules
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.versions.minor
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L42C11
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/versions.nix#L42C11
 description: lib.versions.minor
 sidebar:
 

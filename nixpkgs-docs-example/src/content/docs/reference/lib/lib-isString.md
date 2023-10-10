@@ -1,6 +1,6 @@
 ---
 title: lib.isString
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.isString
 sidebar:
 
@@ -16,6 +16,7 @@ Return `true` if *e* evaluates to a string, and `false` otherwise.
 
 # Aliases
 
+- [builtins.isString](/nix-doc-comments/reference/builtins/builtins-isstring)
 - [builtins.isString](/nix-doc-comments/reference/builtins/builtins-isstring)
 - [lib.strings.isString](/nix-doc-comments/reference/lib/strings/lib-strings-isstring)
 

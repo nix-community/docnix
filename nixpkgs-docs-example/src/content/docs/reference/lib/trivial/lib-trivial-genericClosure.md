@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.genericClosure
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.trivial.genericClosure
 sidebar:
 
@@ -39,6 +39,7 @@ evaluates to
 
 # Aliases
 
+- [builtins.genericClosure](/nix-doc-comments/reference/builtins/builtins-genericclosure)
 - [builtins.genericClosure](/nix-doc-comments/reference/builtins/builtins-genericclosure)
 - [lib.genericClosure](/nix-doc-comments/reference/lib/lib-genericclosure)
 

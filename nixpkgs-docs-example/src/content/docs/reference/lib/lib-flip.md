@@ -1,6 +1,6 @@
 ---
 title: lib.flip
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L198C10
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L198C10
 description: lib.flip
 sidebar:
 

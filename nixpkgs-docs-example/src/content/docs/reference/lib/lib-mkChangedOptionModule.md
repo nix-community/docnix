@@ -1,6 +1,6 @@
 ---
 title: lib.mkChangedOptionModule
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1244C27
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L1244C27
 description: lib.mkChangedOptionModule
 sidebar:
 

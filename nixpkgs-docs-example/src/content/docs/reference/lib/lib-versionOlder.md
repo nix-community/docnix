@@ -1,6 +1,6 @@
 ---
 title: lib.versionOlder
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L972C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L972C18
 description: lib.versionOlder
 sidebar:
 

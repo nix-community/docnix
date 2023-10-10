@@ -1,6 +1,6 @@
 ---
 title: lib.strings.toJSON
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.strings.toJSON
 sidebar:
 
@@ -21,6 +21,7 @@ represented as a JSON string of the resulting store path.
 
 # Aliases
 
+- [builtins.toJSON](/nix-doc-comments/reference/builtins/builtins-tojson)
 - [builtins.toJSON](/nix-doc-comments/reference/builtins/builtins-tojson)
 
 

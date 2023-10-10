@@ -1,6 +1,6 @@
 ---
 title: lib.literalExpression
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L387C23
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/options.nix#L387C23
 description: lib.literalExpression
 sidebar:
 

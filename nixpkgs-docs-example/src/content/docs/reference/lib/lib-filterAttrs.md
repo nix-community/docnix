@@ -1,6 +1,6 @@
 ---
 title: lib.filterAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L384C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L384C5
 description: lib.filterAttrs
 sidebar:
 

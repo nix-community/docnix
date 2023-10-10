@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.mapAttrs
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.attrsets.mapAttrs
 sidebar:
 
@@ -22,6 +22,7 @@ evaluates to `{ a = 10; b = 20; }`.
 
 # Aliases
 
+- [builtins.mapAttrs](/nix-doc-comments/reference/builtins/builtins-mapattrs)
 - [builtins.mapAttrs](/nix-doc-comments/reference/builtins/builtins-mapattrs)
 - [lib.mapAttrs](/nix-doc-comments/reference/lib/lib-mapattrs)
 

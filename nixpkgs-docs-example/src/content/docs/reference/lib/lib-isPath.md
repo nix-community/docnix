@@ -1,6 +1,6 @@
 ---
 title: lib.isPath
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.isPath
 sidebar:
 
@@ -16,6 +16,7 @@ Return `true` if *e* evaluates to a path, and `false` otherwise.
 
 # Aliases
 
+- [builtins.isPath](/nix-doc-comments/reference/builtins/builtins-ispath)
 - [builtins.isPath](/nix-doc-comments/reference/builtins/builtins-ispath)
 - [lib.strings.isPath](/nix-doc-comments/reference/lib/strings/lib-strings-ispath)
 

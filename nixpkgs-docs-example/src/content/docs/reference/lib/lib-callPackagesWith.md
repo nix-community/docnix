@@ -1,6 +1,6 @@
 ---
 title: lib.callPackagesWith
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L184C22
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/customisation.nix#L184C22
 description: lib.callPackagesWith
 sidebar:
 

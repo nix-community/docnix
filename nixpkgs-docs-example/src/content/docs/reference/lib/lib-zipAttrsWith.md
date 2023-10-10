@@ -1,6 +1,6 @@
 ---
 title: lib.zipAttrsWith
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.zipAttrsWith
 sidebar:
 
@@ -39,6 +39,7 @@ evaluates to
 
 # Aliases
 
+- [builtins.zipAttrsWith](/nix-doc-comments/reference/builtins/builtins-zipattrswith)
 - [builtins.zipAttrsWith](/nix-doc-comments/reference/builtins/builtins-zipattrswith)
 - [lib.attrsets.zip](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zip)
 - [lib.attrsets.zipAttrsWith](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-zipattrswith)

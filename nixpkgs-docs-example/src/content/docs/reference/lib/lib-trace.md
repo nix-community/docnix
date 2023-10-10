@@ -1,6 +1,6 @@
 ---
 title: lib.trace
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.trace
 sidebar:
 
@@ -18,6 +18,7 @@ debugging.
 
 # Aliases
 
+- [builtins.trace](/nix-doc-comments/reference/builtins/builtins-trace)
 - [builtins.trace](/nix-doc-comments/reference/builtins/builtins-trace)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.modules.mergeAttrDefinitionsWithPrio
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L982C34
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L982C34
 description: lib.modules.mergeAttrDefinitionsWithPrio
 sidebar:
 

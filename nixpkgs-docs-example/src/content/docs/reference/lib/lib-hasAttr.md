@@ -1,6 +1,6 @@
 ---
 title: lib.hasAttr
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.hasAttr
 sidebar:
 
@@ -18,6 +18,7 @@ since *s* is an expression rather than an identifier.
 
 # Aliases
 
+- [builtins.hasAttr](/nix-doc-comments/reference/builtins/builtins-hasattr)
 - [builtins.hasAttr](/nix-doc-comments/reference/builtins/builtins-hasattr)
 - [lib.attrsets.hasAttr](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-hasattr)
 

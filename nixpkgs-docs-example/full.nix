@@ -95,12 +95,12 @@
             list
           else if item.docs.lambdaDocs.isPrimop
           # {path = ["builtins" (lib.last item.path)];}
-          then builtins.filter (
-              other: other.docs.lambdaDocs.content == item.docs.lambdaDocs.content && other.docs.lambdaDocs.countApplied == item.docs.lambdaDocs.countApplied && item.docs.lambdaDocs.content != ""
+          then (builtins.filter (
+              other: other.docs.lambdaDocs.content == item.docs.lambdaDocs.content && other.docs.lambdaDocs.countApplied == item.docs.lambdaDocs.countApplied && item.docs.lambdaDocs.content != "" 
             )
-            list
+            list)
           else [];
-        aliases = builtins.map (alias: alias.path) others;
+        aliases = (builtins.map (alias: alias.path) others);
       in
         res
         ++ [

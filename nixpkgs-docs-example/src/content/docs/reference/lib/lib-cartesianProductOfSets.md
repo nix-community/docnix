@@ -1,6 +1,6 @@
 ---
 title: lib.cartesianProductOfSets
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L577C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L577C5
 description: lib.cartesianProductOfSets
 sidebar:
 

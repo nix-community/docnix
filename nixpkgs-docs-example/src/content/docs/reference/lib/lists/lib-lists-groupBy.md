@@ -1,6 +1,6 @@
 ---
 title: lib.lists.groupBy
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.lists.groupBy
 sidebar:
 
@@ -31,6 +31,7 @@ evaluates to
 
 # Aliases
 
+- [builtins.groupBy](/nix-doc-comments/reference/builtins/builtins-groupby)
 - [builtins.groupBy](/nix-doc-comments/reference/builtins/builtins-groupby)
 - [lib.groupBy](/nix-doc-comments/reference/lib/lib-groupby)
 

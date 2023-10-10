@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.isGVariant
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L53C16
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/gvariant.nix#L53C16
 description: lib.gvariant.isGVariant
 sidebar:
 

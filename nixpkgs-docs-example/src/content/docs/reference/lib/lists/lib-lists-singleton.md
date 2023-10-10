@@ -1,6 +1,6 @@
 ---
 title: lib.lists.singleton
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L31C15
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L31C15
 description: lib.lists.singleton
 sidebar:
 

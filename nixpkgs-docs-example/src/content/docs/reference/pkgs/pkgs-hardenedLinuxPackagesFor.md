@@ -1,13 +1,13 @@
 ---
 title: pkgs.hardenedLinuxPackagesFor
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L578C25
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/pkgs/top-level/linux-kernels.nix#L578C25
 description: pkgs.hardenedLinuxPackagesFor
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L578C25">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/pkgs/top-level/linux-kernels.nix#L578C25">Contribute Now!</a>
 
 
 

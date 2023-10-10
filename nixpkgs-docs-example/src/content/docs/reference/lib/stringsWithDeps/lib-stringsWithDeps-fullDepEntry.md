@@ -1,13 +1,13 @@
 ---
 title: lib.stringsWithDeps.fullDepEntry
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L81C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings-with-deps.nix#L81C18
 description: lib.stringsWithDeps.fullDepEntry
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L81C18">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings-with-deps.nix#L81C18">Contribute Now!</a>
 
 
 # Aliases

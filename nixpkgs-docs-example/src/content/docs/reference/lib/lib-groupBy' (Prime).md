@@ -1,6 +1,6 @@
 ---
 title: lib.groupBy' (Prime)
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L583C14
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L583C14
 description: lib.groupBy'
 sidebar:
 

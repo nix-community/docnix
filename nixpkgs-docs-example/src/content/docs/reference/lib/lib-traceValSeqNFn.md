@@ -1,6 +1,6 @@
 ---
 title: lib.traceValSeqNFn
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L184C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/debug.nix#L184C5
 description: lib.traceValSeqNFn
 sidebar:
 

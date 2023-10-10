@@ -1,13 +1,13 @@
 ---
 title: lib.isType
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L70C12
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/types.nix#L70C12
 description: lib.isType
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L70C12">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/types.nix#L70C12">Contribute Now!</a>
 
 
 # Aliases

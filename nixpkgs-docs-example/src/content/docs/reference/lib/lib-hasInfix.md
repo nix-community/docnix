@@ -1,6 +1,6 @@
 ---
 title: lib.hasInfix
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L449C14
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L449C14
 description: lib.hasInfix
 sidebar:
 

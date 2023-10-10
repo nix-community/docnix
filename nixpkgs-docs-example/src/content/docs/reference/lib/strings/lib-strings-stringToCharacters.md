@@ -1,6 +1,6 @@
 ---
 title: lib.strings.stringToCharacters
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L487C24
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L487C24
 description: lib.strings.stringToCharacters
 sidebar:
 

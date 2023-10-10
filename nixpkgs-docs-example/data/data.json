@@ -117,6 +117,7 @@
       ["lib", "zip"],
       ["lib", "attrsets", "zipAttrsWith"],
       ["lib", "attrsets", "zip"],
+      ["builtins", "zipAttrsWith"],
       ["builtins", "zipAttrsWith"]
     ],
     "docs": {
@@ -329,6 +330,7 @@
     "aliases": [
       ["lib", "versions", "splitVersion"],
       ["lib", "splitVersion"],
+      ["builtins", "splitVersion"],
       ["builtins", "splitVersion"]
     ],
     "docs": {
@@ -1569,6 +1571,7 @@
     "aliases": [
       ["lib", "trivial", "sub"],
       ["lib", "sub"],
+      ["builtins", "sub"],
       ["builtins", "sub"]
     ],
     "docs": {
@@ -1674,6 +1677,7 @@
     "aliases": [
       ["lib", "trivial", "seq"],
       ["lib", "seq"],
+      ["builtins", "seq"],
       ["builtins", "seq"]
     ],
     "docs": {
@@ -1723,6 +1727,7 @@
       ["lib", "trivial", "readFile"],
       ["lib", "strings", "readFile"],
       ["lib", "readFile"],
+      ["builtins", "readFile"],
       ["builtins", "readFile"]
     ],
     "docs": {
@@ -1774,6 +1779,7 @@
     "aliases": [
       ["lib", "trivial", "pathExists"],
       ["lib", "pathExists"],
+      ["builtins", "pathExists"],
       ["builtins", "pathExists"]
     ],
     "docs": {
@@ -1963,6 +1969,7 @@
     "aliases": [
       ["lib", "trivial", "lessThan"],
       ["lib", "lessThan"],
+      ["builtins", "lessThan"],
       ["builtins", "lessThan"]
     ],
     "docs": {
@@ -1988,6 +1995,7 @@
       ["lib", "trivial", "isInt"],
       ["lib", "strings", "isInt"],
       ["lib", "isInt"],
+      ["builtins", "isInt"],
       ["builtins", "isInt"]
     ],
     "docs": {
@@ -2038,7 +2046,8 @@
   {
     "aliases": [
       ["lib", "trivial", "isFunction"],
-      ["lib", "isFunction"]
+      ["lib", "isFunction"],
+      ["builtins", "isFunction"]
     ],
     "docs": {
       "attrDocs": {
@@ -2066,6 +2075,7 @@
     "aliases": [
       ["lib", "trivial", "isFloat"],
       ["lib", "isFloat"],
+      ["builtins", "isFloat"],
       ["builtins", "isFloat"]
     ],
     "docs": {
@@ -2090,6 +2100,7 @@
     "aliases": [
       ["lib", "trivial", "isBool"],
       ["lib", "isBool"],
+      ["builtins", "isBool"],
       ["builtins", "isBool"]
     ],
     "docs": {
@@ -2226,6 +2237,7 @@
     "aliases": [
       ["lib", "trivial", "genericClosure"],
       ["lib", "genericClosure"],
+      ["builtins", "genericClosure"],
       ["builtins", "genericClosure"]
     ],
     "docs": {
@@ -2249,7 +2261,8 @@
   {
     "aliases": [
       ["lib", "trivial", "functionArgs"],
-      ["lib", "functionArgs"]
+      ["lib", "functionArgs"],
+      ["builtins", "functionArgs"]
     ],
     "docs": {
       "attrDocs": {
@@ -2304,6 +2317,7 @@
     "aliases": [
       ["lib", "trivial", "deepSeq"],
       ["lib", "deepSeq"],
+      ["builtins", "deepSeq"],
       ["builtins", "deepSeq"]
     ],
     "docs": {
@@ -2470,6 +2484,7 @@
     "aliases": [
       ["lib", "trivial", "bitXor"],
       ["lib", "bitXor"],
+      ["builtins", "bitXor"],
       ["builtins", "bitXor"]
     ],
     "docs": {
@@ -2494,6 +2509,7 @@
     "aliases": [
       ["lib", "trivial", "bitOr"],
       ["lib", "bitOr"],
+      ["builtins", "bitOr"],
       ["builtins", "bitOr"]
     ],
     "docs": {
@@ -2541,6 +2557,7 @@
     "aliases": [
       ["lib", "trivial", "bitAnd"],
       ["lib", "bitAnd"],
+      ["builtins", "bitAnd"],
       ["builtins", "bitAnd"]
     ],
     "docs": {
@@ -2592,6 +2609,7 @@
     "aliases": [
       ["lib", "trivial", "add"],
       ["lib", "add"],
+      ["builtins", "add"],
       ["builtins", "add"]
     ],
     "docs": {
@@ -2885,6 +2903,7 @@
   {
     "aliases": [
       ["lib", "trace"],
+      ["builtins", "trace"],
       ["builtins", "trace"]
     ],
     "docs": {
@@ -3404,6 +3423,7 @@
       ["lib", "tail"],
       ["lib", "strings", "tail"],
       ["lib", "lists", "tail"],
+      ["builtins", "tail"],
       ["builtins", "tail"]
     ],
     "docs": {
@@ -3503,6 +3523,7 @@
     "aliases": [
       ["lib", "substring"],
       ["lib", "strings", "substring"],
+      ["builtins", "substring"],
       ["builtins", "substring"]
     ],
     "docs": {
@@ -3554,6 +3575,7 @@
     "aliases": [
       ["lib", "trivial", "sub"],
       ["lib", "sub"],
+      ["builtins", "sub"],
       ["builtins", "sub"]
     ],
     "docs": {
@@ -3845,7 +3867,7 @@
     "path": ["lib", "strings", "versionAtLeast"]
   },
   {
-    "aliases": [],
+    "aliases": [["builtins", "unsafeDiscardStringContext"]],
     "docs": {
       "attrDocs": {
         "content": "",
@@ -3867,6 +3889,7 @@
   {
     "aliases": [
       ["lib", "strings", "typeOf"],
+      ["builtins", "typeOf"],
       ["builtins", "typeOf"]
     ],
     "docs": {
@@ -4006,6 +4029,7 @@
   {
     "aliases": [
       ["lib", "strings", "toJSON"],
+      ["builtins", "toJSON"],
       ["builtins", "toJSON"]
     ],
     "docs": {
@@ -4085,6 +4109,7 @@
       ["lib", "tail"],
       ["lib", "strings", "tail"],
       ["lib", "lists", "tail"],
+      ["builtins", "tail"],
       ["builtins", "tail"]
     ],
     "docs": {
@@ -4109,6 +4134,7 @@
     "aliases": [
       ["lib", "substring"],
       ["lib", "strings", "substring"],
+      ["builtins", "substring"],
       ["builtins", "substring"]
     ],
     "docs": {
@@ -4160,6 +4186,7 @@
     "aliases": [
       ["lib", "strings", "stringLength"],
       ["lib", "stringLength"],
+      ["builtins", "stringLength"],
       ["builtins", "stringLength"]
     ],
     "docs": {
@@ -4237,6 +4264,7 @@
   {
     "aliases": [
       ["lib", "strings", "split"],
+      ["builtins", "split"],
       ["builtins", "split"]
     ],
     "docs": {
@@ -4287,6 +4315,7 @@
       ["lib", "strings", "replaceChars"],
       ["lib", "replaceStrings"],
       ["lib", "replaceChars"],
+      ["builtins", "replaceStrings"],
       ["builtins", "replaceStrings"]
     ],
     "docs": {
@@ -4419,6 +4448,7 @@
       ["lib", "trivial", "readFile"],
       ["lib", "strings", "readFile"],
       ["lib", "readFile"],
+      ["builtins", "readFile"],
       ["builtins", "readFile"]
     ],
     "docs": {
@@ -4442,6 +4472,7 @@
   {
     "aliases": [
       ["lib", "strings", "parseDrvName"],
+      ["builtins", "parseDrvName"],
       ["builtins", "parseDrvName"]
     ],
     "docs": {
@@ -4624,6 +4655,7 @@
   {
     "aliases": [
       ["lib", "strings", "match"],
+      ["builtins", "match"],
       ["builtins", "match"]
     ],
     "docs": {
@@ -4862,6 +4894,7 @@
     "aliases": [
       ["lib", "strings", "isString"],
       ["lib", "isString"],
+      ["builtins", "isString"],
       ["builtins", "isString"]
     ],
     "docs": {
@@ -4913,6 +4946,7 @@
     "aliases": [
       ["lib", "strings", "isPath"],
       ["lib", "isPath"],
+      ["builtins", "isPath"],
       ["builtins", "isPath"]
     ],
     "docs": {
@@ -4938,6 +4972,7 @@
       ["lib", "strings", "isList"],
       ["lib", "lists", "isList"],
       ["lib", "isList"],
+      ["builtins", "isList"],
       ["builtins", "isList"]
     ],
     "docs": {
@@ -4963,6 +4998,7 @@
       ["lib", "trivial", "isInt"],
       ["lib", "strings", "isInt"],
       ["lib", "isInt"],
+      ["builtins", "isInt"],
       ["builtins", "isInt"]
     ],
     "docs": {
@@ -5042,6 +5078,7 @@
       ["lib", "strings", "isAttrs"],
       ["lib", "isAttrs"],
       ["lib", "attrsets", "isAttrs"],
+      ["builtins", "isAttrs"],
       ["builtins", "isAttrs"]
     ],
     "docs": {
@@ -5094,6 +5131,7 @@
       ["lib", "strings", "head"],
       ["lib", "lists", "head"],
       ["lib", "head"],
+      ["builtins", "head"],
       ["builtins", "head"]
     ],
     "docs": {
@@ -5254,6 +5292,7 @@
       ["lib", "strings", "genList"],
       ["lib", "lists", "genList"],
       ["lib", "genList"],
+      ["builtins", "genList"],
       ["builtins", "genList"]
     ],
     "docs": {
@@ -5277,6 +5316,7 @@
   {
     "aliases": [
       ["lib", "strings", "fromJSON"],
+      ["builtins", "fromJSON"],
       ["builtins", "fromJSON"]
     ],
     "docs": {
@@ -5380,6 +5420,7 @@
       ["lib", "strings", "filter"],
       ["lib", "lists", "filter"],
       ["lib", "filter"],
+      ["builtins", "filter"],
       ["builtins", "filter"]
     ],
     "docs": {
@@ -5732,6 +5773,7 @@
       ["lib", "strings", "elemAt"],
       ["lib", "lists", "elemAt"],
       ["lib", "elemAt"],
+      ["builtins", "elemAt"],
       ["builtins", "elemAt"]
     ],
     "docs": {
@@ -5757,6 +5799,7 @@
       ["lib", "strings", "elem"],
       ["lib", "lists", "elem"],
       ["lib", "elem"],
+      ["builtins", "elem"],
       ["builtins", "elem"]
     ],
     "docs": {
@@ -5781,6 +5824,7 @@
     "aliases": [
       ["lib", "strings", "concatStringsSep"],
       ["lib", "concatStringsSep"],
+      ["builtins", "concatStringsSep"],
       ["builtins", "concatStringsSep"]
     ],
     "docs": {
@@ -5962,6 +6006,7 @@
   {
     "aliases": [
       ["lib", "strings", "compareVersions"],
+      ["builtins", "compareVersions"],
       ["builtins", "compareVersions"]
     ],
     "docs": {
@@ -6112,6 +6157,7 @@
     "aliases": [
       ["lib", "strings", "stringLength"],
       ["lib", "stringLength"],
+      ["builtins", "stringLength"],
       ["builtins", "stringLength"]
     ],
     "docs": {
@@ -6190,6 +6236,7 @@
     "aliases": [
       ["lib", "versions", "splitVersion"],
       ["lib", "splitVersion"],
+      ["builtins", "splitVersion"],
       ["builtins", "splitVersion"]
     ],
     "docs": {
@@ -6265,7 +6312,10 @@
     "path": ["lib", "splitByAndCompare"]
   },
   {
-    "aliases": [["lib", "sources", "trace"]],
+    "aliases": [
+      ["lib", "sources", "trace"],
+      ["builtins", "trace"]
+    ],
     "docs": {
       "attrDocs": {
         "content": "",
@@ -6694,6 +6744,7 @@
     "aliases": [
       ["lib", "sort"],
       ["lib", "lists", "sort"],
+      ["builtins", "sort"],
       ["builtins", "sort"]
     ],
     "docs": {
@@ -7096,6 +7147,7 @@
     "aliases": [
       ["lib", "trivial", "seq"],
       ["lib", "seq"],
+      ["builtins", "seq"],
       ["builtins", "seq"]
     ],
     "docs": {
@@ -7230,6 +7282,7 @@
       ["lib", "strings", "replaceChars"],
       ["lib", "replaceStrings"],
       ["lib", "replaceChars"],
+      ["builtins", "replaceStrings"],
       ["builtins", "replaceStrings"]
     ],
     "docs": {
@@ -7471,6 +7524,7 @@
       ["lib", "trivial", "readFile"],
       ["lib", "strings", "readFile"],
       ["lib", "readFile"],
+      ["builtins", "readFile"],
       ["builtins", "readFile"]
     ],
     "docs": {
@@ -7708,6 +7762,7 @@
     "aliases": [
       ["lib", "trivial", "pathExists"],
       ["lib", "pathExists"],
+      ["builtins", "pathExists"],
       ["builtins", "pathExists"]
     ],
     "docs": {
@@ -7828,6 +7883,7 @@
     "aliases": [
       ["lib", "partition"],
       ["lib", "lists", "partition"],
+      ["builtins", "partition"],
       ["builtins", "partition"]
     ],
     "docs": {
@@ -13635,6 +13691,7 @@
     "aliases": [
       ["lib", "mapAttrs"],
       ["lib", "attrsets", "mapAttrs"],
+      ["builtins", "mapAttrs"],
       ["builtins", "mapAttrs"]
     ],
     "docs": {
@@ -14236,6 +14293,7 @@
       ["lib", "tail"],
       ["lib", "strings", "tail"],
       ["lib", "lists", "tail"],
+      ["builtins", "tail"],
       ["builtins", "tail"]
     ],
     "docs": {
@@ -14314,6 +14372,7 @@
     "aliases": [
       ["lib", "sort"],
       ["lib", "lists", "sort"],
+      ["builtins", "sort"],
       ["builtins", "sort"]
     ],
     "docs": {
@@ -14497,6 +14556,7 @@
     "aliases": [
       ["lib", "partition"],
       ["lib", "lists", "partition"],
+      ["builtins", "partition"],
       ["builtins", "partition"]
     ],
     "docs": {
@@ -14628,6 +14688,7 @@
   {
     "aliases": [
       ["lib", "lists", "map"],
+      ["builtins", "map"],
       ["builtins", "map"]
     ],
     "docs": {
@@ -14679,6 +14740,7 @@
     "aliases": [
       ["lib", "lists", "length"],
       ["lib", "length"],
+      ["builtins", "length"],
       ["builtins", "length"]
     ],
     "docs": {
@@ -14731,6 +14793,7 @@
       ["lib", "strings", "isList"],
       ["lib", "lists", "isList"],
       ["lib", "isList"],
+      ["builtins", "isList"],
       ["builtins", "isList"]
     ],
     "docs": {
@@ -14866,6 +14929,7 @@
       ["lib", "strings", "head"],
       ["lib", "lists", "head"],
       ["lib", "head"],
+      ["builtins", "head"],
       ["builtins", "head"]
     ],
     "docs": {
@@ -14941,6 +15005,7 @@
     "aliases": [
       ["lib", "lists", "groupBy"],
       ["lib", "groupBy"],
+      ["builtins", "groupBy"],
       ["builtins", "groupBy"]
     ],
     "docs": {
@@ -14966,6 +15031,7 @@
       ["lib", "strings", "genList"],
       ["lib", "lists", "genList"],
       ["lib", "genList"],
+      ["builtins", "genList"],
       ["builtins", "genList"]
     ],
     "docs": {
@@ -15046,6 +15112,7 @@
     "aliases": [
       ["lib", "lists", "foldl'"],
       ["lib", "foldl'"],
+      ["builtins", "foldl'"],
       ["builtins", "foldl'"]
     ],
     "docs": {
@@ -15232,6 +15299,7 @@
       ["lib", "strings", "filter"],
       ["lib", "lists", "filter"],
       ["lib", "filter"],
+      ["builtins", "filter"],
       ["builtins", "filter"]
     ],
     "docs": {
@@ -15257,6 +15325,7 @@
       ["lib", "strings", "elemAt"],
       ["lib", "lists", "elemAt"],
       ["lib", "elemAt"],
+      ["builtins", "elemAt"],
       ["builtins", "elemAt"]
     ],
     "docs": {
@@ -15282,6 +15351,7 @@
       ["lib", "strings", "elem"],
       ["lib", "lists", "elem"],
       ["lib", "elem"],
+      ["builtins", "elem"],
       ["builtins", "elem"]
     ],
     "docs": {
@@ -15387,6 +15457,7 @@
     "aliases": [
       ["lib", "lists", "concatMap"],
       ["lib", "concatMap"],
+      ["builtins", "concatMap"],
       ["builtins", "concatMap"]
     ],
     "docs": {
@@ -15411,6 +15482,7 @@
     "aliases": [
       ["lib", "lists", "concatLists"],
       ["lib", "concatLists"],
+      ["builtins", "concatLists"],
       ["builtins", "concatLists"]
     ],
     "docs": {
@@ -15486,6 +15558,7 @@
     "aliases": [
       ["lib", "lists", "any"],
       ["lib", "any"],
+      ["builtins", "any"],
       ["builtins", "any"]
     ],
     "docs": {
@@ -15510,6 +15583,7 @@
     "aliases": [
       ["lib", "lists", "all"],
       ["lib", "all"],
+      ["builtins", "all"],
       ["builtins", "all"]
     ],
     "docs": {
@@ -15534,6 +15608,7 @@
     "aliases": [
       ["lib", "listToAttrs"],
       ["lib", "attrsets", "listToAttrs"],
+      ["builtins", "listToAttrs"],
       ["builtins", "listToAttrs"]
     ],
     "docs": {
@@ -15585,6 +15660,7 @@
     "aliases": [
       ["lib", "trivial", "lessThan"],
       ["lib", "lessThan"],
+      ["builtins", "lessThan"],
       ["builtins", "lessThan"]
     ],
     "docs": {
@@ -15609,6 +15685,7 @@
     "aliases": [
       ["lib", "lists", "length"],
       ["lib", "length"],
+      ["builtins", "length"],
       ["builtins", "length"]
     ],
     "docs": {
@@ -15867,6 +15944,7 @@
     "aliases": [
       ["lib", "strings", "isString"],
       ["lib", "isString"],
+      ["builtins", "isString"],
       ["builtins", "isString"]
     ],
     "docs": {
@@ -15918,6 +15996,7 @@
     "aliases": [
       ["lib", "strings", "isPath"],
       ["lib", "isPath"],
+      ["builtins", "isPath"],
       ["builtins", "isPath"]
     ],
     "docs": {
@@ -16001,6 +16080,7 @@
       ["lib", "strings", "isList"],
       ["lib", "lists", "isList"],
       ["lib", "isList"],
+      ["builtins", "isList"],
       ["builtins", "isList"]
     ],
     "docs": {
@@ -16026,6 +16106,7 @@
       ["lib", "trivial", "isInt"],
       ["lib", "strings", "isInt"],
       ["lib", "isInt"],
+      ["builtins", "isInt"],
       ["builtins", "isInt"]
     ],
     "docs": {
@@ -16076,7 +16157,8 @@
   {
     "aliases": [
       ["lib", "trivial", "isFunction"],
-      ["lib", "isFunction"]
+      ["lib", "isFunction"],
+      ["builtins", "isFunction"]
     ],
     "docs": {
       "attrDocs": {
@@ -16104,6 +16186,7 @@
     "aliases": [
       ["lib", "trivial", "isFloat"],
       ["lib", "isFloat"],
+      ["builtins", "isFloat"],
       ["builtins", "isFloat"]
     ],
     "docs": {
@@ -16155,6 +16238,7 @@
     "aliases": [
       ["lib", "trivial", "isBool"],
       ["lib", "isBool"],
+      ["builtins", "isBool"],
       ["builtins", "isBool"]
     ],
     "docs": {
@@ -16180,6 +16264,7 @@
       ["lib", "strings", "isAttrs"],
       ["lib", "isAttrs"],
       ["lib", "attrsets", "isAttrs"],
+      ["builtins", "isAttrs"],
       ["builtins", "isAttrs"]
     ],
     "docs": {
@@ -16649,6 +16734,7 @@
       ["lib", "strings", "head"],
       ["lib", "lists", "head"],
       ["lib", "head"],
+      ["builtins", "head"],
       ["builtins", "head"]
     ],
     "docs": {
@@ -16781,6 +16867,7 @@
     "aliases": [
       ["lib", "hasAttr"],
       ["lib", "attrsets", "hasAttr"],
+      ["builtins", "hasAttr"],
       ["builtins", "hasAttr"]
     ],
     "docs": {
@@ -17378,6 +17465,7 @@
     "aliases": [
       ["lib", "lists", "groupBy"],
       ["lib", "groupBy"],
+      ["builtins", "groupBy"],
       ["builtins", "groupBy"]
     ],
     "docs": {
@@ -17829,6 +17917,7 @@
     "aliases": [
       ["lib", "getAttr"],
       ["lib", "attrsets", "getAttr"],
+      ["builtins", "getAttr"],
       ["builtins", "getAttr"]
     ],
     "docs": {
@@ -17853,6 +17942,7 @@
     "aliases": [
       ["lib", "trivial", "genericClosure"],
       ["lib", "genericClosure"],
+      ["builtins", "genericClosure"],
       ["builtins", "genericClosure"]
     ],
     "docs": {
@@ -18023,7 +18113,8 @@
   {
     "aliases": [
       ["lib", "generators", "toYAML"],
-      ["lib", "generators", "toJSON"]
+      ["lib", "generators", "toJSON"],
+      ["builtins", "toJSON"]
     ],
     "docs": {
       "attrDocs": {
@@ -18268,6 +18359,7 @@
       ["lib", "strings", "genList"],
       ["lib", "lists", "genList"],
       ["lib", "genList"],
+      ["builtins", "genList"],
       ["builtins", "genList"]
     ],
     "docs": {
@@ -18318,7 +18410,8 @@
   {
     "aliases": [
       ["lib", "trivial", "functionArgs"],
-      ["lib", "functionArgs"]
+      ["lib", "functionArgs"],
+      ["builtins", "functionArgs"]
     ],
     "docs": {
       "attrDocs": {
@@ -18456,6 +18549,7 @@
     "aliases": [
       ["lib", "lists", "foldl'"],
       ["lib", "foldl'"],
+      ["builtins", "foldl'"],
       ["builtins", "foldl'"]
     ],
     "docs": {
@@ -19158,6 +19252,7 @@
       ["lib", "strings", "filter"],
       ["lib", "lists", "filter"],
       ["lib", "filter"],
+      ["builtins", "filter"],
       ["builtins", "filter"]
     ],
     "docs": {
@@ -19747,6 +19842,7 @@
       ["lib", "strings", "elemAt"],
       ["lib", "lists", "elemAt"],
       ["lib", "elemAt"],
+      ["builtins", "elemAt"],
       ["builtins", "elemAt"]
     ],
     "docs": {
@@ -19772,6 +19868,7 @@
       ["lib", "strings", "elem"],
       ["lib", "lists", "elem"],
       ["lib", "elem"],
+      ["builtins", "elem"],
       ["builtins", "elem"]
     ],
     "docs": {
@@ -20067,6 +20164,7 @@
     "aliases": [
       ["lib", "trivial", "deepSeq"],
       ["lib", "deepSeq"],
+      ["builtins", "deepSeq"],
       ["builtins", "deepSeq"]
     ],
     "docs": {
@@ -20794,6 +20892,7 @@
     "aliases": [
       ["lib", "strings", "concatStringsSep"],
       ["lib", "concatStringsSep"],
+      ["builtins", "concatStringsSep"],
       ["builtins", "concatStringsSep"]
     ],
     "docs": {
@@ -20922,6 +21021,7 @@
     "aliases": [
       ["lib", "lists", "concatMap"],
       ["lib", "concatMap"],
+      ["builtins", "concatMap"],
       ["builtins", "concatMap"]
     ],
     "docs": {
@@ -20946,6 +21046,7 @@
     "aliases": [
       ["lib", "lists", "concatLists"],
       ["lib", "concatLists"],
+      ["builtins", "concatLists"],
       ["builtins", "concatLists"]
     ],
     "docs": {
@@ -21512,6 +21613,7 @@
     "aliases": [
       ["lib", "catAttrs"],
       ["lib", "attrsets", "catAttrs"],
+      ["builtins", "catAttrs"],
       ["builtins", "catAttrs"]
     ],
     "docs": {
@@ -21671,6 +21773,7 @@
     "aliases": [
       ["lib", "trivial", "bitXor"],
       ["lib", "bitXor"],
+      ["builtins", "bitXor"],
       ["builtins", "bitXor"]
     ],
     "docs": {
@@ -21695,6 +21798,7 @@
     "aliases": [
       ["lib", "trivial", "bitOr"],
       ["lib", "bitOr"],
+      ["builtins", "bitOr"],
       ["builtins", "bitOr"]
     ],
     "docs": {
@@ -21742,6 +21846,7 @@
     "aliases": [
       ["lib", "trivial", "bitAnd"],
       ["lib", "bitAnd"],
+      ["builtins", "bitAnd"],
       ["builtins", "bitAnd"]
     ],
     "docs": {
@@ -21826,6 +21931,7 @@
       ["lib", "zip"],
       ["lib", "attrsets", "zipAttrsWith"],
       ["lib", "attrsets", "zip"],
+      ["builtins", "zipAttrsWith"],
       ["builtins", "zipAttrsWith"]
     ],
     "docs": {
@@ -22034,6 +22140,7 @@
   {
     "aliases": [
       ["lib", "attrsets", "removeAttrs"],
+      ["builtins", "removeAttrs"],
       ["builtins", "removeAttrs"]
     ],
     "docs": {
@@ -22380,6 +22487,7 @@
     "aliases": [
       ["lib", "mapAttrs"],
       ["lib", "attrsets", "mapAttrs"],
+      ["builtins", "mapAttrs"],
       ["builtins", "mapAttrs"]
     ],
     "docs": {
@@ -22404,6 +22512,7 @@
     "aliases": [
       ["lib", "listToAttrs"],
       ["lib", "attrsets", "listToAttrs"],
+      ["builtins", "listToAttrs"],
       ["builtins", "listToAttrs"]
     ],
     "docs": {
@@ -22456,6 +22565,7 @@
       ["lib", "strings", "isAttrs"],
       ["lib", "isAttrs"],
       ["lib", "attrsets", "isAttrs"],
+      ["builtins", "isAttrs"],
       ["builtins", "isAttrs"]
     ],
     "docs": {
@@ -22507,6 +22617,7 @@
     "aliases": [
       ["lib", "hasAttr"],
       ["lib", "attrsets", "hasAttr"],
+      ["builtins", "hasAttr"],
       ["builtins", "hasAttr"]
     ],
     "docs": {
@@ -22744,6 +22855,7 @@
     "aliases": [
       ["lib", "getAttr"],
       ["lib", "attrsets", "getAttr"],
+      ["builtins", "getAttr"],
       ["builtins", "getAttr"]
     ],
     "docs": {
@@ -23012,6 +23124,7 @@
     "aliases": [
       ["lib", "catAttrs"],
       ["lib", "attrsets", "catAttrs"],
+      ["builtins", "catAttrs"],
       ["builtins", "catAttrs"]
     ],
     "docs": {
@@ -23063,6 +23176,7 @@
     "aliases": [
       ["lib", "attrsets", "attrValues"],
       ["lib", "attrValues"],
+      ["builtins", "attrValues"],
       ["builtins", "attrValues"]
     ],
     "docs": {
@@ -23114,6 +23228,7 @@
     "aliases": [
       ["lib", "attrsets", "attrNames"],
       ["lib", "attrNames"],
+      ["builtins", "attrNames"],
       ["builtins", "attrNames"]
     ],
     "docs": {
@@ -23165,6 +23280,7 @@
     "aliases": [
       ["lib", "attrsets", "attrValues"],
       ["lib", "attrValues"],
+      ["builtins", "attrValues"],
       ["builtins", "attrValues"]
     ],
     "docs": {
@@ -23216,6 +23332,7 @@
     "aliases": [
       ["lib", "attrsets", "attrNames"],
       ["lib", "attrNames"],
+      ["builtins", "attrNames"],
       ["builtins", "attrNames"]
     ],
     "docs": {
@@ -23429,6 +23546,7 @@
     "aliases": [
       ["lib", "lists", "any"],
       ["lib", "any"],
+      ["builtins", "any"],
       ["builtins", "any"]
     ],
     "docs": {
@@ -23480,6 +23598,7 @@
     "aliases": [
       ["lib", "lists", "all"],
       ["lib", "all"],
+      ["builtins", "all"],
       ["builtins", "all"]
     ],
     "docs": {
@@ -23528,7 +23647,7 @@
     "path": ["lib", "addMetaAttrs"]
   },
   {
-    "aliases": [],
+    "aliases": [["builtins", "addErrorContext"]],
     "docs": {
       "attrDocs": {
         "content": "",
@@ -23578,6 +23697,7 @@
     "aliases": [
       ["lib", "trivial", "add"],
       ["lib", "add"],
+      ["builtins", "add"],
       ["builtins", "add"]
     ],
     "docs": {
@@ -23623,7 +23743,10 @@
     "path": ["lib", "__unfix__"]
   },
   {
-    "aliases": [["builtins", "abort"]],
+    "aliases": [
+      ["builtins", "abort"],
+      ["builtins", "abort"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -23639,6 +23762,7 @@
     "aliases": [
       ["lib", "trivial", "add"],
       ["lib", "add"],
+      ["builtins", "add"],
       ["builtins", "add"]
     ],
     "docs": {
@@ -23653,7 +23777,7 @@
     "path": ["builtins", "add"]
   },
   {
-    "aliases": [],
+    "aliases": [["builtins", "addErrorContext"]],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -23669,6 +23793,7 @@
     "aliases": [
       ["lib", "lists", "all"],
       ["lib", "all"],
+      ["builtins", "all"],
       ["builtins", "all"]
     ],
     "docs": {
@@ -23686,6 +23811,7 @@
     "aliases": [
       ["lib", "lists", "any"],
       ["lib", "any"],
+      ["builtins", "any"],
       ["builtins", "any"]
     ],
     "docs": {
@@ -23700,7 +23826,7 @@
     "path": ["builtins", "any"]
   },
   {
-    "aliases": [],
+    "aliases": [["builtins", "appendContext"]],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -23716,6 +23842,7 @@
     "aliases": [
       ["lib", "attrsets", "attrNames"],
       ["lib", "attrNames"],
+      ["builtins", "attrNames"],
       ["builtins", "attrNames"]
     ],
     "docs": {
@@ -23733,6 +23860,7 @@
     "aliases": [
       ["lib", "attrsets", "attrValues"],
       ["lib", "attrValues"],
+      ["builtins", "attrValues"],
       ["builtins", "attrValues"]
     ],
     "docs": {
@@ -23747,7 +23875,10 @@
     "path": ["builtins", "attrValues"]
   },
   {
-    "aliases": [["builtins", "baseNameOf"]],
+    "aliases": [
+      ["builtins", "baseNameOf"],
+      ["builtins", "baseNameOf"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -23763,6 +23894,7 @@
     "aliases": [
       ["lib", "trivial", "bitAnd"],
       ["lib", "bitAnd"],
+      ["builtins", "bitAnd"],
       ["builtins", "bitAnd"]
     ],
     "docs": {
@@ -23780,6 +23912,7 @@
     "aliases": [
       ["lib", "trivial", "bitOr"],
       ["lib", "bitOr"],
+      ["builtins", "bitOr"],
       ["builtins", "bitOr"]
     ],
     "docs": {
@@ -23797,6 +23930,7 @@
     "aliases": [
       ["lib", "trivial", "bitXor"],
       ["lib", "bitXor"],
+      ["builtins", "bitXor"],
       ["builtins", "bitXor"]
     ],
     "docs": {
@@ -23811,7 +23945,10 @@
     "path": ["builtins", "bitXor"]
   },
   {
-    "aliases": [["builtins", "break"]],
+    "aliases": [
+      ["builtins", "break"],
+      ["builtins", "break"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -23827,6 +23964,7 @@
     "aliases": [
       ["lib", "catAttrs"],
       ["lib", "attrsets", "catAttrs"],
+      ["builtins", "catAttrs"],
       ["builtins", "catAttrs"]
     ],
     "docs": {
@@ -23841,7 +23979,10 @@
     "path": ["builtins", "catAttrs"]
   },
   {
-    "aliases": [["builtins", "ceil"]],
+    "aliases": [
+      ["builtins", "ceil"],
+      ["builtins", "ceil"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -23856,6 +23997,7 @@
   {
     "aliases": [
       ["lib", "strings", "compareVersions"],
+      ["builtins", "compareVersions"],
       ["builtins", "compareVersions"]
     ],
     "docs": {
@@ -23873,6 +24015,7 @@
     "aliases": [
       ["lib", "lists", "concatLists"],
       ["lib", "concatLists"],
+      ["builtins", "concatLists"],
       ["builtins", "concatLists"]
     ],
     "docs": {
@@ -23890,6 +24033,7 @@
     "aliases": [
       ["lib", "lists", "concatMap"],
       ["lib", "concatMap"],
+      ["builtins", "concatMap"],
       ["builtins", "concatMap"]
     ],
     "docs": {
@@ -23907,6 +24051,7 @@
     "aliases": [
       ["lib", "strings", "concatStringsSep"],
       ["lib", "concatStringsSep"],
+      ["builtins", "concatStringsSep"],
       ["builtins", "concatStringsSep"]
     ],
     "docs": {
@@ -23924,6 +24069,7 @@
     "aliases": [
       ["lib", "trivial", "deepSeq"],
       ["lib", "deepSeq"],
+      ["builtins", "deepSeq"],
       ["builtins", "deepSeq"]
     ],
     "docs": {
@@ -23938,7 +24084,10 @@
     "path": ["builtins", "deepSeq"]
   },
   {
-    "aliases": [["builtins", "derivation"]],
+    "aliases": [
+      ["builtins", "derivation"],
+      ["builtins", "derivation"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -23955,7 +24104,7 @@
     "path": ["builtins", "derivation"]
   },
   {
-    "aliases": [],
+    "aliases": [["builtins", "derivationStrict"]],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -23968,7 +24117,10 @@
     "path": ["builtins", "derivationStrict"]
   },
   {
-    "aliases": [["builtins", "dirOf"]],
+    "aliases": [
+      ["builtins", "dirOf"],
+      ["builtins", "dirOf"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -23981,7 +24133,10 @@
     "path": ["builtins", "dirOf"]
   },
   {
-    "aliases": [["builtins", "div"]],
+    "aliases": [
+      ["builtins", "div"],
+      ["builtins", "div"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -23998,6 +24153,7 @@
       ["lib", "strings", "elem"],
       ["lib", "lists", "elem"],
       ["lib", "elem"],
+      ["builtins", "elem"],
       ["builtins", "elem"]
     ],
     "docs": {
@@ -24016,6 +24172,7 @@
       ["lib", "strings", "elemAt"],
       ["lib", "lists", "elemAt"],
       ["lib", "elemAt"],
+      ["builtins", "elemAt"],
       ["builtins", "elemAt"]
     ],
     "docs": {
@@ -24030,7 +24187,10 @@
     "path": ["builtins", "elemAt"]
   },
   {
-    "aliases": [["builtins", "fetchGit"]],
+    "aliases": [
+      ["builtins", "fetchGit"],
+      ["builtins", "fetchGit"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24043,7 +24203,7 @@
     "path": ["builtins", "fetchGit"]
   },
   {
-    "aliases": [],
+    "aliases": [["builtins", "fetchMercurial"]],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24056,7 +24216,10 @@
     "path": ["builtins", "fetchMercurial"]
   },
   {
-    "aliases": [["builtins", "fetchTarball"]],
+    "aliases": [
+      ["builtins", "fetchTarball"],
+      ["builtins", "fetchTarball"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24069,7 +24232,7 @@
     "path": ["builtins", "fetchTarball"]
   },
   {
-    "aliases": [],
+    "aliases": [["builtins", "fetchTree"]],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24082,7 +24245,10 @@
     "path": ["builtins", "fetchTree"]
   },
   {
-    "aliases": [["builtins", "fetchurl"]],
+    "aliases": [
+      ["builtins", "fetchurl"],
+      ["builtins", "fetchurl"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24099,6 +24265,7 @@
       ["lib", "strings", "filter"],
       ["lib", "lists", "filter"],
       ["lib", "filter"],
+      ["builtins", "filter"],
       ["builtins", "filter"]
     ],
     "docs": {
@@ -24113,7 +24280,10 @@
     "path": ["builtins", "filter"]
   },
   {
-    "aliases": [["builtins", "filterSource"]],
+    "aliases": [
+      ["builtins", "filterSource"],
+      ["builtins", "filterSource"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24126,7 +24296,10 @@
     "path": ["builtins", "filterSource"]
   },
   {
-    "aliases": [["builtins", "findFile"]],
+    "aliases": [
+      ["builtins", "findFile"],
+      ["builtins", "findFile"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24139,7 +24312,10 @@
     "path": ["builtins", "findFile"]
   },
   {
-    "aliases": [["builtins", "flakeRefToString"]],
+    "aliases": [
+      ["builtins", "flakeRefToString"],
+      ["builtins", "flakeRefToString"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24152,7 +24328,10 @@
     "path": ["builtins", "flakeRefToString"]
   },
   {
-    "aliases": [["builtins", "floor"]],
+    "aliases": [
+      ["builtins", "floor"],
+      ["builtins", "floor"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24168,6 +24347,7 @@
     "aliases": [
       ["lib", "lists", "foldl'"],
       ["lib", "foldl'"],
+      ["builtins", "foldl'"],
       ["builtins", "foldl'"]
     ],
     "docs": {
@@ -24184,6 +24364,7 @@
   {
     "aliases": [
       ["lib", "strings", "fromJSON"],
+      ["builtins", "fromJSON"],
       ["builtins", "fromJSON"]
     ],
     "docs": {
@@ -24198,7 +24379,10 @@
     "path": ["builtins", "fromJSON"]
   },
   {
-    "aliases": [["builtins", "fromTOML"]],
+    "aliases": [
+      ["builtins", "fromTOML"],
+      ["builtins", "fromTOML"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24211,7 +24395,10 @@
     "path": ["builtins", "fromTOML"]
   },
   {
-    "aliases": [["builtins", "functionArgs"]],
+    "aliases": [
+      ["builtins", "functionArgs"],
+      ["builtins", "functionArgs"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24228,6 +24415,7 @@
       ["lib", "strings", "genList"],
       ["lib", "lists", "genList"],
       ["lib", "genList"],
+      ["builtins", "genList"],
       ["builtins", "genList"]
     ],
     "docs": {
@@ -24245,6 +24433,7 @@
     "aliases": [
       ["lib", "trivial", "genericClosure"],
       ["lib", "genericClosure"],
+      ["builtins", "genericClosure"],
       ["builtins", "genericClosure"]
     ],
     "docs": {
@@ -24262,6 +24451,7 @@
     "aliases": [
       ["lib", "getAttr"],
       ["lib", "attrsets", "getAttr"],
+      ["builtins", "getAttr"],
       ["builtins", "getAttr"]
     ],
     "docs": {
@@ -24276,7 +24466,10 @@
     "path": ["builtins", "getAttr"]
   },
   {
-    "aliases": [["builtins", "getContext"]],
+    "aliases": [
+      ["builtins", "getContext"],
+      ["builtins", "getContext"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24289,7 +24482,10 @@
     "path": ["builtins", "getContext"]
   },
   {
-    "aliases": [["builtins", "getEnv"]],
+    "aliases": [
+      ["builtins", "getEnv"],
+      ["builtins", "getEnv"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24302,7 +24498,10 @@
     "path": ["builtins", "getEnv"]
   },
   {
-    "aliases": [["builtins", "getFlake"]],
+    "aliases": [
+      ["builtins", "getFlake"],
+      ["builtins", "getFlake"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24318,6 +24517,7 @@
     "aliases": [
       ["lib", "lists", "groupBy"],
       ["lib", "groupBy"],
+      ["builtins", "groupBy"],
       ["builtins", "groupBy"]
     ],
     "docs": {
@@ -24335,6 +24535,7 @@
     "aliases": [
       ["lib", "hasAttr"],
       ["lib", "attrsets", "hasAttr"],
+      ["builtins", "hasAttr"],
       ["builtins", "hasAttr"]
     ],
     "docs": {
@@ -24352,6 +24553,7 @@
     "aliases": [
       ["lib", "sources", "pathHasContext"],
       ["lib", "pathHasContext"],
+      ["builtins", "hasContext"],
       ["builtins", "hasContext"]
     ],
     "docs": {
@@ -24366,7 +24568,10 @@
     "path": ["builtins", "hasContext"]
   },
   {
-    "aliases": [["builtins", "hashFile"]],
+    "aliases": [
+      ["builtins", "hashFile"],
+      ["builtins", "hashFile"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24379,7 +24584,10 @@
     "path": ["builtins", "hashFile"]
   },
   {
-    "aliases": [["builtins", "hashString"]],
+    "aliases": [
+      ["builtins", "hashString"],
+      ["builtins", "hashString"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24396,6 +24604,7 @@
       ["lib", "strings", "head"],
       ["lib", "lists", "head"],
       ["lib", "head"],
+      ["builtins", "head"],
       ["builtins", "head"]
     ],
     "docs": {
@@ -24410,7 +24619,10 @@
     "path": ["builtins", "head"]
   },
   {
-    "aliases": [["builtins", "import"]],
+    "aliases": [
+      ["builtins", "import"],
+      ["builtins", "import"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24423,7 +24635,10 @@
     "path": ["builtins", "import"]
   },
   {
-    "aliases": [["builtins", "intersectAttrs"]],
+    "aliases": [
+      ["builtins", "intersectAttrs"],
+      ["builtins", "intersectAttrs"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24440,6 +24655,7 @@
       ["lib", "strings", "isAttrs"],
       ["lib", "isAttrs"],
       ["lib", "attrsets", "isAttrs"],
+      ["builtins", "isAttrs"],
       ["builtins", "isAttrs"]
     ],
     "docs": {
@@ -24457,6 +24673,7 @@
     "aliases": [
       ["lib", "trivial", "isBool"],
       ["lib", "isBool"],
+      ["builtins", "isBool"],
       ["builtins", "isBool"]
     ],
     "docs": {
@@ -24474,6 +24691,7 @@
     "aliases": [
       ["lib", "trivial", "isFloat"],
       ["lib", "isFloat"],
+      ["builtins", "isFloat"],
       ["builtins", "isFloat"]
     ],
     "docs": {
@@ -24488,7 +24706,10 @@
     "path": ["builtins", "isFloat"]
   },
   {
-    "aliases": [["builtins", "isFunction"]],
+    "aliases": [
+      ["builtins", "isFunction"],
+      ["builtins", "isFunction"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24505,6 +24726,7 @@
       ["lib", "trivial", "isInt"],
       ["lib", "strings", "isInt"],
       ["lib", "isInt"],
+      ["builtins", "isInt"],
       ["builtins", "isInt"]
     ],
     "docs": {
@@ -24523,6 +24745,7 @@
       ["lib", "strings", "isList"],
       ["lib", "lists", "isList"],
       ["lib", "isList"],
+      ["builtins", "isList"],
       ["builtins", "isList"]
     ],
     "docs": {
@@ -24537,7 +24760,10 @@
     "path": ["builtins", "isList"]
   },
   {
-    "aliases": [["builtins", "isNull"]],
+    "aliases": [
+      ["builtins", "isNull"],
+      ["builtins", "isNull"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24553,6 +24779,7 @@
     "aliases": [
       ["lib", "strings", "isPath"],
       ["lib", "isPath"],
+      ["builtins", "isPath"],
       ["builtins", "isPath"]
     ],
     "docs": {
@@ -24570,6 +24797,7 @@
     "aliases": [
       ["lib", "strings", "isString"],
       ["lib", "isString"],
+      ["builtins", "isString"],
       ["builtins", "isString"]
     ],
     "docs": {
@@ -24587,6 +24815,7 @@
     "aliases": [
       ["lib", "lists", "length"],
       ["lib", "length"],
+      ["builtins", "length"],
       ["builtins", "length"]
     ],
     "docs": {
@@ -24604,6 +24833,7 @@
     "aliases": [
       ["lib", "trivial", "lessThan"],
       ["lib", "lessThan"],
+      ["builtins", "lessThan"],
       ["builtins", "lessThan"]
     ],
     "docs": {
@@ -24621,6 +24851,7 @@
     "aliases": [
       ["lib", "listToAttrs"],
       ["lib", "attrsets", "listToAttrs"],
+      ["builtins", "listToAttrs"],
       ["builtins", "listToAttrs"]
     ],
     "docs": {
@@ -24637,6 +24868,7 @@
   {
     "aliases": [
       ["lib", "lists", "map"],
+      ["builtins", "map"],
       ["builtins", "map"]
     ],
     "docs": {
@@ -24654,6 +24886,7 @@
     "aliases": [
       ["lib", "mapAttrs"],
       ["lib", "attrsets", "mapAttrs"],
+      ["builtins", "mapAttrs"],
       ["builtins", "mapAttrs"]
     ],
     "docs": {
@@ -24670,6 +24903,7 @@
   {
     "aliases": [
       ["lib", "strings", "match"],
+      ["builtins", "match"],
       ["builtins", "match"]
     ],
     "docs": {
@@ -24684,7 +24918,10 @@
     "path": ["builtins", "match"]
   },
   {
-    "aliases": [["builtins", "mul"]],
+    "aliases": [
+      ["builtins", "mul"],
+      ["builtins", "mul"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24699,6 +24936,7 @@
   {
     "aliases": [
       ["lib", "strings", "parseDrvName"],
+      ["builtins", "parseDrvName"],
       ["builtins", "parseDrvName"]
     ],
     "docs": {
@@ -24713,7 +24951,10 @@
     "path": ["builtins", "parseDrvName"]
   },
   {
-    "aliases": [["builtins", "parseFlakeRef"]],
+    "aliases": [
+      ["builtins", "parseFlakeRef"],
+      ["builtins", "parseFlakeRef"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24729,6 +24970,7 @@
     "aliases": [
       ["lib", "partition"],
       ["lib", "lists", "partition"],
+      ["builtins", "partition"],
       ["builtins", "partition"]
     ],
     "docs": {
@@ -24743,7 +24985,10 @@
     "path": ["builtins", "partition"]
   },
   {
-    "aliases": [["builtins", "path"]],
+    "aliases": [
+      ["builtins", "path"],
+      ["builtins", "path"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24759,6 +25004,7 @@
     "aliases": [
       ["lib", "trivial", "pathExists"],
       ["lib", "pathExists"],
+      ["builtins", "pathExists"],
       ["builtins", "pathExists"]
     ],
     "docs": {
@@ -24773,7 +25019,10 @@
     "path": ["builtins", "pathExists"]
   },
   {
-    "aliases": [["builtins", "placeholder"]],
+    "aliases": [
+      ["builtins", "placeholder"],
+      ["builtins", "placeholder"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24786,7 +25035,10 @@
     "path": ["builtins", "placeholder"]
   },
   {
-    "aliases": [["builtins", "readDir"]],
+    "aliases": [
+      ["builtins", "readDir"],
+      ["builtins", "readDir"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24803,6 +25055,7 @@
       ["lib", "trivial", "readFile"],
       ["lib", "strings", "readFile"],
       ["lib", "readFile"],
+      ["builtins", "readFile"],
       ["builtins", "readFile"]
     ],
     "docs": {
@@ -24821,6 +25074,7 @@
       ["lib", "sources", "pathType"],
       ["lib", "pathType"],
       ["lib", "filesystem", "pathType"],
+      ["builtins", "readFileType"],
       ["builtins", "readFileType"]
     ],
     "docs": {
@@ -24837,6 +25091,7 @@
   {
     "aliases": [
       ["lib", "attrsets", "removeAttrs"],
+      ["builtins", "removeAttrs"],
       ["builtins", "removeAttrs"]
     ],
     "docs": {
@@ -24856,6 +25111,7 @@
       ["lib", "strings", "replaceChars"],
       ["lib", "replaceStrings"],
       ["lib", "replaceChars"],
+      ["builtins", "replaceStrings"],
       ["builtins", "replaceStrings"]
     ],
     "docs": {
@@ -24870,7 +25126,7 @@
     "path": ["builtins", "replaceStrings"]
   },
   {
-    "aliases": [],
+    "aliases": [["builtins", "scopedImport"]],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24886,6 +25142,7 @@
     "aliases": [
       ["lib", "trivial", "seq"],
       ["lib", "seq"],
+      ["builtins", "seq"],
       ["builtins", "seq"]
     ],
     "docs": {
@@ -24903,6 +25160,7 @@
     "aliases": [
       ["lib", "sort"],
       ["lib", "lists", "sort"],
+      ["builtins", "sort"],
       ["builtins", "sort"]
     ],
     "docs": {
@@ -24919,6 +25177,7 @@
   {
     "aliases": [
       ["lib", "strings", "split"],
+      ["builtins", "split"],
       ["builtins", "split"]
     ],
     "docs": {
@@ -24936,6 +25195,7 @@
     "aliases": [
       ["lib", "versions", "splitVersion"],
       ["lib", "splitVersion"],
+      ["builtins", "splitVersion"],
       ["builtins", "splitVersion"]
     ],
     "docs": {
@@ -24950,7 +25210,10 @@
     "path": ["builtins", "splitVersion"]
   },
   {
-    "aliases": [["builtins", "storePath"]],
+    "aliases": [
+      ["builtins", "storePath"],
+      ["builtins", "storePath"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -24966,6 +25229,7 @@
     "aliases": [
       ["lib", "strings", "stringLength"],
       ["lib", "stringLength"],
+      ["builtins", "stringLength"],
       ["builtins", "stringLength"]
     ],
     "docs": {
@@ -24983,6 +25247,7 @@
     "aliases": [
       ["lib", "trivial", "sub"],
       ["lib", "sub"],
+      ["builtins", "sub"],
       ["builtins", "sub"]
     ],
     "docs": {
@@ -25000,6 +25265,7 @@
     "aliases": [
       ["lib", "substring"],
       ["lib", "strings", "substring"],
+      ["builtins", "substring"],
       ["builtins", "substring"]
     ],
     "docs": {
@@ -25018,6 +25284,7 @@
       ["lib", "tail"],
       ["lib", "strings", "tail"],
       ["lib", "lists", "tail"],
+      ["builtins", "tail"],
       ["builtins", "tail"]
     ],
     "docs": {
@@ -25032,7 +25299,10 @@
     "path": ["builtins", "tail"]
   },
   {
-    "aliases": [["builtins", "throw"]],
+    "aliases": [
+      ["builtins", "throw"],
+      ["builtins", "throw"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25045,7 +25315,10 @@
     "path": ["builtins", "throw"]
   },
   {
-    "aliases": [["builtins", "toFile"]],
+    "aliases": [
+      ["builtins", "toFile"],
+      ["builtins", "toFile"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25060,6 +25333,7 @@
   {
     "aliases": [
       ["lib", "strings", "toJSON"],
+      ["builtins", "toJSON"],
       ["builtins", "toJSON"]
     ],
     "docs": {
@@ -25074,7 +25348,10 @@
     "path": ["builtins", "toJSON"]
   },
   {
-    "aliases": [["builtins", "toPath"]],
+    "aliases": [
+      ["builtins", "toPath"],
+      ["builtins", "toPath"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25087,7 +25364,10 @@
     "path": ["builtins", "toPath"]
   },
   {
-    "aliases": [["builtins", "toString"]],
+    "aliases": [
+      ["builtins", "toString"],
+      ["builtins", "toString"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25100,7 +25380,10 @@
     "path": ["builtins", "toString"]
   },
   {
-    "aliases": [["builtins", "toXML"]],
+    "aliases": [
+      ["builtins", "toXML"],
+      ["builtins", "toXML"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25115,6 +25398,7 @@
   {
     "aliases": [
       ["lib", "trace"],
+      ["builtins", "trace"],
       ["builtins", "trace"]
     ],
     "docs": {
@@ -25129,7 +25413,10 @@
     "path": ["builtins", "trace"]
   },
   {
-    "aliases": [["builtins", "traceVerbose"]],
+    "aliases": [
+      ["builtins", "traceVerbose"],
+      ["builtins", "traceVerbose"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25142,7 +25429,10 @@
     "path": ["builtins", "traceVerbose"]
   },
   {
-    "aliases": [["builtins", "tryEval"]],
+    "aliases": [
+      ["builtins", "tryEval"],
+      ["builtins", "tryEval"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25157,6 +25447,7 @@
   {
     "aliases": [
       ["lib", "strings", "typeOf"],
+      ["builtins", "typeOf"],
       ["builtins", "typeOf"]
     ],
     "docs": {
@@ -25171,7 +25462,7 @@
     "path": ["builtins", "typeOf"]
   },
   {
-    "aliases": [],
+    "aliases": [["builtins", "unsafeDiscardOutputDependency"]],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25184,7 +25475,7 @@
     "path": ["builtins", "unsafeDiscardOutputDependency"]
   },
   {
-    "aliases": [],
+    "aliases": [["builtins", "unsafeDiscardStringContext"]],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25197,7 +25488,10 @@
     "path": ["builtins", "unsafeDiscardStringContext"]
   },
   {
-    "aliases": [["builtins", "unsafeGetAttrDoc"]],
+    "aliases": [
+      ["builtins", "unsafeGetAttrDoc"],
+      ["builtins", "unsafeGetAttrDoc"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25210,7 +25504,7 @@
     "path": ["builtins", "unsafeGetAttrDoc"]
   },
   {
-    "aliases": [],
+    "aliases": [["builtins", "unsafeGetAttrPos"]],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25223,7 +25517,10 @@
     "path": ["builtins", "unsafeGetAttrPos"]
   },
   {
-    "aliases": [["builtins", "unsafeGetLambdaDoc"]],
+    "aliases": [
+      ["builtins", "unsafeGetLambdaDoc"],
+      ["builtins", "unsafeGetLambdaDoc"]
+    ],
     "docs": {
       "attrDocs": { "content": "", "position": null },
       "lambdaDocs": {
@@ -25241,6 +25538,7 @@
       ["lib", "zip"],
       ["lib", "attrsets", "zipAttrsWith"],
       ["lib", "attrsets", "zip"],
+      ["builtins", "zipAttrsWith"],
       ["builtins", "zipAttrsWith"]
     ],
     "docs": {

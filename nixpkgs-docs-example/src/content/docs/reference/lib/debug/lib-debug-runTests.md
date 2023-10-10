@@ -1,6 +1,6 @@
 ---
 title: lib.debug.runTests
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L289C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/debug.nix#L289C5
 description: lib.debug.runTests
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.modules.mkRenamedOptionModule
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1136C27
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L1136C27
 description: lib.modules.mkRenamedOptionModule
 sidebar:
 

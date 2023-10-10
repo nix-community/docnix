@@ -1,6 +1,6 @@
 ---
 title: lib.fixedPoints.composeManyExtensions
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L77C20
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L77C20
 description: lib.fixedPoints.composeManyExtensions
 sidebar:
 

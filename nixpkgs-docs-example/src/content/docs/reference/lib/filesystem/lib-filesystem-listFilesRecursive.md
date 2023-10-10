@@ -1,6 +1,6 @@
 ---
 title: lib.filesystem.listFilesRecursive
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L177C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/filesystem.nix#L177C5
 description: lib.filesystem.listFilesRecursive
 sidebar:
 

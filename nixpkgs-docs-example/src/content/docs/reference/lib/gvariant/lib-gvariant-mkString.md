@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L274C14
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/gvariant.nix#L274C14
 description: lib.gvariant.mkString
 sidebar:
 

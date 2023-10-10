@@ -1,6 +1,6 @@
 ---
 title: lib.min
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L336C9
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L336C9
 description: lib.min
 sidebar:
 

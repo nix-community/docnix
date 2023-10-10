@@ -1,13 +1,13 @@
 ---
 title: pkgs.buildBarebox
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L15C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/pkgs/misc/barebox/default.nix#L15C18
 description: pkgs.buildBarebox
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L15C18">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/pkgs/misc/barebox/default.nix#L15C18">Contribute Now!</a>
 
 
 

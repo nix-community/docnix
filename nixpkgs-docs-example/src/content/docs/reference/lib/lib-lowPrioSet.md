@@ -1,6 +1,6 @@
 ---
 title: lib.lowPrioSet
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L77C16
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L77C16
 description: lib.lowPrioSet
 sidebar:
 

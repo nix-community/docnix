@@ -1,6 +1,6 @@
 ---
 title: lib.meta.hiPrioSet
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L89C15
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L89C15
 description: lib.meta.hiPrioSet
 sidebar:
 

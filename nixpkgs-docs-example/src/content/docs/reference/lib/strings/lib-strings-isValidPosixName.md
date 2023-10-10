@@ -1,6 +1,6 @@
 ---
 title: lib.strings.isValidPosixName
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L651C22
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L651C22
 description: lib.strings.isValidPosixName
 sidebar:
 

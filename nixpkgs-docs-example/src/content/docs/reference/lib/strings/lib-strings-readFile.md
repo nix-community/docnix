@@ -1,6 +1,6 @@
 ---
 title: lib.strings.readFile
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.strings.readFile
 sidebar:
 
@@ -16,6 +16,7 @@ Return the contents of the file *path* as a string.
 
 # Aliases
 
+- [builtins.readFile](/nix-doc-comments/reference/builtins/builtins-readfile)
 - [builtins.readFile](/nix-doc-comments/reference/builtins/builtins-readfile)
 - [lib.readFile](/nix-doc-comments/reference/lib/lib-readfile)
 - [lib.trivial.readFile](/nix-doc-comments/reference/lib/trivial/lib-trivial-readfile)

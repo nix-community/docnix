@@ -1,6 +1,6 @@
 ---
 title: lib.modules.setDefaultModuleLocation
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L451C30
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L451C30
 description: lib.modules.setDefaultModuleLocation
 sidebar:
 

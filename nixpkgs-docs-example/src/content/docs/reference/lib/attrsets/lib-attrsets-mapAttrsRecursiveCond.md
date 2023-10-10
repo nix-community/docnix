@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.mapAttrsRecursiveCond
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L742C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L742C5
 description: lib.attrsets.mapAttrsRecursiveCond
 sidebar:
 

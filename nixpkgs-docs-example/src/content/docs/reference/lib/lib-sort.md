@@ -1,6 +1,6 @@
 ---
 title: lib.sort
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.sort
 sidebar:
 
@@ -28,6 +28,7 @@ deemed equal by the comparator.
 
 # Aliases
 
+- [builtins.sort](/nix-doc-comments/reference/builtins/builtins-sort)
 - [builtins.sort](/nix-doc-comments/reference/builtins/builtins-sort)
 - [lib.lists.sort](/nix-doc-comments/reference/lib/lists/lib-lists-sort)
 

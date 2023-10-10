@@ -1,6 +1,6 @@
 ---
 title: lib.genList
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.genList
 sidebar:
 
@@ -23,6 +23,7 @@ returns the list `[ 0 1 4 9 16 ]`.
 
 # Aliases
 
+- [builtins.genList](/nix-doc-comments/reference/builtins/builtins-genlist)
 - [builtins.genList](/nix-doc-comments/reference/builtins/builtins-genlist)
 - [lib.lists.genList](/nix-doc-comments/reference/lib/lists/lib-lists-genlist)
 - [lib.strings.genList](/nix-doc-comments/reference/lib/strings/lib-strings-genlist)

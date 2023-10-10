@@ -1,6 +1,6 @@
 ---
 title: lib.strings.concatStrings
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.strings.concatStrings
 sidebar:
 

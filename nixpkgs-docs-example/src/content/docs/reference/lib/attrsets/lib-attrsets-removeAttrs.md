@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.removeAttrs
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.attrsets.removeAttrs
 sidebar:
 
@@ -23,6 +23,7 @@ evaluates to `{ y = 2; }`.
 
 # Aliases
 
+- [builtins.removeAttrs](/nix-doc-comments/reference/builtins/builtins-removeattrs)
 - [builtins.removeAttrs](/nix-doc-comments/reference/builtins/builtins-removeattrs)
 
 

@@ -1,6 +1,6 @@
 ---
 title: lib.testAllTrue
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L307C17
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/debug.nix#L307C17
 description: lib.testAllTrue
 sidebar:
 

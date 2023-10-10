@@ -1,6 +1,6 @@
 ---
 title: lib.modules.evalOptionValue
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L782C21
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L782C21
 description: lib.modules.evalOptionValue
 sidebar:
 

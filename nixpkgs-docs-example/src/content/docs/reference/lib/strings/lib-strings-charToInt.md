@@ -1,6 +1,6 @@
 ---
 title: lib.strings.charToInt
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L533C15
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L533C15
 description: lib.strings.charToInt
 sidebar:
 

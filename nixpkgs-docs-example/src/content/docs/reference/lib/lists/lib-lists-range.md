@@ -1,6 +1,6 @@
 ---
 title: lib.lists.range
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L505C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L505C5
 description: lib.lists.range
 sidebar:
 

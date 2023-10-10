@@ -1,6 +1,6 @@
 ---
 title: lib.toInt
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1343C11
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L1343C11
 description: lib.toInt
 sidebar:
 

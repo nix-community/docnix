@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.isFloat
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.trivial.isFloat
 sidebar:
 
@@ -16,6 +16,7 @@ Return `true` if *e* evaluates to a float, and `false` otherwise.
 
 # Aliases
 
+- [builtins.isFloat](/nix-doc-comments/reference/builtins/builtins-isfloat)
 - [builtins.isFloat](/nix-doc-comments/reference/builtins/builtins-isfloat)
 - [lib.isFloat](/nix-doc-comments/reference/lib/lib-isfloat)
 

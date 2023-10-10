@@ -1,6 +1,6 @@
 ---
 title: lib.strings.escape
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L552C12
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L552C12
 description: lib.strings.escape
 sidebar:
 

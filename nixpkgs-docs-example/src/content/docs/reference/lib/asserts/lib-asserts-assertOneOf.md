@@ -1,6 +1,6 @@
 ---
 title: lib.asserts.assertOneOf
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L56C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/asserts.nix#L56C5
 description: lib.asserts.assertOneOf
 sidebar:
 

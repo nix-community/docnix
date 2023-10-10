@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.getAttr
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.attrsets.getAttr
 sidebar:
 
@@ -19,6 +19,7 @@ identifier.
 
 # Aliases
 
+- [builtins.getAttr](/nix-doc-comments/reference/builtins/builtins-getattr)
 - [builtins.getAttr](/nix-doc-comments/reference/builtins/builtins-getattr)
 - [lib.getAttr](/nix-doc-comments/reference/lib/lib-getattr)
 

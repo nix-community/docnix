@@ -1,6 +1,6 @@
 ---
 title: lib.optionalString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L347C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L347C5
 description: lib.optionalString
 sidebar:
 

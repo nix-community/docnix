@@ -1,6 +1,6 @@
 ---
 title: lib.setAttrByPath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L100C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L100C5
 description: lib.setAttrByPath
 sidebar:
 

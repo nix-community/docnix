@@ -1,6 +1,6 @@
 ---
 title: lib.partition
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.partition
 sidebar:
 
@@ -30,6 +30,7 @@ evaluates to
 
 # Aliases
 
+- [builtins.partition](/nix-doc-comments/reference/builtins/builtins-partition)
 - [builtins.partition](/nix-doc-comments/reference/builtins/builtins-partition)
 - [lib.lists.partition](/nix-doc-comments/reference/lib/lists/lib-lists-partition)
 

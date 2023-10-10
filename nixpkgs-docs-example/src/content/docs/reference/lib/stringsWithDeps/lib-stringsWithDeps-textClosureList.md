@@ -1,6 +1,6 @@
 ---
 title: lib.stringsWithDeps.textClosureList
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L61C21
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings-with-deps.nix#L61C21
 description: lib.stringsWithDeps.textClosureList
 sidebar:
 

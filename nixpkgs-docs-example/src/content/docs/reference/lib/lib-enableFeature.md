@@ -1,6 +1,6 @@
 ---
 title: lib.enableFeature
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1144C19
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L1144C19
 description: lib.enableFeature
 sidebar:
 

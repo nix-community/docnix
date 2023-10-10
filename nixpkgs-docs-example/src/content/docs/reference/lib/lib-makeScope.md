@@ -1,6 +1,6 @@
 ---
 title: lib.makeScope
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L279C15
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/customisation.nix#L279C15
 description: lib.makeScope
 sidebar:
 

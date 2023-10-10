@@ -1,6 +1,6 @@
 ---
 title: lib.withFeatureAs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1193C19
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L1193C19
 description: lib.withFeatureAs
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.generators.mkLuaInline
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L578C17
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/generators.nix#L578C17
 description: lib.generators.mkLuaInline
 sidebar:
 

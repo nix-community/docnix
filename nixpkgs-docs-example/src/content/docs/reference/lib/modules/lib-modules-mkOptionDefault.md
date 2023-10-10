@@ -1,13 +1,13 @@
 ---
 title: lib.modules.mkOptionDefault
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1026C26
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L1026C26
 description: lib.modules.mkOptionDefault
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1026C26">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L1026C26">Contribute Now!</a>
 
 
 # Aliases

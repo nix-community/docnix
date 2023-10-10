@@ -1,6 +1,6 @@
 ---
 title: lib.modules.importJSON
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1317C16
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L1317C16
 description: lib.modules.importJSON
 sidebar:
 

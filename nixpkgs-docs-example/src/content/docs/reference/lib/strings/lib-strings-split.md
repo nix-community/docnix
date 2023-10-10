@@ -1,6 +1,6 @@
 ---
 title: lib.strings.split
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.strings.split
 sidebar:
 
@@ -44,6 +44,7 @@ Evaluates to `[ " " [ "FOO" ] " " ]`.
 
 # Aliases
 
+- [builtins.split](/nix-doc-comments/reference/builtins/builtins-split)
 - [builtins.split](/nix-doc-comments/reference/builtins/builtins-split)
 
 

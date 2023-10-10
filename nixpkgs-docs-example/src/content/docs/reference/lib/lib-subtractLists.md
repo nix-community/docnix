@@ -1,6 +1,6 @@
 ---
 title: lib.subtractLists
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1085C19
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L1085C19
 description: lib.subtractLists
 sidebar:
 

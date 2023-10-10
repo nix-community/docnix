@@ -1,6 +1,6 @@
 ---
 title: lib.customisation.makeOverridable
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L74C21
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/customisation.nix#L74C21
 description: lib.customisation.makeOverridable
 sidebar:
 

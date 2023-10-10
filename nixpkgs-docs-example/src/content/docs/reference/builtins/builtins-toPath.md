@@ -1,6 +1,6 @@
 ---
 title: builtins.toPath
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: builtins.toPath
 sidebar:
 

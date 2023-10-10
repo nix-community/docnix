@@ -1,6 +1,6 @@
 ---
 title: lib.nameValuePair
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L603C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L603C5
 description: lib.nameValuePair
 sidebar:
 

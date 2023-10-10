@@ -1,6 +1,6 @@
 ---
 title: lib.lists.map
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.lists.map
 sidebar:
 
@@ -23,6 +23,7 @@ evaluates to `[ "foobar" "foobla" "fooabc" ]`.
 
 # Aliases
 
+- [builtins.map](/nix-doc-comments/reference/builtins/builtins-map)
 - [builtins.map](/nix-doc-comments/reference/builtins/builtins-map)
 
 

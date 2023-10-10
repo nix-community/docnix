@@ -1,6 +1,6 @@
 ---
 title: lib.setFunctionArgs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L576C21
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L576C21
 description: lib.setFunctionArgs
 sidebar:
 

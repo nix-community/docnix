@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.mergeAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L178C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L178C5
 description: lib.trivial.mergeAttrs
 sidebar:
 

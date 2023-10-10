@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkTuple
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L241C13
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/gvariant.nix#L241C13
 description: lib.gvariant.mkTuple
 sidebar:
 

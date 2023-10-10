@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.warnIfNot
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L494C15
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L494C15
 description: lib.trivial.warnIfNot
 sidebar:
 

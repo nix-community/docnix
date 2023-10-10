@@ -1,6 +1,6 @@
 ---
 title: lib.mergeAttrBy.buildInputs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L111C12
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L111C12
 description: lib.mergeAttrBy.buildInputs
 sidebar:
 

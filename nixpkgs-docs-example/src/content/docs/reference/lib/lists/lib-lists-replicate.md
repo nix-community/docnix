@@ -1,6 +1,6 @@
 ---
 title: lib.lists.replicate
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L531C15
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L531C15
 description: lib.lists.replicate
 sidebar:
 

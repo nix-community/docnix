@@ -1,6 +1,6 @@
 ---
 title: lib.lists.imap0
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L154C11
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L154C11
 description: lib.lists.imap0
 sidebar:
 

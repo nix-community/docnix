@@ -1,6 +1,6 @@
 ---
 title: lib.zipLists
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L615C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L615C5
 description: lib.zipLists
 sidebar:
 

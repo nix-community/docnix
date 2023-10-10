@@ -1,6 +1,6 @@
 ---
 title: lib.unifyModuleSyntax
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L458C23
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L458C23
 description: lib.unifyModuleSyntax
 sidebar:
 

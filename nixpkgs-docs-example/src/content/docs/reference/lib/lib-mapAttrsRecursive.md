@@ -1,13 +1,13 @@
 ---
 title: lib.mapAttrsRecursive
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L710C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L710C5
 description: lib.mapAttrsRecursive
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L710C5">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L710C5">Contribute Now!</a>
 
 
 # Aliases

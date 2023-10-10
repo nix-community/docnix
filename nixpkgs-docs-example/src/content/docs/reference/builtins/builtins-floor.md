@@ -1,6 +1,6 @@
 ---
 title: builtins.floor
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: builtins.floor
 sidebar:
 

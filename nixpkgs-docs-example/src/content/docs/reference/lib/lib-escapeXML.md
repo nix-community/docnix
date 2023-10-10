@@ -1,6 +1,6 @@
 ---
 title: lib.escapeXML
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.escapeXML
 sidebar:
 

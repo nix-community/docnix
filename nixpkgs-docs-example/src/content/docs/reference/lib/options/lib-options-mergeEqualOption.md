@@ -1,6 +1,6 @@
 ---
 title: lib.options.mergeEqualOption
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L256C22
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/options.nix#L256C22
 description: lib.options.mergeEqualOption
 sidebar:
 

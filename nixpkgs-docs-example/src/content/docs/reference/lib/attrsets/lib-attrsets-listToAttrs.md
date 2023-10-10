@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.listToAttrs
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.attrsets.listToAttrs
 sidebar:
 
@@ -38,6 +38,7 @@ evaluates to
 
 # Aliases
 
+- [builtins.listToAttrs](/nix-doc-comments/reference/builtins/builtins-listtoattrs)
 - [builtins.listToAttrs](/nix-doc-comments/reference/builtins/builtins-listtoattrs)
 - [lib.listToAttrs](/nix-doc-comments/reference/lib/lib-listtoattrs)
 

@@ -1,6 +1,6 @@
 ---
 title: lib.sources.pathType
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.sources.pathType
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.strings.elem
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.strings.elem
 sidebar:
 
@@ -17,6 +17,7 @@ Return `true` if a value equal to *x* occurs in the list *xs*, and
 
 # Aliases
 
+- [builtins.elem](/nix-doc-comments/reference/builtins/builtins-elem)
 - [builtins.elem](/nix-doc-comments/reference/builtins/builtins-elem)
 - [lib.elem](/nix-doc-comments/reference/lib/lib-elem)
 - [lib.lists.elem](/nix-doc-comments/reference/lib/lists/lib-lists-elem)

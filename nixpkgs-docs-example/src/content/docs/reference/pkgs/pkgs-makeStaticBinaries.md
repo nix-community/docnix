@@ -1,13 +1,13 @@
 ---
 title: pkgs.makeStaticBinaries
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L58C24
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/pkgs/stdenv/adapters.nix#L58C24
 description: pkgs.makeStaticBinaries
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L58C24">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/pkgs/stdenv/adapters.nix#L58C24">Contribute Now!</a>
 
 
 

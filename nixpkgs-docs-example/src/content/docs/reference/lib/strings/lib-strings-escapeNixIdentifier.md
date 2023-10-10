@@ -1,6 +1,6 @@
 ---
 title: lib.strings.escapeNixIdentifier
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L771C25
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L771C25
 description: lib.strings.escapeNixIdentifier
 sidebar:
 

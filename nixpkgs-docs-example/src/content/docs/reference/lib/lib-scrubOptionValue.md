@@ -1,6 +1,6 @@
 ---
 title: lib.scrubOptionValue
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L361C22
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/options.nix#L361C22
 description: lib.scrubOptionValue
 sidebar:
 

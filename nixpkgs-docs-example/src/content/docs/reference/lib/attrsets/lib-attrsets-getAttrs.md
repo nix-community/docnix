@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.getAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L340C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L340C5
 description: lib.attrsets.getAttrs
 sidebar:
 

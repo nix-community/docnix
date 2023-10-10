@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.bitOr
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.trivial.bitOr
 sidebar:
 
@@ -16,6 +16,7 @@ Return the bitwise OR of the integers *e1* and *e2*.
 
 # Aliases
 
+- [builtins.bitOr](/nix-doc-comments/reference/builtins/builtins-bitor)
 - [builtins.bitOr](/nix-doc-comments/reference/builtins/builtins-bitor)
 - [lib.bitOr](/nix-doc-comments/reference/lib/lib-bitor)
 

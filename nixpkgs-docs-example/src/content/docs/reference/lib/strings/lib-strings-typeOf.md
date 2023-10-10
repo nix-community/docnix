@@ -1,6 +1,6 @@
 ---
 title: lib.strings.typeOf
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.strings.typeOf
 sidebar:
 
@@ -18,6 +18,7 @@ Return a string representing the type of the value *e*, namely
 
 # Aliases
 
+- [builtins.typeOf](/nix-doc-comments/reference/builtins/builtins-typeof)
 - [builtins.typeOf](/nix-doc-comments/reference/builtins/builtins-typeof)
 
 

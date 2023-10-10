@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkValue
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L70C13
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/gvariant.nix#L70C13
 description: lib.gvariant.mkValue
 sidebar:
 

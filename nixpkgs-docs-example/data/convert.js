@@ -12,15 +12,21 @@ console.log({ data });
  * @returns {string}
  */
 const getUrl = (position, primop) => {
-  if (position) {
+  console.log({ position });
+  const repo = "https://www.github.com/hsjobeki/nixpkgs/blob/migrated/";
+  // const repo = primop
+  //   ? "https://www.github.com/nixos/nix/blob/master/src"
+  //   : "https://www.github.com/nixos/nixpkgs/blob/master/";
+  if (position && !primop) {
     const { file, line, column } = position;
-    const [_, suffix] = file.split("nixpkgs/");
-    return `https://www.github.com/nixos/nixpkgs/blob/master/${suffix}#L${line}C${column}`;
+    let suffix = file;
+    if (file.startsWith("/nix/store")) {
+      suffix = file.split("/").slice(4).join("/");
+    }
+    return `${repo}${suffix}#L${line}C${column}`;
+  } else {
+    return false;
   }
-  if (primop) {
-    return "https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc";
-  }
-  return "https://www.github.com/nixos/nixpkgs/blob/master";
 };
 
 const sanitizeMdx = (content) => {
@@ -33,7 +39,8 @@ const sanitizeMdx = (content) => {
 };
 
 const getLink = (href, label) => {
-  return `<a href="${href}">${label}</a>`;
+  if (href) return `<a href="${href}">${label}</a>`;
+  return label;
 };
 
 const badge = `
@@ -91,7 +98,7 @@ ${aliasList}
   const filename = title.toLowerCase().replaceAll(" ", "-");
   const mdContent = `---
 title: ${title}
-editUrl: ${getUrl(position, isPrimop)}
+editUrl: ${getUrl(position, isPrimop || title.startsWith("builtins."))}
 description: ${name}
 sidebar:
 ${isPrimop ? badge : ""}
@@ -103,7 +110,10 @@ ${
     ? sanitizeMdx(content)
     : altContent
     ? altContent
-    : getLink(getUrl(position, isPrimop), "Contribute Now!")
+    : getLink(
+        getUrl(position, isPrimop || title.startsWith("builtins.")),
+        "Contribute Now!"
+      )
 }
 
 ${aliasList ? aliasContent : ""}

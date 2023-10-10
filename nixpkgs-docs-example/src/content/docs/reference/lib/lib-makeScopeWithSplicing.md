@@ -1,6 +1,6 @@
 ---
 title: lib.makeScopeWithSplicing
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L296C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/customisation.nix#L296C5
 description: lib.makeScopeWithSplicing
 sidebar:
 

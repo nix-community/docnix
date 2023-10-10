@@ -1,6 +1,6 @@
 ---
 title: lib.modules.mkMergedOptionModule
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1196C26
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L1196C26
 description: lib.modules.mkMergedOptionModule
 sidebar:
 

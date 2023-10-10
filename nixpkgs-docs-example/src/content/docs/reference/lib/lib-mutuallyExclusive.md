@@ -1,6 +1,6 @@
 ---
 title: lib.mutuallyExclusive
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1091C23
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L1091C23
 description: lib.mutuallyExclusive
 sidebar:
 

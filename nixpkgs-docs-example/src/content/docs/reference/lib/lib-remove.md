@@ -1,6 +1,6 @@
 ---
 title: lib.remove
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L228C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L228C5
 description: lib.remove
 sidebar:
 

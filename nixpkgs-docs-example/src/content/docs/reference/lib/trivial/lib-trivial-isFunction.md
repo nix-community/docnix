@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.isFunction
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L598C16
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L598C16
 description: lib.trivial.isFunction
 sidebar:
 
@@ -13,6 +13,7 @@ annotated with function args.
 
 # Aliases
 
+- [builtins.isFunction](/nix-doc-comments/reference/builtins/builtins-isfunction)
 - [lib.isFunction](/nix-doc-comments/reference/lib/lib-isfunction)
 
 

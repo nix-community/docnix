@@ -1,6 +1,6 @@
 ---
 title: lib.hasPrefix
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L371C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L371C5
 description: lib.hasPrefix
 sidebar:
 

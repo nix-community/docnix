@@ -1,6 +1,6 @@
 ---
 title: lib.strings.match
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.strings.match
 sidebar:
 
@@ -43,6 +43,7 @@ Evaluates to `[ "FOO" ]`.
 
 # Aliases
 
+- [builtins.match](/nix-doc-comments/reference/builtins/builtins-match)
 - [builtins.match](/nix-doc-comments/reference/builtins/builtins-match)
 
 

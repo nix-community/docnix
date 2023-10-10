@@ -1,6 +1,6 @@
 ---
 title: lib.reverseList
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L656C17
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L656C17
 description: lib.reverseList
 sidebar:
 

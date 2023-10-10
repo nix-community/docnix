@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkObjectpath
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L289C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/gvariant.nix#L289C18
 description: lib.gvariant.mkObjectpath
 sidebar:
 

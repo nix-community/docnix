@@ -1,6 +1,6 @@
 ---
 title: lib.isBool
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.isBool
 sidebar:
 
@@ -16,6 +16,7 @@ Return `true` if *e* evaluates to a bool, and `false` otherwise.
 
 # Aliases
 
+- [builtins.isBool](/nix-doc-comments/reference/builtins/builtins-isbool)
 - [builtins.isBool](/nix-doc-comments/reference/builtins/builtins-isbool)
 - [lib.trivial.isBool](/nix-doc-comments/reference/lib/trivial/lib-trivial-isbool)
 

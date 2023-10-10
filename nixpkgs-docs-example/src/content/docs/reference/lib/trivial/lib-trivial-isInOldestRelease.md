@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.isInOldestRelease
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L263C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L263C5
 description: lib.trivial.isInOldestRelease
 sidebar:
 

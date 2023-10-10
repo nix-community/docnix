@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.catAttrs
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.attrsets.catAttrs
 sidebar:
 
@@ -24,6 +24,7 @@ evaluates to `[1 2]`.
 
 # Aliases
 
+- [builtins.catAttrs](/nix-doc-comments/reference/builtins/builtins-catattrs)
 - [builtins.catAttrs](/nix-doc-comments/reference/builtins/builtins-catattrs)
 - [lib.catAttrs](/nix-doc-comments/reference/lib/lib-catattrs)
 

@@ -1,6 +1,6 @@
 ---
 title: lib.strings.compareVersions
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.strings.compareVersions
 sidebar:
 
@@ -20,6 +20,7 @@ algorithm is the same as the one used by [`nix-env
 
 # Aliases
 
+- [builtins.compareVersions](/nix-doc-comments/reference/builtins/builtins-compareversions)
 - [builtins.compareVersions](/nix-doc-comments/reference/builtins/builtins-compareversions)
 
 

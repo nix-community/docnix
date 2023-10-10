@@ -1,6 +1,6 @@
 ---
 title: lib.strings.isCoercibleToString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1272C31
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L1272C31
 description: lib.strings.isCoercibleToString
 sidebar:
 

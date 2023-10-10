@@ -1,6 +1,6 @@
 ---
 title: lib.strings.floatToString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1252C19
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L1252C19
 description: lib.strings.floatToString
 sidebar:
 

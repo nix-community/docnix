@@ -1,6 +1,6 @@
 ---
 title: lib.foldl' (Prime)
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.foldl'
 sidebar:
 
@@ -20,6 +20,7 @@ even for intermediate values.
 
 # Aliases
 
+- [builtins.foldl'](/nix-doc-comments/reference/builtins/builtins-foldl' (prime))
 - [builtins.foldl'](/nix-doc-comments/reference/builtins/builtins-foldl' (prime))
 - [lib.lists.foldl'](/nix-doc-comments/reference/lib/lists/lib-lists-foldl' (prime))
 

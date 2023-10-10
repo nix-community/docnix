@@ -1,6 +1,6 @@
 ---
 title: lib.concatMap
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.concatMap
 sidebar:
 
@@ -17,6 +17,7 @@ but is more efficient.
 
 # Aliases
 
+- [builtins.concatMap](/nix-doc-comments/reference/builtins/builtins-concatmap)
 - [builtins.concatMap](/nix-doc-comments/reference/builtins/builtins-concatmap)
 - [lib.lists.concatMap](/nix-doc-comments/reference/lib/lists/lib-lists-concatmap)
 

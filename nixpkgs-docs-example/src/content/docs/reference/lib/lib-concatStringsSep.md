@@ -1,6 +1,6 @@
 ---
 title: lib.concatStringsSep
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.concatStringsSep
 sidebar:
 
@@ -18,6 +18,7 @@ element, e.g. `concatStringsSep "/" ["usr" "local" "bin"] ==
 
 # Aliases
 
+- [builtins.concatStringsSep](/nix-doc-comments/reference/builtins/builtins-concatstringssep)
 - [builtins.concatStringsSep](/nix-doc-comments/reference/builtins/builtins-concatstringssep)
 - [lib.strings.concatStringsSep](/nix-doc-comments/reference/lib/strings/lib-strings-concatstringssep)
 

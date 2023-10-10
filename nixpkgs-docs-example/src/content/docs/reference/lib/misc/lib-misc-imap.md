@@ -1,6 +1,6 @@
 ---
 title: lib.misc.imap
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L172C11
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L172C11
 description: lib.misc.imap
 sidebar:
 

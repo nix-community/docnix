@@ -1,6 +1,6 @@
 ---
 title: builtins.fetchurl
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: builtins.fetchurl
 sidebar:
 

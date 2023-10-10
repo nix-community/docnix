@@ -1,6 +1,6 @@
 ---
 title: lib.mesonBool
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1099C15
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L1099C15
 description: lib.mesonBool
 sidebar:
 

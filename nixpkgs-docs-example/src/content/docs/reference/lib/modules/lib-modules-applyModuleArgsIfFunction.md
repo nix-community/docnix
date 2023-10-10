@@ -1,13 +1,13 @@
 ---
 title: lib.modules.applyModuleArgsIfFunction
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L492C31
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L492C31
 description: lib.modules.applyModuleArgsIfFunction
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L492C31">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L492C31">Contribute Now!</a>
 
 
 # Aliases

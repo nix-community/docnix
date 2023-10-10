@@ -1,6 +1,6 @@
 ---
 title: lib.lists.filter
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.lists.filter
 sidebar:
 
@@ -17,6 +17,7 @@ function *f* returns `true`.
 
 # Aliases
 
+- [builtins.filter](/nix-doc-comments/reference/builtins/builtins-filter)
 - [builtins.filter](/nix-doc-comments/reference/builtins/builtins-filter)
 - [lib.filter](/nix-doc-comments/reference/lib/lib-filter)
 - [lib.strings.filter](/nix-doc-comments/reference/lib/strings/lib-strings-filter)

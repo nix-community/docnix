@@ -1,6 +1,6 @@
 ---
 title: lib.lists.intersectLists
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1073C20
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L1073C20
 description: lib.lists.intersectLists
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.makeExtensibleWithCustomName
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L151C34
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/fixed-points.nix#L151C34
 description: lib.makeExtensibleWithCustomName
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.lists.take
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L842C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L842C5
 description: lib.lists.take
 sidebar:
 

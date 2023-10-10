@@ -1,6 +1,6 @@
 ---
 title: lib.strings.concatMapStrings
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L78C22
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L78C22
 description: lib.strings.concatMapStrings
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.traceVal
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L83C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/debug.nix#L83C5
 description: lib.traceVal
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.lessThan
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.trivial.lessThan
 sidebar:
 
@@ -18,6 +18,7 @@ evaluate to a number.
 
 # Aliases
 
+- [builtins.lessThan](/nix-doc-comments/reference/builtins/builtins-lessthan)
 - [builtins.lessThan](/nix-doc-comments/reference/builtins/builtins-lessthan)
 - [lib.lessThan](/nix-doc-comments/reference/lib/lib-lessthan)
 

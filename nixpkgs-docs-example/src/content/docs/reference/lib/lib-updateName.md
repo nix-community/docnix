@@ -1,6 +1,6 @@
 ---
 title: lib.updateName
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L47C16
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L47C16
 description: lib.updateName
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.sortProperties
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L951C20
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L951C20
 description: lib.sortProperties
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.strings.stringAsChars
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L509C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L509C5
 description: lib.strings.stringAsChars
 sidebar:
 

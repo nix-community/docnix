@@ -1,13 +1,13 @@
 ---
 title: lib.showWarnings
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L561C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L561C18
 description: lib.showWarnings
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L561C18">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L561C18">Contribute Now!</a>
 
 
 # Aliases

@@ -1,6 +1,6 @@
 ---
 title: lib.pathExists
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.pathExists
 sidebar:
 
@@ -17,6 +17,7 @@ Return `true` if the path *path* exists at evaluation time, and
 
 # Aliases
 
+- [builtins.pathExists](/nix-doc-comments/reference/builtins/builtins-pathexists)
 - [builtins.pathExists](/nix-doc-comments/reference/builtins/builtins-pathexists)
 - [lib.trivial.pathExists](/nix-doc-comments/reference/lib/trivial/lib-trivial-pathexists)
 

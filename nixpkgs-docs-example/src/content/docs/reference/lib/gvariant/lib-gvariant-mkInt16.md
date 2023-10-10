@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkInt16
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L19C20
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/gvariant.nix#L19C20
 description: lib.gvariant.mkInt16
 sidebar:
 

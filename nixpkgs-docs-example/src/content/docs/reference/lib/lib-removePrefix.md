@@ -1,6 +1,6 @@
 ---
 title: lib.removePrefix
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L898C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L898C5
 description: lib.removePrefix
 sidebar:
 

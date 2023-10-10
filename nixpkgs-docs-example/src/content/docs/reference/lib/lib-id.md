@@ -1,6 +1,6 @@
 ---
 title: lib.id
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L19C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L19C5
 description: lib.id
 sidebar:
 

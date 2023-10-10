@@ -1,6 +1,6 @@
 ---
 title: lib.add
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.add
 sidebar:
 
@@ -16,6 +16,7 @@ Return the sum of the numbers *e1* and *e2*.
 
 # Aliases
 
+- [builtins.add](/nix-doc-comments/reference/builtins/builtins-add)
 - [builtins.add](/nix-doc-comments/reference/builtins/builtins-add)
 - [lib.trivial.add](/nix-doc-comments/reference/lib/trivial/lib-trivial-add)
 

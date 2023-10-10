@@ -1,6 +1,6 @@
 ---
 title: lib.modules.dischargeProperties
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L900C25
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L900C25
 description: lib.modules.dischargeProperties
 sidebar:
 

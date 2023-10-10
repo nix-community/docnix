@@ -1,6 +1,6 @@
 ---
 title: lib.sub
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.sub
 sidebar:
 
@@ -16,6 +16,7 @@ Return the difference between the numbers *e1* and *e2*.
 
 # Aliases
 
+- [builtins.sub](/nix-doc-comments/reference/builtins/builtins-sub)
 - [builtins.sub](/nix-doc-comments/reference/builtins/builtins-sub)
 - [lib.trivial.sub](/nix-doc-comments/reference/lib/trivial/lib-trivial-sub)
 

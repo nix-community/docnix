@@ -1,6 +1,6 @@
 ---
 title: lib.customisation.extendDerivation
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L203C22
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/customisation.nix#L203C22
 description: lib.customisation.extendDerivation
 sidebar:
 

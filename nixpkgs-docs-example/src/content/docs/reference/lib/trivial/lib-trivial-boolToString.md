@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.boolToString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L162C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L162C18
 description: lib.trivial.boolToString
 sidebar:
 

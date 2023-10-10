@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.attrNames
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.attrsets.attrNames
 sidebar:
 
@@ -18,6 +18,7 @@ alphabetically sorted list. For instance, `builtins.attrNames { y
 
 # Aliases
 
+- [builtins.attrNames](/nix-doc-comments/reference/builtins/builtins-attrnames)
 - [builtins.attrNames](/nix-doc-comments/reference/builtins/builtins-attrnames)
 - [lib.attrNames](/nix-doc-comments/reference/lib/lib-attrnames)
 

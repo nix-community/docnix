@@ -1,6 +1,6 @@
 ---
 title: lib.bitAnd
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.bitAnd
 sidebar:
 
@@ -16,6 +16,7 @@ Return the bitwise AND of the integers *e1* and *e2*.
 
 # Aliases
 
+- [builtins.bitAnd](/nix-doc-comments/reference/builtins/builtins-bitand)
 - [builtins.bitAnd](/nix-doc-comments/reference/builtins/builtins-bitand)
 - [lib.trivial.bitAnd](/nix-doc-comments/reference/lib/trivial/lib-trivial-bitand)
 

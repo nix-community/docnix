@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkBoolean
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L260C15
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/gvariant.nix#L260C15
 description: lib.gvariant.mkBoolean
 sidebar:
 

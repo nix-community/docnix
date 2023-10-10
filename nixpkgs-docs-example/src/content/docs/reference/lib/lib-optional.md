@@ -1,6 +1,6 @@
 ---
 title: lib.optional
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L442C14
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L442C14
 description: lib.optional
 sidebar:
 

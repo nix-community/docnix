@@ -1,6 +1,6 @@
 ---
 title: lib.makeScopeWithSplicing' (Prime)
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L306C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/customisation.nix#L306C5
 description: lib.makeScopeWithSplicing'
 sidebar:
 

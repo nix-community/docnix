@@ -1,13 +1,13 @@
 ---
 title: lib.stringsWithDeps.packEntry
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L82C15
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings-with-deps.nix#L82C15
 description: lib.stringsWithDeps.packEntry
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L82C15">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings-with-deps.nix#L82C15">Contribute Now!</a>
 
 
 # Aliases

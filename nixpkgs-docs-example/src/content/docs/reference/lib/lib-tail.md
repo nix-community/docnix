@@ -1,6 +1,6 @@
 ---
 title: lib.tail
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.tail
 sidebar:
 
@@ -23,6 +23,7 @@ the argument isn’t a list or is an empty list.
 
 # Aliases
 
+- [builtins.tail](/nix-doc-comments/reference/builtins/builtins-tail)
 - [builtins.tail](/nix-doc-comments/reference/builtins/builtins-tail)
 - [lib.lists.tail](/nix-doc-comments/reference/lib/lists/lib-lists-tail)
 - [lib.strings.tail](/nix-doc-comments/reference/lib/strings/lib-strings-tail)

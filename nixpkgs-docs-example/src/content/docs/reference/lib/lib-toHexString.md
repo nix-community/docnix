@@ -1,6 +1,6 @@
 ---
 title: lib.toHexString
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L632C17
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L632C17
 description: lib.toHexString
 sidebar:
 

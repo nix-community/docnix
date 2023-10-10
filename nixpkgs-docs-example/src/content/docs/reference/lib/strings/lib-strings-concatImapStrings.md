@@ -1,6 +1,6 @@
 ---
 title: lib.strings.concatImapStrings
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L97C23
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L97C23
 description: lib.strings.concatImapStrings
 sidebar:
 

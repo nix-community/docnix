@@ -1,6 +1,6 @@
 ---
 title: lib.attrValues
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.attrValues
 sidebar:
 
@@ -17,6 +17,7 @@ corresponding to the sorted attribute names.
 
 # Aliases
 
+- [builtins.attrValues](/nix-doc-comments/reference/builtins/builtins-attrvalues)
 - [builtins.attrValues](/nix-doc-comments/reference/builtins/builtins-attrvalues)
 - [lib.attrsets.attrValues](/nix-doc-comments/reference/lib/attrsets/lib-attrsets-attrvalues)
 

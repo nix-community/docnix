@@ -1,6 +1,6 @@
 ---
 title: lib.stringLength
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.stringLength
 sidebar:
 
@@ -17,6 +17,7 @@ evaluation is aborted.
 
 # Aliases
 
+- [builtins.stringLength](/nix-doc-comments/reference/builtins/builtins-stringlength)
 - [builtins.stringLength](/nix-doc-comments/reference/builtins/builtins-stringlength)
 - [lib.strings.stringLength](/nix-doc-comments/reference/lib/strings/lib-strings-stringlength)
 

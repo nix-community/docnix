@@ -1,6 +1,6 @@
 ---
 title: lib.meta.mapDerivationAttrset
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L61C26
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L61C26
 description: lib.meta.mapDerivationAttrset
 sidebar:
 

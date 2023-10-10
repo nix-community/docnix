@@ -1,6 +1,6 @@
 ---
 title: lib.meta.availableOn
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L126C17
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L126C17
 description: lib.meta.availableOn
 sidebar:
 

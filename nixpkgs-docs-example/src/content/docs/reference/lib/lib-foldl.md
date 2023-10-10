@@ -1,6 +1,6 @@
 ---
 title: lib.foldl
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L115C11
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L115C11
 description: lib.foldl
 sidebar:
 

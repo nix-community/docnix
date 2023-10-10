@@ -1,13 +1,13 @@
 ---
 title: lib.filesystem.pathIsDirectory
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L77C21
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/filesystem.nix#L77C21
 description: lib.filesystem.pathIsDirectory
 sidebar:
 
     order: 7
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L77C21">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/filesystem.nix#L77C21">Contribute Now!</a>
 
 
 # Aliases

@@ -1,6 +1,6 @@
 ---
 title: lib.gvariant.mkEmptyArray
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L128C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/gvariant.nix#L128C18
 description: lib.gvariant.mkEmptyArray
 sidebar:
 

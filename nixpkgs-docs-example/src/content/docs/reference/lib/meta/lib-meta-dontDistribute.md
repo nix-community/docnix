@@ -1,6 +1,6 @@
 ---
 title: lib.meta.dontDistribute
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L28C20
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L28C20
 description: lib.meta.dontDistribute
 sidebar:
 

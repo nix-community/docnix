@@ -1,6 +1,6 @@
 ---
 title: lib.attrsets.toDerivation
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L819C6
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L819C6
 description: lib.attrsets.toDerivation
 sidebar:
 

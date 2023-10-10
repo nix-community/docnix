@@ -1,6 +1,6 @@
 ---
 title: lib.setName
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L35C13
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L35C13
 description: lib.setName
 sidebar:
 

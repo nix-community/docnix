@@ -1,6 +1,6 @@
 ---
 title: lib.setPrio
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L66C13
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L66C13
 description: lib.setPrio
 sidebar:
 

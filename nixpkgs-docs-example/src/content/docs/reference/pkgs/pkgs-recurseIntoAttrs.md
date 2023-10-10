@@ -1,6 +1,6 @@
 ---
 title: pkgs.recurseIntoAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1302C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L1302C5
 description: pkgs.recurseIntoAttrs
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.head
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.head
 sidebar:
 
@@ -18,6 +18,7 @@ empty by comparing it with `[]`.
 
 # Aliases
 
+- [builtins.head](/nix-doc-comments/reference/builtins/builtins-head)
 - [builtins.head](/nix-doc-comments/reference/builtins/builtins-head)
 - [lib.lists.head](/nix-doc-comments/reference/lib/lists/lib-lists-head)
 - [lib.strings.head](/nix-doc-comments/reference/lib/strings/lib-strings-head)

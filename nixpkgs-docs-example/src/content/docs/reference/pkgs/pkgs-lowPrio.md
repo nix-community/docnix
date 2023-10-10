@@ -1,6 +1,6 @@
 ---
 title: pkgs.lowPrio
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L21C28
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L21C28
 description: pkgs.lowPrio
 sidebar:
 

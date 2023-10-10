@@ -1,6 +1,6 @@
 ---
 title: lib.lists.isList
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.lists.isList
 sidebar:
 
@@ -16,6 +16,7 @@ Return `true` if *e* evaluates to a list, and `false` otherwise.
 
 # Aliases
 
+- [builtins.isList](/nix-doc-comments/reference/builtins/builtins-islist)
 - [builtins.isList](/nix-doc-comments/reference/builtins/builtins-islist)
 - [lib.isList](/nix-doc-comments/reference/lib/lib-islist)
 - [lib.strings.isList](/nix-doc-comments/reference/lib/strings/lib-strings-islist)

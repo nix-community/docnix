@@ -1,13 +1,13 @@
 ---
 title: lib.mergeAttrByFunc
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L251C21
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/deprecated.nix#L251C21
 description: lib.mergeAttrByFunc
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L251C21">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/deprecated.nix#L251C21">Contribute Now!</a>
 
 
 # Aliases

@@ -1,6 +1,6 @@
 ---
 title: lib.filesystem.haskellPathsInDir
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L118C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/filesystem.nix#L118C5
 description: lib.filesystem.haskellPathsInDir
 sidebar:
 

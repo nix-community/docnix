@@ -1,6 +1,6 @@
 ---
 title: lib.strings.versionAtLeast
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L988C20
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L988C20
 description: lib.strings.versionAtLeast
 sidebar:
 

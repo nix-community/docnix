@@ -1,6 +1,6 @@
 ---
 title: lib.throwIfNot
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L521C16
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L521C16
 description: lib.throwIfNot
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.lists.findSingle
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L254C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L254C5
 description: lib.lists.findSingle
 sidebar:
 

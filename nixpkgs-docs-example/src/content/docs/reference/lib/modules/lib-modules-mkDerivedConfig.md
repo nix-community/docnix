@@ -1,6 +1,6 @@
 ---
 title: lib.modules.mkDerivedConfig
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1280C21
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/modules.nix#L1280C21
 description: lib.modules.mkDerivedConfig
 sidebar:
 

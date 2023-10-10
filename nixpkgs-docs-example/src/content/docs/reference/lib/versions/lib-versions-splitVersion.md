@@ -1,6 +1,6 @@
 ---
 title: lib.versions.splitVersion
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.versions.splitVersion
 sidebar:
 
@@ -18,6 +18,7 @@ same version splitting logic underlying the version comparison in
 
 # Aliases
 
+- [builtins.splitVersion](/nix-doc-comments/reference/builtins/builtins-splitversion)
 - [builtins.splitVersion](/nix-doc-comments/reference/builtins/builtins-splitversion)
 - [lib.splitVersion](/nix-doc-comments/reference/lib/lib-splitversion)
 

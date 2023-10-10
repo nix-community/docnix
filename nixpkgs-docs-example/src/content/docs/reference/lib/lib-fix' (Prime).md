@@ -1,6 +1,6 @@
 ---
 title: lib.fix' (Prime)
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L38C10
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/fixed-points.nix#L38C10
 description: lib.fix'
 sidebar:
 

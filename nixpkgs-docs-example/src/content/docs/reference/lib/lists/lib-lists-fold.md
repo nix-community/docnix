@@ -1,6 +1,6 @@
 ---
 title: lib.lists.fold
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L77C11
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L77C11
 description: lib.lists.fold
 sidebar:
 

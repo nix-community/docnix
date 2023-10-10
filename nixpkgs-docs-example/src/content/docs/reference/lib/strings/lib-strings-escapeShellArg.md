@@ -1,6 +1,6 @@
 ---
 title: lib.strings.escapeShellArg
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L613C20
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L613C20
 description: lib.strings.escapeShellArg
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.strings.mesonOption
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1072C17
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L1072C17
 description: lib.strings.mesonOption
 sidebar:
 

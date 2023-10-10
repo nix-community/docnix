@@ -1,6 +1,6 @@
 ---
 title: lib.addMetaAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L21C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/meta.nix#L21C18
 description: lib.addMetaAttrs
 sidebar:
 

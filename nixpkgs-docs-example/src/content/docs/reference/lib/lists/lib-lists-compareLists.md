@@ -1,6 +1,6 @@
 ---
 title: lib.lists.compareLists
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L787C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L787C18
 description: lib.lists.compareLists
 sidebar:
 

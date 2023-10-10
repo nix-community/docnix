@@ -1,6 +1,6 @@
 ---
 title: lib.strings.fromJSON
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.strings.fromJSON
 sidebar:
 
@@ -22,6 +22,7 @@ returns the value `{ x = [ 1 2 3 ]; y = null; }`.
 
 # Aliases
 
+- [builtins.fromJSON](/nix-doc-comments/reference/builtins/builtins-fromjson)
 - [builtins.fromJSON](/nix-doc-comments/reference/builtins/builtins-fromjson)
 
 

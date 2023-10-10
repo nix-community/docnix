@@ -1,6 +1,6 @@
 ---
 title: lib.zipAttrs
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L936C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L936C5
 description: lib.zipAttrs
 sidebar:
 

@@ -1,6 +1,6 @@
 ---
 title: lib.length
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.length
 sidebar:
 
@@ -16,6 +16,7 @@ Return the length of the list *e*.
 
 # Aliases
 
+- [builtins.length](/nix-doc-comments/reference/builtins/builtins-length)
 - [builtins.length](/nix-doc-comments/reference/builtins/builtins-length)
 - [lib.lists.length](/nix-doc-comments/reference/lib/lists/lib-lists-length)
 

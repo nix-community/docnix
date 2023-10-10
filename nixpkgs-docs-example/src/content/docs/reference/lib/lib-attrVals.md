@@ -1,6 +1,6 @@
 ---
 title: lib.attrVals
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L296C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/attrsets.nix#L296C5
 description: lib.attrVals
 sidebar:
 

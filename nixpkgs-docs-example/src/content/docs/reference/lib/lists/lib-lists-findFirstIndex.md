@@ -1,6 +1,6 @@
 ---
 title: lib.lists.findFirstIndex
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L287C5
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/lists.nix#L287C5
 description: lib.lists.findFirstIndex
 sidebar:
 

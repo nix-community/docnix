@@ -1,6 +1,6 @@
 ---
 title: builtins.filter
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: builtins.filter
 sidebar:
 

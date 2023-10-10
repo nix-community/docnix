@@ -1,6 +1,6 @@
 ---
 title: lib.strings.substring
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: lib.strings.substring
 sidebar:
 
@@ -27,6 +27,7 @@ evaluates to `"nix"`.
 
 # Aliases
 
+- [builtins.substring](/nix-doc-comments/reference/builtins/builtins-substring)
 - [builtins.substring](/nix-doc-comments/reference/builtins/builtins-substring)
 - [lib.substring](/nix-doc-comments/reference/lib/lib-substring)
 

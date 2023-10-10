@@ -1,6 +1,6 @@
 ---
 title: lib.strings.isStringLike
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L1284C18
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/strings.nix#L1284C18
 description: lib.strings.isStringLike
 sidebar:
 

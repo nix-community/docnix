@@ -1,6 +1,6 @@
 ---
 title: builtins.tail
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: builtins.tail
 sidebar:
 

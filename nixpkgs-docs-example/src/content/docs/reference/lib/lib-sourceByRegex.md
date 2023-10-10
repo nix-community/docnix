@@ -1,13 +1,13 @@
 ---
 title: lib.sourceByRegex
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L134C19
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/sources.nix#L134C19
 description: lib.sourceByRegex
 sidebar:
 
     order: 8
 ---
 
-<a href="https://www.github.com/nixos/nixpkgs/blob/master/undefined#L134C19">Contribute Now!</a>
+<a href="https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/sources.nix#L134C19">Contribute Now!</a>
 
 
 # Aliases

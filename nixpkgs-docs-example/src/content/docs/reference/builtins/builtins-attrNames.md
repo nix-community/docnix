@@ -1,6 +1,6 @@
 ---
 title: builtins.attrNames
-editUrl: https://www.github.com/nixos/nix/blob/master/src/libexpr/primops.cc
+editUrl: false
 description: builtins.attrNames
 sidebar:
 

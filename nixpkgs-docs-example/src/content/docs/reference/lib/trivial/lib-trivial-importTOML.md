@@ -1,6 +1,6 @@
 ---
 title: lib.trivial.importTOML
-editUrl: https://www.github.com/nixos/nixpkgs/blob/master/undefined#L437C16
+editUrl: https://www.github.com/hsjobeki/nixpkgs/blob/migrated/lib/trivial.nix#L437C16
 description: lib.trivial.importTOML
 sidebar:
 
