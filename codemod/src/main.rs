@@ -2,12 +2,11 @@ use regex::Regex;
 use rnix::{SyntaxKind, SyntaxNode, SyntaxToken};
 use rowan::{ast::AstNode, GreenToken, NodeOrToken, WalkEvent};
 use std::fs::File;
-use std::io;
 use std::io::Write;
 use std::path::PathBuf;
 use std::println;
-use std::process::abort;
 use std::{env, fs};
+use walkdir::WalkDir;
 
 const EXAMPLE_LANG: &str = "nix";
 const TYPE_LANG: &str = "";
@@ -45,11 +44,16 @@ fn parse_doc_comment(raw: &str, indent: usize) -> String {
         }
 
         let trimmed = line.trim();
-        let formatted = format!("{left}{trimmed}\n");
+
+        let formatted = if !trimmed.is_empty() {
+            format!("{left}{trimmed}\n")
+        } else {
+            format!("")
+        };
         match state {
             // important: trim only trailing whitespaces; as leading ones might be markdown formatting or code examples.
             ParseState::Type => {
-                doc_type.push_str(&formatted);
+                doc_type.push_str(&format!("{line}\n"));
             }
             ParseState::Doc => {
                 doc.push_str(&formatted);
@@ -67,7 +71,9 @@ fn parse_doc_comment(raw: &str, indent: usize) -> String {
         }
     };
     let mut markdown = format!("{left}{}", f(doc).unwrap_or("".to_owned()));
-    let formatted_example = format_example(&example, indent);
+    // example and type can contain indented code
+    let formatted_example = format_code(example, indent);
+    let formatted_type = format_code(doc_type, indent);
 
     if let Some(example) = f(formatted_example) {
         markdown.push_str(&format!("\n\n{left}# Example"));
@@ -75,7 +81,8 @@ fn parse_doc_comment(raw: &str, indent: usize) -> String {
             "\n\n{left}```{EXAMPLE_LANG}\n{left}{example}\n{left}```"
         ));
     }
-    if let Some(doc_type) = f(doc_type) {
+
+    if let Some(doc_type) = f(formatted_type) {
         markdown.push_str(&format!("\n\n{left}# Type"));
         markdown.push_str(&format!(
             "\n\n{left}```{TYPE_LANG}\n{left}{doc_type}\n{left}```"
@@ -106,9 +113,8 @@ fn format_comment(text: &str, prev: Option<&SyntaxToken>) -> String {
     return format!("/**\n{}\n{}*/", markdown, indent_1);
 }
 
-fn format_example(text: &str, ident: usize) -> String {
-    let mut content: String = text.to_owned();
-    content = content
+fn format_code(text: String, ident: usize) -> String {
+    let mut content = text
         .trim_end_matches("\n")
         .trim_start_matches("\n")
         .to_owned();
@@ -118,9 +124,13 @@ fn format_example(text: &str, ident: usize) -> String {
     }
 
     let mut result = String::new();
-    let left = " ".repeat(ident);
+    let left: String = " ".repeat(ident);
     for line in content.lines() {
-        result.push_str(&format!("{left}{line}\n"));
+        if line.is_empty() {
+            result.push_str(&format!("\n"));
+        } else {
+            result.push_str(&format!("{left}{line}\n"));
+        }
     }
 
     result
@@ -132,10 +142,15 @@ fn strip_column(text: &str) -> Option<String> {
     let mut any_non_whitespace = false;
 
     for line in text.lines() {
-        if let None = line.strip_prefix(" ") {
+        if line.is_empty() {
+            continue;
+        }
+        if let Some(_) = line.strip_prefix(" ") {
+        } else {
             any_non_whitespace = true;
         }
     }
+
     if !any_non_whitespace && !text.is_empty() {
         for line in text.lines() {
             if let Some(stripped) = line.strip_prefix(" ") {
@@ -177,34 +192,20 @@ fn replace_first_comment(syntax: &SyntaxNode) -> Option<SyntaxNode> {
     result
 }
 
-fn read_dir_entries(path: &str) -> Option<Vec<PathBuf>> {
-    match fs::read_dir(PathBuf::from(path)) {
-        Ok(dir) => Some(
-            dir.map(|res| res.map(|e| e.path()))
-                .filter(|f| {
-                    if let Some(ext) = f.as_ref().unwrap().as_path().extension() {
-                        return ext == "nix";
-                    }
-                    false
-                })
-                .collect::<Result<Vec<_>, io::Error>>()
-                .unwrap(),
-        ),
-        Err(e) => {
-            println!("Could not read directory. {}", e.to_string());
-            println!("Usage: codemod <dirPath>");
-            abort();
-        }
-    }
-}
 fn main() {
     let args: Vec<String> = env::args().collect();
 
     if let Some(path) = &args.get(1) {
         println!("trying to read path: {path}");
-        if let Some(files) = read_dir_entries(path) {
-            for file in files {
-                modify_file(file)
+        for entry in WalkDir::new(path)
+            .follow_links(true)
+            .into_iter()
+            .filter_map(|e| e.ok())
+        {
+            let f_name = entry.file_name().to_string_lossy();
+
+            if f_name.ends_with(".nix") {
+                modify_file(entry.path().to_path_buf());
             }
         }
     } else {
@@ -213,12 +214,26 @@ fn main() {
 }
 
 fn modify_file(file_path: PathBuf) {
-    let contents = fs::read_to_string(&file_path).expect("Should have been able to read the file");
-    let root = rnix::Root::parse(&contents)
-        .ok()
-        .expect("failed to parse input");
+    let contents = fs::read_to_string(&file_path);
+    if let Err(_) = contents {
+        println!("Could not read the file {:?}", file_path);
+        return;
+    }
+    let root = rnix::Root::parse(&contents.unwrap()).ok();
 
-    let syntax = root.syntax().clone_for_update();
+    if let Err(err) = &root {
+        println!(
+            "{}",
+            format!(
+                "failed to parse input of file: {:?} \n\ngot error: {}",
+                file_path,
+                err.to_string()
+            )
+        );
+        return;
+    }
+
+    let syntax = root.unwrap().syntax().clone_for_update();
     let mut maybe_replaced = replace_first_comment(&syntax);
     let mut count = 0;
     let r: Option<SyntaxNode> = loop {

@@ -9,6 +9,7 @@ edition = "2021"
 regex = "1.9.5"
 rnix = "0.11.0"
 rowan = { version = "*" }
+walkdir = "2.4.0"
 
 [dev-dependencies]
 expect-test = "1.4.0"

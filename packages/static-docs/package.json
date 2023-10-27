@@ -1,0 +1,17 @@
+{
+  "name": "static-docs",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.10.1",
+    "astro": "^3.0.6",
+    "pagefind": "^1.0.3"
+  }
+}
