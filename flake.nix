@@ -75,7 +75,7 @@
       in {
         packages =
           {
-            default = pkgs.hello;
+            default = self'.packages.static-docs;
             codemod = codemod;
             nixpkgs-migrated = pkgs.stdenv.mkDerivation {
               name = "nixpkgs-migrated";
