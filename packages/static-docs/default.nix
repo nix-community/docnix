@@ -25,7 +25,7 @@
     packageLockFile = "${config.mkDerivation.src}/package-lock.json";
   };
   env = {
-    inherit (specialArgs) SITE BASE;
+    inherit (specialArgs) SITE;
   };
 
   nodejs-granular.deps.sharp."0.32.6".env.buildPhaseNodejs = lib.mkForce "true";
@@ -34,9 +34,8 @@
   version = "1.0.0";
 
   mkDerivation.postConfigure = ''
-
     mkdir -p ./src/content/docs/reference
     cp -r ${specialArgs.md-docs}/* ./src/content/docs/reference
-    export PATH=../.bin:$PATH
+    export PATH=/build/package/.bin:$PATH
   '';
 }

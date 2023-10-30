@@ -1,7 +1,8 @@
 import fs from "fs";
 import data from "./data.json" assert { type: "json" };
 
-const { BASE = "" } = process.env;
+// const { BASE = undefined } = process.env;
+
 /**
  *
  * @param {{column: number, file: string, line: number} | undefined} position
@@ -39,14 +40,6 @@ const badge = `
         variant: note
 `;
 
-const linkCard = (href, title, description) => `
-<LinkCard
-    title="${title}"
-    description="${description}"
-    href="${href}"
-/>
-`;
-
 /**
  * @param {[[string]]} aliases
  */
@@ -59,13 +52,44 @@ const getAliases = (aliases, path) => {
       const name = ps.join(".");
       const title = `${name} ${name.endsWith("'") ? "(Prime)" : ""}`.trim();
       const label = ps.join(".");
-      //
-      return `- [${label}](${BASE}/${subpath.join("/").toLowerCase()}/${title
+
+      return `- [${label}](/reference/${subpath.join("/").toLowerCase()}/${title
         .replaceAll(".", "-")
         .toLowerCase()})`;
     })
     .join("\n");
   return res;
+};
+
+/**
+ *
+ * @param {typeof data[number]} item
+ * @param {typeof data} all
+ */
+const getContent = (item, all) => {
+  const { aliases, path, docs } = item;
+  const {
+    attrDocs: { content: attrContent },
+    lambdaDocs: { content, countApplied },
+  } = docs;
+
+  let final = attrContent;
+  if (!attrContent) {
+    const others = all.filter(
+      (other) =>
+        aliases.some((a) => a.join(".") === other.path.join(".")) &&
+        other.path.join(".") != path.join(".")
+    );
+    const aliasItemWithDocs = others.find((item) =>
+      Boolean(item.docs.attrDocs.content)
+    );
+    if (aliasItemWithDocs) {
+      final = aliasItemWithDocs.docs.attrDocs.content;
+    } else {
+      final = content;
+    }
+  }
+  return final;
 };
 
 data.forEach((item, idx) => {
@@ -86,7 +110,6 @@ data.forEach((item, idx) => {
 ${aliasList}
 `;
 
-  // const filename = title.toLowerCase().replaceAll(" ", "-");
   const mdContent = `---
 title: ${title}
 editUrl: ${getUrl(position, isPrimop || title.startsWith("builtins."))}
@@ -97,14 +120,11 @@ ${isPrimop ? badge : ""}
 ---
 
 ${
-  content
-    ? content
-    : altContent
-    ? altContent
-    : getLink(
-        getUrl(position, isPrimop || title.startsWith("builtins.")),
-        "Contribute Now!"
-      )
+  getContent(item, data) ||
+  getLink(
+    getUrl(position, isPrimop || title.startsWith("builtins.")),
+    "Contribute Now!"
+  )
 }
 
 ${aliasList ? aliasContent : ""}

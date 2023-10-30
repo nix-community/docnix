@@ -12,6 +12,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+src/content/docs/reference/*
+!src/content/docs/reference/index.mdx
+
 
 # environment variables
 .env

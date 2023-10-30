@@ -8,7 +8,7 @@
     nixpkgs-migrated.url = "github:hsjobeki/nixpkgs/migrated";
 
     # a POC in nix for docstrings
-    nix.url = "github:hsjobeki/nix/lambda-docstring";
+    nix.url = "github:hsjobeki/nix/?ref=feat/doc-comments";
 
     # A nice unit testing framework forked from @adisbladis
     nix-unit.url = "github:hsjobeki/nix-unit/fix/stuff";
@@ -55,10 +55,6 @@
         # Search engines like Google read this file to crawl the site more efficiently. 
         # See Google’s own advice on sitemaps to learn more.
         siteUrl = "https://my-domain.org";
-        # relative path suffix
-        # e.g. ./static
-        # only needed if serving from a nested folder
-        basePath = "./";
 
         ##########################
         craneLib = crane.lib.${system};
@@ -107,9 +103,7 @@
               name = "markdown-docs";
               src = ./json-to-md;
               nativeBuildInputs = [pkgs.nodejs_20];
-              env = {
-                BASE = basePath;
-              };
+              
               buildPhase = ''
                 cp ${self'.packages.code-docs} data.json
                 node convert.mjs
@@ -126,7 +120,7 @@
             packageSets.nixpkgs = pkgs;
             specialArgs = {
               md-docs = self'.packages.markdown;
-              BASE = basePath;
+            
               SITE = siteUrl;
             };
           });
@@ -138,6 +132,17 @@
               inputs'.nix.packages.nix-clangStdenv
               inputs'.nix-unit.packages.nix-unit
             ];
+            shellHook = ''
+              rm -rf ./json-to-md/data.json
+              cp -rf ${self'.packages.code-docs} ./json-to-md/data.json
+              chmod +w ./json-to-md/data.json
+
+              rm -rf ./packages/static-docs/src/content/docs/reference/pkgs
+              rm -rf ./packages/static-docs/src/content/docs/reference/builtins
+              rm -rf ./packages/static-docs/src/content/docs/reference/lib
+              cp -rf ${self'.packages.markdown}/* ./packages/static-docs/src/content/docs/reference
+              chmod -R +w ./packages/static-docs/src/content/docs/reference
+            '';
           };
           codemod = craneLib.devShell {
             # Inherit inputs from checks.
