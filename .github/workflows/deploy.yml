@@ -26,23 +26,14 @@ jobs:
     - uses: cachix/install-nix-action@v23
       with:
         nix_path: nixpkgs=channel:nixos-unstable 
-    - run: nix build .#static-docs -L
-    - uses: actions/upload-artifact@v2
+    - uses: cachix/cachix-action@v12
       with:
-        name: github-pages
-        path: result/lib/node_modules/docs-static/public
-        
-  deploy:
-    needs: build
-    permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
-
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+        name: nix-community
+        authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'  
+    - run: nix build -L --show-trace .#static-docs
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847  # v3.9.3
+      if: ${{ github.ref == 'refs/heads/main' }}
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./result/lib/node_modules/docs-static/public
