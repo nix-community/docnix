@@ -39,7 +39,7 @@ jobs:
           echo "::warning title=Invalid file permissions automatically fixed::$line"
         done
         tar -czvf archive.tar.gz _site
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-pages-artifact@v2
       with:
         path: archive.tar.gz
     
