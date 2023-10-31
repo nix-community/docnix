@@ -10,12 +10,11 @@
     # a POC in nix for docstrings
     nix.url = "github:hsjobeki/nix/?ref=feat/doc-comments";
 
-    # A nice unit testing framework forked from @adisbladis
-    nix-unit.url = "github:hsjobeki/nix-unit/fix/stuff";
+    # A nice unit testing framework
+    nix-unit.url = "github:nix-community/nix-unit";
     nix-unit.inputs.nixpkgs.follows = "nixpkgs";
     nix-unit.inputs.flake-parts.follows = "flake-parts";
-    # path the custom nix version into it. So we can use it for testing
-    nix-unit.inputs.nix.follows = "nix";
+
     dream2nix.url = "github:nix-community/dream2nix";
     crane = {
       url = "github:ipetkov/crane";
@@ -50,9 +49,9 @@
       }: let
         ##### SITE / URL Settings ################
         # e.g. https://nix-community.github.io
-        # Used to generate a 'Sitemap'. 
-        # This is an XML file that outlines all of the pages, videos, and files on the site. 
-        # Search engines like Google read this file to crawl the site more efficiently. 
+        # Used to generate a 'Sitemap'.
+        # This is an XML file that outlines all of the pages, videos, and files on the site.
+        # Search engines like Google read this file to crawl the site more efficiently.
         # See Google’s own advice on sitemaps to learn more.
         siteUrl = "https://nix-community.github.io";
         prefix = "docnix";
@@ -122,7 +121,7 @@
             packageSets.nixpkgs = pkgs;
             specialArgs = {
               md-docs = self'.packages.markdown;
-          
+
               PREFIX = prefix;
               SITE = siteUrl;
             };
@@ -134,7 +133,9 @@
             packages = [
               inputs'.nixpkgs.legacyPackages.nodejs_20
               inputs'.nix.packages.nix-clangStdenv
-              inputs'.nix-unit.packages.nix-unit
+              (inputs'.nix-unit.packages.nix-unit.override {
+                nix = inputs'.nix.packages.nix-clangStdenv;
+              })
             ];
             shellHook = ''
               rm -rf ./json-to-md/data.json
