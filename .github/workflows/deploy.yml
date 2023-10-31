@@ -31,10 +31,32 @@ jobs:
         name: nix-community
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'  
     - run: nix build -L --show-trace .#static-docs
-    - run: ls -la .
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847  # v3.9.3
-      if: ${{ github.ref == 'refs/heads/main' }}
+    - run: |
+        mkdir -p _site
+        cp -r ./result/lib/node_modules/docs-static/public/* _site
+        ls -la _site
+        chmod -c -R +rX "_site/" | while read line; do
+          echo "::warning title=Invalid file permissions automatically fixed::$line"
+        done
+    - uses: actions/upload-artifact@v2
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./result/lib/node_modules/docs-static/public
+        path: _site/
+    
+  deploy:
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
+        
