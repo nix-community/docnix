@@ -53,7 +53,7 @@ const getAliases = (aliases, path) => {
       const name = ps.join(".");
       const title = `${name} ${name.endsWith("'") ? "(Prime)" : ""}`.trim();
       const label = ps.join(".");
-      const target = [PREFIX, subpath, title.replaceAll(".", "-")]
+      const target = [PREFIX, "reference", subpath, title.replaceAll(".", "-")]
         .filter(Boolean)
         .join("/")
         .toLowerCase();
