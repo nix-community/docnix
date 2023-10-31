@@ -25,7 +25,7 @@
     packageLockFile = "${config.mkDerivation.src}/package-lock.json";
   };
   env = {
-    inherit (specialArgs) SITE;
+    inherit (specialArgs) SITE PREFIX;
   };
 
   nodejs-granular.deps.sharp."0.32.6".env.buildPhaseNodejs = lib.mkForce "true";
@@ -34,6 +34,7 @@
   version = "1.0.0";
 
   mkDerivation.postConfigure = ''
+    npm run astro telemetry disable
     mkdir -p ./src/content/docs/reference
     cp -r ${specialArgs.md-docs}/* ./src/content/docs/reference
     export PATH=/build/package/.bin:$PATH

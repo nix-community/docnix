@@ -1,8 +1,9 @@
 import fs from "fs";
 import data from "./data.json" assert { type: "json" };
 
-// const { BASE = undefined } = process.env;
+const { PREFIX = undefined } = process.env;
 
+console.log({ PREFIX });
 /**
  *
  * @param {{column: number, file: string, line: number} | undefined} position
@@ -52,10 +53,11 @@ const getAliases = (aliases, path) => {
       const name = ps.join(".");
       const title = `${name} ${name.endsWith("'") ? "(Prime)" : ""}`.trim();
       const label = ps.join(".");
-
-      return `- [${label}](/reference/${subpath.join("/").toLowerCase()}/${title
-        .replaceAll(".", "-")
-        .toLowerCase()})`;
+      const target = [PREFIX, subpath, title.replaceAll(".", "-")]
+        .filter(Boolean)
+        .join("/")
+        .toLowerCase();
+      return `- [${label}](/${target})`;
     })
     .join("\n");
   return res;

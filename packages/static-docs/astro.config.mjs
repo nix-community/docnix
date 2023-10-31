@@ -4,12 +4,13 @@ import { spawn } from "node:child_process";
 import { dirname, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const { SITE = undefined } = process.env;
+const { SITE = undefined, PREFIX = undefined } = process.env;
 
-console.log({ SITE });
+console.log({ SITE, PREFIX });
 
 export default defineConfig({
   site: SITE,
+  base: PREFIX,
   siteMap: true,
   outDir: "public",
   publicDir: "static",

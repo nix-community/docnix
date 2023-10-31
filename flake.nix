@@ -49,12 +49,14 @@
         ...
       }: let
         ##### SITE / URL Settings ################
-        # e.g. https://hsjobeki.github.io/docs
+        # e.g. https://nix-community.github.io
         # Used to generate a 'Sitemap'. 
         # This is an XML file that outlines all of the pages, videos, and files on the site. 
         # Search engines like Google read this file to crawl the site more efficiently. 
         # See Google’s own advice on sitemaps to learn more.
-        siteUrl = "https://my-domain.org";
+        siteUrl = "https://nix-community.github.io";
+        prefix = "docnix";
+        # -> Static assets are served via: https://nix-community.github.io/docnix
 
         ##########################
         craneLib = crane.lib.${system};
@@ -103,7 +105,7 @@
               name = "markdown-docs";
               src = ./json-to-md;
               nativeBuildInputs = [pkgs.nodejs_20];
-              
+              env.PREFIX = prefix;
               buildPhase = ''
                 cp ${self'.packages.code-docs} data.json
                 node convert.mjs
@@ -120,10 +122,12 @@
             packageSets.nixpkgs = pkgs;
             specialArgs = {
               md-docs = self'.packages.markdown;
-            
+          
+              PREFIX = prefix;
               SITE = siteUrl;
             };
           });
+
         devShells = {
           default = pkgs.mkShell {
             name = "doc-comment-devshell";
