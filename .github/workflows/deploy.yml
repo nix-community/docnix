@@ -38,9 +38,10 @@ jobs:
         chmod -c -R +rX "_site/" | while read line; do
           echo "::warning title=Invalid file permissions automatically fixed::$line"
         done
+        tar -czvf archive.tar.gz _site
     - uses: actions/upload-artifact@v2
       with:
-        path: _site/
+        path: archive.tar.gz
     
   deploy:
     needs: build
