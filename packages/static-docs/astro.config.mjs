@@ -1,5 +1,5 @@
 import starlight from "@astrojs/starlight";
-import { defineConfig } from "astro/config";
+import { defineConfig, passthroughImageService } from "astro/config";
 import { spawn } from "node:child_process";
 import { dirname, relative } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -8,6 +8,9 @@ const { SITE = undefined, PREFIX = undefined } = process.env;
 console.log({ SITE, PREFIX });
 
 export default defineConfig({
+  image: {
+    service: passthroughImageService(),
+  },
   site: SITE,
   base: PREFIX,
   siteMap: true,
