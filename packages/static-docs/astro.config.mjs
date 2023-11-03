@@ -3,7 +3,6 @@ import { defineConfig } from "astro/config";
 import { spawn } from "node:child_process";
 import { dirname, relative } from "node:path";
 import { fileURLToPath } from "node:url";
-
 const { SITE = undefined, PREFIX = undefined } = process.env;
 
 console.log({ SITE, PREFIX });
@@ -35,11 +34,37 @@ export default defineConfig({
         },
         {
           label: "Reference",
-          autogenerate: { directory: "reference" },
-          collapsed: true,
+          items: [
+            {
+              label: "Overview",
+              link: "/reference",
+            },
+            {
+              label: "lib",
+              autogenerate: { directory: "reference/lib" },
+              collapsed: true,
+            },
+            {
+              label: "builtins",
+              autogenerate: { directory: "reference/builtins" },
+              collapsed: true,
+            },
+            {
+              label: "pkgs",
+              autogenerate: { directory: "reference/pkgs" },
+              collapsed: true,
+            },
+          ],
+          collapsed: false,
+        },
+        {
+          label: "Further",
+          autogenerate: { directory: "further" },
+          collapsed: false,
         },
       ],
     }),
+
     {
       name: "pagefind",
       hooks: {
