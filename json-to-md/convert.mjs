@@ -53,7 +53,12 @@ const getAliases = (aliases, path) => {
       const name = ps.join(".");
       const title = `${name} ${name.endsWith("'") ? "(Prime)" : ""}`.trim();
       const label = ps.join(".");
-      const target = [PREFIX, "reference", subpath.join("/"), title.replaceAll(".", "-")]
+      const target = [
+        PREFIX,
+        "reference",
+        subpath.join("/"),
+        title.replaceAll(".", "-"),
+      ]
         .filter(Boolean)
         .join("/")
         .toLowerCase();
@@ -67,15 +72,16 @@ const getAliases = (aliases, path) => {
  *
  * @param {typeof data[number]} item
  * @param {typeof data} all
+ * @returns {{docs: string, position: null | {column: number; file: string; line: number;}}}
  */
 const getContent = (item, all) => {
   const { aliases, path, docs } = item;
   const {
     attrDocs: { content: attrContent },
-    lambdaDocs: { content, countApplied },
+    lambdaDocs,
   } = docs;
 
-  let final = attrContent;
+  let final = attrDocs;
   if (!attrContent) {
     const others = all.filter(
       (other) =>
@@ -86,19 +92,28 @@ const getContent = (item, all) => {
       Boolean(item.docs.attrDocs.content)
     );
     if (aliasItemWithDocs) {
-      final = aliasItemWithDocs.docs.attrDocs.content;
+      final = aliasItemWithDocs.docs.attrDocs;
     } else {
-      final = content;
+      final = lambdaDocs;
     }
   }
-  return final;
+  return {
+    docs: final.content,
+    position: final.position,
+  };
 };
 
 data.forEach((item, idx) => {
-  const { docs, path, aliases } = item;
-  const { lambdaDocs, attrDocs } = docs;
-  const { position, isPrimop, countApplied, content } = lambdaDocs;
+  const {
+    docs: { lambdaDocs, attrDocs },
+    path,
+    aliases,
+  } = item;
+
+  const { isPrimop, countApplied } = lambdaDocs;
   const { content: altContent } = attrDocs;
+
+  const { docs, position } = getContent(item, data);
 
   const name = path.join(".");
 
@@ -107,10 +122,10 @@ data.forEach((item, idx) => {
 
   const aliasList = getAliases(aliases, path);
   const aliasContent = `
-# Aliases
-
-${aliasList}
-`;
+  # Aliases
+  
+  ${aliasList}
+  `;
 
   const mdContent = `---
 title: ${title}
@@ -122,7 +137,7 @@ ${isPrimop ? badge : ""}
 ---
 
 ${
-  getContent(item, data) ||
+  docs ||
   getLink(
     getUrl(position, isPrimop || title.startsWith("builtins.")),
     "Contribute Now!"
@@ -131,6 +146,11 @@ ${
 
 ${aliasList ? aliasContent : ""}
 
+
+defined in: ${getLink(
+    getUrl(position, isPrimop || title.startsWith("builtins.")),
+    `${position.file}#{}`
+  )}
 `;
 
   const subpath = path.slice(0, -1);
