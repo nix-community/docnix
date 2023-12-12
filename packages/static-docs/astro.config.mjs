@@ -28,7 +28,7 @@ export default defineConfig({
         github: "https://github.com/nixos/nixpkgs",
       },
       editLink: {
-        baseUrl: "https://github.com/nixos/nixpkgs",
+        baseUrl: "https://github.com/nix-community/docnix/blob/main/packages/static-docs/",
       },
       sidebar: [
         {
